@@ -34,13 +34,13 @@ body {
   transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
 }
 
-#title {
-  margin: 0 auto 0;
+.title {
+  margin: 0 auto;
   text-align: center;
   width: 250px;
 }
 
-#title h1 {
+.primary-header {
   border: 2px solid #FFF;
   -moz-border-radius: 2px;
   border-radius: 2px;
@@ -49,13 +49,13 @@ body {
   margin: 0;
 }
 
-#width {
+.width {
   width: 80%;
   position: relative;
   margin: 0 auto;
 }
 /*Start of Mobile Navigation CSS*/
-#home-nav {
+.home-nav {
   position: absolute;
   bottom: auto;
   width: 100%;
@@ -63,30 +63,30 @@ body {
   margin-top: 30px;
 }
 
-#home-nav ul {
+.home-nav ul {
   list-style: none;
   padding: 0;
 }
 
-#home-nav ul li {
+.home-nav ul li {
   display: inline-block;
   vertical-align: middle;
   padding: 10px 40px;
   position: relative;
 }
 
-#home-nav ul li ul, ul li:hover ul li ul, #page-nav ul li ul {
+.home-nav ul li ul, ul li:hover ul li ul, #page-nav ul li ul {
      display: none;
 }
 
-#home-nav a, #page-nav a {
+.home-nav a, #page-nav a {
   position: relative;
   text-align: center;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.45);
 }
 
-#home-nav a:hover, #page-nav a:hover {
+.home-nav a:hover, #page-nav a:hover {
   color: #FFF;
   transition: color 0.75s ease 0s;
 }
@@ -125,13 +125,20 @@ body {
 }
 
 .mini {
-  max-height: 50px;
+  max-height: 80px;
+  padding-top: 0.5em;
+}
+
+.mini
+
+#home-nav.compressed {
+
 }
 /*End of Sliding CSS*/
 
 
 /*Host page CSS*/
-#group-host-map {
+.group-host-map {
   display: none;
 }
 
@@ -139,8 +146,11 @@ body {
   border-bottom: 1px solid #DCE0E0;
 }
 
-.host-photo img {
-  border-radius: 50px;
+.rounded {
+  border-radius: 100%;
+}
+
+.avatar {
   width: 100px;
   height: 100px;
 }
@@ -149,7 +159,7 @@ body {
 
 
 /*Media Queries*/
-@media all an (max-width: 450px) {
+@media all and (max-width: 450px) {
   #mobile-menu {
     display: block;
   }
