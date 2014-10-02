@@ -40,12 +40,22 @@ body {
   width: 250px;
 }
 
-.home.mini .primary-heading {
+.home.compressed .primary-heading {
   display: none;
 }
 
-.home.mini .primary-logo {
+.home.compressed .primary-logo {
   display: block;
+}
+
+.home.compressed .home-nav li {
+  display: inline-block;
+  padding: 0 5px;
+}
+
+.home.compressed .home-nav {
+  margin-top: 0px;
+  top: 0;
 }
 
 .primary-logo {
@@ -73,6 +83,7 @@ body {
   width: 100%;
   text-align: center;
   margin-top: 30px;
+  transition: all 0.5s ease;
 }
 
 .home-nav ul {
@@ -136,18 +147,11 @@ body {
   max-height: 0;
 }
 
-.mini {
+.compressed {
   max-height: 80px;
   padding-top: 0.5em;
 }
 
-.main-header {
-
-}
-
-#home-nav.compressed {
-
-}
 /*End of Sliding CSS*/
 
 
