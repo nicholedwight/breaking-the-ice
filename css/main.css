@@ -34,10 +34,22 @@ body {
   transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
 }
 
-.title {
+.main-header {
   margin: 0 auto;
   text-align: center;
   width: 250px;
+}
+
+.home.mini .primary-heading {
+  display: none;
+}
+
+.home.mini .primary-logo {
+  display: block;
+}
+
+.primary-logo {
+  display: none;
 }
 
 .primary-heading {
@@ -129,7 +141,9 @@ body {
   padding-top: 0.5em;
 }
 
-.mini
+.main-header {
+
+}
 
 #home-nav.compressed {
 
