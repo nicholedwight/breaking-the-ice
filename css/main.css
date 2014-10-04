@@ -97,14 +97,14 @@ a.current {
   color: #FFF;
 }
 
-.slider {
+.slide-up {
   overflow-y: auto;
   transition-property: all;
   transition-duration: .5s;
   transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
 }
 
-.slider.closed {
+.slide-up.closed {
   max-height: 0;
 }
 
