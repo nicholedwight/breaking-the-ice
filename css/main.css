@@ -15,6 +15,19 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: #FFF;
+}
+
+h1,h2,h3,h4 {
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+}
+
 .home {
   position: relative;
   width: 100%;
@@ -28,27 +41,15 @@ body {
   transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
 }
 
-.home.compressed .primary-heading {
-  display: none;
+.primary-logo {
+  padding: 5px 0 0 10px;
 }
 
 .main-header {
   margin: 8em auto;
   text-align: center;
   width: 250px;
-}
-
-.primary-heading {
-  border: 2px solid #FFF;
-  -moz-border-radius: 2px;
-  border-radius: 2px;
-  padding: 15px 10px;
   color: #FFF;
-  margin: 0;
-}
-
-.primary-logo {
-  display: none;
 }
 
 .mobile-nav {
@@ -60,8 +61,8 @@ body {
   bottom: auto;
   width: 100%;
   text-align: center;
-  transition: all 0.5s ease;
-  margin-top: 20px;
+  transition: all 1s ease;
+  margin-top: -25px;
 }
 
 .home-nav ul {
@@ -92,9 +93,12 @@ body {
      display: none;
 }
 
+a.current {
+  color: #FFF;
+}
+
 .slider {
-  overflow-y: hidden;
-  max-height: 600px;
+  overflow-y: auto;
   transition-property: all;
   transition-duration: .5s;
   transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
@@ -125,10 +129,12 @@ body {
   height: 100px;
 }
 
-.hidden {
-  display: none;
+.content-wrapper {
+  margin: 0 auto;
+  width: 90%;
+  color: #000;
+  padding-bottom: 20px;
 }
-
 
 /*Media Queries*/
 @media all and (max-width: 450px) {
@@ -137,10 +143,33 @@ body {
     z-index: 999;
     padding: 5px;
     float: right;
+    border: 1px solid #FFF;
+    border-radius: 5px;
+    margin: 10px 10px 0 0;
   }
 
   .mobile-nav:after {
     content: "⌵";
+  }
+
+  .hidden {
+    display: none;
+  }
+}
+
+@media all and (max-width: 260px) {
+  .compressed {
+    max-height: 100px;
+  }
+}
+
+@media all and (min-width: 451px) {
+  .home-nav {
+    margin-top: -55px;
+  }
+
+  .compressed {
+    max-height: 60px;
   }
 }
 
