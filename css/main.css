@@ -102,8 +102,9 @@ img {
   display: none;
 }
 
-.host-profile {
+.host-wrapper {
   border-bottom: 1px solid #DCE0E0;
+  height: 110px;
 }
 
 .rounded {
@@ -113,6 +114,7 @@ img {
 .avatar {
   width: 100px;
   height: 100px;
+  float: left;
 }
 
 .content-wrapper {
@@ -173,6 +175,12 @@ img {
 }
 
 
+#map_canvas {
+    width: 500px;
+    height: 400px;
+    max-width: 100%;
+    background-color: #CCC;
+  }
 
 .home-nav .current {
   color: #FFF;
