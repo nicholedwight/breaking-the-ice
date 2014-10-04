@@ -1,11 +1,12 @@
-var mainNav = document.querySelector('.home-nav');
-mainNav.classList.add('hidden');
+// var mainNav = document.querySelector('.home-nav');
+// mainNav.classList.add('hidden');
 
-var toggle = document.getElementById('aboutToggle');
+var toggle = document.getElementById('toggle');
 var slideUp = document.querySelector('.slide-up');
 var homeSection = document.querySelector('.home');
 
 toggle.addEventListener('click', toggleSlider, false);
+
 
 function toggleSlider(){
     if (slideUp.classList.contains('opened')) {
@@ -23,13 +24,13 @@ function toggleSlider(){
     }
 }
 
-var mobileNav = document.getElementById('collapsibleNav');
-mobileNav.addEventListener('click', toggleNav, false)
-
-function toggleNav() {
-  if (mainNav.classList.contains('hidden')) {
-      mainNav.classList.remove('hidden');
-  } else {
-      mainNav.classList.add('hidden');
-  }
-}
+// var mobileNav = document.getElementById('collapsibleNav');
+// mobileNav.addEventListener('click', toggleNav, false)
+//
+// function toggleNav() {
+//   if (mainNav.classList.contains('hidden')) {
+//       mainNav.classList.remove('hidden');
+//   } else {
+//       mainNav.classList.add('hidden');
+//   }
+// }

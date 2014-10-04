@@ -1,66 +1,49 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Our Hosts</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <title>Breaking The Ice</title>
   <link rel="stylesheet" type="text/css" href="css/main.css">
   <link rel="icon" type="image/png" href="img/favicon.png">
 </head>
 <body>
-  <!-- <section class="home">
-    <div id="title">
+  <header class="home compressed">
+  <a href="index.html">
+    <img src="img/logo.png" alt="Breaking the Ice" class="primary-logo">
+  </a>
+  <!-- <a href="#" title="Click to expand menu" id="collapsibleNav" class="mobile-nav">menu </a> -->
+  <nav class="home-nav">
+      <ul>
+        <li><a href="index.html">About</a></li>
+        <li><a id="toggle" href="#">Our Hosts</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">FAQ</a>
+          <ul class="nav-dropdown">
+            <li><a href="#">When?</a></li>
+            <li><a href="#">Weather</a></li>
+            <li><a href="#">Surfboard Hire</a></li>
+            <li><a href="#">Prices</a><li>
+          </ul>
+        </li>
+      </ul>
+  </nav>
+    <div class="main-header">
       <h1>breaking the ice</h1>
     </div>
-    <nav id="home-nav">
-      <div id="width">
-        <ul>
-          <li><a href="#">About</a></li>
-          <li><a href="hosts.html">Our Hosts</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">FAQ</a>
-            <ul id="dropdown">
-              <li><a href="#">When?</a></li>
-              <li><a href="#">Weather</a></li>
-              <li><a href="#">Surfboard Hire</a></li>
-              <li><a href="#">Prices</a><li>
-            </ul>
-          </li>
-        </ul>
+  </header>
+  <section id="hosts" class="slide-up">
+    <article class="host-body">
+      <div class="content-wrapper">
+        <header>
+          <h1>Our Sponsored Hosts</h1>
+        </header>
+          <p>Next level VHS keffiyeh Schlitz. Wolf literally direct trade mixtape. Photo booth Vice messenger bag lo-fi farm-to-table. Helvetica Tumblr Thundercats, Pinterest photo booth pop-up yr scenester readymade farm-to-table fingerstache slow-carb wayfarers ennui four loko. Shoreditch irony master cleanse salvia. Tousled flexitarian 8-bit YOLO, tofu cornhole Odd Future meh cliche post-ironic single-origin coffee typewriter trust fund mustache VHS. You probably haven't heard of them Wes Anderson ennui, cardigan 90's skateboard forage keytar tattooed 8-bit seitan VHS fanny pack.</p>
+          <img src="http://placepuppy.it/400/500" alt="">
       </div>
-    </nav>
-  </section> -->
-  <section id="page-headbar">
-    <a href="index.html">home</a>
-    <nav id="page-nav">
-      <ul>
-        <!-- <li id="mobile-menu"><a href="#">&#8609;</a>
-          <ul> -->
-            <li><a href="#">About</a></li>
-            <li><a href="hosts.html">Our Hosts</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">FAQ</a>
-              <ul id="dropdown">
-                <li><a href="#">When?</a></li>
-                <li><a href="#">Weather</a></li>
-                <li><a href="#">Surfboard Hire</a></li>
-                <li><a href="#">Prices</a><li>
-              </ul>
-            </li>
-          <!-- </ul>
-        </li> -->
-      </ul>
-    </nav>
-  </section
-  <div id="hosts">
-    <section class="host-body">
-      <div class="group-host-map">Testing map</div>
-    </section>
-    <article class="host-profile">
-      <img src="img/user.jpg" alt="Nichole" class="rounded avatar">
-      <h4 class="host-name">Nichole Dwight</h4>
-      <p class="host-about">Vice leggings paleo, beard kogi...</p>
-      <p class="host-location">Iceland</p>
     </article>
-  </div>
+  </section>
 
+<script src="js/main.js"></script>
 </body>
 </html>
