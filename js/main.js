@@ -1,3 +1,6 @@
+var mainNav = document.querySelector('.home-nav');
+mainNav.classList.add('hidden');
+
 var toggle = document.getElementById('aboutToggle');
 var slider = document.querySelector('.slider');
 var homeSection = document.querySelector('.home');
@@ -16,4 +19,17 @@ function toggleSlider(){
         homeSection.classList.add('compressed');
         console.log('opening');
     }
+}
+
+var mobileNav = document.getElementById('collapsibleNav');
+mobileNav.addEventListener('click', toggleNav, false)
+
+function toggleNav() {
+  if (mainNav.classList.contains('hidden')) {
+      mainNav.classList.remove('hidden');
+      console.log('showing');
+  } else {
+      mainNav.classList.add('hidden');
+      console.log('hiding');
+  }
 }
