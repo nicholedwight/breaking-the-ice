@@ -61,6 +61,7 @@ function initialize() {
 function setMarkers(map,locations){
 
     var marker, i
+    var infowindow = new google.maps.InfoWindow()
 
     for (i = 0; i < locations.length; i++) {
 
@@ -80,7 +81,6 @@ function setMarkers(map,locations){
 
         var content = host
 
-        var infowindow = new google.maps.InfoWindow()
 
       google.maps.event.addListener(marker,'mouseover', (function(marker,content,infowindow){
               return function() {
@@ -93,6 +93,9 @@ function setMarkers(map,locations){
               };
           })(marker,content,infowindow));
       google.maps.event.addListener(marker,'click', (function(marker,content,infowindow){
+              if (infowindow) {
+                    infowindow.close();
+                }
               return function() {
                  infowindow.setContent(content);
                  infowindow.open(map,marker);
