@@ -40,7 +40,7 @@
 // Code for map was from Google Maps API
 
 var locations = [
-  ["<div class='map-info'>First Host</div>", 64.008696376988884, -22.564784111440713],
+  ["<div class='map-info'><img src='img/kitchen1thumb.jpg' alt='Hosts Kitchen' class='map-view'><a href='firsthost.html'>First Host</a></div>", 64.008696376988884, -22.564784111440713],
   ["<div class='map-info'>Second Host</div>", 63.988296376988884, -22.545784111440713]
   ];
 
