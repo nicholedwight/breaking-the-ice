@@ -32,9 +32,8 @@
       </ul>
   </nav>
 </header>
-  <aside id="hosts">
-    <section class="hosts-body">
-      <div class="content-wrapper">
+  <aside id="hosts" class="full-screen-height">
+    <section class="hosts-body max-height">
         <header>
           <h1>Our Sponsored Hosts</h1>
         </header>
@@ -46,23 +45,10 @@
         <div class="map-wrapper">
           <div id="map-canvas"></div>
         </div>
-      </div>
     </section>
   </aside>
 
 <script src="js/main.js"></script>
-<script>
-    function initialize(){
-        var mapOptions = {
-            center: new google.maps.LatLng(64.0167, -22.5667),
-            zoom: 9,
-            mapTypeId: google.maps.MapTypeId.ROADMAP
-        };
-        var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
-    }
-
-    google.maps.event.addDomListener(window, 'load', initialize);
-</script>
 
 </body>
 </html>

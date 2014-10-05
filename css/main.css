@@ -82,7 +82,6 @@ img {
      background: #1abc9c;
 }
 
-
 .slide-up {
   overflow-y: auto;
   max-height: 1000px;
@@ -99,8 +98,12 @@ img {
   max-height: 80px;
 }
 
-.group-host-map {
-  display: none;
+.full-screen-height {
+  height: 90%;
+}
+
+.max-height {
+  height: 100%;
 }
 
 .host-wrapper {
@@ -151,13 +154,16 @@ img {
 }
 
 @media all and (max-width: 460px) {
-
-
   .home-nav {
     margin-top: -10px;
   }
 }
 
+@media all and (max-width: 599px) {
+  .map-wrapper {
+    height: 400px;
+  }
+}
 
 @media all and (min-width: 600px) {
   li:hover .nav-dropdown { /*Only shows the dropdown nav menu in a tablet or desktop screen*/
@@ -170,26 +176,29 @@ img {
      width: 120px;
    }
 
-  .group-host-map {
-    display: block;
-  }
+   .map-wrapper {
+     max-width: 50%;
+     height: 100%;
+   }
+
+   #map-canvas {
+     height: 100%;
+   }
+
+   .host-wrapper {
+     float: right;
+     width: 49%;
+     clear: right;
+   }
+
 }
 
-.map-wrapper {
-  height: 300px;
-}
-
-#basic_map {
-  height: 100%;
-  max-width: 100%;
-}
-
-.map-content {
-  width: 200px;
+.map-info {
+  width: 180px;
 }
 
 #map-canvas {
-  height: 400px;
+  height: 100%;
   max-width: 100%;
   background-color: #CCC;
 }
