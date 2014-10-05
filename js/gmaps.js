@@ -16,6 +16,7 @@ $(document).ready(function(){
       lat: 64.008696376988884,
       lng: -22.564784111440713,
       title: 'The Dwights',
+      // icon: "/../img/maps.png",
       infoWindow: {
         content: '<p class="map-content">The London Eye is a giant Ferris wheel situated on the banks of the River Thames in London, England. The entire structure is 135 metres (443 ft) tall and the wheel has a diameter of 120 metres (394 ft).</p>' }
     });
