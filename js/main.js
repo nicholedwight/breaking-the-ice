@@ -51,26 +51,35 @@ function initialize(){
     var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
     var bounds = new google.maps.LatLngBounds();
     var infowindow = new google.maps.InfoWindow();
+    var currentHover = document.querySelector('.host-wrapper');
+    var icon = { url: 'img/mapMarker.png'};
+    var iconCurrent = { url: 'img/mapCurrent.png'};
 
+    // var marker1 = new google.maps.Marker({
+    //     position: new google.maps.LatLng(64.008696376988884, -22.564784111440713),
+    //     map: map,
+    //     icon: icon,
+    //     infoWindow: {
+    //       content: "<div class='map-info'>First Host</div>"
+    //     }
+    // });
+    // var contentString = "<div class='map-info'>First Host</div>";
+    // google.maps.event.addListener(marker1, 'click', function() {
+    //   infowindow.open(map,marker1);
+    // });
+    // google.maps.event.addListener(marker1, 'mouseover', function () {
+    //   marker1.setIcon(iconCurrent);
+    // });
+    // google.maps.event.addListener(marker1, 'mouseout', function () {
+    //   marker1.setIcon(icon);
+    // });
 
-    for (var i in LocationData) {
-        var p = LocationData[i];
-        var latlng = new google.maps.LatLng(p[0], p[1]);
-        var image = { url: 'img/mapMarker.png'};
-
-        var marker = new google.maps.Marker({
-            position: latlng,
-            map: map,
-            icon: image,
-            title: p[2]
-        });
-
-        google.maps.event.addListener(marker, 'click', (function(mm, tt) {
-          return function() {
-              infowindow.setContent(tt);
-              infowindow.open(map, mm);
-          }
-        })(marker, p[2]));
+    for (var i = 0; i < markers.length; i++) {
+  	  var marker = markers[i];
+    	google.maps.event.addListener(marker, 'click', function () {
+      	infowindow.open(map, this);
+  	  });
     }
 }
+
 google.maps.event.addDomListener(window, 'load', initialize);
