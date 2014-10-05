@@ -26,6 +26,7 @@ img {
   max-width: 100%;
 }
 
+
 .home {
   position: relative;
   width: 100%;
@@ -174,13 +175,19 @@ img {
   }
 }
 
+.map-wrapper {
+  height: 300px;
+}
 
-#map_canvas {
-    width: 500px;
-    height: 400px;
-    max-width: 100%;
-    background-color: #CCC;
-  }
+#basic_map {
+  height: 100%;
+  max-width: 100%;
+}
+
+.map-content {
+  width: 200px;
+}
+
 
 .home-nav .current {
   color: #FFF;
