@@ -188,6 +188,11 @@ img {
   width: 200px;
 }
 
+#map-canvas {
+  height: 400px;
+  max-width: 100%;
+  background-color: #CCC;
+}
 
 .home-nav .current {
   color: #FFF;
