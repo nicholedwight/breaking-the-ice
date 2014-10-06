@@ -100,10 +100,21 @@ img {
   max-height: 100%;
 }
 
-.host-wrapper {
+.host-listing {
+  list-style-type: none;
+  padding-left: 0;
+  border-top: 1px solid #DCE0E0;
+}
+
+.host-row {
   border-bottom: 1px solid #DCE0E0;
   height: 150px;
   margin-bottom: 5px;
+}
+
+.host-row > a {
+  display: block;
+  height: 90%;
 }
 
 .rounded {
@@ -120,6 +131,13 @@ img {
   width: 150px;
   float: left;
   margin-left: 5px;
+}
+
+.ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 195px;
 }
 
 .map-view {
@@ -191,7 +209,7 @@ img {
      height: 100%;
    }
 
-   .host-wrapper {
+   .host-row {
      float: right;
      width: 49%;
      clear: right;
