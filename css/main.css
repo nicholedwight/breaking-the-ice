@@ -77,6 +77,10 @@ img {
   transition: color 0.75s ease 0s;
 }
 
+.hosts-body {
+  height: 100%;
+}
+
 .nav-dropdown {
      display: none;
      background: #1abc9c;
@@ -209,9 +213,14 @@ img {
      height: 100%;
    }
 
+   .host-listing {
+     width: 49%;
+     float: right;
+   }
+
    .host-row {
      float: right;
-     width: 49%;
+     width: 100%;
      clear: right;
    }
 
