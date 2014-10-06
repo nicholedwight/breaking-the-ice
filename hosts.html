@@ -18,7 +18,7 @@
   <!-- <a href="#" title="Click to expand menu" id="collapsibleNav" class="mobile-nav">menu </a> -->
   <nav class="home-nav">
       <ul>
-        <li><a href="#">Home</a></li>
+        <li><a href="index.html">Home</a></li>
         <li><a href="hosts.html" class="current">Our Hosts</a></li>
         <li><a href="#">Contact</a></li>
         <li><a href="#">FAQ</a>
@@ -38,21 +38,31 @@
           <h1>Our Sponsored Hosts</h1>
         </header>
         <article class="host-wrapper">
-          <img src="img/kitchen1thumb.jpg" alt="Hosts Kitchen" class="list-view">
-          <p>Nichole Dwight</p>
-          <p>About the host...</p>
+          <a href="#vilhjálmsson" class="toggle">
+            <img src="img/kitchen1thumb.jpg" alt="Hosts Kitchen" class="list-view">
+            <p>The Vilhjálmsson Family</p>
+            <p>About the host...</p>
+          </a>
         </article>
         <article class="host-wrapper">
-          <p>Second Host</p>
-          <p>About the host...</p>
+            <p>Second Host</p>
+            <p>About the host...</p>
         </article>
         <div class="map-wrapper">
           <div id="map-canvas"></div>
         </div>
     </section>
   </aside>
+  <aside class="slide-hidden" id="vilhjálmsson">
+    <h1>vilhjálmsson</h1>
+    <a href="#" class="toggleBack">Back</a>
+  </aside>
 
 <script src="js/main.js"></script>
+<noscript>
+  <!-- this is included in order to show host family details when there is no javascript-->
+  <link rel="stylesheet" type="text/css" href="css/nojs.css">
+</noscript>
 
 </body>
 </html>

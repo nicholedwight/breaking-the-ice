@@ -15,7 +15,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #FFF;
+  color: #7F7F7F;
 }
 
 h1,h2,h3,h4 {
@@ -82,20 +82,14 @@ img {
      background: #1abc9c;
 }
 
-.slide-up {
-  overflow-y: auto;
-  max-height: 1000px;
-  transition-property: all;
-  transition-duration: .5s;
-  transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
-}
-
-.slide-up.closed {
-  max-height: 0;
+.slide-hidden {
+  display: none;
 }
 
 .compressed {
-  max-height: 80px;
+  /* display: none; */
+  height: 0px;
+  transition: all 1s ease;
 }
 
 .full-screen-height {
@@ -103,7 +97,7 @@ img {
 }
 
 .max-height {
-  height: 100%;
+  max-height: 100%;
 }
 
 .host-wrapper {
