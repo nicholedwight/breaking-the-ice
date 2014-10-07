@@ -1,3 +1,7 @@
-.slide-hidden {
+nav ul {
   display: block;
+}
+
+.nav_dropdown {
+  display: none;
 }

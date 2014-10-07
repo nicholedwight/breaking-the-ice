@@ -1,19 +1,13 @@
-//This following code shows and hides individual host family details, they slide up and down on the main hosts page
-$(document).ready(function() {
-  $('.toggle').click(function() {
-    $('#hosts').slideUp();
-    $('.slide-hidden').css("display", "block");
-    console.log('opening');
-  });
-});
+var originalNavClasses;
 
-$(document).ready(function() {
-  $('.toggleBack').click(function() {
-    $('#hosts').slideDown();
-    $('.slide-hidden').css("display", "none");
-    console.log('closing');
-  });
-});
+function toggleNav() {
+    var elem = document.getElementById('navigation_list');
+    var classes = elem.className;
+    if (originalNavClasses === undefined) {
+        originalNavClasses = classes;
+    }
+    elem.className = /expanded/.test(classes) ? originalNavClasses : originalNavClasses + ' expanded';
+}
 
 
 // Code for multiple markers was modified from http://theoryapp.com/google-maps-with-multiple-markers-and-infowindow/
@@ -24,8 +18,7 @@ var locations = [
     "<div class='map-info'><img src='img/kitchen1thumb.jpg' alt='Hosts Kitchen' class='map-view'><a href='#'>First Host</a></div>",
     64.008696376988884, -22.564784111440713
   ],
-  ["<div class='map-info'>Second Host</div>", 63.988296376988884, -
-    22.545784111440713
+  ["<div class='map-info'>Second Host</div>", 63.988296376988884, -22.545784111440713
   ]
 ];
 
@@ -101,6 +94,5 @@ function setMarkers(map, locations) {
   }
 
 }
-
 
 google.maps.event.addDomListener(window, 'load', initialize);

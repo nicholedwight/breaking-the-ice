@@ -1,247 +1,113 @@
-@import url(http://fonts.googleapis.com/css?family=Raleway);
-
 html {
   height: 100%;
 }
 
 body {
-  height: 100%;
-  position: relative;
-  color: #7F7F7F;
-  background-color: #F5F5F5;
-  margin: 0px;
-  font-family: 'Raleway', sans-serif;
-}
-
-a {
-  text-decoration: none;
-  color: #7F7F7F;
-}
-
-h1,h2,h3,h4 {
-  text-align: center;
-}
-
-img {
-  max-width: 100%;
-}
-
-
-.home {
-  position: relative;
-  width: 100%;
-  height: auto;
-  background: #1abc9c;
   margin: 0;
-  max-height: 100%;
-  /* overflow: auto; */
-  transition-property: all;
-  transition-duration: .5s;
-  transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
-}
-
-.primary-logo {
-  padding: 5px 0 5px 10px;
-  float: left;
-}
-
-.home-nav {
-  float: right;
-  text-align: center;
-  transition: all 1s ease;
-  width: 90%;
-}
-
-.home-nav ul {
-  list-style: none;
   padding: 0;
+  height: 100%;
 }
 
-.home-nav ul li {
-  display: inline-block;
-  vertical-align: middle;
-  padding: 0px 5px;
-  position: relative;
-  height: 25px;
+section {
+  height: 100%;
 }
 
-.home-nav a {
-  position: relative;
+footer {
   text-align: center;
-  text-decoration: none;
-  color: rgba(255, 255, 255, 0.45);
+  background-color: #333;
+  display: none;
 }
 
-.home-nav a:hover {
+nav {
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
+
+nav ul {
+  display: none;
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+nav ul.expanded {
+  display: block;
+}
+
+nav li a {
+  display: block;
+  padding: 10px 0;
+  border-top: 1px solid #666;
+  font-size: 1.2em;
+  color: #CCC;
+  text-decoration: none;
+}
+
+nav li a:hover {
   color: #FFF;
   transition: color 0.75s ease 0s;
 }
 
-.hosts-body {
-  height: 100%;
-}
-
-.nav-dropdown {
-     display: none;
-     background: #1abc9c;
-}
-
-.slide-hidden {
-  display: none;
-}
-
-.compressed {
-  /* display: none; */
-  height: 0px;
-  transition: all 1s ease;
-}
-
-.full-screen-height {
-  height: 90%;
-}
-
-.max-height {
-  max-height: 100%;
-}
-
-.host-listing {
-  list-style-type: none;
-  padding-left: 0;
-  border-top: 1px solid #DCE0E0;
-}
-
-.host-row {
-  border-bottom: 1px solid #DCE0E0;
-  height: 150px;
-  margin-bottom: 5px;
-}
-
-.host-row > a {
+.menu_button {
   display: block;
-  height: 90%;
+  text-align: right;
+  color: #CCC;
+  text-decoration: none;
 }
 
-.rounded {
-  border-radius: 100%;
+.menu_button:hover {
+  color: #FFF;
+  text-decoration: none;
+  transition: color 0.75s ease 0s;
 }
 
-.avatar {
-  width: 50px;
-  height: 50px;
-  float: left;
+.map_wrapper {
+  height: 300px;
 }
 
-.list-view {
-  width: 150px;
-  float: left;
-  margin-left: 5px;
-}
-
-.ellipsis {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  width: 195px;
-}
-
-.map-view {
-  width: 150px;
-  margin: 0 auto;
-}
-
-.content-wrapper {
-  margin: 0 auto;
-  width: 90%;
-  color: #000;
-  padding-bottom: 20px;
-}
-
-/*Media Queries*/
-@media all and (max-width: 450px) {
-  .mobile-nav {
-    display: block;
-    z-index: 999;
-    padding: 5px;
-    float: right;
-    border: 1px solid #FFF;
-    border-radius: 5px;
-    margin: 10px 10px 0 0;
-  }
-
-  .mobile-nav:after {
-    content: "⌵";
-  }
-
-  .hidden {
+@media all and (min-width: 601px) {
+  .menu_button {
     display: none;
   }
-}
 
-@media all and (max-width: 260px) {
-
-}
-
-@media all and (max-width: 460px) {
-  .home-nav {
-    margin-top: -10px;
+  nav ul {
+    display: block;
   }
-}
 
-@media all and (max-width: 599px) {
-  .map-wrapper {
-    height: 400px;
+  nav li, .footer_nav li {
+    display: inline-block;
+    padding: 0 10px 0 0;
   }
-}
 
-@media all and (min-width: 600px) {
-  li:hover .nav-dropdown { /*Only shows the dropdown nav menu in a tablet or desktop screen*/
-     display: block;
-     position: absolute;
-     top: 22px;
-     left: -23px;
-     height: auto;
-     z-index: 100;
-     width: 120px;
-   }
+  nav li a, .footer_nav li a {
+    border: none;
+  }
 
-   .map-wrapper {
-     max-width: 50%;
-     height: 100%;
-   }
+  .nav_dropdown {
+    display: none;
+  }
 
-   #map-canvas {
-     height: 100%;
-   }
+  li:hover .nav_dropdown {
+    display: block;
+  }
 
-   .host-listing {
-     width: 49%;
-     float: right;
-   }
+  .map_wrapper {
+    height: 100%;
+    width: 50%;
+  }
 
-   .host-row {
-     float: right;
-     width: 100%;
-     clear: right;
-   }
+  .copyright {
+    font-size: 0.6em;
+    color: #FFF;
+    margin: 0 auto;
+    padding-bottom: 5px;
+  }
 
 }
 
-.map-info {
-  width: 180px;
-  text-align: center;
-}
-
-.map-info a {
-  color: #444;
-  margin: 0;
-  padding-left: 20px;
-  font-size: 1.2em;
-  font-weight: bold;
-}
-
-.map-info a:hover {
-  text-decoration: underline;
-}
 
 #map-canvas {
   height: 100%;
@@ -249,18 +115,15 @@ img {
   background-color: #CCC;
 }
 
-.home-nav .current {
+.current {
   color: #FFF;
 }
 
-/*Clearfix from http://nicolasgallagher.com/micro-clearfix-hack/
-Used to fix the header bar from hiding the dropdown menu, since both items are floated*/
-.cf:before,
-.cf:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
-}
-
-.cf:after {
-    clear: both;
+.offscreen {
+  position:absolute;
+  left:-10000px;
+  top:auto;
+  width:1px;
+  height:1px;
+  overflow:hidden;
 }

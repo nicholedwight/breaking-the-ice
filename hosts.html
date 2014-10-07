@@ -11,64 +11,30 @@
 
 </head>
 <body>
-<header class="home cf">
-  <a href="index.html">
-    <img src="img/logo.png" alt="Breaking the Ice" class="primary-logo">
-  </a>
-  <!-- <a href="#" title="Click to expand menu" id="collapsibleNav" class="mobile-nav">menu </a> -->
-  <nav class="home-nav">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="hosts.html" class="current">Our Hosts</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">FAQ</a>
-          <ul class="nav-dropdown">
-            <li><a href="#">When?</a></li>
-            <li><a href="#">Weather</a></li>
-            <li><a href="#">Surfboard Hire</a></li>
-            <li><a href="#">Prices</a><li>
-          </ul>
-        </li>
+  <header>
+    <nav>
+      <a class="menu_button" href="#footer_nav" onclick="toggleNav(); return false;">&#9776;  MENU</a><!--when javascript is disabled, this scrolls to footer nav-->
+      <ul class="navigation" id="navigation_list" role="navigation">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="hosts.html" class="current">Our Hosts</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#" class="has_dropdown">FAQ</a>
+            <ul class="nav_dropdown">
+              <li><a href="#">When?</a></li>
+              <li><a href="#">Weather</a></li>
+              <li><a href="#">Surfboard Hire</a></li>
+              <li><a href="#">Prices</a><li>
+            </ul>
+          </li>
       </ul>
-  </nav>
-</header>
-  <aside id="hosts" class="full-screen-height">
-    <section class="hosts-body max-height">
-        <header>
-          <h1>Our Sponsored Hosts</h1>
-        </header>
-        <ul class="host-listing">
-          <li class="host-row">
-            <a href="#vilhjálmsson" class="toggle">
-              <div class="listing-photo">
-                <img src="img/kitchen1thumb.jpg" alt="Hosts Kitchen" class="list-view">
-              </div>
-              <div class="listing-info">
-                <p>The Vilhjálmsson Family</p>
-                <p class="ellipsis">About the host...</p>
-              </div>
-            </a>
-          </li>
-          <li class="host-row">
-              <p>Second Host</p>
-              <p>About the host...</p>
-          </li>
-        </ul>
-        <div class="map-wrapper">
-          <div id="map-canvas"></div>
-        </div>
-    </section>
-  </aside>
-  <aside class="slide-hidden" id="vilhjálmsson">
-    <h1>vilhjálmsson</h1>
-    <a href="#" class="toggleBack">Back</a>
-  </aside>
+    </nav>
+  </header>
+  <section>
+    <aside class="map_wrapper">
+      <div id="map-canvas"></div>
+    </aside>
+  </section>
 
 <script src="js/main.js"></script>
-<noscript>
-  <!-- this is included in order to show host family details when there is no javascript-->
-  <link rel="stylesheet" type="text/css" href="css/nojs.css">
-</noscript>
-
 </body>
 </html>

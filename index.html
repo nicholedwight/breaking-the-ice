@@ -7,40 +7,46 @@
   <link rel="stylesheet" type="text/css" href="css/main.css">
   <link rel="icon" type="image/png" href="img/favicon.png">
 </head>
-<body>
-<header class="home cf">
-  <a href="index.html">
-    <img src="img/logo.png" alt="Breaking the Ice" class="primary-logo">
-  </a>
-  <!-- <a href="#" title="Click to expand menu" id="collapsibleNav" class="mobile-nav">menu </a> -->
-  <nav class="home-nav">
-      <ul>
-        <li><a href="#" class="current">Home</a></li>
-        <li><a href="hosts.html">Our Hosts</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">FAQ</a>
-          <ul class="nav-dropdown">
-            <li><a href="#">When?</a></li>
-            <li><a href="#">Weather</a></li>
-            <li><a href="#">Surfboard Hire</a></li>
-            <li><a href="#">Prices</a><li>
-          </ul>
-        </li>
+<body id="home_page">
+  <header>
+    <nav>
+      <a href="#skip" class="offscreen">Skip to Content</a><!-- provides accessibility for screen readers who don't want to go through the nav over and over-->
+      <a class="menu_button" href="#" onclick="toggleNav(); return false;">&#9776;  MENU</a><!--when javascript is disabled, this scrolls to footer nav-->
+      <ul class="navigation" id="navigation_list" role="navigation">
+          <li><a href="index.html" class="current">Home</a></li>
+          <li><a href="hosts.html">Our Hosts</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#" class="has_dropdown">FAQ</a>
+            <ul class="nav_dropdown">
+              <li><a href="#">When?</a></li>
+              <li><a href="#">Weather</a></li>
+              <li><a href="#">Surfboard Hire</a></li>
+              <li><a href="#">Prices</a><li>
+            </ul>
+          </li>
       </ul>
-  </nav>
-</header>
-  <aside id="about">
-    <article class="about-body">
-      <div class="content-wrapper">
-        <header>
-          <h1>About BTI</h1>
-        </header>
-          <p>Next level VHS keffiyeh Schlitz. Wolf literally direct trade mixtape. Photo booth Vice messenger bag lo-fi farm-to-table. Helvetica Tumblr Thundercats, Pinterest photo booth pop-up yr scenester readymade farm-to-table fingerstache slow-carb wayfarers ennui four loko. Shoreditch irony master cleanse salvia. Tousled flexitarian 8-bit YOLO, tofu cornhole Odd Future meh cliche post-ironic single-origin coffee typewriter trust fund mustache VHS. You probably haven't heard of them Wes Anderson ennui, cardigan 90's skateboard forage keytar tattooed 8-bit seitan VHS fanny pack.</p>
-          <img src="http://placepuppy.it/400/300" alt="">
-      </div>
+    </nav>
+  </header>
+  <section class="primary-header">
+    <div class="primary-title">
+      <h1>breaking the ice</h1>
+      <p>arctic surf</p>
+    </div>
+  </section>
+  <main class="" role="main">
+    <a id="skip" > </a >
+    <h1>About Us</h1>
+    <article>
+      <p>Typewriter drinking vinegar narwhal cardigan. Forage seitan chia craft beer tattooed YOLO viral, bicycle rights kale chips. Tilde roof party DIY Truffaut, gluten-free pickled wayfarers beard readymade banh mi locavore Austin chia selfies. Mumblecore YOLO mlkshk salvia, single-origin coffee fashion axe leggings selfies swag sartorial Bushwick Pinterest Truffaut trust fund Schlitz. Put a bird on it PBR&B YOLO bespoke cliche, Thundercats swag mlkshk locavore polaroid next level fap. Messenger bag cardigan authentic, paleo plaid Truffaut slow-carb. Hoodie plaid McSweeney's letterpress polaroid, Thundercats Truffaut locavore jean shorts next level deep v Godard farm-to-table occupy.</p>
     </article>
-  </aside>
+  </main>
+  <footer>xs
+    <p class="copyright">&#169; 2014 Nichole Dwight</p>
+  </footer>
 
 <script src="js/main.js"></script>
+<noscript>
+  <link rel="stylesheet" type="text/css" href="css/nojs.css"><!--css styles for when javascript is disabled-->
+</noscript>
 </body>
 </html>
