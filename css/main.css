@@ -8,7 +8,7 @@ body {
   height: 100%;
 }
 
-section {
+section, main {
   height: 100%;
 }
 
@@ -126,4 +126,11 @@ nav li a:hover {
   width:1px;
   height:1px;
   overflow:hidden;
+}
+
+.ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 195px;
 }
