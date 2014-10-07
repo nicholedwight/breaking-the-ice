@@ -18,6 +18,11 @@ footer {
   display: none;
 }
 
+/* #home_page header {
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 10;
+} */
+
 nav {
   padding: 20px;
   background-color: #333;
@@ -64,6 +69,33 @@ nav li a:hover {
   transition: color 0.75s ease 0s;
 }
 
+.primary_header {
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+  url('../img/landing.jpg');
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+  url('../img/landing.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+  url('../img/landing.jpg');
+  background-size: cover;
+  background-position: center;
+  margin-top: -20px;
+}
+
+.primary_title {
+
+}
+
+.host_listing {
+  display: block;
+  list-style: none;
+  padding: 0;
+}
+
+.listing_row a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .map_wrapper {
   height: 300px;
 }
@@ -92,6 +124,11 @@ nav li a:hover {
 
   li:hover .nav_dropdown {
     display: block;
+  }
+
+  .host_listing {
+    width: 49%;
+    float: right;
   }
 
   .map_wrapper {
