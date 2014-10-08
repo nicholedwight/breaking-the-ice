@@ -9,7 +9,7 @@ body {
 }
 
 section, main {
-  height: 100%;
+  height: 80%;
 }
 
 footer {
@@ -18,14 +18,22 @@ footer {
   display: none;
 }
 
-/* #home_page header {
-  background: rgba(0, 0, 0, 0.8);
-  z-index: 10;
-} */
+#home_page header {
+  background: rgba(0, 0, 0, 0.75);
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  z-index: 1030;
+  margin-bottom: 0px;
+}
+
+header {
+  background-color: #333;
+}
 
 nav {
   padding: 20px;
-  background-color: #333;
   color: #fff;
   text-align: center;
 }
