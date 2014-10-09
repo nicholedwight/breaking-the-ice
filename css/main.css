@@ -36,6 +36,10 @@ header {
   background-color: #333;
 }
 
+section.listing {
+  height: 30%;
+}
+
 nav {
   padding: 20px;
   color: #fff;
@@ -73,20 +77,30 @@ nav li a:hover {
   text-align: right;
   color: #CCC;
   text-decoration: none;
+  cursor: pointer;
 }
 
-.menu_button:hover {
-  color: #FFF;
+.menu_button > span {
+  padding: 5px 10px;
+  border: 1px solid #FFF;
+  border-radius: 5px;
+  width: 20px;
+}
+
+.menu_button > span:hover {
+  color: #888;
   text-decoration: none;
   transition: color 0.75s ease 0s;
+  background: #DDD;
+  border-color: #DDD;
 }
 
-.primary_header {
-  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+#home_page .primary_header {
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
   url('../img/fjord.jpg');
-  background: -o-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+  background: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
   url('../img/fjord.jpg');
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
   url('../img/fjord.jpg');
   background-size: cover;
   background-position: center;
@@ -94,7 +108,15 @@ nav li a:hover {
 }
 
 .primary_title {
-
+  width: 80%;
+  height: 40%;
+  margin: 0 auto;
+  position: absolute;
+  top: 150px; left: 0px; bottom: 0px; right: 0px;
+  text-align: center;
+  color: #FFF;
+  font-size: 2.5em;
+  background: rgba(225, 225, 225, 0.4);
 }
 
 .host_listing {
