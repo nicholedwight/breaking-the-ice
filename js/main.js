@@ -9,6 +9,17 @@ function toggleNav() {
     elem.className = /expanded/.test(classes) ? originalNavClasses : originalNavClasses + ' expanded';
 }
 
+function scrollFade() {
+
+var primaryTitle = document.querySelector('primary_title');
+$(window).scroll(function(){
+   if($(window).scrollTop() <10 ){
+         primaryTitle.stop(true,true).fadeIn("slow");
+   } else {
+         primaryTitle.stop(true,true).fadeOut("slow");
+   }
+})
+}
 
 // Code for multiple markers was modified from http://theoryapp.com/google-maps-with-multiple-markers-and-infowindow/
 // Code for map was from Google Maps API

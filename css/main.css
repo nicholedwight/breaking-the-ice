@@ -12,6 +12,10 @@ body {
 
 }
 
+h1, h2, h3, h4 {
+  margin-bottom: 0;
+}
+
 section, main {
   height: 80%;
 }
@@ -104,6 +108,7 @@ nav li a:hover {
   url('../img/fjord.jpg');
   background-size: cover;
   background-position: center;
+  background-attachment: fixed; /*CSS alternative to a JS parallax background, helps scoll performance of the site*/
   margin-top: -20px;
 }
 
@@ -118,6 +123,11 @@ nav li a:hover {
   font-size: 2.5em;
   background: rgba(225, 225, 225, 0.4);
 }
+
+.primary_title > p {
+  font-size: 0.5em;
+}
+
 
 .host_listing {
   display: block;
