@@ -27,7 +27,7 @@ img {
 }
 
 section {
-  height: 400px;
+  height: 300px;
 }
 
 main {
@@ -155,7 +155,7 @@ nav li a:hover {
 
 .primary_title h1 {
   transform: scale(1.3,4);
-  max-width: 900px;
+  max-width: 250px;
   margin: auto;
 }
 
@@ -185,10 +185,18 @@ nav li a:hover {
 }
 
 @media all and (min-width: 400px) {
+  section {
+    height: 400px;
+  }
+
   .primary_title {
     font-size: 1em;
     position: absolute;
     left: 0px; bottom: 9px; right: 0px;
+  }
+
+  .primary_title h1 {
+    max-width: 500px;
   }
 }
 
@@ -273,7 +281,10 @@ nav li a:hover {
     font-size: 2.5em;
     position: absolute;
     left: 0px; bottom: -15px; right: 0px;
+  }
 
+  .primary_title h1 {
+    max-width: 750px;
   }
 }
 
