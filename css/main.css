@@ -1,15 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway);
 @font-face {
-    font-family: 'bodonitown';
-    src: url('../fonts/Bodonitown-webfont.eot');
-    src: url('../fonts/Bodonitown-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Bodonitown-webfont.woff') format('woff'),
-         url('../fonts/Bodonitown-webfont.ttf') format('truetype'),
-         url('../fonts/Bodonitown-webfont.svg#bodonitownregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
     font-family: 'polaris';
     src: url('../fonts/Polaris.ttf') format('truetype'),
     font-weight: normal;
@@ -38,6 +28,10 @@ img {
 
 section {
   height: 400px;
+}
+
+main {
+  height: 90%;
 }
 
 footer {
