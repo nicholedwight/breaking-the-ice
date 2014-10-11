@@ -36,7 +36,7 @@ img {
   max-width: 100%;
 }
 
-section, main {
+section {
   height: 400px;
 }
 
@@ -195,6 +195,10 @@ nav li a:hover {
 }
 
 @media all and (min-width: 590px) {
+  section {
+    height: 550px;
+  }
+
   .small {
     display: none;
   }
@@ -209,13 +213,8 @@ nav li a:hover {
     height: 20%;
     margin: auto;
     position: absolute;
-    left: 0px; bottom: -22px; right: 0px;
-    text-transform: uppercase;
+    left: 0px; bottom: -55px; right: 0px;
     font-size: 1.5em;
-    font-family: 'polaris';
-    color: #FFF;
-    letter-spacing: 0.3em;
-    text-align: center;
   }
 
   .title_small {
@@ -269,6 +268,15 @@ nav li a:hover {
     padding-bottom: 5px;
   }
 
+}
+
+@media all and (min-width: 900px) {
+  .primary_title {
+    font-size: 2.5em;
+    position: absolute;
+    left: 0px; bottom: -15px; right: 0px;
+
+  }
 }
 
 
