@@ -26,7 +26,7 @@ footer {
   display: none;
 }
 
-#home_page header {
+.l_index {
   background: rgba(0, 0, 0, 0.75);
   position: fixed;
   top: 0px;
@@ -113,19 +113,18 @@ nav li a:hover {
 }
 
 .primary_title {
-  width: 80%;
-  height: 40%;
-  margin: 0 auto;
+  width: 99%;
+  height: 20%;
+  margin: auto;
   position: absolute;
-  top: 150px; left: 0px; bottom: 0px; right: 0px;
-  text-align: center;
-  color: #FFF;
-  font-size: 2.5em;
-  background: rgba(225, 225, 225, 0.4);
+  top: 0px; left: 0px; bottom: -295px; right: 0px;
+  background-image: url('../img/title.png');
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-.primary_title > p {
-  font-size: 0.5em;
+.primary_title > h1 > span {
+  font-size: 20px;
 }
 
 
