@@ -40,7 +40,7 @@ footer {
   display: none;
 }
 
-.l_index {
+.l_main_header {
   background: rgba(0, 0, 0, 0.75);
   position: fixed;
   top: 0px;
@@ -117,7 +117,7 @@ nav li a:hover {
   position: relative;
 }
 
-#home_page .primary_header {
+.primary_header {
   background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
   url('../img/fjord.jpg');
   background: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
