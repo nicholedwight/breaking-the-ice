@@ -64,6 +64,17 @@ header {
   height: 30%;
 } */
 
+.logo {
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+}
+
+.logo:hover .logo_text {
+  color: #5CAA8E;
+}
+
 .logo_text {
   width: 150px;
   font-family: 'polaris';
@@ -81,6 +92,7 @@ header {
   top: 19px;
   width: 80px;
   transition: all 0.5s ease;
+  pointer-events: none;
 }
 
 nav {
@@ -112,7 +124,7 @@ nav li a {
 }
 
 nav li a:hover {
-  color: #FFF;
+  color: #5CAA8E;
   transition: color 0.75s ease 0s;
 }
 

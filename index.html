@@ -9,9 +9,11 @@
 </head>
 <body id="home_page">
   <header class="l_main_header">
-    <a href="index.html">
+    <a href="index.html" class="logo">
       <p class="logo_text">breaking the ice</p>
-      <img src="img/logo.svg" alt="Breaking the Ice" title="Breaking the Ice(berg) Logo" class="main_logo">
+      <object type="imgage/svg+cml" data="img/logo.svg" class="main_logo">
+        <img src="img/logo.png" alt="Breaking the Ice" title="Breaking the Ice(berg)" class="fallback_logo"><!-- fallback image -->
+      </object>
     </a>
     <nav>
       <a href="#skip" class="offscreen">Skip to Content</a><!-- provides accessibility for screen readers who don't want to go through the nav over and over-->
