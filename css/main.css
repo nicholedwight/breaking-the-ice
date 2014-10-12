@@ -89,11 +89,16 @@ header {
 .main_logo {
   margin: 10px;
   position: absolute;
-  top: 19px;
+  top: -2px;
   width: 80px;
   transition: all 0.5s ease;
-  pointer-events: none;
 }
+/*Styles for SVG logo*/
+.upper { transition: all 0.5s ease; }
+.lower { transition: all 0.5s ease; }
+.logo:hover .lower { fill: #FFF; }
+.logo:hover .upper { fill: #5CAA8E; stroke: #5CAA8E; }
+/*End of SVG logo styles*/
 
 nav {
   padding: 20px 20px 5px 20px;
@@ -234,7 +239,7 @@ nav li a:hover {
   }
 
   .main_logo {
-    top: 0px;
+    top: 4px;
     width: 120px;
   }
 
@@ -321,7 +326,7 @@ nav li a:hover {
   }
 
   .main_logo {
-    top: 36px;
+    top: 15px;
     width: 80px;
   }
 
@@ -359,7 +364,7 @@ nav li a:hover {
   }
 
   .main_logo {
-    top: 17px;
+    top: 21px;
     width: 120px;
   }
 }
