@@ -22,6 +22,11 @@ h1, h2, h3, h4 {
   margin-bottom: 0;
 }
 
+a {
+  text-decoration: none;
+  color: #FFF;
+}
+
 img {
   max-width: 100%;
 }
@@ -59,11 +64,22 @@ header {
   height: 30%;
 } */
 
-.main_logo {
-  margin-top: 10px;
+.logo_text {
+  width: 150px;
+  font-family: 'polaris';
+  letter-spacing: 0.05em;
   position: absolute;
-  top: 17px;
-  width: 200px;
+  top: 30px;
+  left: 80px;
+  font-size: 0.8em;
+  transition: all 0.5s ease;
+}
+
+.main_logo {
+  margin: 10px;
+  position: absolute;
+  top: 19px;
+  width: 80px;
   transition: all 0.5s ease;
 }
 
@@ -199,9 +215,15 @@ nav li a:hover {
     height: 400px;
   }
 
+  .logo_text {
+    top: 18px;
+    left: 125px;
+    font-size: 1em;
+  }
+
   .main_logo {
-    top: 7px;
-    width: 250px;
+    top: 0px;
+    width: 120px;
   }
 
   .primary_title {
@@ -226,11 +248,6 @@ nav li a:hover {
     margin: 0 auto;
   }
 
-  .main_logo {
-    top: -3px;
-    width: 300px;
-  }
-
   .primary_title {
     width: 99%;
     height: 20%;
@@ -248,7 +265,7 @@ nav li a:hover {
 
 }
 
-@media all and (min-width: 601px) {
+@media all and (min-width: 700px) {
   .menu_button {
     display: none;
   }
@@ -285,9 +302,15 @@ nav li a:hover {
     text-align: left;
   }
 
+  .logo_text {
+    top: 41px;
+    left: 83px;
+    font-size: 0.8em;
+  }
+
   .main_logo {
-    top: 37px;
-    width: 180px;
+    top: 36px;
+    width: 80px;
   }
 
   .host_listing {
@@ -309,21 +332,33 @@ nav li a:hover {
 
 }
 
-@media all and (min-width: 760px) {
+/* @media all and (min-width: 760px) {
   .main_logo {
     top: 24px;
     width: 250px;
   }
-}
+} */
 
 @media all and (min-width: 830px) {
+  .logo_text {
+    top: 40px;
+    left: 119px;
+    font-size: 0.9em;
+  }
+
   .main_logo {
-    top: 14px;
-    width: 300px;
+    top: 17px;
+    width: 120px;
   }
 }
 
 @media all and (min-width: 900px) {
+  .logo_text {
+    top: 33px;
+    left: 120px;
+    font-size: 1em;
+  }
+
   .primary_title {
     font-size: 2.5em;
     position: absolute;
