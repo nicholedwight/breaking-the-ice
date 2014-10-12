@@ -256,6 +256,17 @@ nav li a:hover {
   li:hover .nav_dropdown {
     display: block;
   }
+  
+  .has_dropdown {
+    position: relative;
+  }
+
+  .nav_dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    text-align: left;
+  }
 
   .host_listing {
     width: 49%;
