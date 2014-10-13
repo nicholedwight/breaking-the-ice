@@ -115,8 +115,10 @@ header {
 nav {
   padding: 20px 20px 5px 20px;
   color: #fff;
+  float: right;
   text-align: center;
   margin-top: -1px;
+  width: 100%;
 }
 
 nav ul {
@@ -135,7 +137,7 @@ nav li a {
   display: block;
   padding: 10px 0;
   border-top: 1px solid #666;
-  font-size: 1.2em;
+  font-size: 16px;
   color: #CCC;
   text-decoration: none;
 }
@@ -246,13 +248,13 @@ nav li a:hover {
 
   .logo_text {
     top: 18px;
-    left: 125px;
+    left: 105px;
     font-size: 1em;
   }
 
   .main_logo {
-    top: -1px;
-    width: 120px;
+    top: -6px;
+    width: 100px;
   }
 
   .primary_title {
@@ -264,6 +266,10 @@ nav li a:hover {
 }
 
 @media all and (min-width: 590px) {
+  nav {
+    width: 50%;
+  }
+
   section {
     height: 550px;
   }
@@ -305,7 +311,7 @@ nav li a:hover {
 
   nav li, .footer_nav li {
     display: inline-block;
-    padding: 0 10px 0 0;
+    padding: 0 10px 3px 0;
   }
 
   nav li a, .footer_nav li a {
@@ -327,19 +333,24 @@ nav li a:hover {
   .nav_dropdown {
     position: absolute;
     top: 100%;
-    left: 0;
+    left: -10px;
     text-align: left;
+    background: rgba(0, 0, 0, 0.75);
+  }
+
+  .nav_dropdown li {
+    padding-left: 10px;
   }
 
   .logo_text {
-    top: 41px;
-    left: 83px;
-    font-size: 0.8em;
+    top: 33px;
+    left: 105px;
+    font-size: 1em;
   }
 
   .main_logo {
-    top: 8px;
-    width: 80px;
+    top: 11px;
+    width: 100px;
   }
 
   .host_listing {
@@ -361,31 +372,10 @@ nav li a:hover {
 
 }
 
-/* @media all and (min-width: 760px) {
-  .main_logo {
-    top: 24px;
-    width: 250px;
-  }
-} */
-
-@media all and (min-width: 830px) {
-  .logo_text {
-    top: 40px;
-    left: 119px;
-    font-size: 0.9em;
-  }
-
-  .main_logo {
-    top: 16px;
-    width: 120px;
-  }
-}
 
 @media all and (min-width: 900px) {
-  .logo_text {
-    top: 33px;
-    left: 120px;
-    font-size: 1em;
+  nav {
+    width: 40%;
   }
 
   .primary_title {
@@ -404,7 +394,7 @@ nav li a:hover {
 }
 
 .current {
-  color: #FFF;
+  color: #5CAA8E;
 }
 
 .offscreen {
