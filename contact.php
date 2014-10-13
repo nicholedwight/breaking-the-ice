@@ -6,10 +6,8 @@
   <title>Breaking The Ice</title>
   <link rel="stylesheet" type="text/css" href="css/main.css">
   <link rel="icon" type="image/png" href="img/favicon.png">
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
 </head>
-<body>
+<body id="home_page">
 <!--   <svg style="display: none;" xmlns="http://www.w3.org/2000/svg">
   <symbol id="main_logo" viewBox="0 0 47.583 65.333">
     <polygon class="lower" fill="#5CAA8E" points="0,22.802 10.494,36.234 10.335,46.65 15.9,53.012 27.824,65.333 34.979,52.614 35.774,44.664
@@ -21,7 +19,7 @@
 </svg> -->
   <header class="l_main_header">
     <div class="logo">
-      <a href="index.html" class="logo">
+      <a href="index.html">
         <p class="logo_text">breaking the ice</p>
         <!-- <svg class="main_logo">
           <use xlink:href="#main_logo"></use>
@@ -36,9 +34,10 @@
       </a>
       <ul class="navigation" id="navigation_list" role="navigation">
           <li><a href="index.php">Home</a></li>
-          <li><a href="hosts.php" class="current">Our Hosts</a></li>
-          <li><a href="contact.php">Contact</a></li>
-          <li><a href="faq.php" class="has_dropdown">FAQ</a>
+          <li><a href="hosts.php">Our Hosts</a></li>
+          <li><a href="contact.php" class="current">Contact</a></li>
+          <li class="has_dropdown">
+            <a href="faq.php">FAQ</a>
             <ul class="nav_dropdown">
               <li><a href="#">When?</a></li>
               <li><a href="#">Weather</a></li>
@@ -52,52 +51,19 @@
   </header>
   <section class="primary_header">
     <div class="primary_title">
-      <h1>our hosts</h1
+      <h1>contact us</h1
     </div>
   </section>
-  <!-- <section class="primary_header listing">
-    <div class="listing_image">
-    </div>
-  </section> -->
-  <main role="main">
+  <main class="" role="main">
     <a id="skip"> </a>
-    <h1>Our Sponsored Hosts</h1>
-    <ul class="host_listing">
-      <li class="listing_row">
-        <a href="#">
-          <h2>The Vilhjálmsson Family</h2>
-          <p class="ellipsis">About the host...</p>
-        </a>
-      </li>
-      <li class="listing_row">
-        <a href="#">
-          <h2>The Second Family</h2>
-          <p class="ellipsis">About the host...</p>
-        </a>
-      </li>
-      <li class="listing_row">
-        <a href="#">
-          <h2>The Third Family</h2>
-          <p class="ellipsis">About the host...</p>
-        </a>
-      </li>
-      <li class="listing_row">
-        <a href="#">
-          <h2>The Fourth Family</h2>
-          <p class="ellipsis">About the host...</p>
-        </a>
-      </li>
-      <li class="listing_row">
-        <a href="#">
-          <h2>The Fifth Family</h2>
-          <p class="ellipsis">About the host...</p>
-        </a>
-      </li>
-    </ul>
-    <aside class="map_wrapper">
-      <div id="map-canvas"></div>
-    </aside>
+    <h1>Contact Info</h1>
+    <article>
+      <p>Typewriter drinking vinegar narwhal cardigan. Forage seitan chia craft beer tattooed YOLO viral, bicycle rights kale chips. Tilde roof party DIY Truffaut, gluten-free pickled wayfarers beard readymade banh mi locavore Austin chia selfies. Mumblecore YOLO mlkshk salvia, single-origin coffee fashion axe leggings selfies swag sartorial Bushwick Pinterest Truffaut trust fund Schlitz. Put a bird on it PBR&B YOLO bespoke cliche, Thundercats swag mlkshk locavore polaroid next level fap. Messenger bag cardigan authentic, paleo plaid Truffaut slow-carb. Hoodie plaid McSweeney's letterpress polaroid, Thundercats Truffaut locavore jean shorts next level deep v Godard farm-to-table occupy.</p>
+    </article>
   </main>
+  <footer>xs
+    <p class="copyright">&#169; 2014 Nichole Dwight</p>
+  </footer>
 
 <script src="js/main.js"></script>
 <noscript>
@@ -105,4 +71,3 @@
 </noscript>
 </body>
 </html>
- 
