@@ -6,10 +6,6 @@
       <h1>our hosts</h1
     </div>
   </section>
-  <!-- <section class="primary_header listing">
-    <div class="listing_image">
-    </div>
-  </section> -->
   <main role="main">
     <a id="skip"> </a>
     <h1>Our Sponsored Hosts</h1>
