@@ -67,13 +67,25 @@ header {
 .logo {
   display: inline-block;
   height: 200px;
-  width: 200px;
+  width: 150px;
   position: absolute;
 }
 
 .logo:hover .logo_text {
   color: #5CAA8E;
 }
+
+/*Styles for SVG logo*/
+.upper, .lower {
+  -moz-transition:all 0.5s ease-in;
+  -o-transition:all 0.5s ease-in;
+  -webkit-transition:all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+}
+
+.logo:hover .lower { fill: #FFF; }
+.logo:hover .upper { fill: #5CAA8E; stroke: #5CAA8E; }
+/*End of SVG logo styles*/
 
 .logo_text {
   width: 150px;
@@ -99,12 +111,6 @@ header {
   -webkit-transition:all 0.5s ease-in;
   transition: all 0.5s ease-in;
 }
-/*Styles for SVG logo*/
-.upper { transition: all 0.5s ease; }
-.lower { transition: all 0.5s ease; }
-div.logo:hover .lower { fill: #FFF; }
-.logo:hover .upper { fill: #5CAA8E; stroke: #5CAA8E; }
-/*End of SVG logo styles*/
 
 nav {
   padding: 20px 20px 5px 20px;
@@ -385,7 +391,7 @@ nav li a:hover {
   .primary_title {
     font-size: 2.5em;
     position: absolute;
-    left: 0px; bottom: -15px; right: 0px;
+    left: 0px; bottom: -17px; right: 0px;
   }
 
 }
