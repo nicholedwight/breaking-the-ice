@@ -83,7 +83,10 @@ header {
   top: 30px;
   left: 80px;
   font-size: 0.8em;
-  transition: all 0.5s ease;
+  -moz-transition:all 0.5s ease-in;
+  -o-transition:all 0.5s ease-in;
+  -webkit-transition:all 0.5s ease-in;
+  transition: all 0.5s ease-in;
 }
 
 .main_logo {
@@ -91,12 +94,15 @@ header {
   position: absolute;
   top: -2px;
   width: 80px;
-  transition: all 0.5s ease;
+  -moz-transition:all 0.5s ease-in;
+  -o-transition:all 0.5s ease-in;
+  -webkit-transition:all 0.5s ease-in;
+  transition: all 0.5s ease-in;
 }
 /*Styles for SVG logo*/
 .upper { transition: all 0.5s ease; }
 .lower { transition: all 0.5s ease; }
-.logo:hover .lower { fill: #FFF; }
+div.logo:hover .lower { fill: #FFF; }
 .logo:hover .upper { fill: #5CAA8E; stroke: #5CAA8E; }
 /*End of SVG logo styles*/
 
