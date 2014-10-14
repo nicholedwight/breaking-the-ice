@@ -36,6 +36,10 @@ section {
   overflow: hidden;
 }
 
+aside {
+  text-align: center;
+}
+
 main {
   height: 100%;
 }
@@ -80,10 +84,10 @@ header {
 
 /*Styles for SVG logo*/
 .upper, .lower {
-  -moz-transition:all 0.5s ease-in;
-  -o-transition:all 0.5s ease-in;
-  -webkit-transition:all 0.5s ease-in;
-  transition: all 0.5s ease-in;
+  -moz-transition:all 1s ease-in-out;
+  -o-transition:all 1s ease-in-out;
+  -webkit-transition:all 1s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 
 .logo:hover .lower { fill: #FFF; }
@@ -98,10 +102,10 @@ header {
   top: 30px;
   left: 80px;
   font-size: 0.8em;
-  -moz-transition:all 0.5s ease-in;
-  -o-transition:all 0.5s ease-in;
-  -webkit-transition:all 0.5s ease-in;
-  transition: all 0.5s ease-in;
+  -moz-transition:all 1s ease-in-out;
+  -o-transition:all 1s ease-in-out;
+  -webkit-transition:all 1s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 
 .main_logo {
@@ -136,10 +140,13 @@ nav ul.expanded {
   display: block;
 }
 
+/* .navigation li {
+  background: url('../img/gray-trans-vert-line.png') no-repeat scroll 0px bottom transparent;
+} */
+
 nav li a {
   display: block;
   padding: 10px 0;
-  border-top: 1px solid #666;
   font-size: 16px;
   color: #CCC;
   text-decoration: none;
@@ -179,14 +186,8 @@ nav li a:hover {
 }
 
 .primary_header {
-  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-  url('../img/fjord.jpg');
-  background: -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-  url('../img/fjord.jpg');
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-  url('../img/fjord.jpg');
-  background-size: cover;
-  background-position: center;
+  background: url('../img/btiheader.jpg');
+  background-repeat: no-repeat;
   background-attachment: fixed; /*CSS alternative to a JS parallax background, helps scoll performance of the site*/
   margin-top: -20px;
 }
@@ -312,13 +313,45 @@ nav li a:hover {
     display: block;
   }
 
-  nav li, .footer_nav li {
+  nav li {
     display: inline-block;
-    padding: 0 10px 3px 0;
+    padding: 0px 10px 3px 10px;
+    position: relative;
+    width: auto;
   }
 
-  nav li a, .footer_nav li a {
-    border: none;
+  nav a:before {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 97%;
+    height: 2px;
+    content: "";
+    transition: top 0.25s ease-in-out 0s;
+  }
+
+  nav a:after {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 0px;
+    width: 97%;
+    border-top: 2px solid #FFF;
+    border-left: 2px solid #FFF;
+    border-right: 2px solid #FFF;
+    border-bottom: 2px solid #FFF;
+    content: "";
+    transition: height 0.25s ease-in-out 0s;
+  }
+
+  nav a:hover:after {
+    height: 87%;
+    border-color: #00CD9B;
+  }
+
+  .current:after {
+    border-color: #00CD9B;
+    height: 87%;
   }
 
   .nav_dropdown {
@@ -343,6 +376,12 @@ nav li a:hover {
 
   .nav_dropdown li {
     padding-left: 10px;
+    background: none;
+  }
+
+  .nav_dropdown a:after, .nav_dropdown a:before{
+    border: none;
+    height: 0px;
   }
 
   .logo_text {
@@ -408,6 +447,7 @@ nav li a:hover {
 
 #instafeed {
   max-width: 500px;
+  margin: 0 auto;
 }
 
 .current {

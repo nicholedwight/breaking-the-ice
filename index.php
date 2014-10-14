@@ -2,11 +2,11 @@
   include('inc/header.php');
 ?> <!-- Including sections of reusable modular code keeps it clean and readable-->
   <section class="primary_header">
-    <div class="primary_title">
+    <!-- <div class="primary_title">
       <h1>breaking <span class="title_small">the</span> ice</h1>
     <!--   <img src="img/title2.png" alt="Breaking the Ice" class="large">
     <img src="img/titleSmall.png" alt="Breaking the Ice" class="small"> -->
-    </div>
+    </div> -->
   </section>
   <main class="main_wrapper" role="main">
     <a id="skip"> </a>
@@ -17,6 +17,7 @@
     <aside class="right">
       <h2>See what people are doing in Iceland</h2>
       <div id="instafeed"></div>
+      <div id="load-more"></div>
     </aside>
   </main>
   <footer>
@@ -28,6 +29,7 @@
     var feed = new Instafeed({
         get: 'tagged',
         tagName: 'iceland',
+        tagName: 'IcelandSecret',
         sortBy: 'most-recent',
         limit: 9,
         clientId: '681cd94df6e14db197a650403668c10b'
