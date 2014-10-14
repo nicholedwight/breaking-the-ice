@@ -8,6 +8,7 @@
   <link rel="icon" type="image/png" href="img/favicon.png">
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
   <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+  <script type="text/javascript" src="../js/instafeed.min.js"></script>
 </head>
 <body>
 <!--   <svg style="display: none;" xmlns="http://www.w3.org/2000/svg">
@@ -21,7 +22,7 @@
 </svg> -->
   <header class="l_main_header">
     <div class="logo">
-      <a href="index.html">
+      <a href="index.php">
         <p class="logo_text">breaking the ice</p>
         <!-- <svg class="main_logo">
           <use xlink:href="#main_logo"></use>

@@ -46,6 +46,10 @@ footer {
   display: none;
 }
 
+.main_wrapper {
+  padding: 10px;
+}
+
 .l_main_header {
   background: rgba(0, 0, 0, 0.75);
   position: fixed;
@@ -54,6 +58,9 @@ footer {
   left: 0px;
   z-index: 1030;
   margin-bottom: 0px;
+}
+
+.l_main_content {
 }
 
 header {
@@ -68,7 +75,7 @@ header {
 }
 
 .logo:hover .logo_text {
-  color: #5CAA8E;
+  color: #00CD9B;
 }
 
 /*Styles for SVG logo*/
@@ -80,7 +87,7 @@ header {
 }
 
 .logo:hover .lower { fill: #FFF; }
-.logo:hover .upper { fill: #5CAA8E; stroke: #5CAA8E; }
+.logo:hover .upper { fill: #00CD9B; stroke: #00CD9B; }
 /*End of SVG logo styles*/
 
 .logo_text {
@@ -139,7 +146,7 @@ nav li a {
 }
 
 nav li a:hover {
-  color: #5CAA8E;
+  color: #00CD9B;
   transition: color 0.75s ease 0s;
 }
 
@@ -366,6 +373,16 @@ nav li a:hover {
     padding-bottom: 5px;
   }
 
+  .left {
+    float: left;
+    max-width: 55%;
+  }
+
+  .right {
+    float: right;
+    max-width: 41%;
+  }
+
 }
 
 
@@ -389,8 +406,12 @@ nav li a:hover {
   background-color: #CCC;
 }
 
+#instafeed {
+  max-width: 500px;
+}
+
 .current {
-  color: #5CAA8E;
+  color: #00CD9B;
 }
 
 .offscreen {
