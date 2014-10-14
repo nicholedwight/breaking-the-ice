@@ -2,9 +2,6 @@
   include('inc/header.php');
 ?>
   <section class="primary_header">
-    <div class="primary_title">
-      <h1>our hosts</h1
-    </div>
   </section>
   <main role="main">
     <a id="skip"> </a>

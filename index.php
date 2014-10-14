@@ -2,11 +2,11 @@
   include('inc/header.php');
 ?> <!-- Including sections of reusable modular code keeps it clean and readable-->
   <section class="primary_header">
-    <!-- <div class="primary_title">
-      <h1>breaking <span class="title_small">the</span> ice</h1>
+    <div class="primary_title">
+      <h1>This is a place for those who explore</h1>
     <!--   <img src="img/title2.png" alt="Breaking the Ice" class="large">
     <img src="img/titleSmall.png" alt="Breaking the Ice" class="small"> -->
-    </div> -->
+    </div>
   </section>
   <main class="main_wrapper" role="main">
     <a id="skip"> </a>

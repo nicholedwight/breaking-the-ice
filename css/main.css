@@ -1,9 +1,14 @@
 @import url(http://fonts.googleapis.com/css?family=Raleway);
 @font-face {
-    font-family: 'polaris';
-    src: url('../fonts/Polaris.ttf') format('truetype'),
+    font-family: 'goodfoot';
+    src: url('../fonts/goodfoot-webfont.eot');
+    src: url('../fonts/goodfoot-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/goodfoot-webfont.woff') format('woff'),
+         url('../fonts/goodfoot-webfont.ttf') format('truetype'),
+         url('../fonts/goodfoot-webfont.svg#good_foot') format('svg');
     font-weight: normal;
     font-style: normal;
+
 }
 
 html {
@@ -32,7 +37,7 @@ img {
 }
 
 section {
-  height: 300px;
+  height: 450px;
   overflow: hidden;
 }
 
@@ -95,13 +100,13 @@ header {
 /*End of SVG logo styles*/
 
 .logo_text {
-  width: 150px;
-  font-family: 'polaris';
+  width: 160px;
+  font-family: 'goodfoot', Arial;
   letter-spacing: 0.05em;
   position: absolute;
-  top: 30px;
+  top: 18px;
   left: 80px;
-  font-size: 0.8em;
+  font-size: 1.2em;
   -moz-transition:all 1s ease-in-out;
   -o-transition:all 1s ease-in-out;
   -webkit-transition:all 1s ease-in-out;
@@ -139,10 +144,6 @@ nav ul {
 nav ul.expanded {
   display: block;
 }
-
-/* .navigation li {
-  background: url('../img/gray-trans-vert-line.png') no-repeat scroll 0px bottom transparent;
-} */
 
 nav li a {
   display: block;
@@ -182,48 +183,27 @@ nav li a:hover {
 }
 
 .primary_header {
-  position: relative;
-}
-
-.primary_header {
   background: url('../img/btiheader.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed; /*CSS alternative to a JS parallax background, helps scoll performance of the site*/
   margin-top: -20px;
-}
-
-.small {
-  display: block;
-  margin: 0 auto;
-}
-
-.large {
-  display: none;
+  position: relative;
 }
 
 .primary_title {
-  width: 99%;
+  width: 80%;
+  height: 20%;
   margin: auto;
   position: absolute;
-  left: 0px; bottom: 7px; right: 0px;
+  top: 0px; left: 0px; bottom: 0px; right: 0px;
   text-transform: uppercase;
-  font-size: 0.7em;
-  font-family: 'polaris';
-  color: #FFF;
-  letter-spacing: 0.3em;
+  font-size: 1.3em;
+  font-family: 'goodfoot', sans-serif;
+  color: #000;
+  text-shadow: 1px 1px #999;
   text-align: center;
   transition: all 0.5s ease;
-}
-
-.primary_title h1 {
-  transform: scale(1.3,4);
-  margin: auto;
-}
-
-.title_small {
-  font-size: 0.5em;
-  position: relative;
-  top: -2px;
+  transform: rotate(-2.5deg);
 }
 
 .host_listing {
@@ -246,14 +226,11 @@ nav li a:hover {
 }
 
 @media all and (min-width: 400px) {
-  section {
-    height: 400px;
-  }
 
   .logo_text {
-    top: 18px;
+    top: 8px;
     left: 105px;
-    font-size: 1em;
+    font-size: 1.4em;
   }
 
   .main_logo {
@@ -262,9 +239,8 @@ nav li a:hover {
   }
 
   .primary_title {
-    font-size: 1em;
-    position: absolute;
-    left: 0px; bottom: 9px; right: 0px;
+    font-size: 1.4em;
+    width: 70%;
   }
 
 }
@@ -278,30 +254,10 @@ nav li a:hover {
     height: 550px;
   }
 
-  .small {
-    display: none;
-  }
-
-  .large {
-    display: block;
-    margin: 0 auto;
-  }
-
   .primary_title {
-    width: 99%;
-    height: 20%;
-    margin: auto;
-    position: absolute;
-    left: 0px; bottom: -55px; right: 0px;
     font-size: 1.5em;
+    width: 60%;
   }
-
-  .title_small {
-    font-size: 0.5em;
-    position: relative;
-    top: -8px;
-  }
-
 }
 
 @media all and (min-width: 700px) {
@@ -385,15 +341,20 @@ nav li a:hover {
   }
 
   .logo_text {
-    top: 33px;
+    top: 20px;
     left: 105px;
-    font-size: 1em;
+    font-size: 1.5em;
   }
 
   .main_logo {
     top: 11px;
     width: 100px;
   }
+
+  .primary_title {
+    font-size: 2.5em;
+  }
+
 
   .host_listing {
     width: 49%;
@@ -429,13 +390,6 @@ nav li a:hover {
   nav {
     width: 40%;
   }
-
-  .primary_title {
-    font-size: 2.5em;
-    position: absolute;
-    left: 0px; bottom: -17px; right: 0px;
-  }
-
 }
 
 
