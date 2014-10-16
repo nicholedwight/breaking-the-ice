@@ -183,8 +183,8 @@ nav li a:hover {
 }
 
 .primary_header {
-  background: url('../img/btiheader3.svg');
-  background-position: 13% top;
+  background: url('../img/iceball.png'); /*Image created by me*/
+  background-position: 49% -3%;
   background-repeat: no-repeat;
   background-attachment: fixed; /*CSS alternative to a JS parallax background, helps scoll performance of the site*/
   margin-top: -20px;
@@ -247,7 +247,7 @@ nav li a:hover {
   }
 
   .primary_header {
-    background-position: 7% top;
+    background-position: 50% top;
   }
 
   .primary_title {
