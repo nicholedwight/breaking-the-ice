@@ -25,6 +25,7 @@
   </footer>
 
 <script src="js/main.js"></script>
+<script type="text/javascript" src="../js/instafeed.min.js"></script>
 <script type="text/javascript">
     var feed = new Instafeed({
         get: 'tagged',
@@ -32,7 +33,7 @@
         tagName: 'IcelandSecret',
         sortBy: 'most-recent',
         limit: 9,
-        clientId: '681cd94df6e14db197a650403668c10b'
+        clientId: '681cd94df6e14db197a650403668c10b';
     });
     feed.run();
 </script>

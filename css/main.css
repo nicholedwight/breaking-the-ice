@@ -183,27 +183,43 @@ nav li a:hover {
 }
 
 .primary_header {
-  background: url('../img/btiheader.jpg');
+  background: url('../img/btiheader3.svg');
+  background-position: 13% top;
   background-repeat: no-repeat;
   background-attachment: fixed; /*CSS alternative to a JS parallax background, helps scoll performance of the site*/
   margin-top: -20px;
   position: relative;
 }
 
+.primary_header:before {
+    content: '';
+		position: absolute;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		background-image: linear-gradient(to bottom right,#000,#000);
+		opacity: .15;
+  }
+
 .primary_title {
   width: 80%;
-  height: 20%;
+  height: 40%;
   margin: auto;
   position: absolute;
   top: 0px; left: 0px; bottom: 0px; right: 0px;
   text-transform: uppercase;
   font-size: 1.3em;
   font-family: 'goodfoot', sans-serif;
-  color: #000;
-  text-shadow: 1px 1px #999;
+  color: #FFF;
   text-align: center;
   transition: all 0.5s ease;
+  padding-top: 30px;
+}
+
+.primary_title h1 {
   transform: rotate(-2.5deg);
+  margin-top: 0;
 }
 
 .host_listing {
@@ -223,6 +239,20 @@ nav li a:hover {
 
 .map_wrapper img { /*this is required to override img max-width of 100% because it messes up the google maps and looks broken*/
   max-width: none;
+}
+
+@media all and (min-width: 330px) {
+  section {
+    height: 505px;
+  }
+
+  .primary_header {
+    background-position: 7% top;
+  }
+
+  .primary_title {
+    height: 19%;
+  }
 }
 
 @media all and (min-width: 400px) {
@@ -251,7 +281,7 @@ nav li a:hover {
   }
 
   section {
-    height: 550px;
+    height: 500px;
   }
 
   .primary_title {
@@ -352,7 +382,9 @@ nav li a:hover {
   }
 
   .primary_title {
+    height: 37%;
     font-size: 2.5em;
+    top: 0;
   }
 
 

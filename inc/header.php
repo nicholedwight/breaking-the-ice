@@ -8,7 +8,6 @@
   <link rel="icon" type="image/png" href="img/favicon.png">
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
   <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
-  <script type="text/javascript" src="../js/instafeed.min.js"></script>
 </head>
 <body>
 <!--   <svg style="display: none;" xmlns="http://www.w3.org/2000/svg">
