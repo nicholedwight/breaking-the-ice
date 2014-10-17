@@ -4,8 +4,6 @@
   <section class="primary_header">
     <div class="primary_title">
       <h1>This is a place for those who explore</h1>
-    <!--   <img src="img/title2.png" alt="Breaking the Ice" class="large">
-    <img src="img/titleSmall.png" alt="Breaking the Ice" class="small"> -->
     </div>
   </section>
   <main class="main_wrapper" role="main">
@@ -17,7 +15,6 @@
     <aside class="right">
       <h2>See what people are doing in Iceland</h2>
       <div id="instafeed"></div>
-      <div id="load-more"></div>
     </aside>
   </main>
   <footer>
@@ -25,7 +22,6 @@
   </footer>
 
 <script src="js/main.js"></script>
-<script type="text/javascript" src="../js/instafeed.min.js"></script>
 <script type="text/javascript">
     var feed = new Instafeed({
         get: 'tagged',
@@ -33,7 +29,7 @@
         tagName: 'IcelandSecret',
         sortBy: 'most-recent',
         limit: 9,
-        clientId: '681cd94df6e14db197a650403668c10b';
+        clientId: '681cd94df6e14db197a650403668c10b'
     });
     feed.run();
 </script>
