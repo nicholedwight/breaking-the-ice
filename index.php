@@ -24,6 +24,7 @@
         tagName: 'IcelandSecret',
         sortBy: 'most-recent',
         limit: 9,
+        template: '<a href="{{link}}" target="_blank"><img src="{{image}}"></a>',
         clientId: '681cd94df6e14db197a650403668c10b'
     });
     feed.run();
