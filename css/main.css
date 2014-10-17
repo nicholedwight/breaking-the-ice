@@ -13,6 +13,11 @@
 
 html {
   height: 100%;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
 }
 
 body {
@@ -62,6 +67,7 @@ footer {
 .secondary_wrapper {
   padding: 10px;
   margin-top: 170px;
+  overflow: hidden;
 }
 
 .l_main_header {
@@ -161,6 +167,10 @@ nav li a {
 nav li a:hover {
   color: #00CD9B;
   transition: color 0.75s ease 0s;
+}
+
+.faq_nav {
+  display: none;
 }
 
 .menu_button {
@@ -311,9 +321,9 @@ nav li a:hover {
   .menu_button {
     display: none;
   }
-  
+
   nav {
-    width: 50%;
+    width: 58%;
   }
 
   nav ul {
@@ -354,6 +364,31 @@ nav li a:hover {
   nav a:hover:after {
     height: 87%;
     border-color: #00CD9B;
+  }
+
+  .faq_nav {
+    display: block;
+    width: 100%;
+    border: 1px  solid #E7E7E7;
+    background: none repeat scroll 0% 0% #F8FAFA;
+    height: 44px;
+    max-width: 1000px;
+    margin: 5px auto 10px;
+    padding-left: 40px;
+    position: relative;
+  }
+
+  .faq_nav li {
+    display: inline-block;
+    float: left;
+    height: 40px;
+    line-height: 20px;
+    padding: 10px 1%;
+    margin-right: 10px;
+  }
+
+  .faq_nav a {
+    color: #000;
   }
 
   .current:after {
@@ -441,7 +476,7 @@ nav li a:hover {
 
 @media all and (min-width: 900px) {
   nav {
-    width: 40%;
+    width: 47%;
   }
 }
 

@@ -34,13 +34,12 @@
             <?php if ($thisPage == "Contact") echo "class='current'"; ?>>Contact</a>
           </li>
           <li class="has_dropdown"><a href="faq.php"
-            <?php if ($thisPage == "FAQ") echo "class='current'"; ?>>FAQ</a>
+            <?php if ($thisPage == "FAQ") echo "class='current'"; ?>>Practical Info</a>
               <ul class="nav_dropdown">
-                <li><a href="#">When?</a></li>
-                <li><a href="#">Weather</a></li>
-                <li><a href="#">Testimonials</a></li>
-                <li><a href="#">Surfboard Hire</a></li>
-                <li><a href="#">Prices</a><li>
+                <li><a href="faq.php#get_here">Getting Here</a></li>
+                <li><a href="faq.php#weather">Weather</a></li>
+                <li><a href="faq.php#accommodation">Accommodation</a></li>
+                <li><a href="faq.php#testimonials">Testimonials</a></li>
               </ul>
           </li>
       </ul>
