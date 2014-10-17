@@ -59,9 +59,14 @@ footer {
   padding: 10px;
 }
 
+.secondary_wrapper {
+  padding: 10px;
+  margin-top: 170px;
+}
+
 .l_main_header {
   background: rgba(0, 0, 0, 0.75);
-  position: fixed;
+  position: absolute;
   top: 0px;
   right: 0px;
   left: 0px;
@@ -231,6 +236,15 @@ nav li a:hover {
 .listing_row a {
   text-decoration: none;
   color: inherit;
+  position: relative;
+  display: block;
+}
+
+.listing_row a:after {
+  font-family: Arial; /*Different font in order to display the icon*/
+  content: "ᐳ";
+  position: absolute;
+  top: 30px; right: 30px;
 }
 
 .map_wrapper {
@@ -247,7 +261,7 @@ nav li a:hover {
   }
 
   .primary_header {
-    background-position: 50% top;
+    background-position: 50% -10%;
   }
 
   .primary_title {
@@ -273,12 +287,15 @@ nav li a:hover {
     width: 70%;
   }
 
+  .listing_row a:after {
+    font-family: Arial; /*Different font in order to display the icon*/
+    content: "ᐳ";
+    position: absolute;
+    top: 30px; right: 100px;
+  }
 }
 
 @media all and (min-width: 590px) {
-  nav {
-    width: 50%;
-  }
 
   section {
     height: 500px;
@@ -293,6 +310,10 @@ nav li a:hover {
 @media all and (min-width: 700px) {
   .menu_button {
     display: none;
+  }
+  
+  nav {
+    width: 50%;
   }
 
   nav ul {

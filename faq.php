@@ -1,9 +1,7 @@
 <?php $thisPage = "FAQ";
   include('inc/header.php');
 ?>
-  <section class="primary_header">
-  </section>
-  <main class="" role="main">
+  <main class="secondary_wrapper" role="main">
     <a id="skip"> </a>
     <h1>FAQ Things</h1>
     <article>
