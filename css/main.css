@@ -46,6 +46,20 @@ section {
   overflow: hidden;
 }
 
+article p {
+  padding: 0 20px;
+  max-width: 650px;
+}
+
+article h1, h2 {
+  line-height: 43px;
+  letter-spacing: -1px;
+  font-weight: normal;
+  color: #666366;
+  margin: 0px;
+}
+}
+
 aside {
   text-align: center;
 }
@@ -61,13 +75,12 @@ footer {
 }
 
 .main_wrapper {
-  padding: 10px;
+  padding: 15px;
 }
 
 .secondary_wrapper {
-  padding: 10px;
+  padding: 15px;
   margin-top: 170px;
-  overflow: hidden;
 }
 
 .l_main_header {
@@ -164,7 +177,7 @@ nav li a {
   text-decoration: none;
 }
 
-nav li a:hover {
+nav li a:hover, .faq_nav a:hover {
   color: #00CD9B;
   transition: color 0.75s ease 0s;
 }
@@ -376,11 +389,11 @@ nav li a:hover {
     margin: 5px auto 10px;
     padding-left: 40px;
     position: relative;
+    text-align: center;
   }
 
   .faq_nav li {
     display: inline-block;
-    float: left;
     height: 40px;
     line-height: 20px;
     padding: 10px 1%;
@@ -413,7 +426,7 @@ nav li a:hover {
     top: 100%;
     left: -10px;
     text-align: left;
-    background: rgba(0, 0, 0, 0.75);
+    background-color: #404040;
   }
 
   .nav_dropdown li {
@@ -492,7 +505,7 @@ nav li a:hover {
   margin: 0 auto;
 }
 
-.current {
+.current, a.faq_current {
   color: #00CD9B;
 }
 

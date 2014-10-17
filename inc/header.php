@@ -33,13 +33,14 @@
           <li><a href="contact.php"
             <?php if ($thisPage == "Contact") echo "class='current'"; ?>>Contact</a>
           </li>
-          <li class="has_dropdown"><a href="faq.php"
+          <li class="has_dropdown"><a href="faq.php" id="changeableBorder"
             <?php if ($thisPage == "FAQ") echo "class='current'"; ?>>Practical Info</a>
               <ul class="nav_dropdown">
-                <li><a href="faq.php#get_here">Getting Here</a></li>
-                <li><a href="faq.php#weather">Weather</a></li>
-                <li><a href="faq.php#accommodation">Accommodation</a></li>
-                <li><a href="faq.php#testimonials">Testimonials</a></li>
+                <li><a href="faq.php">General Info</a></li>
+                <li><a href="how-to-get-here.php">Getting Here</a></li>
+                <li><a href="weather.php">Weather</a></li>
+                <li><a href="accommodation.php">Accommodation</a></li>
+                <li><a href="testimonials.php">Testimonials</a></li>
               </ul>
           </li>
       </ul>

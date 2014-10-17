@@ -41,10 +41,6 @@
     </aside>
   </main>
 
-<script src="js/main.js"></script>
-<noscript>
-  <link rel="stylesheet" type="text/css" href="css/nojs.css"><!--css styles for when javascript is disabled-->
-</noscript>
-</body>
-</html>
+<?php include('inc/footer.php'); ?>
+
  

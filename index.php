@@ -17,11 +17,6 @@
       <div id="instafeed"></div>
     </aside>
   </main>
-  <footer>
-    <p class="copyright">&#169; 2014 Nichole Dwight</p>
-  </footer>
-
-<script src="js/main.js"></script>
 <script type="text/javascript">
     var feed = new Instafeed({
         get: 'tagged',
@@ -33,8 +28,4 @@
     });
     feed.run();
 </script>
-<noscript>
-  <link rel="stylesheet" type="text/css" href="css/nojs.css"><!--css styles for when javascript is disabled-->
-</noscript>
-</body>
-</html>
+<?php include('inc/footer.php'); ?>

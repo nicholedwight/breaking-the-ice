@@ -107,3 +107,10 @@ function setMarkers(map, locations) {
 }
 
 google.maps.event.addDomListener(window, 'load', initialize);
+
+
+$('.nav_dropdown').hover(
+   function(){ $('#changeableBorder').addClass('current') },
+   function(){ $('#changeableBorder').removeClass('current') }
+
+)
