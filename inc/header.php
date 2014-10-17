@@ -4,9 +4,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="UTF-8">
   <title>Breaking The Ice</title>
-  <link rel="stylesheet" type="text/css" href="css/main.css">
-  <link rel="icon" type="image/png" href="img/favicon.png">
-  <script type="text/javascript" src="js/instafeed.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="/project1/css/main.css">
+  <link rel="icon" type="image/png" href="/project1/img/favicon.png">
+  <script type="text/javascript" src="/project1/js/instafeed.min.js"></script>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
   <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
 </head>
@@ -37,10 +37,10 @@
             <?php if ($thisPage == "FAQ") echo "class='current'"; ?>>Practical Info</a>
               <ul class="nav_dropdown">
                 <li><a href="faq.php">General Info</a></li>
-                <li><a href="how-to-get-here.php">Getting Here</a></li>
-                <li><a href="weather.php">Weather</a></li>
-                <li><a href="accommodation.php">Accommodation</a></li>
-                <li><a href="testimonials.php">Testimonials</a></li>
+                <li><a href="faq/how-to-get-here.php">Getting Here</a></li>
+                <li><a href="faq/weather.php">Weather</a></li>
+                <li><a href="faq/accommodation.php">Accommodation</a></li>
+                <li><a href="faq/testimonials.php">Testimonials</a></li>
               </ul>
           </li>
       </ul>
