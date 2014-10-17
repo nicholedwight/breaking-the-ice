@@ -1,4 +1,4 @@
-<?php $thisPage = "weather";
+<?php $thisPage = "FAQ_weather";
   include('../inc/header.php');
 ?>
 <main class="secondary_wrapper" role="main">

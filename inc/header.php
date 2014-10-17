@@ -24,23 +24,23 @@
         <span>&#9776;</span>
       </a>
       <ul class="navigation" id="navigation_list" role="navigation">
-          <li><a href="index.php"
-            <?php if ($thisPage == "Home") echo "class='current'"; ?>>Home</a>
+          <li><a href="/project1/index.php"
+            <?php if ($thisPage === "Home") echo "class='current'"; ?>>Home</a>
           </li>
-          <li><a href="hosts.php"
-            <?php if ($thisPage == "Hosts") echo "class='current'"; ?>>Our Hosts</a>
+          <li><a href="/project1/hosts.php"
+            <?php if ($thisPage === "Hosts") echo "class='current'"; ?>>Our Hosts</a>
           </li>
-          <li><a href="contact.php"
-            <?php if ($thisPage == "Contact") echo "class='current'"; ?>>Contact</a>
+          <li><a href="/project1/contact.php"
+            <?php if ($thisPage === "Contact") echo "class='current'"; ?>>Contact</a>
           </li>
-          <li class="has_dropdown"><a href="faq.php" id="changeableBorder"
-            <?php if ($thisPage == "FAQ") echo "class='current'"; ?>>Practical Info</a>
+          <li class="has_dropdown"><a href="/project1/faq.php" id="changeableBorder"
+            <?php if (substr($thisPage, 0, 3) === "FAQ") echo "class='current'"; ?>>Practical Info</a>
               <ul class="nav_dropdown">
-                <li><a href="faq.php">General Info</a></li>
-                <li><a href="faq/how-to-get-here.php">Getting Here</a></li>
-                <li><a href="faq/weather.php">Weather</a></li>
-                <li><a href="faq/accommodation.php">Accommodation</a></li>
-                <li><a href="faq/testimonials.php">Testimonials</a></li>
+                <li><a href="/project1/faq.php">General Info</a></li>
+                <li><a href="/project1/faq/how-to-get-here.php">Getting Here</a></li>
+                <li><a href="/project1/faq/weather.php">Weather</a></li>
+                <li><a href="/project1/faq/accommodation.php">Accommodation</a></li>
+                <li><a href="/project1/faq/testimonials.php">Testimonials</a></li>
               </ul>
           </li>
       </ul>

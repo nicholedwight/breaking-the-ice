@@ -1,4 +1,4 @@
-<?php $thisPage = "testimonials";
+<?php $thisPage = "FAQ_testimonials";
   include('../inc/header.php');
 ?>
 <main class="secondary_wrapper" role="main">

@@ -1,4 +1,4 @@
-<?php $thisPage = "accommodation";
+<?php $thisPage = "FAQ_accommodation";
   include('../inc/header.php');
 ?>
 <main class="secondary_wrapper" role="main">

@@ -1,4 +1,4 @@
-<?php $thisPage = "get-here";
+<?php $thisPage = "FAQ_get-here";
   include('../inc/header.php');
 ?>
 <main class="secondary_wrapper" role="main">
