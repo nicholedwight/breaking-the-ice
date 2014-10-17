@@ -149,7 +149,7 @@ header {
 }
 
 nav {
-  padding: 20px 20px 5px 20px;
+  padding: 25px 20px 0 20px;
   color: #fff;
   float: right;
   text-align: center;
@@ -171,7 +171,7 @@ nav ul.expanded {
 
 nav li a {
   display: block;
-  padding: 10px 0;
+  padding: 15px 0;
   font-size: 16px;
   color: #CCC;
   text-decoration: none;
@@ -337,6 +337,7 @@ nav li a:hover, .faq_nav a:hover {
 
   nav {
     width: 58%;
+    padding: 15px 20px 0 20px;
   }
 
   nav ul {
@@ -426,7 +427,7 @@ nav li a:hover, .faq_nav a:hover {
     top: 100%;
     left: -10px;
     text-align: left;
-    background-color: #404040;
+    background: rgba(0, 0, 0, 0.75);
   }
 
   .nav_dropdown li {
