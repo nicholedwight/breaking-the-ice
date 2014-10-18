@@ -121,13 +121,13 @@ $('.contact_dropdown').hover(
 ) //Solution for adding current class to parent element when hovering on child found from http://css-tricks.com/snippets/jquery/addingremoving-class-on-hover/
 
 
-$('#contact_has_dropdown').click(function(){
-  $('.contact_dropdown').css("display", "block");
-});
+// $('#contact_has_dropdown').click(function(){
+//   $('.contact_dropdown').css("display", "block");
+// });
 
-$('#contact_has_dropdown').mouseleave(function(){
-  $('.contact_dropdown').css("display", "none");
-});
+// $('#contact_has_dropdown').mouseleave(function(){
+//   $('.contact_dropdown').css("display", "none");
+// });
 
 // $('#contact_has_dropdown').hover(
 //   function() {$('.contact_dropdown').css("display", "block")},

@@ -266,26 +266,6 @@ nav li a:hover, .faq_nav a:hover {
   display: none;
 }
 
-.contact_dropdown {
-  background: rgba(0, 0, 0, 0.75);
-  width: 450px;
-  margin: 0px 20px;
-  position: absolute;
-  top: 100%;
-  right: -27px;
-  text-align: left;
-}
-
-.inner a {
-  display: inline;
-  padding: 0px;
-}
-
-.inner {
-  padding-left: 20px;
-  color: #CCC;
-}
-
 .menu_button {
   display: block;
   text-align: right;
@@ -478,6 +458,30 @@ nav li a:hover, .faq_nav a:hover {
   nav a:hover:after {
     height: 87%;
     border-color: #00CD9B;
+  }
+
+  .contact_dropdown {
+    background: rgba(0, 0, 0, 0.75);
+    width: 450px;
+    margin: 0px 20px;
+    position: absolute;
+    top: 100%;
+    right: -27px;
+    text-align: left;
+  }
+
+  #contact_has_dropdown:hover .contact_dropdown {
+    display: block;
+  }
+
+  .inner a {
+    display: inline;
+    padding: 0px;
+  }
+
+  .inner {
+    padding-left: 20px;
+    color: #CCC;
   }
 
   .faq_nav {
