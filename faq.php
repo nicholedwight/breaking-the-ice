@@ -11,7 +11,7 @@
     </article>
     <article>
       <h2>How long is it daylight for in Iceland?</h2>
-      <p>Some of our visitors who join us in the Summer ask when it will get dark, they're told "sometime in August". The sun hardly sets at all in the Summer around the southern half of the country, if you stay north of Reykjavík it's daylight 24/7. If you joing us in the Winter, however, do expect only a few, 3-4, hours of daylight. Spring and Fall daylight hours will be more normal.</p>
+      <p>Some of our visitors who join us in the Summer ask when it will get dark, they're told "sometime in August". The sun hardly sets at all in the Summer around the southern half of the country, if you stay north of Reykjavík it's daylight 24/7. If you joing us in the Winter, however, do expect only a few, 3-4, hours of daylight; come hunt the lights with us! The Northern Lights are a spectacular part of Iceland in the Winter and many of our hosts enjoy taking our guests out to see them. Spring and Fall daylight hours will be more normal.</p>
     </article>
 
   </main>
