@@ -100,7 +100,7 @@ aside {
 }
 
 main {
-  min-height: 100%;
+  min-height: 90%;
   margin-bottom: -258px;
 }
 
@@ -134,6 +134,10 @@ footer a {
   vertical-align: middle;
   font-size: 3em;
   font-style: normal;
+}
+
+footer p:hover {
+  color: #00CD9B;
 }
 
 .icon_twitter:before {
@@ -578,6 +582,10 @@ nav li a:hover, .faq_nav a:hover {
 .copyright {
   margin-bottom: 0;
   padding-bottom: 5px;
+}
+
+.copyright:hover {
+  color: inherit;
 }
 
 .offscreen {
