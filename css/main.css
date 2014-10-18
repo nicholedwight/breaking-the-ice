@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Raleway);
+@import url(http://fonts.googleapis.com/css?family=Abel);
 @font-face {
     font-family: 'goodfoot';
     src: url('../fonts/goodfoot-webfont.eot');
@@ -24,12 +24,22 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
-  font-family: 'Raleway', sans-serif;
-
+  font-family: arial, sans-serif;
+  color: #5C5B5C;
 }
 
 h1, h2, h3, h4 {
-  margin-bottom: 0;
+  font-family: 'Abel', arial; /*Fallback font*/
+  line-height: 43px;
+  letter-spacing: -1px;
+  color: #666366;
+  margin: 0px;
+  font-size: 35px;
+}
+
+h2 {
+  font-size: 20px;
+  margin: 10px 0px 0px;
 }
 
 a {
@@ -47,22 +57,17 @@ section {
 }
 
 article {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
 }
 
-article p {
-  padding: 0 20px;
-  max-width: 90%;
+article p, article h2 {
+  padding: 0 25px;
+  max-width: 95%;
 }
 
-article h1, h2 {
-  line-height: 43px;
-  letter-spacing: -1px;
-  font-weight: normal;
-  color: #666366;
-  margin: 0px;
-}
+p {
+  line-height: 25px;
 }
 
 aside {
@@ -75,8 +80,7 @@ main {
 
 footer {
   text-align: center;
-  background-color: #333;
-  display: none;
+  background-color: #404040;
 }
 
 .main_wrapper {
@@ -84,8 +88,9 @@ footer {
 }
 
 .secondary_wrapper {
-  padding: 15px;
-  margin-top: 170px;
+  padding: 0px 20px 0 40px;
+  margin: 170px auto;
+  max-width: 1000px;
 }
 
 .l_main_header {
@@ -130,7 +135,7 @@ header {
 
 .logo_text {
   width: 160px;
-  font-family: 'goodfoot', Arial;
+  font-family: 'goodfoot', arial;
   letter-spacing: 0.05em;
   position: absolute;
   top: 18px;
@@ -241,18 +246,17 @@ nav li a:hover, .faq_nav a:hover {
   margin: auto;
   position: absolute;
   top: 0px; left: 0px; bottom: 0px; right: 0px;
-  text-transform: uppercase;
-  font-size: 1.3em;
-  font-family: 'goodfoot', sans-serif;
-  color: #FFF;
   text-align: center;
   transition: all 0.5s ease;
   padding-top: 30px;
 }
 
 .primary_title h1 {
+  font-family: 'goodfoot', sans-serif;
   transform: rotate(-2.5deg);
-  margin-top: 0;
+  text-transform: uppercase;
+  font-size: 1.3em;
+  color: #FFF;
 }
 
 .host_listing {
@@ -269,7 +273,7 @@ nav li a:hover, .faq_nav a:hover {
 }
 
 .listing_row a:after {
-  font-family: Arial; /*Different font in order to display the icon*/
+  font-family: arial; /*Different font in order to display the icon*/
   content: "ᐳ";
   position: absolute;
   top: 30px; right: 30px;
@@ -316,7 +320,7 @@ nav li a:hover, .faq_nav a:hover {
   }
 
   .listing_row a:after {
-    font-family: Arial; /*Different font in order to display the icon*/
+    font-family: arial; /*Different font in order to display the icon*/
     content: "ᐳ";
     position: absolute;
     top: 30px; right: 100px;
@@ -421,18 +425,15 @@ nav li a:hover, .faq_nav a:hover {
 
   li:hover .nav_dropdown {
     display: block;
-  }
-
-  .has_dropdown {
-    position: relative;
-  }
-
-  .nav_dropdown {
     position: absolute;
     top: 100%;
     left: -10px;
     text-align: left;
     background: rgba(0, 0, 0, 0.75);
+  }
+
+  .has_dropdown {
+    position: relative;
   }
 
   .nav_dropdown li {
