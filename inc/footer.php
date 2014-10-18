@@ -1,5 +1,5 @@
 <footer>
-  <div class="footer_wrapper">
+  <div class="footer_wrapper" id="contact">
     <h4>breaking the ice</h4>
     <p>
       <i class="icon icon_mail"></i>

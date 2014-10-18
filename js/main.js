@@ -113,4 +113,23 @@ $('.nav_dropdown').hover(
    function(){ $('#changeableBorder').addClass('current') },
    function(){ $('#changeableBorder').removeClass('current') }
 
+)
+$('.contact_dropdown').hover(
+   function(){ $('#changeableBorder_contact').addClass('current') },
+   function(){ $('#changeableBorder_contact').removeClass('current') }
+
 ) //Solution for adding current class to parent element when hovering on child found from http://css-tricks.com/snippets/jquery/addingremoving-class-on-hover/
+
+
+$('#contact_has_dropdown').click(function(){
+  $('.contact_dropdown').css("display", "block");
+});
+
+$('#contact_has_dropdown').mouseleave(function(){
+  $('.contact_dropdown').css("display", "none");
+});
+
+// $('#contact_has_dropdown').hover(
+//   function() {$('.contact_dropdown').css("display", "block")},
+//   function() {$('.contact_dropdown').css("display", "none")}
+//   )

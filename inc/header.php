@@ -30,8 +30,24 @@
           <li><a href="/project1/hosts.php"
             <?php if ($thisPage === "Hosts") echo "class='current'"; ?>>Our Hosts</a>
           </li>
-          <li><a href="/project1/contact.php"
-            <?php if ($thisPage === "Contact") echo "class='current'"; ?>>Contact</a>
+          <li class="has_dropdown" id="contact_has_dropdown">
+            <a href="#" id="changeableBorder_contact">Contact</a>
+            <div class="contact_dropdown">
+              <div class="inner">
+                <p>
+                  <i class="icon icon_mail"></i>
+                  <a href="mailto:nicholedwight@gmail.com">nicholedwight@gmail.com</a>
+                </p>
+                <p>
+                  <i class="icon icon_phone"></i>
+                  +44 1234 123456
+                </p>
+                <p>
+                  <i class="icon icon_twitter"></i>
+                  <a href="https://twitter.com/breakingiceland">@breakingiceland</a>
+                </p>
+              </div>
+            </div>
           </li>
           <li class="has_dropdown"><a href="/project1/faq.php" id="changeableBorder"
             <?php if (substr($thisPage, 0, 3) === "FAQ") echo "class='current'"; ?>>Practical Info</a>

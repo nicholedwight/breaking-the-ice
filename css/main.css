@@ -101,6 +101,7 @@ aside {
 
 main {
   min-height: 90%;
+  height: 90%;
   margin-bottom: -258px;
 }
 
@@ -186,7 +187,7 @@ header {
   position: absolute;
 }
 
-.logo:hover .logo_text {
+.logo:hover .logo_text, .contact_dropdown .icon {
   color: #00CD9B;
 }
 
@@ -261,8 +262,28 @@ nav li a:hover, .faq_nav a:hover {
   transition: color 0.75s ease 0s;
 }
 
-.faq_nav {
+.faq_nav, .contact_dropdown {
   display: none;
+}
+
+.contact_dropdown {
+  background: rgba(0, 0, 0, 0.75);
+  width: 450px;
+  margin: 0px 20px;
+  position: absolute;
+  top: 100%;
+  right: -27px;
+  text-align: left;
+}
+
+.inner a {
+  display: inline;
+  padding: 0px;
+}
+
+.inner {
+  padding-left: 20px;
+  color: #CCC;
 }
 
 .menu_button {
@@ -288,6 +309,7 @@ nav li a:hover, .faq_nav a:hover {
   background: #DDD;
   border-color: #DDD;
 }
+
 
 .primary_header {
   background: url('../img/iceball.png'); /*Image created by me*/
@@ -497,7 +519,7 @@ nav li a:hover, .faq_nav a:hover {
     display: block;
     position: absolute;
     top: 100%;
-    left: -10px;
+    left: 3px;
     text-align: left;
     background: rgba(0, 0, 0, 0.75);
   }
@@ -511,7 +533,7 @@ nav li a:hover, .faq_nav a:hover {
     background: none;
   }
 
-  .nav_dropdown a:after, .nav_dropdown a:before{
+  .nav_dropdown a:after, .nav_dropdown a:before, .contact_dropdown a:before, .contact_dropdown a:after {
     border: none;
     height: 0px;
   }
