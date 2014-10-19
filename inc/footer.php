@@ -8,7 +8,7 @@
       <a href="mailto:nicholedwight@gmail.com">
         <i class="icon icon_mail"></i>
       </a> /
-      <a href="https://twitter.com/breakingiceland">
+      <a href="https://twitter.com/breakingiceland" target="_blank">
         <i class="icon icon_twitter"></i>
       </a>
     </p>
