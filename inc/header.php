@@ -4,12 +4,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="UTF-8">
   <title>Breaking The Ice</title>
-  <link rel="stylesheet" type="text/css" href="/project1/css/main.css">
-  <link href="css/lightbox.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="/project1/assets/css/main.css">
+  <link href="/project1/assets/css/lib/lightbox.css" rel="stylesheet">
   <link rel="icon" type="image/png" href="/project1/img/favicon.png">
-  <script type="text/javascript" src="/project1/js/instafeed.min.js"></script>
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
 </head>
 <body>
   <header class="l_main_header">

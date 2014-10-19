@@ -15,12 +15,13 @@
     <p class="copyright">&#169; 2014 Nichole Dwight / Made in Iceland</p>
   </div>
 </footer>
-
-<script src="js/main.js"></script>
-<script src="js/jquery-1.11.0.min.js"></script>
-<script src="js/lightbox.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+<script src="/project1/assets/js/lib/jquery-1.11.0.min.js"></script>
+<script src="/project1/assets/js/lib/instafeed.min.js"></script>
+<script src="/project1/assets/js/lib/lightbox.min.js"></script>
+<script src="/project1/assets/js/main.js"></script>
 <noscript>
-<link rel="stylesheet" type="text/css" href="css/nojs.css"><!--css styles for when javascript is disabled-->
+<link rel="stylesheet" type="text/css" href="/assets/css/nojs.css"><!--css styles for when javascript is disabled-->
 </noscript>
 </body>
 </html>

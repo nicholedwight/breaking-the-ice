@@ -1,0 +1,12 @@
+{
+  "name": "breakingtheice",
+  "version": "0.0.1",
+  "devDependencies": {
+    "gulp": "*",
+    "gulp-changed": "*",
+    "gulp-imagemin": "*",
+    "gulp-livereload": "*",
+    "gulp-sass": "*",
+    "node-sass": "^0.9.3"
+  }
+}

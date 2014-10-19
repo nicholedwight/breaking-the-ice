@@ -1,31 +1,31 @@
 @import url(http://fonts.googleapis.com/css?family=Abel);
 @font-face {
     font-family: 'goodfoot';
-    src: url('../fonts/goodfoot-webfont.eot');
-    src: url('../fonts/goodfoot-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/goodfoot-webfont.woff') format('woff'),
-         url('../fonts/goodfoot-webfont.ttf') format('truetype'),
-         url('../fonts/goodfoot-webfont.svg#good_foot') format('svg');
+    src: url('/project1/fonts/goodfoot-webfont.eot');
+    src: url('/project1/fonts/goodfoot-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/project1/fonts/goodfoot-webfont.woff') format('woff'),
+         url('/project1/fonts/goodfoot-webfont.ttf') format('truetype'),
+         url('/project1/fonts/goodfoot-webfont.svg#good_foot') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'entypo-social';
-    src: url('../fonts/entypo-social.eot');
-    src: url('../fonts/entypo-social.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/entypo-social.woff') format('woff'),
-         url('../fonts/entypo-social.ttf') format('truetype'),
-         url('../fonts/entypo-social.svg#good_foot') format('svg');
+    src: url('/project1/fonts/entypo-social.eot');
+    src: url('/project1/fonts/entypo-social.eot?#iefix') format('embedded-opentype'),
+         url('/project1/fonts/entypo-social.woff') format('woff'),
+         url('/project1/fonts/entypo-social.ttf') format('truetype'),
+         url('/project1/fonts/entypo-social.svg#good_foot') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
     font-family: 'entypo';
-    src: url('../fonts/entypo.eot');
-    src: url('../fonts/entypo.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/entypo.woff') format('woff'),
-         url('../fonts/entypo.ttf') format('truetype'),
-         url('../fonts/entypo.svg#good_foot') format('svg');
+    src: url('/project1/fonts/entypo.eot');
+    src: url('/project1/fonts/entypo.eot?#iefix') format('embedded-opentype'),
+         url('/project1/fonts/entypo.woff') format('woff'),
+         url('/project1/fonts/entypo.ttf') format('truetype'),
+         url('/project1/fonts/entypo.svg#good_foot') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -290,7 +290,7 @@ nav li a:hover, .faq_nav a:hover {
 
 
 .primary_header {
-  background: url('../img/iceball.png'); /*Image created by me*/
+  background: url('../img/iceball.jpg'); /*Image created by me*/
   background-position: 49% -3%;
   background-repeat: no-repeat;
   background-attachment: fixed; /*CSS alternative to a JS parallax background, helps scoll performance of the site*/
@@ -300,13 +300,13 @@ nav li a:hover, .faq_nav a:hover {
 
 .primary_header:before {
     content: '';
-		position: absolute;
-		top: 0;
-		right: 0;
-		bottom: 0;
-		left: 0;
-		background-image: linear-gradient(to bottom right,#000,#000);
-		opacity: .15;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom right,#000,#000);
+    opacity: .15;
   }
 
 .primary_title {
@@ -614,4 +614,9 @@ nav li a:hover, .faq_nav a:hover {
 
 .cf:after {
     clear: both;
+}
+
+$test: 'red';
+* {
+  background-color: $test !important;
 }
