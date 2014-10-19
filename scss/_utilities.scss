@@ -21,6 +21,15 @@
   width: 195px;
 }
 
+main:before,
+main:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+main:after {
+    clear: both;
+}
 .cf:before,
 .cf:after {
     content: " "; /* 1 */

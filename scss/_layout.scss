@@ -1,7 +1,8 @@
 main {
   min-height: 90%;
+  @include column(12);
   height: auto;
-  margin-bottom: -258px;
+  margin-top: 100px;
 }
 
 section {
@@ -35,6 +36,7 @@ footer {
   padding-top: 20px;
   height: auto;
   margin-top: 258px;
+  @include column(12);
 }
 
 .footer_wrapper {
@@ -72,8 +74,4 @@ footer {
 }
 
 @media all and (min-width: 700px) {
-  main {
-    height: 100%; /*Overwritten because auto prevents the google map from overriding the footer on mobile and 100% keeps it from going offscreen in desktop*/
-  }
-
 }

@@ -85,3 +85,5 @@ function setMarkers(map, locations) {
 }
 
 google.maps.event.addDomListener(window, 'load', initialize);
+
+$('.map_wrapper').css('height', $('main').height());

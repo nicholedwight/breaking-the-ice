@@ -35,6 +35,30 @@
           <p class="ellipsis">About the host...</p>
         </a>
       </li>
+      <li class="listing_row">
+        <a href="#">
+          <h2>The Fifth Family</h2>
+          <p class="ellipsis">About the host...</p>
+        </a>
+      </li>
+      <li class="listing_row">
+        <a href="#">
+          <h2>The Fifth Family</h2>
+          <p class="ellipsis">About the host...</p>
+        </a>
+      </li>
+      <li class="listing_row">
+        <a href="#">
+          <h2>The Fifth Family</h2>
+          <p class="ellipsis">About the host...</p>
+        </a>
+      </li>
+      <li class="listing_row">
+        <a href="#">
+          <h2>The Fifth Family</h2>
+          <p class="ellipsis">About the host...</p>
+        </a>
+      </li>
     </ul>
     <aside class="map_wrapper">
       <div id="map-canvas"></div>
