@@ -17,6 +17,7 @@
       <div id="instafeed"></div>
     </aside>
   </main>
+<?php include('inc/footer.php'); ?>
 <script type="text/javascript">
     var feed = new Instafeed({
         get: 'tagged',
@@ -29,4 +30,3 @@
     });
     feed.run();
 </script>
-<?php include('inc/footer.php'); ?>
