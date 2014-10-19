@@ -86,4 +86,7 @@ function setMarkers(map, locations) {
 
 google.maps.event.addDomListener(window, 'load', initialize);
 
-$('.map_wrapper').css('height', $('main').height());
+var width = $(window).width();
+if (width >= '700') {
+  $('.map_wrapper').css('height', $('main').height()); //changes the height of google maps based on screen size
+}
