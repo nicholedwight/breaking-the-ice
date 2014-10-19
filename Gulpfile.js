@@ -8,7 +8,9 @@ var changed = require('gulp-changed');
 
 var paths = {
   styles: 'scss/**/*.scss',
-  images: 'img/**/*'
+  images: 'img/**/*',
+  scripts: 'js/**/*.js',
+  fonts: 'fonts/**/*'
 };
 
 gulp.task('styles', function() {
@@ -28,6 +30,16 @@ gulp.task('images', function() {
       optimizationLevel: 9
     }))
     .pipe(gulp.dest('assets/img'));
+});
+
+gulp.task('scripts', function() {
+  return gulp.src(paths.scripts)
+    .pipe(gulp.dest('assets/js'));
+});
+
+gulp.task('fonts', function() {
+  return gulp.src(paths.fonts)
+    .pipe(gulp.dest('assets/fonts'));
 });
 
 // Rerun the task when a file changes

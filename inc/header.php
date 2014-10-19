@@ -11,7 +11,7 @@
 <body>
   <header class="l_main_header">
     <div class="logo">
-      <a href="index.php">
+      <a href="/project1/index.php">
         <p class="logo_text">breaking the ice</p>
         <?php include("logo.svg"); ?>
       </a>
