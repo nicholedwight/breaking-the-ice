@@ -605,3 +605,13 @@ nav li a:hover, .faq_nav a:hover {
   text-overflow: ellipsis;
   width: 195px;
 }
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}

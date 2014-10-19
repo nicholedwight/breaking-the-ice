@@ -6,7 +6,7 @@
       <h1>This is a place for those who explore</h1>
     </div>
   </section>
-  <main class="main_wrapper" role="main">
+  <main class="main_wrapper cf" role="main">
     <a id="skip"> </a>
     <h1>About Us</h1>
     <article class="l_main_content left">
