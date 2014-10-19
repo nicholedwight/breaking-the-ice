@@ -4,7 +4,7 @@
   <main role="main">
     <a id="skip"> </a>
     <h1>Our Sponsored Hosts</h1>
-    <ul class="host_listing">
+    <ul class="host_listing list_neutral">
       <li class="listing_row">
         <a href="#">
           <h2>The Vilhjálmsson Family</h2>

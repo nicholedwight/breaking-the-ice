@@ -1,0 +1,22 @@
+.icon {
+  font-family: 'entypo-social', 'entypo';
+  content: '';
+  line-height: 0.7em;
+  margin: 0 5px;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 3em;
+  font-style: normal;
+}
+
+.icon_twitter:before {
+  content: '\F309';
+}
+
+.icon_mail:before {
+  content: '\2709';
+}
+
+.icon_phone:before {
+  content: '\1F4DE';
+}

@@ -1,0 +1,36 @@
+.map_wrapper {
+  height: 300px;
+}
+
+.map_wrapper img { /*this is required to override img max-width of 100% because it messes up the google maps and looks broken*/
+  max-width: none;
+}
+
+@media all and (min-width: 700px) {
+
+  .map_wrapper {
+    height: 100%;
+    width: 50%;
+  }
+
+  .left {
+    float: left;
+    max-width: 55%;
+  }
+
+  .right {
+    float: right;
+    max-width: 41%;
+  }
+}
+
+#map-canvas {
+  height: 100%;
+  max-width: 100%;
+  background-color: #CCC;
+}
+
+#instafeed {
+  max-width: 500px;
+  margin: 0 auto;
+}

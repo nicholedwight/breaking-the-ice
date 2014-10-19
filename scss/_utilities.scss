@@ -1,0 +1,32 @@
+.copyright {
+  font-size: 0.6em;
+  margin: 0 auto;
+  width: 90%;
+  padding-bottom: 5px;
+}
+
+.offscreen {
+  position:absolute;
+  left:-10000px;
+  top:auto;
+  width:1px;
+  height:1px;
+  overflow:hidden;
+}
+
+.ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 195px;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}

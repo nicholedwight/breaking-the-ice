@@ -1,0 +1,79 @@
+main {
+  min-height: 90%;
+  height: auto;
+  margin-bottom: -258px;
+}
+
+section {
+  height: 450px;
+  overflow: hidden;
+}
+
+article {
+  width: 100%;
+  margin: 0 auto;
+  /*background: #2A2A2A;*/
+  background: #FFF;
+}
+
+aside {
+  text-align: center;
+}
+
+header {
+  background-color: #333;
+}
+
+img {
+  max-width: 100%;
+}
+
+footer {
+  text-align: center;
+  background-color: #1A1A1A;
+  color: #666;
+  padding-top: 20px;
+  height: auto;
+  margin-top: 258px;
+}
+
+.footer_wrapper {
+  background-color: #2A2A2A;
+  width: 90%;
+  text-align: left;
+  padding: 3px 20px;
+  margin: 0 auto;
+  color: #CCC;
+  text-align: center;
+}
+
+.main_wrapper {
+  padding: 15px;
+}
+
+.secondary_wrapper {
+  padding: 0px 20px 0 40px;
+  margin: 170px auto;
+  max-width: 1000px;
+}
+
+
+@media all and (min-width: 330px) {
+  section {
+    height: 505px;
+  }
+}
+
+@media all and (min-width: 590px) {
+
+  section {
+    height: 500px;
+  }
+}
+
+@media all and (min-width: 700px) {
+  main {
+    height: 100%; /*Overwritten because auto prevents the google map from overriding the footer on mobile and 100% keeps it from going offscreen in desktop*/
+  }
+
+}

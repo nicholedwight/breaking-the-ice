@@ -1,0 +1,48 @@
+h1, h2, h3, h4 {
+  font-family: 'Abel', arial; /*Fallback font*/
+  line-height: 1.25;
+  letter-spacing: -1px;
+  /*color: #FFF;*/
+  color: #666366;
+  margin: 0;
+}
+
+h1, h3, h4 {
+  font-size: 35px;
+}
+
+h2 {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #FFF;
+}
+
+article p, article h2 {
+  padding: 0 25px;
+  max-width: 95%;
+}
+
+p {
+  line-height: 25px;
+}
+
+footer a:hover {
+  color: #00CD9B;
+  transition: all 0.5s ease-in-out;
+}
+
+.current, a.faq_current {
+  color: #00CD9B;
+}
+
+@media all and (min-width: 700px) {
+
+  .current:after {
+    border-color: #00CD9B;
+    height: 87%;
+  }
+}

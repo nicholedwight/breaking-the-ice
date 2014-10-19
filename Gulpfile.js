@@ -49,6 +49,7 @@ gulp.task('watch', function() {
   gulp.watch(paths.scripts, ['scripts']);
   gulp.watch(paths.styles, ['styles']);
   gulp.watch(paths.images, ['images']);
+  gulp.watch(paths.fonts, ['fonts']);
 
   gulp.watch('assets/**').on('change', function(file) {
     server.changed(file.path);

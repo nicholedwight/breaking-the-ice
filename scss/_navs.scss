@@ -1,0 +1,141 @@
+nav {
+  padding: 25px 20px 0 20px;
+  color: #fff;
+  float: right;
+  text-align: center;
+  margin-top: -1px;
+  width: 100%;
+}
+
+nav ul {
+  display: none;
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+nav ul.expanded {
+  display: block;
+}
+
+nav li a {
+  display: block;
+  padding: 15px 0;
+  font-size: 16px;
+  color: #CCC;
+  text-decoration: none;
+}
+
+nav li a:hover, .faq_nav a:hover {
+  color: #00CD9B;
+  transition: color 0.75s ease 0s;
+}
+
+@media all and (min-width: 700px) {
+
+  nav {
+    width: 58%;
+    padding: 15px 20px 0 20px;
+  }
+
+  nav ul {
+    display: block;
+  }
+
+  nav li {
+    display: inline-block;
+    padding: 0px 10px 3px 10px;
+    position: relative;
+    width: auto;
+  }
+
+  nav a:before {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 97%;
+    height: 2px;
+    content: "";
+    transition: top 0.25s ease-in-out 0s;
+  }
+
+  nav a:after {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 0px;
+    width: 97%;
+    border-top: 2px solid #FFF;
+    border-left: 2px solid #FFF;
+    border-right: 2px solid #FFF;
+    border-bottom: 2px solid #FFF;
+    content: "";
+    transition: height 0.25s ease-in-out 0s;
+  }
+
+  nav a:hover:after {
+    height: 87%;
+    border-color: #00CD9B;
+  }
+
+  .faq_nav {
+    display: block;
+    width: 100%;
+    border-top: 2px  solid #CCC;
+    border-bottom: 2px solid #CCC;
+    background: none repeat scroll 0% 0% #F8FAFA;
+    height: 44px;
+    max-width: 1000px;
+    margin: 5px auto 10px;
+    padding-left: 40px;
+    position: relative;
+    text-align: center;
+  }
+
+  .faq_nav li {
+    display: inline-block;
+    height: 40px;
+    line-height: 20px;
+    padding: 10px 1%;
+    margin-right: 10px;
+  }
+
+  .faq_nav a {
+    color: #000;
+  }
+
+  .nav_dropdown {
+    display: none;
+  }
+
+  li:hover .nav_dropdown {
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: -5px;
+    text-align: left;
+    background: rgba(0, 0, 0, 0.75);
+  }
+
+  .has_dropdown {
+    position: relative;
+  }
+
+  .nav_dropdown li {
+    padding-left: 10px;
+    background: none;
+  }
+
+  .nav_dropdown a:after, .nav_dropdown a:before, .contact_dropdown a:before, .contact_dropdown a:after {
+    border: none;
+    height: 0px;
+  }
+
+}
+
+@media all and (min-width: 900px) {
+  nav {
+    width: 47%;
+  }
+}

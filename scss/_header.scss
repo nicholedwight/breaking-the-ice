@@ -1,0 +1,124 @@
+.logo {
+  display: inline-block;
+  height: 200px;
+  width: 150px;
+  position: absolute;
+}
+
+.logo:hover .logo_text, .contact_dropdown .icon {
+  color: #00CD9B;
+}
+
+/*Styles for SVG logo*/
+.upper, .lower {
+  -moz-transition:all 1s ease-in-out;
+  -o-transition:all 1s ease-in-out;
+  -webkit-transition:all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+.logo:hover .lower { fill: #FFF; }
+.logo:hover .upper { fill: #00CD9B; stroke: #00CD9B; }
+/*End of SVG logo styles*/
+
+.logo_text {
+  width: 160px;
+  font-family: 'goodfoot', arial;
+  letter-spacing: 0.05em;
+  position: absolute;
+  top: 18px;
+  left: 90px;
+  font-size: 1.2em;
+  -moz-transition:all 1s ease-in-out;
+  -o-transition:all 1s ease-in-out;
+  -webkit-transition:all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+.main_logo {
+  margin: 10px;
+  position: absolute;
+  top: -14px;
+  width: 80px;
+  -moz-transition:all 0.5s ease-in;
+  -o-transition:all 0.5s ease-in;
+  -webkit-transition:all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+}
+
+.menu_button {
+  display: block;
+  text-align: right;
+  color: #CCC;
+  text-decoration: none;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.menu_button > span {
+  padding: 5px 10px;
+  border: 1px solid #FFF;
+  border-radius: 5px;
+  width: 20px;
+}
+
+.menu_button > span:hover {
+  color: #888;
+  text-decoration: none;
+  transition: color 0.75s ease 0s;
+  background: #DDD;
+  border-color: #DDD;
+}
+
+.l_main_header {
+  background: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  z-index: 1030;
+  margin-bottom: 0px;
+}
+
+@media all and (min-width: 400px) {
+
+  .logo_text {
+    top: 8px;
+    left: 105px;
+    font-size: 1.4em;
+  }
+
+  .main_logo {
+    top: -10px;
+    width: 100px;
+  }
+}
+
+@media all and (min-width: 700px) {
+
+  .menu_button {
+    display: none;
+  }
+
+  .menu_button {
+    display: none;
+  }
+
+  .logo_text {
+    top: 20px;
+    left: 105px;
+    font-size: 1.5em;
+  }
+
+  .main_logo {
+    top: 9px;
+    width: 100px;
+  }
+
+  .primary_title {
+    height: 37%;
+    font-size: 2.5em;
+    top: 0;
+  }
+
+}
