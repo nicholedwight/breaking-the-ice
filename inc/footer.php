@@ -15,7 +15,6 @@
     <p class="copyright">&#169; 2014 Nichole Dwight / Made in Iceland</p>
   </div>
 </footer>
-<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
 <script src="/project1/assets/js/lib/jquery-1.11.0.min.js"></script>
 <script src="/project1/assets/js/lib/instafeed.min.js"></script>
 <script src="/project1/assets/js/lib/lightbox.min.js"></script>
