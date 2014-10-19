@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <title>Breaking The Ice</title>
   <link rel="stylesheet" type="text/css" href="/project1/css/main.css">
+  <link href="css/lightbox.css" rel="stylesheet">
   <link rel="icon" type="image/png" href="/project1/img/favicon.png">
   <script type="text/javascript" src="/project1/js/instafeed.min.js"></script>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>

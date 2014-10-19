@@ -17,6 +17,8 @@
 </footer>
 
 <script src="js/main.js"></script>
+<script src="js/jquery-1.11.0.min.js"></script>
+<script src="js/lightbox.min.js"></script>
 <noscript>
 <link rel="stylesheet" type="text/css" href="css/nojs.css"><!--css styles for when javascript is disabled-->
 </noscript>
