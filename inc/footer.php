@@ -1,16 +1,18 @@
 <footer>
   <div class="footer_wrapper" id="contact">
     <p>
+      <a href="index.html">home</a> /
+      <a href="hosts.php">hosts</a> /
+      <a href="contact.php">contact</a> /
+      <a href="faq.php">practical info</a> /
       <a href="mailto:nicholedwight@gmail.com">
-        <i class="icon icon_mail"></i> nicholedwight@gmail.com
-      </a> |
-      <i class="icon icon_phone"></i>
-      +44 1234 123456 |
+        <i class="icon icon_mail"></i>
+      </a> /
       <a href="https://twitter.com/breakingiceland">
-        <i class="icon icon_twitter"></i> @breakingiceland
+        <i class="icon icon_twitter"></i>
       </a>
     </p>
-    <p class="copyright">&#169; 2014 Nichole Dwight</p>
+    <p class="copyright">&#169; 2014 Nichole Dwight / Made in Iceland</p>
   </div>
 </footer>
 

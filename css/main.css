@@ -121,10 +121,12 @@ footer {
   padding-left: 20px;
   margin: 0 auto;
   color: #CCC;
+  text-align: center;
 }
 
 footer a:hover {
   color: #00CD9B;
+  transition: all 0.5s ease-in-out;
 }
 
 .icon {
@@ -581,12 +583,8 @@ nav li a:hover, .faq_nav a:hover {
 .copyright {
   font-size: 0.6em;
   margin: 0 auto;
-  width: 40%;
+  width: 90%;
   padding-bottom: 5px;
-}
-
-.copyright:hover {
-  color: inherit;
 }
 
 .offscreen {
