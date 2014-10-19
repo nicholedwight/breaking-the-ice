@@ -1,17 +1,14 @@
 <footer>
   <div class="footer_wrapper" id="contact">
-    <h4>breaking the ice</h4>
     <p>
-      <i class="icon icon_mail"></i>
-      <a href="mailto:nicholedwight@gmail.com">nicholedwight@gmail.com</a>
-    </p>
-    <p>
+      <a href="mailto:nicholedwight@gmail.com">
+        <i class="icon icon_mail"></i> nicholedwight@gmail.com
+      </a> |
       <i class="icon icon_phone"></i>
-      +44 1234 123456
-    </p>
-    <p>
-      <i class="icon icon_twitter"></i>
-      <a href="https://twitter.com/breakingiceland">@breakingiceland</a>
+      +44 1234 123456 |
+      <a href="https://twitter.com/breakingiceland">
+        <i class="icon icon_twitter"></i> @breakingiceland
+      </a>
     </p>
     <p class="copyright">&#169; 2014 Nichole Dwight</p>
   </div>

@@ -1,7 +1,7 @@
 <?php $thisPage = "Hosts";
   include('inc/header.php');
 ?>
-  <main class="secondary_wrapper "role="main">
+  <main role="main">
     <a id="skip"> </a>
     <h1>Our Sponsored Hosts</h1>
     <ul class="host_listing">
