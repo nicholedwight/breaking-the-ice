@@ -6,7 +6,7 @@
   <title>Breaking The Ice</title>
   <link rel="stylesheet" type="text/css" href="/project1/assets/css/main.css">
   <link href="/project1/assets/css/lib/lightbox.css" rel="stylesheet">
-  <link rel="icon" type="image/png" href="/project1/img/favicon.png">
+  <link rel="icon" type="image/png" href="/project1/img/favicon.ico">
 </head>
 <body>
   <header class="l_main_header">
@@ -37,7 +37,7 @@
               <ul class="nav_dropdown">
                 <li><a href="/project1/faq.php">General Info</a></li>
                 <li><a href="/project1/faq/how-to-get-here.php">Getting Here</a></li>
-                <li><a href="/project1/faq/weather.php">Weather</a></li>
+                <li><a href="/project1/faq/weather.php">Icelandic Weather</a></li>
                 <li><a href="/project1/faq/accommodation.php">Accommodation</a></li>
                 <li><a href="/project1/faq/testimonials.php">Testimonials</a></li>
               </ul>

@@ -1,6 +1,11 @@
 <?php $thisPage = "FAQ";
   include('inc/header.php');
 ?>
+<section class="primary_header">
+  <div class="primary_title">
+    <h1>Important things</h1>
+  </div>
+</section>
   <main class="secondary_wrapper" role="main">
     <div class="inner_wrapper">
       <a id="skip"> </a>

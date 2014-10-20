@@ -4,6 +4,7 @@
 <main class="secondary_wrapper" role="main">
   <div class="inner_wrapper">
     <a id="skip"> </a>
+    <!-- <img src="http://placekitten.com/g/500/200"> -->
     <?php include('../inc/faq_nav.php');?>
     <article>
       <h1>Weather in Iceland</h1>

@@ -14,12 +14,13 @@ article {
   width: 100%;
   margin: 0 auto;
   /*background: #2A2A2A;*/
-  background: #FFF;
+  // background: #FFF;
   padding: 20px 0;
 }
 
 aside {
   text-align: center;
+  @include column(5);
 }
 
 header {
@@ -33,7 +34,7 @@ img {
 footer {
   text-align: center;
   background-color: #1A1A1A;
-  color: #666;
+  color: $footer-grey;
   padding-top: 20px;
   height: auto;
   margin-top: 258px;
@@ -51,7 +52,7 @@ footer {
 }
 
 .main_wrapper {
-  padding: 15px;
+  padding: 15px 30px;
   margin-top: 0px;
 }
 
@@ -62,6 +63,10 @@ footer {
 .inner_wrapper {
   max-width: 1000px;
   margin: 0 auto;
+}
+
+.l_main_content {
+  @include column(5);
 }
 
 @media all and (min-width: 330px) {

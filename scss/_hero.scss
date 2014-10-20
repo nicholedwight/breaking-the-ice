@@ -1,4 +1,4 @@
-.primary_header {
+.primary_hero {
   background: url('/project1/assets/img/iceball.jpg'); /*Image created by me*/
   background-position: 49% -3%;
   background-repeat: no-repeat;
@@ -7,7 +7,7 @@
   position: relative;
 }
 
-.primary_header:before {
+.primary_hero:before {
     content: '';
     position: absolute;
     top: 0;
@@ -39,7 +39,7 @@
 
 @media all and (min-width: 330px) {
 
-  .primary_header {
+  .primary_hero {
     background-position: 50% -10%;
   }
 
@@ -61,5 +61,13 @@
   .primary_title {
     font-size: 1.5em;
     width: 60%;
+  }
+}
+
+@media all and (min-width: 800px) {
+  .primary_hero {
+    background: url('/project1/assets/img/iceball.jpg'); /*Image created by me*/
+    background-size: cover;
+    background-position: top center;
   }
 }

@@ -1,7 +1,7 @@
 <?php $thisPage="Home";
   include('inc/header.php');
 ?> <!-- Including sections of reusable modular code keeps it clean and readable-->
-  <section class="primary_header">
+  <section class="primary_hero">
     <div class="primary_title">
       <h1>This is a place for those who explore</h1>
     </div>
@@ -25,7 +25,7 @@
         tagName: 'IcelandSecret',
         sortBy: 'most-recent',
         limit: 9,
-        template: '<a href="{{image}}" data-lightbox="instafeed" target="_blank"><img src="{{image}}"></a>',
+        template: '<a href="{{link}}" target="_blank"><img src="{{image}}"></a>',
         clientId: '681cd94df6e14db197a650403668c10b'
     });
     feed.run();
