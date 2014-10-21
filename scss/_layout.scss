@@ -3,6 +3,7 @@ main {
   @include column(12);
   height: auto;
   margin-top: 100px;
+  background: #E6E6E6;
 }
 
 section {
@@ -33,7 +34,7 @@ img {
 
 footer {
   text-align: center;
-  background-color: #1A1A1A;
+  background-color: #D9D9D9;
   color: $footer-grey;
   padding-top: 20px;
   height: auto;
@@ -42,18 +43,34 @@ footer {
 }
 
 .footer_wrapper {
-  background-color: #2A2A2A;
   width: 90%;
   text-align: left;
   padding: 3px 20px;
   margin: 0 auto;
-  color: #CCC;
   text-align: center;
 }
 
 .main_wrapper {
   padding: 15px 30px;
   margin-top: 0px;
+}
+
+.main_content {
+  max-width: 960px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  margin: 80px auto;
+}
+
+.content_item {
+  width: 23%;
+  min-width: 230px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px;
 }
 
 .secondary_wrapper {

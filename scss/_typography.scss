@@ -30,9 +30,19 @@ p {
   line-height: 25px;
 }
 
+footer a {
+  color: $footer-grey;
+}
+
 footer a:hover {
   color: #00CD9B;
   transition: all 0.5s ease-in-out;
+}
+
+.content_item a {
+  font-size: 1.25em;
+  line-height: 1.3em;
+  color: #00CD9B;
 }
 
 .current, a.faq_current {

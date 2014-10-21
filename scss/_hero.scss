@@ -5,6 +5,7 @@
   background-attachment: fixed; /*CSS alternative to a JS parallax background, helps scoll performance of the site*/
   margin-top: -20px;
   position: relative;
+  height: 350px;
 }
 
 .primary_hero:before {
@@ -55,6 +56,10 @@
 
 @media all and (min-width: 400px) {
 
+  .primary_hero {
+    height: 500px;
+  }
+
   .primary_title {
     width: 70%;
   }
@@ -66,7 +71,7 @@
   .primary_title {
     width: 60%;
   }
-  
+
   .primary_title p {
     font-size: 32px;
   }
