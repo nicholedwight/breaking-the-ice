@@ -3,7 +3,11 @@
 ?> <!-- Including sections of reusable modular code keeps it clean and readable-->
   <section class="primary_hero">
     <div class="primary_title">
-      <h1>This is a place for those who explore</h1>
+      <h1>The ultimate tour for those who explore</h1>
+      <div class="headingBorder">
+        <span></span>
+      </div>
+      <p>We're looking for adventurous travelers. Make this your story.</p>
     </div>
   </section>
   <main class="main_wrapper cf" role="main">

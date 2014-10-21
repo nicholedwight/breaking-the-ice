@@ -27,6 +27,7 @@
   text-align: center;
   transition: all 0.5s ease;
   padding-top: 30px;
+  color: #FFF;
 }
 
 .primary_title h1 {
@@ -35,6 +36,43 @@
   text-transform: uppercase;
   font-size: 2.3em;
   color: #FFF;
+}
+
+.primary_title p {
+  font-size: 13px;
+  width: 260px;
+  margin: 0 auto;
+}
+
+.headingBorder {
+  text-align: center;
+  width: 320px;
+  height: 10px;
+  margin: 30px auto;
+  position: relative;
+  color: #FFF;
+}
+
+.headingBorder span {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background: #E1E1E1;
+  border: 2px solid #E1E1E1;
+  border-radius: 5px;
+  position: absolute;
+  margin-left: -5px;
+}
+
+.headingBorder span:before, .headingBorder span:after {
+  border-top: 1px solid #E1E1E1;
+  display: block;
+  height: 1px;
+  content: " ";
+  width: 155px;
+  position: absolute;
+  left: -72px;
+  top: 1px;
 }
 
 @media all and (min-width: 330px) {
