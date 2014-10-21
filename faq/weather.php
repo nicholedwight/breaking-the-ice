@@ -2,12 +2,6 @@
   include('../inc/header.php');
 ?>
 <main class="secondary_wrapper" role="main">
-  <div class="galleria">
-    <img src="/project1/assets/img/jegtnes.jpg">
-    <img src="/project1/assets/img/jegtnes.jpg">
-    <img src="/project1/assets/img/jegtnes.jpg">
-  </div>
-
   <div class="inner_wrapper">
     <a id="skip"> </a>
     <!-- <img src="http://placekitten.com/g/500/200"> -->
@@ -22,7 +16,3 @@
   </div>
 </main>
 <?php include('../inc/footer.php'); ?>
-<script src="/project1/assets/js/lib/galleria-1.4.2.min.js"></script>
-<script>  Galleria.loadTheme('/project1/assets/galleria/themes/classic/galleria.classic.min.js');
-  Galleria.run('.galleria');
-</script>
