@@ -1,10 +1,33 @@
 <?php $thisPage = "FAQ";
   include('inc/header.php');
 ?>
-
   <main class="secondary_wrapper" role="main">
     <div class="inner_wrapper">
       <a id="skip"> </a>
+      <div class=carousel>
+        <ul class=panes>
+          <li>
+            <h2>Pane 01 title</h2>
+            <img src="/project1/assets/img/burkard.jpg" alt="">
+          </li>
+          <li>
+            <h2>Pane 02 title</h2>
+            <img src="/project1/assets/img/2097.jpg" alt="">
+          </li>
+          <li>
+            <h2>Pane 03 title</h2>
+            <img src="/project1/assets/img/burkard.jpg" alt="">
+          </li>
+          <li>
+            <h2>Pane 04 title</h2>
+            <img src="/project1/assets/img/2097.jpg" alt="">
+          </li>
+          <li>
+            <h2>Pane 05 title</h2>
+            <img src="/project1/assets/img/burkard.jpg" alt="">
+          </li>
+        </ul>
+      </div>
       <?php include('inc/faq_nav.php'); ?>
       <h1>Practical Info</h1>
       <article>
