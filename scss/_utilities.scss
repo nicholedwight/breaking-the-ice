@@ -21,6 +21,11 @@
   width: 195px;
 }
 
+.forecast {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
 main:before,
 main:after {
     content: " "; /* 1 */
