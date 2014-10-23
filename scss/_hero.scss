@@ -1,11 +1,24 @@
 .primary_hero {
-  background: url('/project1/assets/img/iceball.jpg'); /*Image created by me*/
+  // background: url('/project1/assets/img/iceball.jpg'); /*Image created by me*/
+  // background: url('/project1/assets/img/surfgirl.jpg');
   background-position: 49% -3%;
   background-repeat: no-repeat;
   background-attachment: fixed; /*CSS alternative to a JS parallax background, helps scoll performance of the site*/
   margin-top: -20px;
   position: relative;
   height: 350px;
+}
+
+.hero {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  margin: auto;
+  width: 50%;
+  height: auto;
+  min-width: 960px;
 }
 
 .primary_hero:before {
@@ -79,7 +92,8 @@
 
 @media all and (min-width: 800px) {
   .primary_hero {
-    background: url('/project1/assets/img/iceball.jpg'); /*Image created by me*/
+    // background: url('/project1/assets/img/iceball.jpg'); /*Image created by me*/
+    // background: url('/project1/assets/img/surfgirl.jpg');
     background-size: cover;
     background-position: top center;
   }
