@@ -20,3 +20,14 @@
 .icon_phone:before {
   content: '\1F4DE';
 }
+
+.nav-icons {
+  fill: #5C5B5C;
+  margin: 0 auto;
+  height: 80px;
+}
+
+.content_item:hover > .nav-icons * {
+  fill: #00CD9B;
+  transition: all 0.5s ease-in-out;
+}

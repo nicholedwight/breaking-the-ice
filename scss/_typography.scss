@@ -34,7 +34,7 @@ footer a {
   color: $footer-grey;
 }
 
-footer a:hover {
+footer a:hover, .content_item:hover a {
   color: #00CD9B;
   transition: all 0.5s ease-in-out;
 }
@@ -42,7 +42,7 @@ footer a:hover {
 .content_item a {
   font-size: 1.25em;
   line-height: 1.3em;
-  color: #00CD9B;
+  color: #5C5B5C;
 }
 
 .current, a.faq_current {

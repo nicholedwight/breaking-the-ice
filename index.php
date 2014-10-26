@@ -14,10 +14,12 @@
         <p>Typewriter drinking vinegar narwhal cardigan. Forage seitan chia craft beer tattooed YOLO viral, bicycle rights kale chips. Tilde roof party DIY Truffaut, gluten-free pickled wayfarers beard readymade banh mi locavore Austin chia selfies.</p>
       </div>
       <div class="content_item">
+        <?php include('inc/hosts-icon.svg'); ?>
         <h2><a href="#">Hosts</a></h2>
         <p>Typewriter drinking vinegar narwhal cardigan. Forage seitan chia craft beer tattooed YOLO viral, bicycle rights kale chips. Tilde roof party DIY Truffaut, gluten-free pickled wayfarers beard readymade banh mi locavore Austin chia selfies.</p>
       </div>
       <div class="content_item">
+        <?php include('inc/contact-icon.svg'); ?>
         <h2><a href="#">Contact</a></h2>
         <p>Typewriter drinking vinegar narwhal cardigan. Forage seitan chia craft beer tattooed YOLO viral, bicycle rights kale chips. Tilde roof party DIY Truffaut, gluten-free pickled wayfarers beard readymade banh mi locavore Austin chia selfies.</p>
       </div>
