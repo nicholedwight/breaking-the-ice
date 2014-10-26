@@ -10,6 +10,7 @@
     <a id="skip"> </a>
     <div class="main_content">
       <div class="content_item">
+        <?php include('inc/about-icon.svg'); ?>
         <h2><a href="#">About</a></h2>
         <p>Typewriter drinking vinegar narwhal cardigan. Forage seitan chia craft beer tattooed YOLO viral, bicycle rights kale chips. Tilde roof party DIY Truffaut, gluten-free pickled wayfarers beard readymade banh mi locavore Austin chia selfies.</p>
       </div>
