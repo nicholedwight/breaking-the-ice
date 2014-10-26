@@ -9,18 +9,6 @@
   color: #00CD9B;
 }
 
-/*Styles for SVG logo*/
-.upper, .lower {
-  -moz-transition:all 1s ease-in-out;
-  -o-transition:all 1s ease-in-out;
-  -webkit-transition:all 1s ease-in-out;
-  transition: all 1s ease-in-out;
-}
-
-.logo:hover .lower { fill: #FFF; }
-.logo:hover .upper { fill: #00CD9B; stroke: #00CD9B; }
-/*End of SVG logo styles*/
-
 .logo_text {
   width: 160px;
   font-family: 'goodfoot', arial;
@@ -70,7 +58,17 @@
   border-color: #DDD;
 }
 
-.l_main_header {
+.l_index_header {
+  // background: rgba(0, 0, 0, 0.75);
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  z-index: 1030;
+  margin-bottom: 0px;
+}
+
+.l_secondary_header {
   background: rgba(0, 0, 0, 0.75);
   position: absolute;
   top: 0px;

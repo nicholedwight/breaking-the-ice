@@ -9,7 +9,11 @@
   <link rel="icon" type="image/png" href="/project1/img/favicon.ico">
 </head>
 <body>
-  <header class="l_main_header">
+  <?php if ($thisPage === "Home") { ?>
+  <header class="l_index_header">
+  <?php } else {?>
+  <header class="l_secondary_header">
+  <?php } ?>
     <div class="logo">
       <a href="/project1/index.php">
         <p class="logo_text">breaking the ice</p>

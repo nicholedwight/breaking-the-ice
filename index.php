@@ -1,17 +1,9 @@
 <?php $thisPage="Home";
   include('inc/header.php');
 ?> <!-- Including sections of reusable modular code keeps it clean and readable-->
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1">
-  <defs>
-    <filter id="blur">
-      <feGaussianBlur stdDeviation="5" />
-    </filter>
-  </defs>
-</svg>
   <section class="primary_hero">
-    <img src="/project1/assets/img/surfgirl.jpg" class="hero">
     <div class="primary_title">
-      <p>The ultimate tour for those who explore, who want to live a life of adventure. Make this your story. </p>
+      <p>Find your escape</p>
   </section>
   <main class="main_wrapper cf" role="main">
     <div class="glass">
