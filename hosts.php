@@ -7,32 +7,29 @@
     <ul class="host_listing list_neutral">
       <li class="listing_row">
         <a href="#">
+          <img src="/project1/assets/img/kitchen1thumb.jpg">
           <h2>The Vilhjálmsson Family</h2>
-          <p class="ellipsis">IPhone authentic small batch, squid photo booth single-origin coffee hoodie before they sold out. IPhone trust fund stumptown, retro biodiesel whatever twee scenester disrupt mlkshk authentic. Cosby sweater Truffaut try-hard four loko, fixie Neutra pop-up Tonx tilde banh mi hella. Gluten-free put a bird on it narwhal aesthetic. DIY hoodie tofu Vice, gluten-free skateboard four loko chia heirloom tattooed mixtape. Bushwick ugh mlkshk Tumblr iPhone. Mixtape Etsy seitan, Truffaut chia drinking vinegar literally you probably haven't heard of them Helvetica Carles.</p>
         </a>
       </li>
       <li class="listing_row">
         <a href="#">
-          <h2>The Second Family</h2>
-          <p class="ellipsis">IPhone authentic small batch, squid photo booth single-origin coffee hoodie before they sold out. IPhone trust fund stumptown, retro biodiesel whatever twee scenester disrupt mlkshk authentic. Cosby sweater Truffaut try-hard four loko, fixie Neutra pop-up Tonx tilde banh mi hella. Gluten-free put a bird on it narwhal aesthetic. DIY hoodie tofu Vice, gluten-free skateboard four loko chia heirloom tattooed mixtape. Bushwick ugh mlkshk Tumblr iPhone. Mixtape Etsy seitan, Truffaut chia drinking vinegar literally you probably haven't heard of them Helvetica Carles.</p>
+          <img src="/project1/assets/img/Thor.jpg">
+          <h2>The Björnsson Family</h2>
         </a>
       </li>
       <li class="listing_row">
         <a href="#">
           <h2>The Third Family</h2>
-          <p class="ellipsis">About the host...</p>
         </a>
       </li>
       <li class="listing_row">
         <a href="#">
           <h2>The Fourth Family</h2>
-          <p class="ellipsis">About the host...</p>
         </a>
       </li>
       <li class="listing_row">
         <a href="#">
           <h2>The Fifth Family</h2>
-          <p class="ellipsis">About the host...</p>
         </a>
       </li>
     </ul>

@@ -1,7 +1,7 @@
 .list_neutral {
   display: block;
   list-style: none;
-  padding: 0;
+  padding: 0 0 0 5px;
 }
 
 .host_listing > li > a {
@@ -16,6 +16,18 @@
   content: "ᐳ";
   position: absolute;
   top: 30px; right: 30px;
+}
+
+.listing_row {
+  border-bottom: 1px solid #5C5B5C;
+  padding-bottom: 20px;
+  height: 100px;
+}
+
+.listing_row > a > img {
+  float: left;
+  clear: left;
+  margin-right: 10px;
 }
 
 
