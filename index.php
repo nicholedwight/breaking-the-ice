@@ -10,25 +10,28 @@
     <a id="skip"> </a>
     <div class="main_content">
       <div class="content_item">
-        <?php include('inc/about-icon.svg'); ?>
-        <h2><a href="/project1/faq.php">About</a></h2>
-        <p>Typewriter drinking vinegar narwhal cardigan. Forage seitan chia craft beer tattooed YOLO viral, bicycle rights kale chips. Tilde roof party DIY Truffaut, gluten-free pickled wayfarers beard readymade banh mi locavore Austin chia selfies.</p>
+        <a href="/project1/faq.php">
+          <?php include('inc/about-icon.svg'); ?>
+          <h2>About</h2>
+          <p>Typewriter drinking vinegar narwhal cardigan. Forage seitan chia craft beer tattooed YOLO viral, bicycle rights kale chips. Tilde roof party DIY Truffaut, gluten-free pickled wayfarers beard readymade banh mi locavore Austin chia selfies.</p>
+        </a>
       </div>
       <div class="content_item">
-        <?php include('inc/hosts-icon.svg'); ?>
-        <h2><a href="/project1/hosts.php">Hosts</a></h2>
-        <p>Typewriter drinking vinegar narwhal cardigan. Forage seitan chia craft beer tattooed YOLO viral, bicycle rights kale chips. Tilde roof party DIY Truffaut, gluten-free pickled wayfarers beard readymade banh mi locavore Austin chia selfies.</p>
+        <a href="/project1/hosts.php">
+          <?php include('inc/hosts-icon.svg'); ?>
+          <h2>Hosts</h2>
+          <p>Typewriter drinking vinegar narwhal cardigan. Forage seitan chia craft beer tattooed YOLO viral, bicycle rights kale chips. Tilde roof party DIY Truffaut, gluten-free pickled wayfarers beard readymade banh mi locavore Austin chia selfies.</p>
+        </a>
       </div>
       <div class="content_item">
-        <?php include('inc/contact-icon.svg'); ?>
-        <h2><a href="/project1/contact.php">Contact</a></h2>
-        <p>Typewriter drinking vinegar narwhal cardigan. Forage seitan chia craft beer tattooed YOLO viral, bicycle rights kale chips. Tilde roof party DIY Truffaut, gluten-free pickled wayfarers beard readymade banh mi locavore Austin chia selfies.</p>
+        <a href="/project1/contact.php">
+          <?php include('inc/contact-icon.svg'); ?>
+          <h2>Contact</h2>
+          <p>Typewriter drinking vinegar narwhal cardigan. Forage seitan chia craft beer tattooed YOLO viral, bicycle rights kale chips. Tilde roof party DIY Truffaut, gluten-free pickled wayfarers beard readymade banh mi locavore Austin chia selfies.</p>
+        </a>
       </div>
     </div>
     <!-- <h1>What We Do</h1>
-    <article class="l_main_content left">
-      <p>Typewriter drinking vinegar narwhal cardigan. Forage seitan chia craft beer tattooed YOLO viral, bicycle rights kale chips. Tilde roof party DIY Truffaut, gluten-free pickled wayfarers beard readymade banh mi locavore Austin chia selfies. Mumblecore YOLO mlkshk salvia, single-origin coffee fashion axe leggings selfies swag sartorial Bushwick Pinterest Truffaut trust fund Schlitz. Put a bird on it PBR&B YOLO bespoke cliche, Thundercats swag mlkshk locavore polaroid next level fap. Messenger bag cardigan authentic, paleo plaid Truffaut slow-carb. Hoodie plaid McSweeney's letterpress polaroid, Thundercats Truffaut locavore jean shorts next level deep v Godard farm-to-table occupy.</p>
-    </article>
     <aside class="right">
       <h2>See what people are doing in Iceland</h2>
       <div id="instafeed"></div>
