@@ -28,8 +28,13 @@ $('.nav_dropdown').hover(
 )//Solution for adding current class to parent element when hovering on child found from http://css-tricks.com/snippets/jquery/addingremoving-class-on-hover/
 
 
-$(".host_card ").smoove({
-  // moveX is overridden to -200px for ".bar" object
+//Smoove JS animates the host cards into view on scroll. NoJS fallback is just the static positioning but still visible and accessible for the user
+$(".smooveLeft").smoove({
   moveX   : '100px',
+  moveY   : '-100px',
+});
+
+$(".smooveRight").smoove({
+  moveX   : '-100px',
   moveY   : '100px',
 });

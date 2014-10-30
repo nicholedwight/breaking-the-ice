@@ -17,7 +17,7 @@
         </a>
       </div>
       <div class="content_item">
-        <a href="/project1/hosts.php">
+        <a href="/project1/index.php#hosts">
           <?php include('inc/hosts-icon.svg'); ?>
           <h2>Hosts</h2>
           <p>Typewriter drinking vinegar narwhal cardigan. Forage seitan chia craft beer tattooed YOLO viral, bicycle rights kale chips. Tilde roof party DIY Truffaut, gluten-free pickled wayfarers beard readymade banh mi locavore Austin chia selfies.</p>
@@ -33,24 +33,24 @@
     </div>
   </div>
   </main>
-  <section class="hosts">
+  <section id="hosts">
     <ul class="list_neutral host_list">
-      <li class="host_card enlarge">
+      <li class="host_card enlarge smooveLeft">
         <p>Host</p>
       </li>
-      <li class="host_card enlarge">
+      <li class="host_card enlarge smooveLeft">
         <p>Host</p>
       </li>
-      <li class="host_card enlarge">
+      <li class="host_card enlarge smooveLeft">
         <p>Host</p>
       </li>
-      <li class="host_card enlarge">
+      <li class="host_card enlarge smooveRight">
         <p>Host</p>
       </li>
-      <li class="host_card enlarge">
+      <li class="host_card enlarge smooveRight">
         <p>Host</p>
       </li>
-      <li class="host_card enlarge">
+      <li class="host_card enlarge smooveRight">
         <p>Host</p>
       </li>
     </ul>
