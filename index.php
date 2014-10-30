@@ -31,13 +31,30 @@
         </a>
       </div>
     </div>
-    <!-- <h1>What We Do</h1>
-    <aside class="right">
-      <h2>See what people are doing in Iceland</h2>
-      <div id="instafeed"></div>
-    </aside> -->
   </div>
   </main>
+  <section class="hosts">
+    <ul class="list_neutral host_list">
+      <li class="host_card enlarge">
+        <p>Host</p>
+      </li>
+      <li class="host_card enlarge">
+        <p>Host</p>
+      </li>
+      <li class="host_card enlarge">
+        <p>Host</p>
+      </li>
+      <li class="host_card enlarge">
+        <p>Host</p>
+      </li>
+      <li class="host_card enlarge">
+        <p>Host</p>
+      </li>
+      <li class="host_card enlarge">
+        <p>Host</p>
+      </li>
+    </ul>
+  </section>
 <?php include('inc/footer.php'); ?>
 <script type="text/javascript">
     var feed = new Instafeed({
