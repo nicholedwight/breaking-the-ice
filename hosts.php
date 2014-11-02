@@ -5,23 +5,23 @@
     <a id="skip"> </a>
     <h1>Our Sponsored Hosts</h1>
       <ul class="list_neutral host_list">
-        <li class="host_card enlarge smooveLeft">
+        <li class="host_card enlarge">
           <img src="/project1/assets/img/jegtnes.jpg" alt="Jegtnes">
           <p>Host</p>
         </li>
-        <li class="host_card enlarge smooveLeft">
+        <li class="host_card enlarge">
           <p>Host</p>
         </li>
-        <li class="host_card enlarge smooveLeft">
+        <li class="host_card enlarge">
           <p>Host</p>
         </li>
-        <li class="host_card enlarge smooveRight">
+        <li class="host_card enlarge">
           <p>Host</p>
         </li>
-        <li class="host_card enlarge smooveRight">
+        <li class="host_card enlarge">
           <p>Host</p>
         </li>
-        <li class="host_card enlarge smooveRight">
+        <li class="host_card enlarge">
           <p>Host</p>
         </li>
       </ul>

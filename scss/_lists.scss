@@ -9,29 +9,47 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  max-width: 1000px;
+  // max-width: 1000px;
   margin: 10% auto;
 }
 
 .host_card {
   width: 300px;
   height: 150px;
-  background: #00CD9B;
+  background: #3b3b3b;
   // display: flex;
   margin: 10px 5px 0 5px;
   box-shadow: 5px 5px 10px #999;
   text-align: center;
-}
+  color: #FFF;
+  img {
+    border-radius: 100%;
+    width: 110px;
+    margin: 10px auto 0;
+    display: block;
+    @media screen and (min-width: 700px) {
+      margin-top: 20px;
+      width: 135px;
+    }
+  }
+  p {
+    display: none;
+  }
+  @media screen and (min-width: 400px) {
+    width: 400px;
+    height: 250px;
+  }
+  @media screen and (min-width: 700px) {
+    width: 500px;
+    height: 250px;
+  }
 
-.host_card img {
-  border-radius: 100%;
-  width: 110px;
-  margin: 10px auto 0;
-  display: block;
-}
-
-.host_card p {
-  margin: 0;
+  &:hover {
+    p {
+      margin: 0;
+      display: block;
+    }
+  }
 }
 
 // .host_listing > li > a {
@@ -59,16 +77,6 @@
 //   clear: left;
 //   margin-right: 10px;
 // }
-
-@media all and (min-width: 400px) {
-
-  // .host_listing > li > a:after {
-  //   font-family: arial; /*Different font in order to display the icon*/
-  //   content: "ᐳ";
-  //   position: absolute;
-  //   top: 30px; right: 100px;
-  // }
-}
 
 @media all and (min-width: 700px) {
   // .host_listing {
