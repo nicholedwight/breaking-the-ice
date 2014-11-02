@@ -1,10 +1,31 @@
 <?php $thisPage = "Hosts";
   include('inc/header.php');
 ?>
-  <main role="main">
+  <main role="main" id="hosts">
     <a id="skip"> </a>
     <h1>Our Sponsored Hosts</h1>
-    <ul class="host_listing list_neutral">
+      <ul class="list_neutral host_list">
+        <li class="host_card enlarge smooveLeft">
+          <img src="/project1/assets/img/jegtnes.jpg" alt="Jegtnes">
+          <p>Host</p>
+        </li>
+        <li class="host_card enlarge smooveLeft">
+          <p>Host</p>
+        </li>
+        <li class="host_card enlarge smooveLeft">
+          <p>Host</p>
+        </li>
+        <li class="host_card enlarge smooveRight">
+          <p>Host</p>
+        </li>
+        <li class="host_card enlarge smooveRight">
+          <p>Host</p>
+        </li>
+        <li class="host_card enlarge smooveRight">
+          <p>Host</p>
+        </li>
+      </ul>
+    <!--<ul class="host_listing list_neutral">
       <li class="listing_row">
         <a href="#">
           <img src="/project1/assets/img/kitchen1thumb.jpg">
@@ -35,7 +56,7 @@
     </ul>
     <aside class="map_wrapper">
       <div id="map-canvas"></div>
-    </aside>
+    </aside> -->
   </main>
 
 <?php include('inc/footer.php'); ?>

@@ -9,8 +9,8 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  width: 50%;
-  margin: 30px auto;
+  max-width: 1000px;
+  margin: 10% auto;
 }
 
 .host_card {
@@ -19,6 +19,19 @@
   background: #00CD9B;
   // display: flex;
   margin: 10px 5px 0 5px;
+  box-shadow: 5px 5px 10px #999;
+  text-align: center;
+}
+
+.host_card img {
+  border-radius: 100%;
+  width: 110px;
+  margin: 10px auto 0;
+  display: block;
+}
+
+.host_card p {
+  margin: 0;
 }
 
 // .host_listing > li > a {
