@@ -8,14 +8,12 @@
   </div>
   <form class="contact_form" action="/project1/inc/FormMail.php" method="POST" name="breaking_the_ice_form">
 		<span class="required">* Required</span>
-		<ul>
+		<ul class="list_neutral">
 			<li>
-				<label for="name">Name:</label>
-				<input type="text" name="name" id="name" required>
+				<input type="text" name="name" id="name" placeholder="Name:" required>
 			</li>
 			<li>
-				<label for="email">Email:</label>
-				<input type="email" name="email" id="email" onChange="emailvalidation(this,'The email given is not valid');" required>
+				<input type="email" name="email" id="email" onChange="emailvalidation(this,'The email given is not valid');" placeholder="Email:" required>
 			</li>
 			<li>
 				<label for="age">How old are you?</label>
@@ -50,8 +48,7 @@
 			</select>
 			</li>
 			<li>
-				<label for="message">Message:</label>
-				<textarea name="message" id="message" rows="6" cols="40" required></textarea>
+				<textarea name="message" id="message" rows="6" cols="40" placeholder="Questions or Comments:" required></textarea>
 			</li>
 		</ul>
     <input type="hidden" name="thisPage" value="contactResponse">
