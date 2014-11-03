@@ -5,7 +5,7 @@
     <a id="skip"> </a>
     <h1>Our Sponsored Hosts</h1>
       <ul class="list_neutral host_list">
-        <li class="host_card enlarge">
+        <li class="host_card enlarge semi_transparent">
           <a href="#">
             <img src="/project1/assets/img/jegtnes.jpg" alt="Jegtnes" class="hideOnHover">
             <img src="/project1/assets/img/moreinfo.jpg" alt="See More" class="showOnHover">
@@ -14,7 +14,7 @@
           <p class="accomodates">2</p>
           </a>
         </li>
-        <li class="host_card enlarge">
+        <li class="host_card enlarge semi_transparent">
           <a href="#">
             <img src="/project1/assets/img/jegtnes.jpg" alt="Jegtnes" class="hideOnHover">
             <img src="/project1/assets/img/moreinfo.jpg" alt="See More" class="showOnHover">
@@ -23,7 +23,7 @@
           <p class="accomodates">2</p>
           </a>
         </li>
-        <li class="host_card enlarge">
+        <li class="host_card enlarge semi_transparent">
           <a href="#">
             <img src="/project1/assets/img/jegtnes.jpg" alt="Jegtnes" class="hideOnHover">
             <img src="/project1/assets/img/moreinfo.jpg" alt="See More" class="showOnHover">
@@ -32,7 +32,7 @@
           <p class="accomodates">2</p>
           </a>
         </li>
-        <li class="host_card enlarge">
+        <li class="host_card enlarge semi_transparent">
           <a href="#">
             <img src="/project1/assets/img/jegtnes.jpg" alt="Jegtnes" class="hideOnHover">
             <img src="/project1/assets/img/moreinfo.jpg" alt="See More" class="showOnHover">
@@ -41,7 +41,7 @@
           <p class="accomodates">2</p>
           </a>
         </li>
-        <li class="host_card enlarge">
+        <li class="host_card enlarge semi_transparent">
           <a href="#">
             <img src="/project1/assets/img/jegtnes.jpg" alt="Jegtnes" class="hideOnHover">
             <img src="/project1/assets/img/moreinfo.jpg" alt="See More" class="showOnHover">
@@ -50,7 +50,7 @@
           <p class="accomodates">2</p>
           </a>
         </li>
-        <li class="host_card enlarge">
+        <li class="host_card enlarge semi_transparent">
           <a href="#">
             <img src="/project1/assets/img/jegtnes.jpg" alt="Jegtnes" class="hideOnHover">
             <img src="/project1/assets/img/moreinfo.jpg" alt="See More" class="showOnHover">

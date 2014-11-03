@@ -3,10 +3,7 @@
 ?>
 <main class="secondary_wrapper contact" role="main">
   <a id="skip"> </a>
-  <div class="contact_form">
-
-  </div>
-  <form class="contact_form" action="/project1/inc/FormMail.php" method="POST" name="breaking_the_ice_form">
+  <form class="contact_form semi_transparent" action="/project1/inc/FormMail.php" method="POST" name="breaking_the_ice_form">
 		<span class="required">* Required</span>
 		<ul class="list_neutral">
 			<li>

@@ -102,6 +102,10 @@ img.showOnHover {
   transition: all 1s ease-in-out;
 }
 
+.semi_transparent {
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 5px 5px 10px #999;
+}
 
 .forecast {
   max-width: 800px;
