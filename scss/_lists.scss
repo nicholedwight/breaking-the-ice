@@ -12,11 +12,30 @@
   margin: 10% auto;
 }
 
+.host_card_call-to-action {
+  background: rgba(0, 0, 0, 0.75);
+  display: none;
+  border-radius: 100%;
+  width: 111px;
+  height: 111px;
+  margin: 10px auto 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  @media screen and (min-width: 700px) {
+    margin-top: 20px;
+    width: 136px;
+    height: 136px;
+  }
+}
+
 .host_card {
   width: 300px;
   height: 150px;
   margin: 10px 10px 0 10px;
   text-align: center;
+  position: relative;
   color: #FFF;
   img {
     border-radius: 100%;

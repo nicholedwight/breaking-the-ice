@@ -5,55 +5,67 @@
     <a id="skip"> </a>
     <h1>Our Sponsored Hosts</h1>
       <ul class="list_neutral host_list">
-        <li class="host_card enlarge semi_transparent">
+        <li class="host_card enlarge quarter_transparent">
           <a href="#">
-            <img src="/project1/assets/img/jegtnes.jpg" alt="Jegtnes" class="hideOnHover">
-            <img src="/project1/assets/img/moreinfo.jpg" alt="See More" class="showOnHover">
+            <img src="/project1/assets/img/jegtnes.jpg" alt="Jegtnes">
+            <div class="host_card_call-to-action showOnHover">
+              <p>Clicky</p>
+            </div>
           <p class="host_name">Host</p>
           <p class="host_location">Iceland</p>
           <p class="accomodates">2</p>
           </a>
         </li>
-        <li class="host_card enlarge semi_transparent">
+        <li class="host_card enlarge quarter_transparent">
           <a href="#">
             <img src="/project1/assets/img/jegtnes.jpg" alt="Jegtnes" class="hideOnHover">
-            <img src="/project1/assets/img/moreinfo.jpg" alt="See More" class="showOnHover">
+            <div class="host_card_call-to-action showOnHover">
+              <p>Clicky</p>
+            </div>
           <p class="host_name">Host</p>
           <p class="host_location">Iceland</p>
           <p class="accomodates">2</p>
           </a>
         </li>
-        <li class="host_card enlarge semi_transparent">
+        <li class="host_card enlarge quarter_transparent">
           <a href="#">
             <img src="/project1/assets/img/jegtnes.jpg" alt="Jegtnes" class="hideOnHover">
-            <img src="/project1/assets/img/moreinfo.jpg" alt="See More" class="showOnHover">
+            <div class="host_card_call-to-action showOnHover">
+              <p>Clicky</p>
+            </div>
           <p class="host_name">Host</p>
           <p class="host_location">Iceland</p>
           <p class="accomodates">2</p>
           </a>
         </li>
-        <li class="host_card enlarge semi_transparent">
+        <li class="host_card enlarge quarter_transparent">
           <a href="#">
             <img src="/project1/assets/img/jegtnes.jpg" alt="Jegtnes" class="hideOnHover">
-            <img src="/project1/assets/img/moreinfo.jpg" alt="See More" class="showOnHover">
+            <div class="host_card_call-to-action showOnHover">
+              <p>Clicky</p>
+            </div>
           <p class="host_name">Host</p>
           <p class="host_location">Iceland</p>
           <p class="accomodates">2</p>
           </a>
         </li>
-        <li class="host_card enlarge semi_transparent">
+        <li class="host_card enlarge quarter_transparent">
           <a href="#">
             <img src="/project1/assets/img/jegtnes.jpg" alt="Jegtnes" class="hideOnHover">
-            <img src="/project1/assets/img/moreinfo.jpg" alt="See More" class="showOnHover">
+            <div class="host_card_call-to-action showOnHover">
+              <p>Clicky</p>
+            </div>
           <p class="host_name">Host</p>
           <p class="host_location">Iceland</p>
           <p class="accomodates">2</p>
           </a>
         </li>
-        <li class="host_card enlarge semi_transparent">
+        <li class="host_card enlarge quarter_transparent">
           <a href="#">
             <img src="/project1/assets/img/jegtnes.jpg" alt="Jegtnes" class="hideOnHover">
-            <img src="/project1/assets/img/moreinfo.jpg" alt="See More" class="showOnHover">
+            <div class="host_card_call-to-action showOnHover">
+              <p>Clicky</p>
+            </div>
           <p class="host_name">Host</p>
           <p class="host_location">Iceland</p>
           <p class="accomodates">2</p>
