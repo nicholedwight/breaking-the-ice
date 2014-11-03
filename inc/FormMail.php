@@ -1,5 +1,5 @@
 <?PHP
-$thiPage = "Contact";
+$thisPage = "Contact";
 /*
 FormMail.php
 The program is in two parts:
