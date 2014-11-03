@@ -6,24 +6,58 @@
     <h1>Our Sponsored Hosts</h1>
       <ul class="list_neutral host_list">
         <li class="host_card enlarge">
-          <img src="/project1/assets/img/jegtnes.jpg" alt="Jegtnes" class="hideOnHover">
-          <img src="/project1/assets/img/moreinfo.jpg" alt="See More" class="showOnHover">
-          <p>Host</p>
+          <a href="#">
+            <img src="/project1/assets/img/jegtnes.jpg" alt="Jegtnes" class="hideOnHover">
+            <img src="/project1/assets/img/moreinfo.jpg" alt="See More" class="showOnHover">
+          <p class="host_name">Host</p>
+          <p class="host_location">Iceland</p>
+          <p class="accomodates">2</p>
+          </a>
         </li>
         <li class="host_card enlarge">
-          <p>Host</p>
+          <a href="#">
+            <img src="/project1/assets/img/jegtnes.jpg" alt="Jegtnes" class="hideOnHover">
+            <img src="/project1/assets/img/moreinfo.jpg" alt="See More" class="showOnHover">
+          <p class="host_name">Host</p>
+          <p class="host_location">Iceland</p>
+          <p class="accomodates">2</p>
+          </a>
         </li>
         <li class="host_card enlarge">
-          <p>Host</p>
+          <a href="#">
+            <img src="/project1/assets/img/jegtnes.jpg" alt="Jegtnes" class="hideOnHover">
+            <img src="/project1/assets/img/moreinfo.jpg" alt="See More" class="showOnHover">
+          <p class="host_name">Host</p>
+          <p class="host_location">Iceland</p>
+          <p class="accomodates">2</p>
+          </a>
         </li>
         <li class="host_card enlarge">
-          <p>Host</p>
+          <a href="#">
+            <img src="/project1/assets/img/jegtnes.jpg" alt="Jegtnes" class="hideOnHover">
+            <img src="/project1/assets/img/moreinfo.jpg" alt="See More" class="showOnHover">
+          <p class="host_name">Host</p>
+          <p class="host_location">Iceland</p>
+          <p class="accomodates">2</p>
+          </a>
         </li>
         <li class="host_card enlarge">
-          <p>Host</p>
+          <a href="#">
+            <img src="/project1/assets/img/jegtnes.jpg" alt="Jegtnes" class="hideOnHover">
+            <img src="/project1/assets/img/moreinfo.jpg" alt="See More" class="showOnHover">
+          <p class="host_name">Host</p>
+          <p class="host_location">Iceland</p>
+          <p class="accomodates">2</p>
+          </a>
         </li>
         <li class="host_card enlarge">
-          <p>Host</p>
+          <a href="#">
+            <img src="/project1/assets/img/jegtnes.jpg" alt="Jegtnes" class="hideOnHover">
+            <img src="/project1/assets/img/moreinfo.jpg" alt="See More" class="showOnHover">
+          <p class="host_name">Host</p>
+          <p class="host_location">Iceland</p>
+          <p class="accomodates">2</p>
+          </a>
         </li>
       </ul>
     <!--<ul class="host_listing list_neutral">
