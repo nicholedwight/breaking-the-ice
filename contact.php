@@ -1,7 +1,7 @@
 <?php $thisPage = "Contact";
   include('inc/header.php');
 ?>
-<main class="secondary_wrapper" role="main">
+<main class="secondary_wrapper contact" role="main">
   <a id="skip"> </a>
   <div class="contact_form">
 
