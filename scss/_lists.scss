@@ -33,9 +33,6 @@
       width: 135px;
     }
   }
-  p {
-    display: none;
-  }
   @media screen and (min-width: 400px) {
     width: 400px;
     height: 250px;
@@ -46,8 +43,10 @@
   }
 
   &:hover {
-    p {
-      margin: 0;
+    .hideOnHover {
+      display: none;
+    }
+    .showOnHover {
       display: block;
     }
   }

@@ -6,7 +6,8 @@
     <h1>Our Sponsored Hosts</h1>
       <ul class="list_neutral host_list">
         <li class="host_card enlarge">
-          <img src="/project1/assets/img/jegtnes.jpg" alt="Jegtnes">
+          <img src="/project1/assets/img/jegtnes.jpg" alt="Jegtnes" class="hideOnHover">
+          <img src="/project1/assets/img/moreinfo.jpg" alt="See More" class="showOnHover">
           <p>Host</p>
         </li>
         <li class="host_card enlarge">
