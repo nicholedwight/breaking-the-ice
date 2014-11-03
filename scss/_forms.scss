@@ -1,3 +1,9 @@
+.contact_form {
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+}
+
 input, textarea {
   box-sizing: border-box;
   font-weight: normal;
@@ -12,6 +18,9 @@ input, textarea {
   font-size: 16px;
   width: 100%;
   vertical-align: middle;
+  float: left;
+  margin-right: 6%;
+  margin-bottom: 40px;
 }
 
 input:focus, textarea:focus {
@@ -20,6 +29,27 @@ input:focus, textarea:focus {
 
 textarea {
   font-family: inherit;
-  height: 100px;
-  max-width: 600px;
+  padding: 15px;
+  resize: none;
+  line-height: 26px;
+  min-height: 130px;
+  max-width: 650px;
+}
+
+.submit {
+  background: #3b3b3b;
+  height: 80px;
+  width: 170px;
+  font-size: 1.5em;
+  border: none;
+  color: #FFF;
+  cursor: pointer;
+  -moz-transition:all 1s ease-in-out;
+  -o-transition:all 1s ease-in-out;
+  -webkit-transition:all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+  &:hover {
+    background: #00CD9B;
+    color: #000;
+  }
 }

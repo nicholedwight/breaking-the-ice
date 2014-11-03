@@ -16,21 +16,6 @@
 				<input type="email" name="email" id="email" onChange="emailvalidation(this,'The email given is not valid');" placeholder="Email:" required>
 			</li>
 			<li>
-				<label for="age">How old are you?</label>
-				<select name="age" id="age" required>
-					<option selected="selected"> </option>
-					<optgroup label="Teenager">
-						<option>13-15</option>
-						<option>16-19</option>
-					</optgroup>
-					<optgroup label="Adult">
-						<option>20-25</option>
-						<option>25-30</option>
-						<option>30+</option>
-					</optgroup>
-				</select>
-			</li>
-			<li>
 				<label for="continent">Where are you from?</label>
 				<select name="continent" id="continent">
 					<option> </option>
