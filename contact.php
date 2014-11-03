@@ -15,7 +15,7 @@
 			</li>
 			<li>
 				<label for="email">Email:</label>
-				<input type="email" name="email" id="email" placeholder="Enter a valid email address" onChange="emailvalidation(this,'The email given is not valid');" required>
+				<input type="email" name="email" id="email" onChange="emailvalidation(this,'The email given is not valid');" required>
 			</li>
 			<li>
 				<label for="age">How old are you?</label>
@@ -54,6 +54,7 @@
 				<textarea name="message" id="message" rows="6" cols="40" required></textarea>
 			</li>
 		</ul>
+    <input type="hidden" name="thisPage" value="contactResponse">
 		<button class="submit" type="submit">Submit</button>
 	</form>
 </main>

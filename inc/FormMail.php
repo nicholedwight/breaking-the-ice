@@ -1,5 +1,5 @@
 <?PHP
-$thiPage = "contactResponse";
+$thiPage = "Contact";
 /*
 FormMail.php
 The program is in two parts:
@@ -56,9 +56,11 @@ Name: $name
 Email: $email
 Message:
 $message
-"
+";
 /* and the email is sent  later - after we have started the html page
 so that we can include an appropriate message  within the page */
+
+include('header.php');
 ?>
 
 <!--  HTML PAGE
@@ -66,14 +68,8 @@ Except for the inclusion of php variables and the 'mail' statement
 the following is straightforward html code.
 You can add more html code but it should be outside the <php .. ?> tags.
 -->
-  <?php
-  include('header.php'); ?>
-<html>
-<head>
-<title>Breaking the Ice | Contact Response</title>
-<link rel="stylesheet" type="text/css" href="/project1/assets/css/main.css">
-</head>
-<body>
+<main class="secondary_wrapper contact" role="main">
+  <a id="skip"> </a>
 <h2>Thank you for your email!</h2>
 <?php
 // Send out the email or output an error message
@@ -120,5 +116,5 @@ else { // email send has been unsuccessful.
 <?php
 	}
 ?>
-</body>
-</html>
+</main>
+<?php include('footer.php'); ?>
