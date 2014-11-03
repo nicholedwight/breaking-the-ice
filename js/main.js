@@ -26,10 +26,3 @@ $('.nav_dropdown').hover(
    function(){ $('#changeableBorder').removeClass('current') }
 
 )//Solution for adding current class to parent element when hovering on child found from http://css-tricks.com/snippets/jquery/addingremoving-class-on-hover/
-
-
-// $('.host_card').blurjs({
-//    source: 'main',
-//    radius: 7,
-//    overlay: 'rgba(255,255,255,0.2)'
-// });
