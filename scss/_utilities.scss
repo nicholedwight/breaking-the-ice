@@ -112,11 +112,19 @@ header {
   transition: transform 150ms linear;
 }
 
-.headroom--top {
-  transform: translateY(0%);
+.animated.slideDown {
+    animation-name: slideDown;
+    transform: translateY(0%);
 }
-.headroom--not-top {
-  transform: translateY(-100%);
+
+.animated {
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+}
+
+.animated.slideUp {
+    animation-name: slideUp;
+    transform: translateY(-100%);
 }
 
 main:before,
