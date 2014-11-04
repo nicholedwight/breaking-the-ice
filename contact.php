@@ -4,30 +4,12 @@
 <main class="secondary_wrapper contact" role="main">
   <a id="skip"> </a>
   <form class="contact_form quarter_transparent" action="/project1/inc/FormMail.php" method="POST" name="breaking_the_ice_form">
-		<span class="required">* Required</span>
 		<ul class="list_neutral">
 			<li>
 				<input class="half_transparent" type="text" name="name" id="name" placeholder="Name:" required>
 			</li>
 			<li>
 				<input class="half_transparent" type="email" name="email" id="email" onChange="emailvalidation(this,'The email given is not valid');" placeholder="Email:" required>
-			</li>
-			<li>
-				<label for="continent">Where are you from?</label>
-				<select name="continent" id="continent">
-					<option> </option>
-					<optgroup label="Americas">
-						<option>North America</option>
-						<option>South America</option>
-					</optgroup>
-					<optgroup label="Eurasia">
-						<option>Europe</option>
-						<option>Asia</option>
-					</optgroup>
-						<option>Africa</option>
-						<option>Australia</option>
-						<option>Antarctica</option>
-			</select>
 			</li>
 			<li>
 				<textarea class="half_transparent" name="message" id="message" rows="6" cols="40" placeholder="Questions or Comments:" required></textarea>
