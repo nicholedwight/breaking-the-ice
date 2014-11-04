@@ -30,7 +30,7 @@ $('.nav_dropdown').hover(
 var myElement = document.querySelector("header");
 var headroom  = new Headroom(myElement, {
   "offset": 150,
-  "tolerance": 3,
+  "tolerance": 5,
   "classes": {
     "initial": "animated",
     "pinned": "slideDown",
