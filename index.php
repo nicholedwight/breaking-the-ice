@@ -4,6 +4,7 @@
   <section class="primary_hero">
     <div class="primary_title">
       <p>Find your escape</p>
+    </div>
   </section>
   <main class="main_wrapper cf" role="main">
     <div class="glass">

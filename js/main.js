@@ -26,3 +26,16 @@ $('.nav_dropdown').hover(
    function(){ $('#changeableBorder').removeClass('current') }
 
 )//Solution for adding current class to parent element when hovering on child found from http://css-tricks.com/snippets/jquery/addingremoving-class-on-hover/
+
+var myElement = document.querySelector("header");
+var headroom  = new Headroom(myElement, {
+  "offset": 150,
+  "tolerance": 5,
+  "classes": {
+    "initial": "animated",
+    "pinned": "slideDown",
+    "unpinned": "slideUp"
+  }
+});
+
+headroom.init();

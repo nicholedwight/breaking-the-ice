@@ -59,7 +59,7 @@
 }
 
 .l_index_header {
-  position: absolute;
+  position: fixed;
   top: 0px;
   right: 0px;
   left: 0px;
@@ -69,7 +69,7 @@
 
 .l_secondary_header {
   background: rgba(0, 0, 0, 0.75);
-  position: absolute;
+  position: fixed;
   top: 0px;
   right: 0px;
   left: 0px;

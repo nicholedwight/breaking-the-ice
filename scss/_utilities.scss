@@ -108,6 +108,17 @@
   margin: 0 auto;
 }
 
+header {
+  transition: transform 150ms linear;
+}
+
+.headroom--top {
+  transform: translateY(0%);
+}
+.headroom--not-top {
+  transform: translateY(-100%);
+}
+
 main:before,
 main:after {
     content: " "; /* 1 */

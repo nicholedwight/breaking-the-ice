@@ -10,9 +10,9 @@
 </head>
 <body>
   <?php if ($thisPage === "Home") { ?>
-  <header class="l_index_header">
+  <header id="header" class="l_index_header" role="banner">
   <?php } else {?>
-  <header class="l_secondary_header">
+  <header id="header" class="l_secondary_header" role="banner">
   <?php } ?>
     <div class="logo">
       <a href="/project1/index.php">
