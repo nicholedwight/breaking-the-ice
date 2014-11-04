@@ -15,7 +15,7 @@
   <header class="l_secondary_header" role="banner">
   <?php } ?>
     <div class="logo">
-      <a href="/project1/index.php">
+      <a href="/project1/index">
         <p class="logo_text">breaking the ice</p>
         <?php include("logo.svg"); ?>
       </a>
@@ -26,24 +26,26 @@
         <span>&#9776;</span>
       </a>
       <ul class="navigation" id="navigation_list" role="navigation">
-          <li><a href="/project1/index.php"
+          <li><a href="/project1/index"
             <?php if ($thisPage === "Home") echo "class='current'"; ?>>Home</a>
           </li>
-          <li><a href="/project1/hosts.php"
+          <li><a href="/project1/hosts"
             <?php if ($thisPage === "Hosts") echo "class='current'"; ?>>Our Hosts</a>
           </li>
           <li>
-            <a href="/project1/contact.php"
+            <a href="/project1/contact"
             <?php if ($thisPage === "Contact") echo "class='current'"; ?>>Contact</a>
           </li>
-          <li class="has_dropdown"><a href="/project1/faq.php" id="changeableBorder"
-            <?php if (substr($thisPage, 0, 3) == "FAQ") echo "class='current'"; ?>>Practical Info</a>
+          <li class="has_dropdown">
+            <a href="/project1/faq" id="changeableBorder"
+              <?php if (substr($thisPage, 0, 3) == "FAQ") echo "class='current'"; ?>>Practical Info
+            </a>
               <ul <?php if ($thisPage === "Home") { echo "class='nav_dropdown_transparent'"; } else { echo "class='nav_dropdown'"; } ?>>
-                <li><a href="/project1/faq.php">General Info</a></li>
-                <li><a href="/project1/faq/how-to-get-here.php">Getting Here</a></li>
-                <li><a href="/project1/faq/weather.php">Icelandic Weather</a></li>
-                <li><a href="/project1/faq/accommodation.php">Accommodation</a></li>
-                <li><a href="/project1/faq/testimonials.php">Testimonials</a></li>
+                <li><a href="/project1/faq">General Info</a></li>
+                <li><a href="/project1/faq/how-to-get-here">Getting Here</a></li>
+                <li><a href="/project1/faq/weather">Icelandic Weather</a></li>
+                <li><a href="/project1/faq/accommodation">Accommodation</a></li>
+                <li><a href="/project1/faq/testimonials">Testimonials</a></li>
               </ul>
           </li>
       </ul>
