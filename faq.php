@@ -1,7 +1,7 @@
 <?php $thisPage = "FAQ";
   include('inc/header.php');
 ?>
-  <main class="secondary_wrapper" role="main">
+  <main class="" role="main">
     <div class="inner_wrapper">
       <a id="skip"> </a>
       <div class=carousel>

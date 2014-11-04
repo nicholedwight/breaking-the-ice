@@ -1,7 +1,7 @@
 <?php $thisPage = "FAQ_weather";
   include('../inc/header.php');
 ?>
-<main class="secondary_wrapper" role="main">
+<main class="" role="main">
   <div class="inner_wrapper">
     <a id="skip"> </a>
     <!-- <img src="http://placekitten.com/g/500/200"> -->

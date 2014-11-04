@@ -1,7 +1,7 @@
 <?php $thisPage = "Contact";
   include('inc/header.php');
 ?>
-<main class="secondary_wrapper contact" role="main">
+<main class="contact" role="main">
   <a id="skip"> </a>
   <form class="contact_form quarter_transparent" action="/project1/inc/FormMail.php" method="POST" name="breaking_the_ice_form">
 		<ul class="list_neutral">

@@ -68,7 +68,7 @@ Except for the inclusion of php variables and the 'mail' statement
 the following is straightforward html code.
 You can add more html code but it should be outside the <php .. ?> tags.
 -->
-<main class="secondary_wrapper contact" role="main">
+<main class=" contact" role="main">
   <a id="skip"> </a>
 <h2>Thank you for your email!</h2>
 <?php
