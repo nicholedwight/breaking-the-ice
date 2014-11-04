@@ -37,7 +37,7 @@
             <?php if ($thisPage === "Contact") echo "class='current'"; ?>>Contact</a>
           </li>
           <li class="has_dropdown">
-            <a href="/project1/faq" id="changeableBorder"
+            <a href="/project1/info" id="changeableBorder"
               <?php if (substr($thisPage, 0, 3) == "FAQ") echo "class='current'"; ?>>Practical Info
             </a>
               <ul <?php if ($thisPage === "Home") { echo "class='nav_dropdown_transparent'"; } else { echo "class='nav_dropdown'"; } ?>>

@@ -11,21 +11,21 @@
     <a id="skip"> </a>
     <div class="main_content">
       <div class="content_item">
-        <a href="/project1/faq.php">
+        <a href="/project1/info">
           <?php include('inc/about-icon.svg'); ?>
           <h2>About</h2>
           <p>Typewriter drinking vinegar narwhal cardigan. Forage seitan chia craft beer tattooed YOLO viral, bicycle rights kale chips. Tilde roof party DIY Truffaut, gluten-free pickled wayfarers beard readymade banh mi locavore Austin chia selfies.</p>
         </a>
       </div>
       <div class="content_item">
-        <a href="/project1/hosts.php">
+        <a href="/project1/hosts">
           <?php include('inc/hosts-icon.svg'); ?>
           <h2>Hosts</h2>
           <p>Typewriter drinking vinegar narwhal cardigan. Forage seitan chia craft beer tattooed YOLO viral, bicycle rights kale chips. Tilde roof party DIY Truffaut, gluten-free pickled wayfarers beard readymade banh mi locavore Austin chia selfies.</p>
         </a>
       </div>
       <div class="content_item">
-        <a href="/project1/contact.php">
+        <a href="/project1/contact">
           <?php include('inc/contact-icon.svg'); ?>
           <h2>Contact</h2>
           <p>Typewriter drinking vinegar narwhal cardigan. Forage seitan chia craft beer tattooed YOLO viral, bicycle rights kale chips. Tilde roof party DIY Truffaut, gluten-free pickled wayfarers beard readymade banh mi locavore Austin chia selfies.</p>
