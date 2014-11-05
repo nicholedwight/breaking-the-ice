@@ -74,7 +74,7 @@ nav li a:hover, .faq_nav a:hover {
     transition: height 0.25s ease-in-out 0s;
   }
 
-  nav a:hover:after {
+  nav a:hover:after, nav a:focus:after { /* :focus is for users that tab through sites*/
     height: 87%;
     border-color: #00CD9B;
   }
