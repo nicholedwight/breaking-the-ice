@@ -41,11 +41,11 @@
               <?php if (substr($thisPage, 0, 3) == "FAQ") echo "class='current'"; ?>>Practical Info
             </a>
               <ul <?php if ($thisPage === "Home") { echo "class='nav_dropdown_transparent'"; } else { echo "class='nav_dropdown'"; } ?>>
-                <li><a href="/project1/faq">General Info</a></li>
-                <li><a href="/project1/faq/how-to-get-here">Getting Here</a></li>
-                <li><a href="/project1/faq/weather">Icelandic Weather</a></li>
-                <li><a href="/project1/faq/accommodation">Accommodation</a></li>
-                <li><a href="/project1/faq/testimonials">Testimonials</a></li>
+                <li><a href="/project1/info">General Info</a></li>
+                <li><a href="/project1/info#how-to-get-here">Getting Here</a></li>
+                <li><a href="/project1/info#weather">Icelandic Weather</a></li>
+                <li><a href="/project1/info#accommodation">Accommodation</a></li>
+                <li><a href="/project1/info#testimonials">Testimonials</a></li>
               </ul>
           </li>
       </ul>

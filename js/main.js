@@ -39,3 +39,16 @@ var headroom  = new Headroom(myElement, {
 });
 
 headroom.init();
+
+var myElement = document.querySelector(".header");
+var headroom2  = new Headroom(myElement, {
+  "offset": 150,
+  "tolerance": 5,
+  "classes": {
+    "initial": "animated",
+    "pinned": "slideDown",
+    "unpinned": "slideUp"
+  }
+});
+
+headroom2.init();

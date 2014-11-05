@@ -9,7 +9,7 @@
   <main class="main_wrapper cf" role="main">
     <div class="glass">
     <a id="skip"> </a>
-    <div class="main_content">
+    <div class="index_content">
       <div class="content_item">
         <a href="/project1/info">
           <?php include('inc/about-icon.svg'); ?>
