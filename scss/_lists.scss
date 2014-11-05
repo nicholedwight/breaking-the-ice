@@ -14,7 +14,7 @@
 
 .host_card_call-to-action {
   background: rgba(0, 0, 0, 0.75);
-  display: none;
+  // display: none;
   border-radius: 100%;
   width: 111px;
   height: 111px;
@@ -58,7 +58,7 @@
 
   &:hover {
     .showOnHover {
-      display: block;
+      opacity: 1;
     }
   }
 }

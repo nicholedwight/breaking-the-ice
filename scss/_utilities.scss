@@ -87,11 +87,11 @@
 }
 
 .showOnHover {
-  display: none;
-  -moz-transition:all 1s ease-in-out;
-  -o-transition:all 1s ease-in-out;
-  -webkit-transition:all 1s ease-in-out;
-  transition: all 1s ease-in-out;
+  opacity: 0;
+  -moz-transition:all 0.5s ease-in-out;
+  -o-transition:all 0.5s ease-in-out;
+  -webkit-transition:all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .quarter_transparent {
