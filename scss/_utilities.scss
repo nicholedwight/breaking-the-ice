@@ -48,8 +48,8 @@
   margin: 0 auto;
 }
 
-header {
-  transition: transform 150ms linear;
+header, .header {
+  transition: transform 220ms linear;
 }
 
 .animated.slideDown {
@@ -65,6 +65,11 @@ header {
 .animated.slideUp {
     animation-name: slideUp;
     transform: translateY(-100%);
+}
+
+.header.animated.slideUp {
+  animation-name: slideUp;
+  transform: translateY(-350%);
 }
 
 main:before,
