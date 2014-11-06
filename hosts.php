@@ -7,7 +7,7 @@
       <ul class="list_neutral host_list">
         <li class="host_card enlarge quarter_transparent">
           <a href="#">
-            <img src="/project1/assets/img/jegtnes.jpg" alt="Jegtnes">
+            <img src="/project1/assets/img/jegtnes.jpg" alt="Jegtnes" class="host_image">
             <div class="host_card_call-to-action showOnHover">
               <p>Clicky</p>
             </div>
@@ -18,7 +18,7 @@
         </li>
         <li class="host_card enlarge quarter_transparent">
           <a href="#">
-            <img src="/project1/assets/img/jegtnes.jpg" alt="Jegtnes">
+            <img src="/project1/assets/img/jegtnes.jpg" alt="Jegtnes" class="host_image">
             <div class="host_card_call-to-action showOnHover">
               <p>Clicky</p>
             </div>
@@ -29,7 +29,7 @@
         </li>
         <li class="host_card enlarge quarter_transparent">
           <a href="#">
-            <img src="/project1/assets/img/jegtnes.jpg" alt="Jegtnes">
+            <img src="/project1/assets/img/jegtnes.jpg" alt="Jegtnes" class="host_image">
             <div class="host_card_call-to-action showOnHover">
               <p>Clicky</p>
             </div>
@@ -40,7 +40,7 @@
         </li>
         <li class="host_card enlarge quarter_transparent">
           <a href="#">
-            <img src="/project1/assets/img/jegtnes.jpg" alt="Jegtnes">
+            <img src="/project1/assets/img/jegtnes.jpg" alt="Jegtnes" class="host_image">
             <div class="host_card_call-to-action showOnHover">
               <p>Clicky</p>
             </div>
@@ -51,7 +51,7 @@
         </li>
         <li class="host_card enlarge quarter_transparent">
           <a href="#">
-            <img src="/project1/assets/img/jegtnes.jpg" alt="Jegtnes">
+            <img src="/project1/assets/img/jegtnes.jpg" alt="Jegtnes" class="host_image">
             <div class="host_card_call-to-action showOnHover">
               <p>Clicky</p>
             </div>
@@ -62,7 +62,7 @@
         </li>
         <li class="host_card enlarge quarter_transparent">
           <a href="#">
-            <img src="/project1/assets/img/jegtnes.jpg" alt="Jegtnes">
+            <img src="/project1/assets/img/jegtnes.jpg" alt="Jegtnes" class="host_image">
             <div class="host_card_call-to-action showOnHover">
               <p>Clicky</p>
             </div>
