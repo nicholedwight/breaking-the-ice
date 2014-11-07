@@ -18,12 +18,9 @@
         <input id="checkin" class="checkin datepicker" type="text" name="checkin" placeholder="dd-mm-yyyy" required>
       </li>
       <li>
-        <label for="checkout">Check Out</label>
+        <label for="checkout" class="checkout">Check Out</label>
         <input id="checkout" class="checkout datepicker" type="text" name="checkout" placeholder="dd-mm-yyyy" required>
       </li>
-        <li>
-          <input class="half_transparent" type="text" name="name" id="name" placeholder="Name:" required>
-        </li>
       <li>
         <input class="half_transparent" type="email" name="email" id="email" onChange="emailvalidation(this,'The email given is not valid');" placeholder="Email:" required>
       </li>
