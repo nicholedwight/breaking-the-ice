@@ -3,7 +3,6 @@ main {
   @include column(12);
   height: auto;
   padding-top: 63px;
-  background: #E6E6E6;
   @media screen and (min-width: 700px) {
     padding-top: 81px;
   }
@@ -12,7 +11,6 @@ main {
 section {
   height: 450px;
   overflow: hidden;
-  background: #E6E6E6;
 }
 
 article {
@@ -57,6 +55,10 @@ footer {
 .main_wrapper {
   padding: 15px 30px;
   margin-top: 0px;
+}
+
+.host_profile {
+  padding: 100px 10%;
 }
 
 .index_content {
