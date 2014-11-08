@@ -6,6 +6,8 @@
   <title>Breaking The Ice</title>
   <link rel="stylesheet" type="text/css" href="/project1/assets/css/main.css">
   <link href="/project1/assets/css/lib/lightbox.css" rel="stylesheet">
+  <link href='/project1/assets/css/lib/classic.css' rel='stylesheet'>
+  <link href='/project1/assets/css/lib/classic.date.css' rel='stylesheet'>
   <link rel="icon" type="image/png" href="/project1/img/favicon.ico">
 </head>
 <body>
