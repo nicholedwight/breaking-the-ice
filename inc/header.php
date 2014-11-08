@@ -6,6 +6,7 @@
   <title>Breaking The Ice</title>
   <link rel="stylesheet" type="text/css" href="/project1/assets/css/main.css">
   <link href="/project1/assets/css/lib/lightbox.css" rel="stylesheet">
+  <?php if ($thisPage === "Hosts") echo "<link href='/project1/assets/css/lib/jquery-ui.min.css' rel='stylesheet'>";?>
   <link rel="icon" type="image/png" href="/project1/img/favicon.ico">
 </head>
 <body>

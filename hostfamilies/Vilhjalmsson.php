@@ -18,11 +18,11 @@
       <ul class="list_neutral">
         <li>
           <label for="checkin">Check In</label>
-          <input id="checkin" class="checkin datepicker" type="text" name="checkin" placeholder="dd-mm-yyyy" required>
+          <input class="checkin datepicker" type="text" name="checkin" placeholder="dd-mm-yyyy" id="datepicker" required>
         </li>
         <li>
           <label for="checkout" class="checkout">Check Out</label>
-          <input id="checkout" class="checkout datepicker" type="text" name="checkout" placeholder="dd-mm-yyyy" required>
+          <input class="checkout datepicker" type="text" name="checkout" placeholder="dd-mm-yyyy" id="datepicker" required>
         </li>
         <li>
           <input class="half_transparent" type="email" name="email" id="email" onChange="emailvalidation(this,'The email given is not valid');" placeholder="Email:" required>
@@ -59,6 +59,13 @@
     </div>
   </div>
 </main>
+
+<script>
+ $(function() {
+  $( "#datepicker" ).datepicker();
+ });
+</script>
+
 <?php include('../inc/footer.php'); ?>
 <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
 <script src="/project1/assets/js/maps.js"></script>
