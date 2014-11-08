@@ -55,4 +55,6 @@ if($('.header').length) {
   headroom2.init();
 }
 
-$('.datepicker').pickadate()
+$('.datepicker').pickadate({
+  format: 'd/m/yyyy',
+});
