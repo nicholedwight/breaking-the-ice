@@ -1,5 +1,9 @@
 <?php $thisPage = "Hosts";
   include('../inc/header.php');
+  $today = date('d/m/Y');
+  $tomorrow = new DateTime($today);
+  $tomorrow->modify('+1 day');
+
 ?>
 <main role="main" class="host_profile">
   <div class="host_header">
@@ -18,11 +22,11 @@
       <ul class="list_neutral">
         <li>
           <label for="checkin">Check In</label>
-          <input class="checkin datepicker" type="text" name="checkin" placeholder="dd-mm-yyyy" required>
+          <input class="checkin datepicker" type="text" name="checkin" placeholder="e.g. <?php echo $today; ?>" required>
         </li>
         <li>
           <label for="checkout" class="checkout">Check Out</label>
-          <input class="checkout datepicker" type="text" name="checkout" placeholder="dd-mm-yyyy" required>
+          <input class="checkout datepicker" type="text" name="checkout" placeholder="e.g. <?php echo $tomorrow->format('m/d/Y'); ?>" required>
         </li>
         <li>
           <input class="half_transparent" type="email" name="email" id="email" onChange="emailvalidation(this,'The email given is not valid');" placeholder="Email:" required>
