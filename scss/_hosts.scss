@@ -3,6 +3,22 @@
   width: 150px;
 }
 
+.host_header {
+  width: 100%;
+  border-bottom: 1px solid #C1C4C4;
+  padding: 50px 10%;
+  h2 {
+    width: 150px;
+    text-align: center;
+    color: #999;
+  }
+  p {
+    float: left;
+    width: 150px;
+    text-align: center;
+  }
+}
+
 .comment_image {
   border-radius: 100%;
   width: 100px;

@@ -9,7 +9,7 @@ main {
 }
 
 section {
-  height: 450px;
+  min-height: 450px;
   overflow: hidden;
 }
 
@@ -107,16 +107,13 @@ footer {
 
 @media all and (min-width: 330px) {
   section {
-    height: 505px;
+    min-height: 505px;
   }
 }
 
 @media all and (min-width: 590px) {
 
   section {
-    height: 500px;
+    min-height: 500px;
   }
-}
-
-@media all and (min-width: 700px) {
 }
