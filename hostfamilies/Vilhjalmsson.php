@@ -12,12 +12,6 @@
     <p>Reykjavik, Iceland</p>
     <p>4 Guests</p>
     <p>2 Beds</p>
-  </div>
-  <div class="host_profile">
-    <article class="listing_details">
-      <h3>About Jegtnes</h3>
-
-    </article>
     <div class="host_contact_form">
       <form class="host_form" action="/project1/inc/FormMail.php" method="POST" name="host_contact_form">
         <ul class="list_neutral">
@@ -40,6 +34,13 @@
         <button class="submit" type="submit">Submit</button>
       </form>
     </div>
+  </div>
+  <div class="host_profile">
+    <article class="listing_details">
+      <h3>About Jegtnes</h3>
+
+    </article>
+
     <aside class="listing_gallery">
 
     </aside>

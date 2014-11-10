@@ -6,7 +6,7 @@
 .host_header {
   width: 100%;
   border-bottom: 1px solid #C1C4C4;
-  padding: 50px 10%;
+  padding: 50px 26%;
   h2 {
     width: 150px;
     text-align: center;
@@ -16,6 +16,14 @@
     float: left;
     width: 150px;
     text-align: center;
+  }
+}
+
+.host_contact_form {
+  @media all and (min-width: 750px) {
+    // position: absolute;
+    // right: 29%;
+    // top: 23%;
   }
 }
 
