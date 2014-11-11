@@ -15,6 +15,7 @@ main.host_main {
 section.host_hero {
   min-height: 250px;
   background-size: cover;
+  background-attachment: fixed;
   background-position: center;
   @media all and (min-width: 700px) {
       min-height: 380px;

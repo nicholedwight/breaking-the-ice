@@ -11,20 +11,18 @@
 </a>
 <main role="main" class="host_main">
   <div class="host_header">
-    <img src="/project1/assets/img/vil_profile.jpg" alt="Rut" class="host_profile_image">
-    <h2>Rut</h2>
-    <p>Reykjavik, Iceland</p>
+    <img src="/project1/assets/img/arn_profile.jpg" alt="Gunnar" class="host_profile_image">
+    <h2>Gunnar</h2>
+    <p>Reykjanesbær, Iceland</p>
     <p>4 Guests</p>
     <p>2 Beds</p>
   </div>
 
   <div class="host_profile">
     <article class="listing_details">
-      <h3>About Rut</h3>
-      <p>Hi im Rut, and my husband's Ole!</p>
-      <p>We love travelling, meeting new people, outdoor activities, surfing, skiing, yoga, and lots of other things.</p>
-      <p>For the past 5 years we´ve lived in Dubai, Scotland, and England and travelled alot, and recently moved back home to our gorgeous island.
-        We're looking forward to being your host and will do our absolute best to make you feel comfortable and happy :)</p>
+      <h3>About Gunnary</h3>
+      <p>Hi im Gunnar!</p>
+      <p>I'm a fun guy from the Land of Fire and Ice, Iceland. I am also a professor in Icelandic language and literature - and a professional tourist guide, specialized in geology, history and culture. Beside running the guesthouse and welcoming my guests, I offer private excursion to the ocean for surf trips in a private vehicle for up to 8 passengers.</p>
     </article>
 
     <div class="review_wrapper">
