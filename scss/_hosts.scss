@@ -19,6 +19,37 @@
   }
 }
 
+.host_profile {
+  padding: 100px 0 0 10%;
+  @include column(7)
+}
+
+.comment_image {
+  border-radius: 100%;
+  width: 100px;
+}
+
+.listing_gallery {
+  @include column(5);
+  background: #000;
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    li {
+      padding: 0 5px;
+    }
+  }
+  img {
+    width: 150px;
+    border: 1px solid rgba(225, 225, 225, 0.0);
+  }
+  img:hover {
+    border: 1px solid #00CD9B;
+  }
+}
+
 @media all and (min-width: 700px) {
 .host_header{
     padding: 50px 26%;
@@ -32,10 +63,4 @@
       margin-left: 150px;
     }
   }
-}
-
-
-.comment_image {
-  border-radius: 100%;
-  width: 100px;
 }
