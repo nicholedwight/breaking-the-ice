@@ -1,3 +1,8 @@
+.host_vil {
+  background-image: url('/project1/assets/img/vil1.png');
+
+}
+
 .host_profile_image {
   border-radius: 100%;
   width: 150px;
@@ -6,26 +11,29 @@
 .host_header {
   width: 100%;
   border-bottom: 1px solid #C1C4C4;
-  padding: 50px 26%;
+  padding: 50px 6%;
   h2 {
     width: 150px;
     text-align: center;
     color: #999;
   }
-  p {
-    float: left;
-    width: 150px;
-    text-align: center;
+}
+
+@media all and (min-width: 700px) {
+.host_header{
+    padding: 50px 26%;
+    p {
+      float: left;
+      width: 150px;
+      text-align: center;
+      margin-top: -25px;
+    }
+    :nth-child(3) {
+      margin-left: 150px;
+    }
   }
 }
 
-.host_contact_form {
-  @media all and (min-width: 750px) {
-    // position: absolute;
-    // right: 29%;
-    // top: 23%;
-  }
-}
 
 .comment_image {
   border-radius: 100%;

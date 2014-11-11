@@ -8,6 +8,19 @@ main {
   }
 }
 
+main.host_main {
+  padding-top: 0;
+}
+
+section.host_hero {
+  min-height: 250px;
+  background-size: cover;
+  background-position: center;
+  @media all and (min-width: 700px) {
+      min-height: 380px;
+  }
+}
+
 section {
   min-height: 450px;
   overflow: hidden;

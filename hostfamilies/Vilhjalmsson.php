@@ -5,7 +5,8 @@
   $tomorrow->modify('+1 day');
 
 ?>
-<main role="main">
+<section class="host_hero host_vil"></section>
+<main role="main" class="host_main">
   <div class="host_header">
     <img src="/project1/assets/img/jegtnes.jpg" alt="Jegtnes" class="host_profile_image">
     <h2>Jegtnes</h2>
