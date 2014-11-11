@@ -5,7 +5,10 @@
   $tomorrow->modify('+1 day');
 
 ?>
-<section class="host_hero host_vil"></section>
+
+<a href="/project1/assets/img/vil1.png" data-lightbox="vilhjalmsson">
+  <section class="host_hero host_vil"></section>
+</a>
 <main role="main" class="host_main">
   <div class="host_header">
     <img src="/project1/assets/img/vil_profile.jpg" alt="Rut" class="host_profile_image">
