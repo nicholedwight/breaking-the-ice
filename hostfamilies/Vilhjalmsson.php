@@ -12,28 +12,7 @@
     <p>Reykjavik, Iceland</p>
     <p>4 Guests</p>
     <p>2 Beds</p>
-    <div class="host_contact_form">
-      <form class="host_form" action="/project1/inc/FormMail.php" method="POST" name="host_contact_form">
-        <ul class="list_neutral">
-          <li>
-            <label for="checkin">Check In</label>
-            <input class="checkin datepicker" type="text" name="checkin" placeholder="e.g. <?php echo $today; ?>" required>
-          </li>
-          <li>
-            <label for="checkout" class="checkout">Check Out</label>
-            <input class="checkout datepicker" type="text" name="checkout" placeholder="e.g. <?php echo $tomorrow->format('m/d/Y'); ?>" required>
-          </li>
-          <li>
-            <input class="half_transparent" type="email" name="email" id="email" onChange="emailvalidation(this,'The email given is not valid');" placeholder="Email:" required>
-          </li>
-          <li>
-            <textarea class="half_transparent" name="message" id="message" rows="6" cols="40" placeholder="About Yourself:" required></textarea>
-          </li>
-        </ul>
-        <input type="hidden" name="thisPage" value="contactResponse">
-        <button class="submit" type="submit">Submit</button>
-      </form>
-    </div>
+
   </div>
   <div class="host_profile">
     <article class="listing_details">
@@ -67,6 +46,6 @@
   </div>
 </main>
 
-<?php include('../inc/footer.php'); ?>
+<?php include('../inc/host_footer.php'); ?>
 <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
 <script src="/project1/assets/js/maps.js"></script>
