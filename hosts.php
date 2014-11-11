@@ -6,101 +6,73 @@
     <h1>Our Sponsored Hosts</h1>
       <ul class="list_neutral host_list">
         <li class="host_card quarter_transparent">
-          <a href="#">
-            <img src="/project1/assets/img/jegtnes.jpg" alt="Jegtnes" class="host_image">
+          <a href="hostfamilies/vilhjalmsson">
+            <img src="/project1/assets/img/vil_profile.jpg" alt="Rut Vilhjalmsson" class="host_image">
             <div class="host_card_call-to-action showOnHover">
-              <p>Clicky</p>
+              <p>See More About Rut &#38; Ole</p>
             </div>
-          <p class="host_name">Host</p>
+          <p class="host_name">Rut &#38; Ole Vilhjalmsson</p>
+          <p class="host_location">Reykjavik, Iceland</p>
+          <p class="accomodates">2 Guests</p>
+          </a>
+        </li>
+        <li class="host_card quarter_transparent">
+          <a href="hostfamilies/jegtnes">
+            <img src="/project1/assets/img/jegtnes.jpg" alt="Alex Jegtnes" class="host_image">
+            <div class="host_card_call-to-action showOnHover">
+              <p>See More About Alex</p>
+            </div>
+          <p class="host_name">Alex Jegtnes</p>
           <p class="host_location">Iceland</p>
           <p class="accomodates">2</p>
           </a>
         </li>
         <li class="host_card quarter_transparent">
-          <a href="#">
-            <img src="/project1/assets/img/jegtnes.jpg" alt="Jegtnes" class="host_image">
+          <a href="hostfamilies/ronhovde">
+            <img src="/project1/assets/img/ron_profile.jpg" alt="Ville Rønhovde" class="host_image">
             <div class="host_card_call-to-action showOnHover">
-              <p>Clicky</p>
+              <p>See More About Ville</p>
             </div>
-          <p class="host_name">Host</p>
+          <p class="host_name">Ville Rønhovde</p>
           <p class="host_location">Iceland</p>
           <p class="accomodates">2</p>
           </a>
         </li>
         <li class="host_card quarter_transparent">
-          <a href="#">
-            <img src="/project1/assets/img/jegtnes.jpg" alt="Jegtnes" class="host_image">
+          <a href="hostfamilies/oskar">
+            <img src="/project1/assets/img/osk_profile.jpg" alt="Rolf Oskar" class="host_image">
             <div class="host_card_call-to-action showOnHover">
-              <p>Clicky</p>
+              <p>See More About Rolf &#38; Ada</p>
             </div>
-          <p class="host_name">Host</p>
+          <p class="host_name">Rolf &#38; Ada Oskar</p>
           <p class="host_location">Iceland</p>
           <p class="accomodates">2</p>
           </a>
         </li>
         <li class="host_card quarter_transparent">
-          <a href="#">
-            <img src="/project1/assets/img/jegtnes.jpg" alt="Jegtnes" class="host_image">
+          <a href="hostfamilies/arnason">
+            <img src="/project1/assets/img/arn_profile.jpg" alt="Gunnar Arnason" class="host_image">
             <div class="host_card_call-to-action showOnHover">
-              <p>Clicky</p>
+              <p>See More About Gunnar</p>
             </div>
-          <p class="host_name">Host</p>
+          <p class="host_name">Gunnar Arnason</p>
           <p class="host_location">Iceland</p>
           <p class="accomodates">2</p>
           </a>
         </li>
         <li class="host_card quarter_transparent">
-          <a href="#">
-            <img src="/project1/assets/img/jegtnes.jpg" alt="Jegtnes" class="host_image">
+          <a href="hostfamilies/eklund">
+            <img src="/project1/assets/img/ekl_profile.jpg" alt="Anders Christof Eklund" class="host_image">
             <div class="host_card_call-to-action showOnHover">
-              <p>Clicky</p>
+              <p>See More About Anders</p>
             </div>
-          <p class="host_name">Host</p>
-          <p class="host_location">Iceland</p>
-          <p class="accomodates">2</p>
-          </a>
-        </li>
-        <li class="host_card quarter_transparent">
-          <a href="#">
-            <img src="/project1/assets/img/jegtnes.jpg" alt="Jegtnes" class="host_image">
-            <div class="host_card_call-to-action showOnHover">
-              <p>Clicky</p>
-            </div>
-          <p class="host_name">Host</p>
+          <p class="host_name">Anders Christof Eklund</p>
           <p class="host_location">Iceland</p>
           <p class="accomodates">2</p>
           </a>
         </li>
       </ul>
-    <!--<ul class="host_listing list_neutral">
-      <li class="listing_row">
-        <a href="#">
-          <img src="/project1/assets/img/kitchen1thumb.jpg">
-          <h2>The Vilhjálmsson Family</h2>
-        </a>
-      </li>
-      <li class="listing_row">
-        <a href="#">
-          <img src="/project1/assets/img/Thor.jpg">
-          <h2>The Björnsson Family</h2>
-        </a>
-      </li>
-      <li class="listing_row">
-        <a href="#">
-          <h2>The Third Family</h2>
-        </a>
-      </li>
-      <li class="listing_row">
-        <a href="#">
-          <h2>The Fourth Family</h2>
-        </a>
-      </li>
-      <li class="listing_row">
-        <a href="#">
-          <h2>The Fifth Family</h2>
-        </a>
-      </li>
-    </ul>
+    <!--
     <aside class="map_wrapper">
       <div id="map-canvas"></div>
     </aside> -->

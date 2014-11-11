@@ -8,22 +8,22 @@
 <section class="host_hero host_vil"></section>
 <main role="main" class="host_main">
   <div class="host_header">
-    <img src="/project1/assets/img/jegtnes.jpg" alt="Jegtnes" class="host_profile_image">
-    <h2>Jegtnes</h2>
+    <img src="/project1/assets/img/vil_profile.jpg" alt="Rut" class="host_profile_image">
+    <h2>Rut</h2>
     <p>Reykjavik, Iceland</p>
     <p>4 Guests</p>
     <p>2 Beds</p>
-
   </div>
+
   <div class="host_profile">
     <article class="listing_details">
-      <h3>About Jegtnes</h3>
-
+      <h3>About Rut</h3>
+      <p>Hi im Rut, and my husband's Ole!</p>
+      <p>We love travelling, meeting new people, outdoor activities, surfing, skiing, yoga, and lots of other things.</p>
+      <p>For the past 5 years we´ve lived in Dubai, Scotland, and England and travelled alot, and recently moved back home to our gorgeous island.
+        We're looking forward to being your host and will do our absolute best to make you feel comfortable and happy :)</p>
     </article>
 
-    <aside class="listing_gallery">
-
-    </aside>
     <div class="review_wrapper">
       <div class="review_item">
         <img src="/project1/assets/img/jegtnes.jpg" alt="comment image" class="comment_image">
@@ -46,6 +46,10 @@
     </div>
   </div>
 </main>
+
+<aside class="listing_gallery">
+
+</aside>
 
 <?php include('../inc/footer.php'); ?>
 <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
