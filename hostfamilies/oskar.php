@@ -6,23 +6,25 @@
 
 ?>
 
-<a href="/project1/assets/img/galleries/arn1.png" data-lightbox="arnason">
-  <section class="host_hero host_arn"></section>
+<a href="/project1/assets/img/galleries/osk1.png" data-lightbox="oskar">
+  <section class="host_hero host_osk"></section>
 </a>
 <main role="main" class="host_main">
   <div class="host_header">
-    <img src="/project1/assets/img/arn_profile.jpg" alt="Gunnar" class="host_profile_image">
-    <h2>Gunnar</h2>
-    <p>Reykjanesbær, Iceland</p>
+    <img src="/project1/assets/img/osk_profile.jpg" alt="Rolf and Ada" class="host_profile_image">
+    <h2>Rolf and Ada</h2>
+    <p>Reykjavik, Iceland</p>
     <p>4 Guests</p>
     <p>2 Beds</p>
   </div>
 
   <div class="host_profile">
     <article class="listing_details">
-      <h3>About Gunnary</h3>
-      <p>Hi im Gunnar!</p>
-      <p>I'm a fun guy from the Land of Fire and Ice, Iceland. I am also a professor in Icelandic language and literature - and a professional tourist guide, specialized in geology, history and culture. Beside running the guesthouse and welcoming my guests, I offer private excursion to the ocean for surf trips in a private vehicle for up to 8 passengers.</p>
+      <h3>About Rolf</h3>
+      <p>Hi im Rolf, and my wife's Ada!</p>
+      <p>We love travelling, meeting new people, outdoor activities, surfing, skiing, yoga, and lots of other things.</p>
+      <p>For the past 5 years we´ve lived in Dubai, Scotland, and England and travelled alot, and recently moved back home to our gorgeous island.
+        We're looking forward to being your host and will do our absolute best to make you feel comfortable and happy :)</p>
     </article>
 
     <div class="review_wrapper">
@@ -47,26 +49,27 @@
     </div>
   </div>
 
-    <aside class="listing_gallery">
-      <ul class="list_neutral">
-        <li>
-          <a href="/project1/assets/img/galleries/arn2.jpg" data-lightbox="arnason">
-            <img src="/project1/assets/img/galleries/arn2_thumb.jpg">
-          </a>
-        </li>
-        <li>
-          <a href="/project1/assets/img/galleries/arn3.jpg" data-lightbox="arnason">
-            <img src="/project1/assets/img/galleries/arn3_thumb.jpg">
-          </a>
-        </li>
-        <li>
-          <a href="/project1/assets/img/galleries/arn4.jpg" data-lightbox="arnason">
-            <img src="/project1/assets/img/galleries/arn4_thumb.jpg">
-          </a>
-        </li>
-      </ul>
-    </aside>
+  <aside class="listing_gallery">
+    <ul class="list_neutral">
+      <li>
+        <a href="/project1/assets/img/galleries/osk2.jpg" data-lightbox="oskar">
+          <img src="/project1/assets/img/galleries/osk2_thumb.jpg">
+        </a>
+      </li>
+      <li>
+        <a href="/project1/assets/img/galleries/osk3.jpg" data-lightbox="oskar">
+          <img src="/project1/assets/img/galleries/osk3_thumb.jpg">
+        </a>
+      </li>
+      <li>
+        <a href="/project1/assets/img/galleries/osk4.jpg" data-lightbox="oskar">
+          <img src="/project1/assets/img/galleries/osk4_thumb.jpg">
+        </a>
+      </li>
+    </ul>
+  </aside>
 </main>
+
 
 <?php include('../inc/footer.php'); ?>
 <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
