@@ -46,11 +46,27 @@
       </div>
     </div>
   </div>
+
+    <aside class="listing_gallery">
+      <ul class="list_neutral">
+        <li>
+          <a href="/project1/assets/img/galleries/arn2.jpg" data-lightbox="vilhjalmsson">
+            <img src="/project1/assets/img/galleries/arn2_thumb.jpg">
+          </a>
+        </li>
+        <li>
+          <a href="/project1/assets/img/galleries/arn3.jpg" data-lightbox="vilhjalmsson">
+            <img src="/project1/assets/img/galleries/arn3_thumb.jpg">
+          </a>
+        </li>
+        <li>
+          <a href="/project1/assets/img/galleries/arn4.jpg" data-lightbox="vilhjalmsson">
+            <img src="/project1/assets/img/galleries/arn4_thumb.jpg">
+          </a>
+        </li>
+      </ul>
+    </aside>
 </main>
-
-<aside class="listing_gallery">
-
-</aside>
 
 <?php include('../inc/footer.php'); ?>
 <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
