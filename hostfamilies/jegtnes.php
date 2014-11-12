@@ -11,7 +11,7 @@
 </a>
 <main role="main" class="host_main">
   <div class="host_header">
-    <img src="/project1/assets/img/jeg_profile.jpg" alt="Alex" class="host_profile_image">
+    <img src="/project1/assets/img/jegtnes.jpg" alt="Alex" class="host_profile_image">
     <h2>Alex</h2>
     <p>Reykjavik, Iceland</p>
     <p>4 Guests</p>
