@@ -3,7 +3,7 @@
 
 ?>
 
-<a href="/project1/assets/img/galleries/jeg1.png" data-lightbox="jegtnes">
+<a href="/project1/assets/img/galleries/jeg1.jpg" data-lightbox="jegtnes">
   <section class="host_hero host_jeg"></section>
 </a>
 <main role="main" class="host_main">
