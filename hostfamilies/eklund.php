@@ -1,8 +1,5 @@
 <?php $thisPage = "Hosts";
   include('../inc/header.php');
-  $today = date('d/m/Y');
-  $tomorrow = new DateTime($today);
-  $tomorrow->modify('+1 day');
 
 ?>
 
