@@ -3,7 +3,7 @@
 
 ?>
 
-<a href="/project1/assets/img/galleries/ekl1.png" data-lightbox="eklund">
+<a href="/project1/assets/img/galleries/ekl1.jpg" data-lightbox="eklund">
   <section class="host_hero host_ekl"></section>
 </a>
 <main role="main" class="host_main">
