@@ -6,15 +6,10 @@
   <section class="host_hero host_vil"></section>
 </a>
 <main role="main" class="host_main">
-  <div class="host_header">
-    <img src="/project1/assets/img/vil_profile.jpg" alt="Rut" class="host_profile_image">
-    <h2>Rut</h2>
-    <p>Reykjavik, Iceland</p>
-    <p>4 Guests</p>
-    <p>2 Beds</p>
-  </div>
-
   <div class="host_profile">
+    <img src="/project1/assets/img/vil_profile.jpg" alt="Rut" class="host_profile_image">
+    <h2 class="host_name">Rut</h2>
+
     <article class="listing_details">
       <h3>About Rut</h3>
       <p>Hi im Rut, and my husband's Ole!</p>
@@ -44,6 +39,10 @@
       </div>
     </div>
   </div>
+
+  <aside class="booking_request">
+    <a href="#"><div class="request_button">Request Booking</div></a>
+  </aside>
 
   <aside class="listing_gallery">
     <ul class="list_neutral">

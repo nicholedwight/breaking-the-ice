@@ -22,26 +22,41 @@
   background-image: url('/project1/assets/img/galleries/arn1_thumb.jpg');
 }
 
+.host_profile {
+  padding: 100px 0 0 10%;
+  @include column(8);
+}
+
 .host_profile_image {
   border-radius: 100%;
   width: 150px;
   height: 150px;
 }
 
-.host_header {
-  width: 100%;
-  border-bottom: 1px solid #C1C4C4;
-  padding: 50px 6%;
-  h2 {
-    width: 150px;
-    text-align: center;
-    color: #999;
-  }
+.host_name {
+  width: 150px;
+  text-align: center;
+  color: #999;
 }
 
-.host_profile {
-  padding: 100px 0 0 10%;
-  @include column(7)
+.booking_request {
+  @include column(2);
+  margin-top: 150px;
+}
+
+.request_button {
+  background: #3b3b3b;
+  width: 200px;
+  height: 55px;
+  padding-top: 19px;
+  &:hover {
+    background: #00CD9B;
+    color: #000;
+    -moz-transition:all 1s ease-in-out;
+    -o-transition:all 1s ease-in-out;
+    -webkit-transition:all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+  }
 }
 
 .comment_image {
@@ -50,7 +65,7 @@
 }
 
 .listing_gallery {
-  @include column(5);
+  @include column(12);
   background: #000;
   ul {
     display: flex;
