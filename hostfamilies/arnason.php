@@ -7,18 +7,13 @@
   <section class="host_hero host_arn"></section>
 </a>
 <main role="main" class="host_main">
-  <div class="host_header">
-    <img src="/project1/assets/img/arn_profile.jpg" alt="Gunnar" class="host_profile_image">
-    <h2>Gunnar</h2>
-    <p>Reykjanesbær, Iceland</p>
-    <p>4 Guests</p>
-    <p>2 Beds</p>
-  </div>
-
   <div class="host_profile">
+    <img src="/project1/assets/img/arn_profile.jpg" alt="Gunnar" class="host_profile_image">
+    <h2 class="host_name">Gunnar</h2>
+
     <article class="listing_details">
       <h3>About Gunnary</h3>
-      <p>Hi im Gunnar!</p>
+      <p>Hi im Gunnar!Reykjanesbær</p>
       <p>I'm a fun guy from the Land of Fire and Ice, Iceland. I am also a professor in Icelandic language and literature - and a professional tourist guide, specialized in geology, history and culture. Beside running the guesthouse and welcoming my guests, I offer private excursion to the ocean for surf trips in a private vehicle for up to 8 passengers.</p>
     </article>
 
@@ -43,6 +38,10 @@
       </div>
     </div>
   </div>
+
+  <aside class="booking_request">
+    <a href="#"><div class="request_button">Request Booking</div></a>
+  </aside>
 
     <aside class="listing_gallery">
       <ul class="list_neutral">

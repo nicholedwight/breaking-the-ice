@@ -11,7 +11,7 @@
             <div class="host_card_call-to-action showOnHover">
               <p>See More About Rut &#38; Ole</p>
             </div>
-          <p class="host_name">Rut &#38; Ole Vilhjalmsson</p>
+          <p class="host_card_name">Rut &#38; Ole Vilhjalmsson</p>
           <p class="host_location">Reykjavik, Iceland</p>
           <p class="accomodates">2 Guests</p>
           </a>
@@ -22,7 +22,7 @@
             <div class="host_card_call-to-action showOnHover">
               <p>See More About Alex</p>
             </div>
-          <p class="host_name">Alex Jegtnes</p>
+          <p class="host_card_name">Alex Jegtnes</p>
           <p class="host_location">Iceland</p>
           <p class="accomodates">2</p>
           </a>
@@ -33,7 +33,7 @@
             <div class="host_card_call-to-action showOnHover">
               <p>See More About Ville</p>
             </div>
-          <p class="host_name">Ville Rønhovde</p>
+          <p class="host_card_name">Ville Rønhovde</p>
           <p class="host_location">Iceland</p>
           <p class="accomodates">2</p>
           </a>
@@ -44,7 +44,7 @@
             <div class="host_card_call-to-action showOnHover">
               <p>See More About Rolf &#38; Ada</p>
             </div>
-          <p class="host_name">Rolf &#38; Ada Oskar</p>
+          <p class="host_card_name">Rolf &#38; Ada Oskar</p>
           <p class="host_location">Iceland</p>
           <p class="accomodates">2</p>
           </a>
@@ -55,7 +55,7 @@
             <div class="host_card_call-to-action showOnHover">
               <p>See More About Gunnar</p>
             </div>
-          <p class="host_name">Gunnar Arnason</p>
+          <p class="host_card_name">Gunnar Arnason</p>
           <p class="host_location">Iceland</p>
           <p class="accomodates">2</p>
           </a>
@@ -66,7 +66,7 @@
             <div class="host_card_call-to-action showOnHover">
               <p>See More About Anders</p>
             </div>
-          <p class="host_name">Anders Christof Eklund</p>
+          <p class="host_card_name">Anders Christof Eklund</p>
           <p class="host_location">Iceland</p>
           <p class="accomodates">2</p>
           </a>

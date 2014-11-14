@@ -7,15 +7,10 @@
   <section class="host_hero host_osk"></section>
 </a>
 <main role="main" class="host_main">
-  <div class="host_header">
-    <img src="/project1/assets/img/osk_profile.jpg" alt="Rolf and Ada" class="host_profile_image">
-    <h2>Rolf and Ada</h2>
-    <p>Reykjavik, Iceland</p>
-    <p>4 Guests</p>
-    <p>2 Beds</p>
-  </div>
-
   <div class="host_profile">
+    <img src="/project1/assets/img/osk_profile.jpg" alt="Rolf and Ada" class="host_profile_image">
+    <h2 class="host_name">Rolf and Ada</h2>
+
     <article class="listing_details">
       <h3>About Rolf</h3>
       <p>Hi im Rolf, and my wife's Ada!</p>
@@ -45,6 +40,10 @@
       </div>
     </div>
   </div>
+
+  <aside class="booking_request">
+    <a href="#"><div class="request_button">Request Booking</div></a>
+  </aside>
 
   <aside class="listing_gallery">
     <ul class="list_neutral">
