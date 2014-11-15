@@ -15,6 +15,7 @@
       <h3>About Gunnary</h3>
       <p>Hi im Gunnar!Reykjanesbær</p>
       <p>I'm a fun guy from the Land of Fire and Ice, Iceland. I am also a professor in Icelandic language and literature - and a professional tourist guide, specialized in geology, history and culture. Beside running the guesthouse and welcoming my guests, I offer private excursion to the ocean for surf trips in a private vehicle for up to 8 passengers.</p>
+    <a href="#"><div class="request_button">Request Booking</div></a>
     </article>
 
     <div class="review_wrapper">
@@ -38,10 +39,6 @@
       </div>
     </div>
   </div>
-
-  <aside class="booking_request">
-    <a href="#"><div class="request_button">Request Booking</div></a>
-  </aside>
 
     <aside class="listing_gallery">
       <ul class="list_neutral">

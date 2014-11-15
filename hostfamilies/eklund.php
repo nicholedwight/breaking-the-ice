@@ -17,6 +17,7 @@
       <p>We love travelling, meeting new people, outdoor activities, surfing, skiing, yoga, and lots of other things.</p>
       <p>For the past 5 years we´ve lived in Dubai, Scotland, and England and travelled alot, and recently moved back home to our gorgeous island.
         We're looking forward to being your host and will do our absolute best to make you feel comfortable and happy :)</p>
+      <a href="#"><div class="request_button">Request Booking</div></a>
     </article>
 
     <div class="review_wrapper">
@@ -41,9 +42,6 @@
     </div>
   </div>
 
-  <aside class="booking_request">
-    <a href="#"><div class="request_button">Request Booking</div></a>
-  </aside>
 
   <aside class="listing_gallery">
     <ul class="list_neutral">

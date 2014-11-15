@@ -39,16 +39,13 @@
   color: #999;
 }
 
-.booking_request {
-  @include column(2);
-  margin-top: 150px;
-}
-
 .request_button {
   background: #3b3b3b;
-  width: 200px;
+  width: 150px;
   height: 55px;
   padding-top: 19px;
+  margin: 0 auto;
+  text-align: center;
   &:hover {
     background: #00CD9B;
     color: #000;
