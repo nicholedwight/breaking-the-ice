@@ -6,7 +6,7 @@
 <a href="/project1/assets/img/galleries/ron1.png" data-lightbox="ronhovde">
   <section class="host_hero host_ron"></section>
 </a>
-<main role="main" class="host_main">
+<main role="main" class="host_profile_main_wrapper">
   <div class="host_profile">
     <img src="/project1/assets/img/ron_profile.jpg" alt="Ville" class="host_profile_image">
     <h2 class="host_name">Ville</h2>

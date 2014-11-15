@@ -6,7 +6,7 @@
 <a href="/project1/assets/img/galleries/osk1.png" data-lightbox="oskar">
   <section class="host_hero host_osk"></section>
 </a>
-<main role="main" class="host_main">
+<main role="main" class="host_profile_main_wrapper">
   <div class="host_profile">
     <img src="/project1/assets/img/osk_profile.jpg" alt="Rolf and Ada" class="host_profile_image">
     <h2 class="host_name">Rolf and Ada</h2>

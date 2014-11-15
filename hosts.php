@@ -1,9 +1,14 @@
 <?php $thisPage = "Hosts";
   include('inc/header.php');
 ?>
-  <main role="main" class="hosts">
+  <main role="main" class="hosts_page">
     <a id="skip"> </a>
-    <h1>Our Sponsored Hosts</h1>
+    <div class="hosts_page_header">
+      <h1>Our Sponsored Hosts</h1>
+      <p>Here at Breaking The Ice, we strive to pair you with your best friend when you come to stay in Iceland. We have surfers and adventurers from all different backgrounds, ages, and numbers; so we're positive you'll find someone that can help you have the best holiday!
+      </p>
+    </div>
+
       <ul class="list_neutral host_list">
         <li class="host_card quarter_transparent">
           <a href="hostfamilies/vilhjalmsson">

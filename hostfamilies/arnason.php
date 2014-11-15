@@ -6,7 +6,7 @@
 <a href="/project1/assets/img/galleries/arn1.png" data-lightbox="arnason">
   <section class="host_hero host_arn"></section>
 </a>
-<main role="main" class="host_main">
+<main role="main" class="host_profile_main_wrapper">
   <div class="host_profile">
     <img src="/project1/assets/img/arn_profile.jpg" alt="Gunnar" class="host_profile_image">
     <h2 class="host_name">Gunnar</h2>

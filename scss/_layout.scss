@@ -8,7 +8,7 @@ main {
   }
 }
 
-main.host_main {
+main.host_profile_main_wrapper {
   padding-top: 0;
 }
 
@@ -85,10 +85,17 @@ footer {
   padding-top: 100px;
 }
 
-.hosts {
+.hosts_page {
   background: url('/project1/assets/img/hostbg.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+  color: #FFF;
+}
+
+.hosts_page_header {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .contact {
