@@ -13,7 +13,6 @@
             </div>
           <p class="host_card_name">Rut &#38; Ole Vilhjalmsson</p>
           <p class="host_location">Reykjavik, Iceland</p>
-          <p class="accomodates">2 Guests</p>
           </a>
         </li>
         <li class="host_card quarter_transparent">
@@ -24,7 +23,6 @@
             </div>
           <p class="host_card_name">Alex Jegtnes</p>
           <p class="host_location">Iceland</p>
-          <p class="accomodates">2</p>
           </a>
         </li>
         <li class="host_card quarter_transparent">
@@ -35,7 +33,6 @@
             </div>
           <p class="host_card_name">Ville Rønhovde</p>
           <p class="host_location">Iceland</p>
-          <p class="accomodates">2</p>
           </a>
         </li>
         <li class="host_card quarter_transparent">
@@ -46,7 +43,6 @@
             </div>
           <p class="host_card_name">Rolf &#38; Ada Oskar</p>
           <p class="host_location">Iceland</p>
-          <p class="accomodates">2</p>
           </a>
         </li>
         <li class="host_card quarter_transparent">
@@ -57,7 +53,6 @@
             </div>
           <p class="host_card_name">Gunnar Arnason</p>
           <p class="host_location">Iceland</p>
-          <p class="accomodates">2</p>
           </a>
         </li>
         <li class="host_card quarter_transparent">
@@ -68,7 +63,6 @@
             </div>
           <p class="host_card_name">Anders Christof Eklund</p>
           <p class="host_location">Iceland</p>
-          <p class="accomodates">2</p>
           </a>
         </li>
       </ul>
