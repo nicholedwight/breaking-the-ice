@@ -21,14 +21,14 @@
         <a href="/project1/hosts">
           <?php include('inc/hosts-icon.svg'); ?>
           <h2>Hosts</h2>
-          <p>Typewriter drinking vinegar narwhal cardigan. Forage seitan chia craft beer tattooed YOLO viral, bicycle rights kale chips. Tilde roof party DIY Truffaut, gluten-free pickled wayfarers beard readymade banh mi locavore Austin chia selfies.</p>
+          <p>Here at Breaking The Ice, we strive to pair you with your best friend when you come to stay in Iceland. We have surfers and adventurers from all different backgrounds, ages, and numbers; so we're positive you'll find someone that can help you have the best holiday!</p>
         </a>
       </div>
       <div class="content_item">
         <a href="/project1/contact">
           <?php include('inc/contact-icon.svg'); ?>
           <h2>Contact</h2>
-          <p>Typewriter drinking vinegar narwhal cardigan. Forage seitan chia craft beer tattooed YOLO viral, bicycle rights kale chips. Tilde roof party DIY Truffaut, gluten-free pickled wayfarers beard readymade banh mi locavore Austin chia selfies.</p>
+          <p>We encourage our guests to get in touch with our hosts in order to secure acommodation and pricing, however, we know this isn't always the easiest! So we will do our best to communicate with our hosts on your behalf if you are unable.</p>
         </a>
       </div>
     </div>
