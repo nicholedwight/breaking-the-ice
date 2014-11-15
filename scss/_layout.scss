@@ -98,11 +98,21 @@ footer {
   text-align: center;
 }
 
-.contact {
+.contact, .form_response_page {
   background: url('/project1/assets/img/contactbg.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.form_response_page {
+  min-height: 85%;
+}
+
+.form_response_wrapper {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .content_item {

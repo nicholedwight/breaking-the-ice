@@ -5,8 +5,21 @@
   padding-bottom: 5px;
 }
 
-.picker {
-  top: 55px;
+.button {
+  background: #3b3b3b;
+  width: 150px;
+  height: 55px;
+  padding-top: 19px;
+  margin: 0 auto;
+  text-align: center;
+  &:hover {
+    background: #00CD9B;
+    color: #000;
+    -moz-transition:all 1s ease-in-out;
+    -o-transition:all 1s ease-in-out;
+    -webkit-transition:all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+  }
 }
 
 .offscreen {

@@ -68,28 +68,18 @@ Except for the inclusion of php variables and the 'mail' statement
 the following is straightforward html code.
 You can add more html code but it should be outside the <php .. ?> tags.
 -->
-<main class=" contact" role="main">
+<main class="form_response_page" role="main">
   <a id="skip"> </a>
-<h2>Thank you for your email!</h2>
+<div class="form_response_wrapper">
 <?php
 // Send out the email or output an error message
 if (mail($sendto, $emailcontent, $headers)) {
 ?>
   	<p>&nbsp;</p>
-	<p><b>Thank You <?php echo $name; ?></b> an email has been sent to the address you gave.</p>
-  	<p>You sent the following:</p>
-		<table border="0" align="center" cellpadding="6">
-		<tr>
-		<td>Name: </td><td><b><?php echo $name; ?> </b> </td>
-		</tr>
-		<tr>
-		<td>Email: </td><td> <b><?php echo $email; ?> </b></td>
-		</tr>
-		<tr>
-		<td>Message: </td><td><b><?php echo $message; ?> </b> </td>
-		</tr>
-		</table>
+	<p>Thank You <b><?php echo $name; ?></b> a copy of the email has been sent to the address you gave.</p>
  	<p>We will be in touch as soon as possible.</p>
+   <a href="#"><div class="button">Return Home</div></a>
+
 <?php
 	}
 
@@ -97,24 +87,10 @@ else { // email send has been unsuccessful.
 ?>
   	<p>&nbsp;</p>
 	<p><b>Sorry <?php echo $name; ?></b></p>
-	<p>For some reason the form submission has not been successful.</p>
- 	<p>You tried to send the following:</p>
-		<table border="0" align="center" cellpadding="6">
-		<tr>
-		<td>Name: </td><td><b><?php echo $name; ?> </b> </td>
-		</tr>
-		<tr>
-		<td>Email: </td><td> <b><?php echo $email; ?> </b></td>
-		</tr>
-		<tr>
-		<td>Message: </td><td><b><?php echo $message; ?> </b> </td>
-		</tr>
-		</table>
-
-
-	<p> Please try again.</p>
+	<p>For some reason the form submission has not been successful, please try again.</p>
 <?php
 	}
 ?>
+</div>
 </main>
 <?php include('footer.php'); ?>
