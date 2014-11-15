@@ -16,6 +16,7 @@
 			</li>
       <li>
         <select name="host">
+          <option value="" selected>Desired Host</option>
           <option value="rutole">Rut &#38; Ole</option>
           <option value="alex">Alex</option>
           <option value="ville">Ville</option>
