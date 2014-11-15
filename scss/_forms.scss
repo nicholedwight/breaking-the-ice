@@ -4,7 +4,7 @@
   margin: 6% auto;
   height: 500px;
   padding-top: 30px;
-  input, textarea {
+  input, textarea, select {
     box-sizing: border-box;
     font-weight: normal;
     font-style: normal;
@@ -23,7 +23,7 @@
     margin-left: 7%;
     margin-bottom: 40px;
   }
-  input:focus, textarea:focus {
+  input:focus, textarea:focus, select:focus {
     border: 2px solid #00CD9B;
   }
   textarea {

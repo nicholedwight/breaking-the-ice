@@ -14,6 +14,16 @@
 			<li>
 				<textarea class="half_transparent" name="message" id="message" rows="6" cols="40" placeholder="Questions or Comments:" required></textarea>
 			</li>
+      <li>
+        <select name="host">
+          <option value="rutole">Rut &#38; Ole</option>
+          <option value="alex">Alex</option>
+          <option value="ville">Ville</option>
+          <option value="rolfada">Rolf &#38; Ada</option>
+          <option value="gunnar">Gunnar</option>
+          <option value="anders">Anders</option>
+        </select>
+      </li>
 		</ul>
     <input type="hidden" name="thisPage" value="contactResponse">
 		<button class="submit" type="submit">Submit</button>
