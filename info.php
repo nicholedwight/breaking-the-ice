@@ -2,9 +2,9 @@
   include('inc/header.php');
 ?>
   <main class="info_wrapper" role="main">
+  <?php include('inc/faq_nav.php'); ?>
     <div class="inner_wrapper">
       <a id="skip"> </a>
-      <?php include('inc/faq_nav.php'); ?>
       <h1>Practical Info</h1>
       <article>
         <h2>Where's Iceland?</h2>
