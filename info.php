@@ -3,7 +3,7 @@
 ?>
   <main class="info_wrapper" role="main">
   <?php include('inc/faq_nav.php'); ?>
-    <div class="inner_wrapper">
+    <div class="inner_info_wrapper">
       <a id="skip"> </a>
       <h1>Practical Info</h1>
       <article>
