@@ -3,6 +3,11 @@
 ?>
 <main class="contact" role="main">
   <a id="skip"> </a>
+  <div class="content_width">
+    <h1>Contact Us</h1>
+    <p>We encourage our guests to get in touch with our hosts in order to secure acommodation and pricing, however, we know this isn't always the easiest! So we will do our best to communicate with our hosts on your behalf if you are unable.</p>
+  </div>
+  
   <form class="contact_form quarter_transparent" action="/project1/inc/FormMail.php" method="POST" name="breaking_the_ice_form">
 		<ul class="list_neutral">
 			<li>
