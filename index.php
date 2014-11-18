@@ -14,7 +14,8 @@
         <a href="/project1/info">
           <?php include('inc/about-icon.svg'); ?>
           <h2>About</h2>
-          <p>Typewriter drinking vinegar narwhal cardigan. Forage seitan chia craft beer tattooed YOLO viral, bicycle rights kale chips. Tilde roof party DIY Truffaut, gluten-free pickled wayfarers beard readymade banh mi locavore Austin chia selfies.</p>
+          <p>We believe in quality and our goal is to make sure that our visitors get the best possible experience.
+Enjoy the warm, friendly atmosphere of the surf culture in our beautiful arctic environment.</p>
         </a>
       </div>
       <div class="content_item">
