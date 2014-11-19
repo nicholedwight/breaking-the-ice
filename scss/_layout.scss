@@ -51,6 +51,14 @@ footer {
   @include column(12);
 }
 
+.image_column {
+  width: 100%;
+  text-align: center;
+  img {
+    margin: 0 20px;
+  }
+}
+
 .footer_wrapper {
   width: 90%;
   text-align: left;
