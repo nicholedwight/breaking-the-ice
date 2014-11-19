@@ -45,7 +45,6 @@
                 <li><a href="/project1/info#how-to-get-here">Getting Here</a></li>
                 <li><a href="/project1/info#weather">Icelandic Weather</a></li>
                 <li><a href="/project1/info#accommodation">Accommodation</a></li>
-                <li><a href="/project1/info#testimonials">Testimonials</a></li>
               </ul>
           </li>
       </ul>

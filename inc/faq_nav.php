@@ -8,7 +8,4 @@
   <li>
     <a href="/project1/info#accommodation" <?php if ($thisPage === "FAQ_accommodation") echo "class='faq_current'"; ?>>Accommodation</a>
   </li>
-  <li>
-    <a href="/project1/info#testimonials" <?php if ($thisPage === "FAQ_testimonials") echo "class='faq_current'"; ?>>Testimonials</a>
-    </li>
 </ul>
