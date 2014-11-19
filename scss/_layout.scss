@@ -51,11 +51,12 @@ footer {
   @include column(12);
 }
 
-.image_column {
-  width: 100%;
+.info_image_row {
+  width: 85%;
+  margin: 0 auto;
   text-align: center;
   img {
-    margin: 0 20px;
+    max-width: 100%;
   }
 }
 

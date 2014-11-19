@@ -9,9 +9,12 @@
       <article>
         <h2>Where's Iceland?</h2>
         <p>Iceland is a North Atlantic island and the westernmost country in Europe, midway between North America and mainland Europe. It lies about 800 km northwest of Scotland and 970 km west of Norway, and its northern coast is just below the Arctic Circle. From London, Iceland is the same distance as Athens. It is also the same distance from New York to Iceland as from New York to Los Angeles. Reykjavík is the world’s northernmost capital city.</p>
+        <div class="info_image_row">
+          <img src="/project1/assets/img/sea.jpg" alt="Bonfire by the beach">
+        </div>
         <h2>How long is it daylight for in Iceland?</h2>
         <p>Some of our visitors who join us in the Summer ask when it will get dark, they're told "sometime in August". The sun hardly sets at all in the Summer around the southern half of the country, if you stay north of Reykjavík it's daylight 24/7. If you joing us in the Winter, however, do expect only a few, 3-4, hours of daylight; come hunt the lights with us! The Northern Lights are a spectacular part of Iceland in the Winter and many of our hosts enjoy taking our guests out to see them. Spring and Fall daylight hours will be more normal.</p>
-        <div class="image_column">
+        <div class="info_image_row">
           <img src="/project1/assets/img/bonfire.jpg" alt="Bonfire by the beach">
           <img src="/project1/assets/img/blanketgirl.jpg" alt="Enjoying the scenery">
           <img src="/project1/assets/img/icelandhills.jpg" alt="Enjoying the scenery">
