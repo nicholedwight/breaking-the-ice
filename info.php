@@ -50,7 +50,7 @@
         <h1>Weather in Iceland</h1>
         <p>Although Reykjavik is the world’s northernmost capital, Iceland is warmed by the Gulf Stream, resulting in a surprisingly mild, coastal climate. The average summer temperature in Reykjavik is 10.6°C/51°F in July, with average highs of 24.3°C/76°F. The warmest months are from June to September when visitors can witness the midnight sun. Alternately, Iceland’s coldest months are November to January, when average winter temperature in Reykjavik are similar to New York City’s, about 0°C/32°F in January (average highs are 9.9°C/50°F).</p>
         <div class="forecast">
-          <iframe id="forecast_embed" type="text/html" frameborder="0" height="245" width="100%" src="http://forecast.io/embed/#lat=64.1474&lon=-21.9340&name=Reykjavík&units=uk&color=#00CD9B"> </iframe>
+          <iframe id="forecast_embed" type="text/html" frameborder="0" height="245" width="90%" src="http://forecast.io/embed/#lat=64.1474&lon=-21.9340&name=Reykjavík&units=uk&color=#00CD9B"> </iframe>
         </div>
       </article>
 
