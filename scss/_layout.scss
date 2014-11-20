@@ -130,12 +130,9 @@ footer {
 .inner_info_wrapper {
   max-width: 1000px;
   margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-}
-
-.inner_info_wrapper > article {
-  flex: 1;
+  h2 {
+    padding: 10px 0;
+  }
 }
 
 .l_index_content {

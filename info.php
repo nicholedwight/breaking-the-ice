@@ -7,6 +7,9 @@
       <a id="skip"> </a>
       <h1>Practical Info</h1>
       <article>
+        <h2>Our Story</h2>
+        <p>At Breaking the Ice, we provide a unique service; we try to match you with one of our fabulous and adventure-seeking hosts. We feel that this is one of the best ways to experience life in Iceland, with the locals! They all have been thoroughly reviewed and are up to our standards of awesome. They'll be able to show you the best surf spots, hiking trails, and all hidden gems of Iceland.</p>
+        <p>We believe in quality and our goal is to make sure that our visitors get the best possible experience. Enjoy the warm, friendly atmosphere of the surf culture in our beautiful arctic environment.</p>
         <h2>Where's Iceland?</h2>
         <p>Iceland is a North Atlantic island and the westernmost country in Europe, midway between North America and mainland Europe. It lies about 800 km northwest of Scotland and 970 km west of Norway, and its northern coast is just below the Arctic Circle. From London, Iceland is the same distance as Athens. It is also the same distance from New York to Iceland as from New York to Los Angeles. Reykjavík is the world’s northernmost capital city.</p>
         <div class="info_image_row">
