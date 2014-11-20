@@ -85,6 +85,7 @@ nav li a:hover, .faq_nav a:hover {
   .faq_nav {
     display: block;
     width: 100%;
+    z-index: 100;
     border-top: 2px  solid #CCC;
     border-bottom: 2px solid #CCC;
     background: none repeat scroll 0% 0% #F8FAFA;
