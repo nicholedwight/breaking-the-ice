@@ -8,6 +8,20 @@
     <p>We encourage our guests to get in touch with our hosts in order to secure acommodation and pricing, however, we know this isn't always the easiest! So we will do our best to communicate with our hosts on your behalf if you are unable.</p>
   </div>
 
+  <div class="quarter_transparent hcard">
+    <!-- Below is the hCard -->
+    <p class="vcard">
+      <a class="fn org url" href="<?php echo $base_url; ?>" title="Contact Information for Breaking the Ice">
+        <span class="organization-name">Breaking the Ice</span>
+      </a><br>
+      <span class="street-address">Sigtún 38</span>,
+      <span class="locality">Reykjavík</span>,
+      <strong class="country">Iceland</strong><br>
+      <span class="tel">Telephone:
+      <span class="value">+35-123-1234</span></span>
+    </p>
+  </div>
+
   <form class="contact_form quarter_transparent" action="/project1/inc/FormMail.php" method="POST" name="breaking_the_ice_form">
 		<ul class="list_neutral">
 			<li>
@@ -35,20 +49,6 @@
       </li>
 		</ul>
 	</form>
-
-  <aside class="quarter_transparent hcard">
-    <!-- Below is the hCard -->
-    <p class="vcard">
-      <a class="fn org url" href="<?php echo $base_url; ?>" title="Contact Information for Breaking the Ice">
-        <span class="organization-name">Breaking the Ice</span>
-      </a><br>
-      <span class="street-address">Sigtún 38</span>,
-      <span class="locality">Reykjavík</span>,
-      <strong class="country">Iceland</strong><br>
-      <span class="tel">Telephone:
-      <span class="value">+35-123-1234</span></span>
-    </p>
-  </aside>
 
   <aside class="twitter_feed">
     <a class="twitter-timeline" href="https://twitter.com/nicholedwight/lists/breaking-the-ice" data-widget-id="535453835008180224">Tweets from https://twitter.com/nicholedwight/lists/breaking-the-ice</a>
