@@ -6,7 +6,7 @@
     <div class="inner_info_wrapper">
       <a id="skip"> </a>
       <h1>Practical Info</h1>
-      <article>
+      <article id="about-us">
         <h2>Our Story</h2>
         <p>At Breaking the Ice, we provide a unique service; we try to match you with one of our fabulous and adventure-seeking hosts. We feel that this is one of the best ways to experience life in Iceland, with the locals! They all have been thoroughly reviewed and are up to our standards of awesome. They'll be able to show you the best surf spots, hiking trails, and all hidden gems of Iceland.</p>
         <p>We believe in quality and our goal is to make sure that our visitors get the best possible experience. Enjoy the warm, friendly atmosphere of the surf culture in our beautiful arctic environment.</p>
