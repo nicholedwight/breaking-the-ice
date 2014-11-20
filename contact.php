@@ -15,7 +15,7 @@
         <span class="organization-name">Breaking the Ice</span>
       </a><br>
       <span class="street-address">Sigtún 38</span>,
-      <span class="locality">Reykjavík</span>,
+      <span class="locality">105 Reykjavík</span>,
       <strong class="country">Iceland</strong><br>
       <span class="tel">Telephone:
       <span class="value">+35-123-1234</span></span>
