@@ -57,23 +57,29 @@
       <article id="accommodation">
         <h1>Accommodation while you're here</h1>
         <p>We encourage our guests to get in touch with our <a href="/project1/hosts.php">hosts</a> in order to secure acommodation and pricing, however, we know this isn't always the easiest! So we will do our best to communicate with our hosts on your behalf if you are unable.</p>
-        <div class="info_image_row hosts_photos">
+        <div class="hosts_photos">
           <a href="hostfamilies/vilhjalmsson">
+            <span class="tooltip">Rut and Ole in Reykjavik</span>
             <img src="/project1/assets/img/vil_profile.jpg" alt="Rut and Ole">
           </a>
           <a href="hostfamilies/jegtnes">
+            <span class="tooltip">Alex in Reykjanesbær</span>
             <img src="/project1/assets/img/jegtnes.jpg" alt="Alex">
           </a>
           <a href="hostfamilies/ronhovde">
+            <span class="tooltip">Ville in Reykjanesbær</span>
             <img src="/project1/assets/img/ron_profile.jpg" alt="Ville">
           </a>
           <a href="hostfamilies/oskar">
+            <span class="tooltip">Rolf and Ada in Reykjanesbær</span>
             <img src="/project1/assets/img/osk_profile.jpg" alt="Rolf and Ada">
           </a>
           <a href="hostfamilies/arnason">
+            <span class="tooltip">Gunnar in Reykjanesbær</span>
             <img src="/project1/assets/img/arn_profile.jpg" alt="Gunnar">
           </a>
           <a href="hostfamilies/eklund">
+            <span class="tooltip">Anders in Reykjanesbær</span>
             <img src="/project1/assets/img/ekl_profile.jpg" alt="Anders">
           </a>
         </div>

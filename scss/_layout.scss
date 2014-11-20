@@ -60,6 +60,17 @@ footer {
   }
 }
 
+.hosts_photos {
+  width: 100%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.hosts_photos a {
+  position: relative;
+  padding-top: 150px; /*This is to accomodate the tooltips so they don't show off image*/
+}
+
 .hosts_photos img {
   max-width: 160px;
 }
