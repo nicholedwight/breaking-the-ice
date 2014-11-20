@@ -30,9 +30,10 @@
           <option value="anders">Anders</option>
         </select>
       </li>
+      <li>
+        <button class="submit" type="submit">Submit</button>
+      </li>
 		</ul>
-    <input type="hidden" name="thisPage" value="contactResponse">
-		<button class="submit" type="submit">Submit</button>
 	</form>
 </main>
 <?php include('inc/footer.php'); ?>
