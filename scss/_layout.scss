@@ -60,6 +60,10 @@ footer {
   }
 }
 
+.hosts_photos img {
+  max-width: 160px;
+}
+
 .footer_wrapper {
   width: 90%;
   text-align: left;
@@ -85,6 +89,10 @@ footer {
 
 .info_wrapper {
   padding-top: 150px;
+  a {
+    color: inherit;
+    text-decoration: underline;
+  }
 }
 
 .hosts_page {
