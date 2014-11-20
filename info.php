@@ -58,27 +58,27 @@
         <h1>Accommodation while you're here</h1>
         <p>We encourage our guests to get in touch with our <a href="/project1/hosts.php">hosts</a> in order to secure acommodation and pricing, however, we know this isn't always the easiest! So we will do our best to communicate with our hosts on your behalf if you are unable.</p>
         <div class="hosts_photos">
-          <a href="hostfamilies/vilhjalmsson">
+          <a href="hostfamilies/vilhjalmsson" class="has_tooltip">
             <span class="tooltip">Rut and Ole in Reykjavik</span>
             <img src="/project1/assets/img/vil_profile.jpg" alt="Rut and Ole">
           </a>
-          <a href="hostfamilies/jegtnes">
+          <a href="hostfamilies/jegtnes" class="has_tooltip">
             <span class="tooltip">Alex in Reykjanesbær</span>
             <img src="/project1/assets/img/jegtnes.jpg" alt="Alex">
           </a>
-          <a href="hostfamilies/ronhovde">
+          <a href="hostfamilies/ronhovde" class="has_tooltip">
             <span class="tooltip">Ville in Reykjanesbær</span>
             <img src="/project1/assets/img/ron_profile.jpg" alt="Ville">
           </a>
-          <a href="hostfamilies/oskar">
+          <a href="hostfamilies/oskar" class="has_tooltip">
             <span class="tooltip">Rolf and Ada in Reykjanesbær</span>
             <img src="/project1/assets/img/osk_profile.jpg" alt="Rolf and Ada">
           </a>
-          <a href="hostfamilies/arnason">
+          <a href="hostfamilies/arnason" class="has_tooltip">
             <span class="tooltip">Gunnar in Reykjanesbær</span>
             <img src="/project1/assets/img/arn_profile.jpg" alt="Gunnar">
           </a>
-          <a href="hostfamilies/eklund">
+          <a href="hostfamilies/eklund" class="has_tooltip">
             <span class="tooltip">Anders in Reykjanesbær</span>
             <img src="/project1/assets/img/ekl_profile.jpg" alt="Anders">
           </a>

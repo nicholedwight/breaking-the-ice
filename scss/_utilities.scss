@@ -31,6 +31,10 @@ blockquote p {
   font-style: italic;
 }
 
+.has_tooltip {
+  position: relative;
+}
+
 .tooltip {
   display: none;
 }
