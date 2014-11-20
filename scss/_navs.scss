@@ -31,6 +31,10 @@ nav li a:hover, .faq_nav a:hover {
   transition: color 0.75s ease 0s;
 }
 
+.faq_nav {
+  display: none;
+}
+
 @media all and (min-width: 700px) {
 
   nav {
