@@ -30,6 +30,10 @@
         <p>Frequent flights operate to Iceland from main cities in Europe and North America and many gateways are served daily. Flight times to Europe are two to four hours.</p>
       </article>
 
+      <div class="testimonial">
+        <blockquote><p>Breaking the Ice has been a great alternative to cookie-cutter hotel rooms and is great for a large or small family. The places usually have much more room, cooking facilities, and other amenities not found at a hotel and it's much more private. Plus all the hosts I've stayed with have been very friendly and go out of their way to make my stay as good as it can be. I'll be booking many more surfing holidays through here!</p> <strong>- Steven</strong>. Atlanta, GA, USA</blockquote>
+      </div>
+
       <article id="weather">
         <h1>Weather in Iceland</h1>
         <p>Although Reykjavik is the world’s northernmost capital, Iceland is warmed by the Gulf Stream, resulting in a surprisingly mild, coastal climate. The average summer temperature in Reykjavik is 10.6°C/51°F in July, with average highs of 24.3°C/76°F. The warmest months are from June to September when visitors can witness the midnight sun. Alternately, Iceland’s coldest months are November to January, when average winter temperature in Reykjavik are similar to New York City’s, about 0°C/32°F in January (average highs are 9.9°C/50°F).</p>
