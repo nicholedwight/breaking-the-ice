@@ -135,6 +135,16 @@ blockquote p {
   text-align: center;
 }
 
+.twitter_feed {
+  width: 100%;
+  @media all and (min-width: 860px) {
+    @include column(3);
+    margin-left: 20px;
+  }
+  float: right;
+  margin-right: 10px;
+}
+
 header, .header {
   transition: transform 220ms linear;
 }
