@@ -75,10 +75,21 @@ footer {
 
 .footer_wrapper {
   width: 90%;
-  text-align: left;
   padding: 3px 20px;
   margin: 0 auto;
   text-align: center;
+}
+
+.hcard {
+  width: 300px;
+  float: right;
+  margin-bottom: 20px;
+  margin-right: 80px;
+  text-align: left;
+  padding-left: 10px;
+  a {
+    color: inherit;
+  }
 }
 
 .main_wrapper {

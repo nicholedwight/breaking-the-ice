@@ -12,9 +12,13 @@
         <i class="icon icon_twitter"></i>
       </a>
     </p>
+
     <p class="copyright">&#169; 2014 Nichole Dwight / Made in Iceland</p>
   </div>
+
+
 </footer>
+
 <script src="/project1/assets/js/lib/jquery-1.11.0.min.js"></script>
 <script src="/project1/assets/js/lib/jQuery.headroom.min.js"></script>
 <script src="/project1/assets/js/lib/instafeed.min.js"></script>
