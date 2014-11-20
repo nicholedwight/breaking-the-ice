@@ -11,4 +11,7 @@
   <li>
     <a href="/project1/info#accommodation">Accommodation</a>
   </li>
+  <li>
+    <a href="/project1/info#inspiration">Inspiration</a>
+  </li>
 </ul>

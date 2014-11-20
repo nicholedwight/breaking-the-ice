@@ -34,26 +34,8 @@
     <input type="hidden" name="thisPage" value="contactResponse">
 		<button class="submit" type="submit">Submit</button>
 	</form>
-
-  <div id="instafeed" class="quarter_transparent">
-    <h2>See what others are doing in Iceland</h2>
-  </div>
 </main>
 <?php include('inc/footer.php'); ?>
-
-<script type="text/javascript">
-//Code found from http://instafeedjs.com/ used for the Instagram feed
-    var feed = new Instafeed({
-        get: 'tagged',
-        tagName: 'iceland',
-        tagName: 'IcelandSecret',
-        sortBy: 'most-recent',
-        limit: 10,
-        template: '<a href="{{link}}" target="_blank"><img src="{{image}}"></a>',
-        clientId: '681cd94df6e14db197a650403668c10b'
-    });
-    feed.run();
-</script>
 
 <script>
     // Below script found at echoecho.com, used to validate the email input.

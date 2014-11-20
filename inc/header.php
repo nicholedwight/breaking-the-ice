@@ -38,13 +38,27 @@
           </li>
           <li class="has_dropdown">
             <a href="/project1/info" id="changeableBorder"
-              <?php if (substr($thisPage, 0, 3) == "FAQ") echo "class='current'"; ?>>Practical Info
+              <?php if (substr($thisPage, 0, 3) == "FAQ") echo "class='current'"; ?>>
+              Practical Info
             </a>
-              <ul <?php if ($thisPage === "Home") { echo "class='nav_dropdown_transparent'"; } else { echo "class='nav_dropdown'"; } ?>>
-                <li><a href="/project1/info">Our Story</a></li>
-                <li><a href="/project1/info#how-to-get-here">Getting Here</a></li>
-                <li><a href="/project1/info#weather">Icelandic Weather</a></li>
-                <li><a href="/project1/info#accommodation">Accommodation</a></li>
+              <ul <?php if ($thisPage === "Home") {
+                echo "class='nav_dropdown_transparent'"; }
+                else { echo "class='nav_dropdown'"; } ?>>
+                <li>
+                  <a href="/project1/info">Our Story</a>
+                </li>
+                <li>
+                  <a href="/project1/info#how-to-get-here">Getting Here</a>
+                </li>
+                <li>
+                  <a href="/project1/info#weather">Icelandic Weather</a>
+                </li>
+                <li>
+                  <a href="/project1/info#accommodation">Accommodation</a>
+                </li>
+                <li>
+                  <a href="/project1/info#inspiration">Inspiration</a>
+                </li>
               </ul>
           </li>
       </ul>

@@ -84,6 +84,26 @@
           </a>
         </div>
       </article>
+
+      <article id="inspiration">
+        <h1>See what others are doing in Iceland</h1>
+        <div id="instafeed"></div>
+      </article>
+
     </div>
   </main>
 <?php include('inc/footer.php'); ?>
+
+<script type="text/javascript">
+//Code found from http://instafeedjs.com/ used for the Instagram feed
+    var feed = new Instafeed({
+        get: 'tagged',
+        tagName: 'iceland',
+        tagName: 'IcelandSecret',
+        sortBy: 'most-recent',
+        limit: 10,
+        template: '<a href="{{link}}" target="_blank"><img src="{{image}}"></a>',
+        clientId: '681cd94df6e14db197a650403668c10b'
+    });
+    feed.run();
+</script>
