@@ -4,7 +4,7 @@
       <a href="index.html">home</a> /
       <a href="hosts.php">hosts</a> /
       <a href="contact.php">contact</a> /
-      <a href="faq.php">practical info</a> /
+      <a href="info.php">practical info</a> /
       <a href="mailto:nicholedwight@gmail.com">
         <i class="icon icon_mail"></i>
       </a> /
