@@ -60,6 +60,7 @@
 }
 
 .l_index_header {
+  background: rgba(0, 0, 0, 0.75);
   position: fixed;
   top: 0px;
   right: 0px;
@@ -93,6 +94,10 @@
 }
 
 @media all and (min-width: 700px) {
+
+  .l_index_header {
+    background: rgba(0, 0, 0, 0.15);
+  }
 
   .menu_button {
     display: none;

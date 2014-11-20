@@ -34,6 +34,11 @@ Enjoy the warm, friendly atmosphere of the surf culture in our beautiful arctic 
       </div>
     </div>
   </div>
+
+  <div id="instafeed">
+    <h2>See what others are doing in Iceland</h2>
+  </div>
+
   </main>
 <?php include('inc/footer.php'); ?>
 <script type="text/javascript">
@@ -42,7 +47,7 @@ Enjoy the warm, friendly atmosphere of the surf culture in our beautiful arctic 
         tagName: 'iceland',
         tagName: 'IcelandSecret',
         sortBy: 'most-recent',
-        limit: 9,
+        limit: 10,
         template: '<a href="{{link}}" target="_blank"><img src="{{image}}"></a>',
         clientId: '681cd94df6e14db197a650403668c10b'
     });
