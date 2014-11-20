@@ -35,6 +35,13 @@
       </li>
 		</ul>
 	</form>
+
+  <aside class="twitter_feed">
+    <a class="twitter-timeline" href="https://twitter.com/nicholedwight/lists/breakingtheicelist" data-widget-id="535453835008180224">Tweets from https://twitter.com/nicholedwight/lists/breakingtheicelist</a>
+    <script>
+    !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+    </script>
+  </aside>
 </main>
 <?php include('inc/footer.php'); ?>
 
