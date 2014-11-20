@@ -139,7 +139,7 @@ blockquote p {
   width: 100%;
   @media all and (min-width: 860px) {
     @include column(3);
-    margin-left: 20px;
+    margin: 0 0 20px 20px;
   }
   float: right;
   margin-right: 10px;
