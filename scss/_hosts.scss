@@ -23,8 +23,9 @@
 }
 
 .host_profile {
-  padding: 100px 0 0 10%;
-  @include column(8);
+  padding: 100px 10%;
+  @include column(12);
+  text-align: center;
 }
 
 .host_profile_image {
