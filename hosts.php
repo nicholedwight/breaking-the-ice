@@ -27,7 +27,7 @@
               <p>See More About Alex</p>
             </div>
           <p class="host_card_name">Alex Jegtnes</p>
-          <p class="host_location">Iceland</p>
+          <p class="host_location">Reyðarfjörður, Iceland</p>
           </a>
         </li>
         <li class="host_card quarter_transparent">
