@@ -23,8 +23,7 @@
 }
 
 .host_profile {
-  padding: 100px 10%;
-  @include column(12);
+  padding: 100px 0;
   text-align: center;
 }
 
@@ -41,15 +40,28 @@
   margin: 0 auto;
 }
 
+.review_wrapper {
+  margin: 0 auto;
+  @media all and (min-width: 860px) {
+    width: 45%
+    float: left;
+    margin-left: 3%;
+  }
+}
+
 .comment_content {
-  width: 45%;
   margin: 20px auto;
   padding: 30px;
 }
 
 .listing_gallery {
-  @include column(12);
   background: #000;
+  margin: 0 auto;
+  @media all and (min-width: 860px) {
+    float: right;
+    margin-right: 3%;
+    width: 45%;
+  }
   ul {
     display: flex;
     flex-wrap: wrap;
