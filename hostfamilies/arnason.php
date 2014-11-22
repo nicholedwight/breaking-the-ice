@@ -35,7 +35,6 @@
         </blockquote>
       </div>
     </div>
-  </div>
 
     <aside class="listing_gallery">
       <ul class="list_neutral">
@@ -56,6 +55,7 @@
         </li>
       </ul>
     </aside>
+  </div>
 </main>
 
 <?php include('../inc/footer.php'); ?>

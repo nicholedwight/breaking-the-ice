@@ -38,27 +38,27 @@
         </blockquote>
       </div>
     </div>
-  </div>
 
-  <aside class="listing_gallery">
-    <ul class="list_neutral">
-      <li>
-        <a href="/project1/assets/img/galleries/osk2.jpg" data-lightbox="oskar">
-          <img src="/project1/assets/img/galleries/osk2_thumb.jpg">
-        </a>
-      </li>
-      <li>
-        <a href="/project1/assets/img/galleries/osk3.jpg" data-lightbox="oskar">
-          <img src="/project1/assets/img/galleries/osk3_thumb.jpg">
-        </a>
-      </li>
-      <li>
-        <a href="/project1/assets/img/galleries/osk4.jpg" data-lightbox="oskar">
-          <img src="/project1/assets/img/galleries/osk4_thumb.jpg">
-        </a>
-      </li>
-    </ul>
-  </aside>
+    <aside class="listing_gallery">
+      <ul class="list_neutral">
+        <li>
+          <a href="/project1/assets/img/galleries/osk2.jpg" data-lightbox="oskar">
+            <img src="/project1/assets/img/galleries/osk2_thumb.jpg">
+          </a>
+        </li>
+        <li>
+          <a href="/project1/assets/img/galleries/osk3.jpg" data-lightbox="oskar">
+            <img src="/project1/assets/img/galleries/osk3_thumb.jpg">
+          </a>
+        </li>
+        <li>
+          <a href="/project1/assets/img/galleries/osk4.jpg" data-lightbox="oskar">
+            <img src="/project1/assets/img/galleries/osk4_thumb.jpg">
+          </a>
+        </li>
+      </ul>
+    </aside>
+  </div>
 </main>
 
 

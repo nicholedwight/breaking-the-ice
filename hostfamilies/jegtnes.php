@@ -38,27 +38,27 @@
         </blockquote>
       </div>
     </div>
-  </div>
 
-  <aside class="listing_gallery">
-    <ul class="list_neutral">
-      <li>
-        <a href="/project1/assets/img/galleries/jeg2.jpg" data-lightbox="jegtnes">
-          <img src="/project1/assets/img/galleries/jeg2_thumb.jpg">
-        </a>
-      </li>
-      <li>
-        <a href="/project1/assets/img/galleries/jeg3.jpg" data-lightbox="jegtnes">
-          <img src="/project1/assets/img/galleries/jeg3_thumb.jpg">
-        </a>
-      </li>
-      <li>
-        <a href="/project1/assets/img/galleries/jeg4.jpg" data-lightbox="jegtnes">
-          <img src="/project1/assets/img/galleries/jeg4_thumb.jpg">
-        </a>
-      </li>
-    </ul>
-  </aside>
+    <aside class="listing_gallery">
+      <ul class="list_neutral">
+        <li>
+          <a href="/project1/assets/img/galleries/jeg2.jpg" data-lightbox="jegtnes">
+            <img src="/project1/assets/img/galleries/jeg2_thumb.jpg">
+          </a>
+        </li>
+        <li>
+          <a href="/project1/assets/img/galleries/jeg3.jpg" data-lightbox="jegtnes">
+            <img src="/project1/assets/img/galleries/jeg3_thumb.jpg">
+          </a>
+        </li>
+        <li>
+          <a href="/project1/assets/img/galleries/jeg4.jpg" data-lightbox="jegtnes">
+            <img src="/project1/assets/img/galleries/jeg4_thumb.jpg">
+          </a>
+        </li>
+      </ul>
+    </aside>
+  </div>
 </main>
 
 
