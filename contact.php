@@ -8,7 +8,7 @@
     <p>We encourage our guests to get in touch with our hosts in order to secure acommodation and pricing, however, we know this isn't always the easiest! So we will do our best to communicate with our hosts on your behalf if you are unable.</p>
   </div>
 
-  <div class="quarter_transparent hcard">
+  <div class="hcard"><!-- add email-->
     <!-- Below is the hCard -->
     <p class="vcard">
       <a class="fn org url" href="<?php echo $base_url; ?>" title="Contact Information for Breaking the Ice">

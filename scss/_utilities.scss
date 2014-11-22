@@ -6,9 +6,12 @@
 }
 
 .content_width {
-  width: 70%;
+  width: 90%;
   margin: 0 auto;
   text-align: center;
+  @media all and (min-width: 500px) {
+    width: 50%;
+  }
 }
 
 blockquote {
