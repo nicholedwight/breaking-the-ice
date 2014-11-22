@@ -47,22 +47,22 @@
         <ul class="list_neutral">
           <li>
             <a href="/project1/assets/img/galleries/vil2.jpg" data-lightbox="vilhjalmsson">
-              <img src="/project1/assets/img/galleries/vil2_thumb.jpg">
+              <img src="/project1/assets/img/galleries/vil2.jpg">
             </a>
           </li>
           <li>
             <a href="/project1/assets/img/galleries/vil3.jpg" data-lightbox="vilhjalmsson">
-              <img src="/project1/assets/img/galleries/vil3_thumb.jpg">
+              <img src="/project1/assets/img/galleries/vil3.jpg">
             </a>
           </li>
           <li>
             <a href="/project1/assets/img/galleries/vil4.jpg" data-lightbox="vilhjalmsson">
-              <img src="/project1/assets/img/galleries/vil4_thumb.jpg">
+              <img src="/project1/assets/img/galleries/vil4.jpg">
             </a>
           </li>
           <li>
             <a href="/project1/assets/img/galleries/vil4.jpg" data-lightbox="vilhjalmsson">
-              <img src="/project1/assets/img/galleries/vil4_thumb.jpg">
+              <img src="/project1/assets/img/galleries/vil4.jpg">
             </a>
           </li>
         </ul>

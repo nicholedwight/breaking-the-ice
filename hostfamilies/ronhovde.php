@@ -48,17 +48,17 @@
         <ul class="list_neutral">
           <li>
             <a href="/project1/assets/img/galleries/ron2.jpg" data-lightbox="ronhovde">
-              <img src="/project1/assets/img/galleries/ron2_thumb.jpg">
+              <img src="/project1/assets/img/galleries/ron2.jpg">
             </a>
           </li>
           <li>
             <a href="/project1/assets/img/galleries/ron3.jpg" data-lightbox="ronhovde">
-              <img src="/project1/assets/img/galleries/ron3_thumb.jpg">
+              <img src="/project1/assets/img/galleries/ron3.jpg">
             </a>
           </li>
           <li>
             <a href="/project1/assets/img/galleries/ron4.jpg" data-lightbox="ronhovde">
-              <img src="/project1/assets/img/galleries/ron4_thumb.jpg">
+              <img src="/project1/assets/img/galleries/ron4.jpg">
             </a>
           </li>
         </ul>
