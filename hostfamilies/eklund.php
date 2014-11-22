@@ -11,7 +11,7 @@
     <img src="/project1/assets/img/ekl_profile.jpg" alt="Anders" class="host_profile_image">
     <h2 class="host_name">Anders</h2>
 
-    <article class="listing_details">
+    <article>
       <h3>About Anders</h3>
       <p>Hi im Rut, and my husband's Ole!</p>
       <p>We love travelling, meeting new people, outdoor activities, surfing, skiing, yoga, and lots of other things.</p>

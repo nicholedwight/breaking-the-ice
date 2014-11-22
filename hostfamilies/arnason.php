@@ -11,7 +11,7 @@
     <img src="/project1/assets/img/arn_profile.jpg" alt="Gunnar" class="host_profile_image">
     <h2 class="host_name">Gunnar</h2>
 
-    <article class="listing_details">
+    <article>
       <h3>About Gunnary</h3>
       <p>Hi im Gunnar!Reykjanesbær</p>
       <p>I'm a fun guy from the Land of Fire and Ice, Iceland. I am also a professor in Icelandic language and literature - and a professional tourist guide, specialized in geology, history and culture. Beside running the guesthouse and welcoming my guests, I offer private excursion to the ocean for surf trips in a private vehicle for up to 8 passengers.</p>

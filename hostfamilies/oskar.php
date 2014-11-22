@@ -11,7 +11,7 @@
     <img src="/project1/assets/img/osk_profile.jpg" alt="Rolf and Ada" class="host_profile_image">
     <h2 class="host_name">Rolf and Ada</h2>
 
-    <article class="listing_details">
+    <article>
       <h3>About Rolf</h3>
       <p>Hi im Rolf, and my wife's Ada!</p>
       <p>We love travelling, meeting new people, outdoor activities, surfing, skiing, yoga, and lots of other things.</p>

@@ -27,6 +27,29 @@
   text-align: center;
 }
 
+.host_details {
+  width: 100%;
+}
+
+.about_host {
+  margin: 0 auto;
+  width: 80%;
+  @media all and (min-width: 940px) {
+    float: right;
+    width: 79%;
+    text-align: left;
+  }
+}
+
+.name_container {
+  margin: 0 auto;
+  text-align: center;
+  @media all and (min-width: 940px) {
+    float: left;
+    margin-left: 5%;
+  }
+}
+
 .host_profile_image {
   border-radius: 100%;
   width: 150px;
@@ -38,6 +61,21 @@
   text-align: center;
   color: #999;
   margin: 0 auto;
+}
+
+.about_host {
+  h3 {
+    padding-left: 20px;
+  }
+  p {
+    padding: 0 25px 0 0;
+  }
+  .button {
+    margin: 0 auto;
+    @media all and (min-width: 860px) {
+      margin: 20px;
+    }
+  }
 }
 
 .review_wrapper {
@@ -55,7 +93,6 @@
 }
 
 .listing_gallery {
-  background: #000;
   margin: 0 auto;
   @media all and (min-width: 860px) {
     float: right;
@@ -69,28 +106,13 @@
     justify-content: center;
     li {
       padding: 0 5px;
+      width: 50%;
     }
   }
   img {
-    width: 150px;
     border: 1px solid rgba(225, 225, 225, 0.0);
   }
   img:hover {
     border: 1px solid #00CD9B;
-  }
-}
-
-@media all and (min-width: 700px) {
-.host_header{
-    padding: 50px 26%;
-    p {
-      float: left;
-      width: 150px;
-      text-align: center;
-      margin-top: -25px;
-    }
-    :nth-child(3) {
-      margin-left: 150px;
-    }
   }
 }
