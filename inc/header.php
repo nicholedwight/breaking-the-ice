@@ -32,10 +32,6 @@
           <li><a href="/project1/hosts"
             <?php if ($thisPage === "Hosts") echo "class='current'"; ?>>Our Hosts</a>
           </li>
-          <li>
-            <a href="/project1/contact"
-            <?php if ($thisPage === "Contact") echo "class='current'"; ?>>Contact</a>
-          </li>
           <li class="has_dropdown">
             <a href="/project1/info" id="changeableBorder"
               <?php if (substr($thisPage, 0, 3) == "FAQ") echo "class='current'"; ?>>
@@ -60,6 +56,10 @@
                   <a href="/project1/info#inspiration">Inspiration</a>
                 </li>
               </ul>
+          </li>
+          <li>
+            <a href="/project1/contact"
+            <?php if ($thisPage === "Contact") echo "class='current'"; ?>>Contact</a>
           </li>
       </ul>
     </nav>
