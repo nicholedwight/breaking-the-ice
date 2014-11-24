@@ -71,13 +71,20 @@
         </ul>
       </aside>
     </div>
+
+    <div class="host_details cf">
+      <article class="about_city">
+        <h3>About Reykjavik</h3>
+
+      </article>
+
+      <aside class="surf_data">
+        <h3>Surf and Weather</h3>
+
+      </aside>
+    </div>
   </div>
 
-  <div class="host_details cf">
-    <article>
-
-    </article>
-  </div>
 
 
 

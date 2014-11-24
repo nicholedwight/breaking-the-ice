@@ -84,7 +84,7 @@
   }
 }
 
-.review_wrapper {
+.review_wrapper, .about_city {
   margin: 0 auto;
   @media all and (min-width: 860px) {
     width: 45%;
@@ -97,13 +97,16 @@
   margin: 20px auto;
 }
 
-.listing_gallery {
+.surf_data, .listing_gallery {
   margin: 0 auto;
   @media all and (min-width: 860px) {
     float: right;
     margin-right: 3%;
     width: 45%;
   }
+}
+
+.listing_gallery {
   ul {
     display: flex;
     flex-wrap: wrap;
