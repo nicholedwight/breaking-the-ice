@@ -115,9 +115,10 @@
     }
   }
   img {
-    border: 1px solid rgba(225, 225, 225, 0.0);
+    border: 5px solid rgba(225, 225, 225, 0.0);
+    max-width: 300px;
   }
   img:hover {
-    border: 1px solid #00CD9B;
+    border: 5px solid #00CD9B;
   }
 }
