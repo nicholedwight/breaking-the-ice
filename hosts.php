@@ -66,8 +66,8 @@
             <div class="host_card_call-to-action showOnHover">
               <p>See More About Anders</p>
             </div>
-          <p class="host_card_name">Reykjanesbær, Anders Christof Eklund</p>
-          <p class="host_location">Iceland</p>
+          <p class="host_card_name">Anders Christof Eklund</p>
+          <p class="host_location">Reykjanesbær, Iceland</p>
           </a>
         </li>
       </ul>

@@ -11,7 +11,8 @@
     <div class="host_details cf">
       <div class="name_container">
         <img src="/project1/assets/img/osk_profile.jpg" alt="Rolf and Ada" class="host_profile_image">
-        <h2 class="host_name">Rolf and Ada</h2>
+        <h2 class="host_name">Rolf and Ada Oskar</h2>
+        <p class="location">Somewhere, Iceland</p>
       </div>
 
       <article class="about_host">
@@ -20,7 +21,7 @@
         <p>We love travelling, meeting new people, outdoor activities, surfing, skiing, yoga, and lots of other things.</p>
         <p>For the past 5 years we´ve lived in Dubai, Scotland, and England and travelled alot, and recently moved back home to our gorgeous island.
           We're looking forward to being your host and will do our absolute best to make you feel comfortable and happy :)</p>
-        <a href="#"><div class="button">Request Booking</div></a>
+        <a href="/project1/contact"><div class="button">Request Booking</div></a>
       </article>
     </div>
 

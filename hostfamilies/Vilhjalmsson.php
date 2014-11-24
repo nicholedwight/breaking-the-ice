@@ -11,6 +11,7 @@
       <div class="name_container">
         <img src="/project1/assets/img/vil_profile.jpg" alt="Rut" class="host_profile_image">
         <h2 class="host_name">Rut Vilhjalmsson</h2>
+        <p class="location">Reykjavik, Iceland</p>
       </div>
 
       <article class="about_host">
