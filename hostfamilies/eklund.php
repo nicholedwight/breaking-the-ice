@@ -25,23 +25,27 @@
     </div>
 
     <div class="host_details cf">
-      <div class="review_wrapper">
-        <div class="review_item">
-          <blockquote class="comment_content">Utrolig sentralt, rent, pent og ryddig. Enkelt å finne frem til. 5min å gå fra sentrum. Billig parkering i gata utenfor og alltid ledig plass til bil. Kjempehyggelig vert og enkel å kommunisere med. Anbefales!<br>
+        <div class="review_wrapper">
+          <h3>Reviews</h3>
+          <div class="review_item blockquote_wrapper blockquote_wrapper">
+            <blockquote class="comment_content">
+              <p>Utrolig sentralt, rent, pent og ryddig. Enkelt å finne frem til. 5min å gå fra sentrum. Billig parkering i gata utenfor og alltid ledig plass til bil. Kjempehyggelig vert og enkel å kommunisere med. Anbefales!</p>
+            </blockquote>
             <p class="commentor">Henrik Stoltz - October 2014</p>
-          </blockquote>
-        </div>
-        <div class="review_item">
-          <blockquote class="comment_content">He was a very nice and considerate host. He was extremely responsive, and was really understanding when we were accidentally a little late leaving in the morning. The place is very nice, clean, and modern.<br>
+          </div>
+          <div class="review_item blockquote_wrapper blockquote_wrapper">
+            <blockquote class="comment_content">
+              <p>He was a very nice and considerate host. He was extremely responsive, and was really understanding when we were accidentally a little late leaving in the morning. The place is very nice, clean, and modern.</p>
+            </blockquote>
             <p class="commentor">Bobby - October 2014</p>
-          </blockquote>
-        </div>
-        <div class="review_item">
-          <blockquote class="comment_content">Feel like home! Lovely house, adequate space, helpful and thoughtful host, great surf scene, ocean-side located, with everything we need. Highly recommended!!!<br>
+          </div>
+          <div class="review_item blockquote_wrapper blockquote_wrapper">
+            <blockquote class="comment_content">
+              <p>Feel like home! Lovely house, adequate space, helpful and thoughtful host, great surf scene, ocean-side located, with everything we need. Highly recommended!!!</p>
+            </blockquote>
             <p class="commentor">Ana Biagi - September 2014</p>
-          </blockquote>
+          </div>
         </div>
-      </div>
 
       <aside class="listing_gallery">
         <h3>Gallery</h3>
