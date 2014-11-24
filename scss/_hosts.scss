@@ -84,6 +84,13 @@
   }
 }
 
+.about_city {
+  p {
+    text-align: left;
+    margin-top: 10px;
+  }
+}
+
 .review_wrapper, .about_city {
   margin: 0 auto;
   @media all and (min-width: 860px) {
