@@ -117,7 +117,7 @@ nav li a:hover, .faq_nav a:hover {
     display: none;
   }
 
-  li:hover .nav_dropdown {
+  li:hover .nav_dropdown, li:hover .nav_dropdown_transparent {
     display: block;
     position: absolute;
     top: 100%;
@@ -127,11 +127,6 @@ nav li a:hover, .faq_nav a:hover {
   }
 
   li:hover .nav_dropdown_transparent {
-    display: block;
-    position: absolute;
-    top: 100%;
-    left: -5px;
-    text-align: left;
     background: rgba(0, 0, 0, 0);
   }
 
