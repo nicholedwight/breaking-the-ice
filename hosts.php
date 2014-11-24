@@ -37,7 +37,7 @@
               <p>See More About Ville</p>
             </div>
           <p class="host_card_name">Ville Rønhovde</p>
-          <p class="host_location">Iceland</p>
+          <p class="host_location">Reykjavik, Iceland</p>
           </a>
         </li>
         <li class="host_card quarter_transparent">
@@ -57,7 +57,7 @@
               <p>See More About Gunnar</p>
             </div>
           <p class="host_card_name">Gunnar Arnason</p>
-          <p class="host_location">Iceland</p>
+          <p class="host_location">Reykjanesbær, Iceland</p>
           </a>
         </li>
         <li class="host_card quarter_transparent">
@@ -66,7 +66,7 @@
             <div class="host_card_call-to-action showOnHover">
               <p>See More About Anders</p>
             </div>
-          <p class="host_card_name">Anders Christof Eklund</p>
+          <p class="host_card_name">Reykjanesbær, Anders Christof Eklund</p>
           <p class="host_location">Iceland</p>
           </a>
         </li>

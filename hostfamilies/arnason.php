@@ -16,7 +16,7 @@
 
       <article class="about_host">
         <h3>About Gunnary</h3>
-        <p>Hi im Gunnar!Reykjanesbær</p>
+        <p>Hi im Gunnar!</p>
         <p>I'm a fun guy from the Land of Fire and Ice, Iceland. I am also a professor in Icelandic language and literature - and a professional tourist guide, specialized in geology, history and culture. Beside running the guesthouse and welcoming my guests, I offer private excursion to the ocean for surf trips in a private vehicle for up to 8 passengers.</p>
       <a href="#"><div class="button">Request Booking</div></a>
       </article>
@@ -64,6 +64,22 @@
             </a>
           </li>
         </ul>
+      </aside>
+    </div>
+
+    <div class="host_details cf">
+      <article class="about_city">
+        <h3>About Reykjanesbær</h3>
+        <p>
+          The world’s most northerly capital combines colourful buildings, quirky people, a wild nightlife and a capricious soul to devastating effect. Most visitors fall helplessly in love, returning home already saving to come back.</p>
+        <p>
+          The city’s charm lies in its many peculiar contrasts, which, like tectonic plates clashing against one another, create an earthquake of energy. Reykjavík offers a bewitching combination of village innocence and big-city zeal. It’s populated by darkly cynical citizens (a quality brought very much to the fore by the country's recent near-bankruptcy) who are, in spite of everything, filled with unstoppable creativity and enduring spirit. In summer the streets are washed by 22 hours of daylight; in winter they’re scoured by blizzards and doused in never-ending night. Reykjavík is a city that treasures its Viking past but wants the future now.</p>
+
+      </article>
+
+      <aside class="surf_data">
+        <h3>Surf and Weather</h3>
+
       </aside>
     </div>
   </div>
