@@ -6,7 +6,13 @@
   width: 420px;
   @media all and (min-width: 860px) {
     float: left;
-    margin: 0 0 30px 20%;
+    margin: 0 0 30px 15%;
+  }
+  @media all and (min-width: 1400px) {
+    margin: 0 0 30px 23%;
+  }
+  @media all and (min-width: 1650px) {
+    margin: 0 0 30px 25%;
   }
   input, textarea, select {
     box-sizing: border-box;
