@@ -74,10 +74,8 @@
       <article class="about_city">
         <h3>About Reyðarfjörður</h3>
         <p>
-          The world’s most northerly capital combines colourful buildings, quirky people, a wild nightlife and a capricious soul to devastating effect. Most visitors fall helplessly in love, returning home already saving to come back.</p>
-        <p>
-          The city’s charm lies in its many peculiar contrasts, which, like tectonic plates clashing against one another, create an earthquake of energy. Reykjavík offers a bewitching combination of village innocence and big-city zeal. It’s populated by darkly cynical citizens (a quality brought very much to the fore by the country's recent near-bankruptcy) who are, in spite of everything, filled with unstoppable creativity and enduring spirit. In summer the streets are washed by 22 hours of daylight; in winter they’re scoured by blizzards and doused in never-ending night. Reykjavík is a city that treasures its Viking past but wants the future now.</p>
-
+          In the Prettiest Fjord pageant, Reyðarfjörður could never quite manage to take home the sash and crown. It’s a relatively new settlement, which only came into existence – as a trading port – in the 20th century. More recently, however, Reyðarfjörður garnered attention when Alcoa installed a giant 2km-long aluminium smelter just beyond the town along the fjord. Conservationists were up in arms, but the infusion of foreign workers has added a small splash of international flavour in Reyðarfjörður and the surrounding towns.
+        </p>
       </article>
 
       <aside class="surf_data">
