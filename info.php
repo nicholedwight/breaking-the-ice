@@ -17,8 +17,10 @@
         </div>
         <h2>How long is it daylight for in Iceland?</h2>
         <p>Some of our visitors who join us in the Summer ask when it will get dark, they're told "sometime in August". The sun hardly sets at all in the Summer around the southern half of the country, if you stay north of Reykjavík it's daylight 24/7. If you joing us in the Winter, however, do expect only a few, 3-4, hours of daylight; come hunt the lights with us! The Northern Lights are a spectacular part of Iceland in the Winter and many of our hosts enjoy taking our guests out to see them. Spring and Fall daylight hours will be more normal.</p>
-        <div class="testimonial">
-          <blockquote><p>We booked our holiday through Breaking the Ice and we wouldn't dream of doing it any other way! Our host was so friendly and welcoming, and they were adventurous just like us! It felt like a trip to see some family in Iceland.</p> <strong>- Anna</strong>. Oxford, UK</blockquote>
+        <div class="blockquote_wrapper">
+          <blockquote><p>We booked our holiday through Breaking the Ice and we wouldn't dream of doing it any other way! Our host was so friendly and welcoming, and they were adventurous just like us! It felt like a trip to see some family in Iceland.</p>
+          </blockquote>
+          <p><strong>- Anna</strong>. Oxford, UK</p>
         </div>
 
         <div class="info_image_row">
@@ -33,8 +35,10 @@
         <h1>How to get to Iceland</h1>
         <p>Frequent flights operate to Iceland from main cities in Europe and North America and many gateways are served daily. Flight times to Europe are two to four hours. Airlines such as <a href="http://www.icelandair.co.uk/">Iceland Air</a> and <a href="http://www.easyjet.com/en/cheap-flights/iceland">EasyJet</a> have regular flights to Iceland.</p>
 
-        <div class="testimonial">
-          <blockquote><p>Breaking the Ice has been a great alternative to cookie-cutter hotel rooms and is great for a large or small family. The places usually have much more room, cooking facilities, and other amenities not found at a hotel and it's much more private. Plus all the hosts I've stayed with have been very friendly and go out of their way to make my stay as good as it can be. I'll be booking many more surfing holidays through here!</p> <strong>- Steven</strong>. Atlanta, GA, USA</blockquote>
+        <div class="blockquote_wrapper">
+          <blockquote><p>Breaking the Ice has been a great alternative to cookie-cutter hotel rooms and is great for a large or small family. The places usually have much more room, cooking facilities, and other amenities not found at a hotel and it's much more private. Plus all the hosts I've stayed with have been very friendly and go out of their way to make my stay as good as it can be. I'll be booking many more surfing holidays through here!</p>
+          </blockquote>
+          <p><strong>- Steven</strong>. Atlanta, GA, USA</p>
         </div>
 
         <div class="info_image_row">
