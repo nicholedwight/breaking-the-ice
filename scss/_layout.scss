@@ -2,7 +2,7 @@ main {
   @include column(12);
   height: auto;
   padding-top: 63px;
-  @media screen and (min-width: 700px) {
+  @media all and (min-width: 700px) {
     padding-top: 81px;
   }
 }
@@ -128,6 +128,12 @@ footer {
   background-size: cover;
   background-repeat: no-repeat;
   color: #FFF;
+  @media all and (min-width: 1500px) {
+    min-height: 90%;
+  }
+  h1 {
+    color: #FFF;
+  }
 }
 
 .contact, .form_response_page {
