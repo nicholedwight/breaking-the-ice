@@ -47,7 +47,7 @@
               <p>See More About Rolf &#38; Ada</p>
             </div>
           <p class="host_card_name">Rolf &#38; Ada Oskar</p>
-          <p class="host_location">Iceland</p>
+          <p class="host_location">Siglufjörður, Iceland</p>
           </a>
         </li>
         <li class="host_card quarter_transparent">

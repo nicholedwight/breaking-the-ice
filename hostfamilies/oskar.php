@@ -12,7 +12,7 @@
       <div class="name_container">
         <img src="/project1/assets/img/osk_profile.jpg" alt="Rolf and Ada" class="host_profile_image">
         <h2 class="host_name">Rolf and Ada Oskar</h2>
-        <p class="location">Somewhere, Iceland</p>
+        <p class="location">Siglufjörður, Iceland</p>
       </div>
 
       <article class="about_host">
@@ -72,11 +72,10 @@
 
     <div class="host_details cf">
       <article class="about_city">
-        <h3>About EMPTY</h3>
+        <h3>About Siglufjörður</h3>
         <p>
-          The world’s most northerly capital combines colourful buildings, quirky people, a wild nightlife and a capricious soul to devastating effect. Most visitors fall helplessly in love, returning home already saving to come back.</p>
-        <p>
-          The city’s charm lies in its many peculiar contrasts, which, like tectonic plates clashing against one another, create an earthquake of energy. Reykjavík offers a bewitching combination of village innocence and big-city zeal. It’s populated by darkly cynical citizens (a quality brought very much to the fore by the country's recent near-bankruptcy) who are, in spite of everything, filled with unstoppable creativity and enduring spirit. In summer the streets are washed by 22 hours of daylight; in winter they’re scoured by blizzards and doused in never-ending night. Reykjavík is a city that treasures its Viking past but wants the future now.</p>
+          Sigló (as the locals call it) sits precariously at the foot of a steep slope overlooking a beautiful fjord. Once one of Iceland’s boom towns, it’s now a quiet but endearing place with a dramatic setting, photogenic marina and a wonderful museum detailing the town’s former glory as the herring-fishing capital of Iceland. The recent opening of tunnels linking it with it's sister city, Olafsfjörður, have seen a new spring in the town’s step, and it won’t be long until travellers start paying it more attention.
+        </p>
 
       </article>
 
