@@ -12,6 +12,7 @@
         <p>We believe in quality and our goal is to make sure that our visitors get the best possible experience. Enjoy the warm, friendly atmosphere of the surf culture in our beautiful arctic environment.</p>
         <h2>Where's Iceland?</h2>
         <p>Iceland is a North Atlantic island and the westernmost country in Europe, midway between North America and mainland Europe. It lies about 800 km northwest of Scotland and 970 km west of Norway, and its northern coast is just below the Arctic Circle. From London, Iceland is the same distance as Athens. It is also the same distance from New York to Iceland as from New York to Los Angeles. Reykjavík is the world’s northernmost capital city.</p>
+        <p>In a place where nature still creates and continents collide, Iceland has countless different types of terrain to explore and a multitude of different ways to explore them!</p>
         <div class="info_image_row">
           <img src="/project1/assets/img/mappoints.png" alt="Iceland map">
         </div>

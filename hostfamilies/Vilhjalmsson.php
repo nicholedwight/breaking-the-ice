@@ -73,7 +73,13 @@
     </div>
   </div>
 
-  MAP
+  <div class="host_details cf">
+    <article>
+
+    </article>
+  </div>
+
+
 
 </main>
 
