@@ -1,5 +1,7 @@
 <?php $thisPage = "Hosts";
   include('../inc/header.php');
+  $json = file_get_contents('http://magicseaweed.com/api/rha0P5xgEI9Nb9s3YL3M22yMa15ZH6t5/forecast/?spot_id=4295&units=eu'); //This calls the API and pulls the data from MagicSeaweed
+  $data = json_decode($json, true); //This is reformatting the JSON data output to a PHP array for me to use later
 ?>
 
 <a href="/project1/assets/img/galleries/vil1.png" data-lightbox="vilhjalmsson">
@@ -85,6 +87,37 @@
 
       <aside class="surf_data">
         <h3>Surf and Weather</h3>
+
+          <?php
+          // foreach ($data as $surf) { //Below I'm defining all the variables needed for outputting the Surf data from the PHP Array pulled from the API
+            $wind_direction = round($data[0]["wind"]["direction"]/5) * 5;
+            $swell_chart = $data[0]["charts"]["swell"];
+            $timestamp = date("l, F d", $data[0]["timestamp"]);
+            $hours = date("H A", $surf[0]["timestamp"]);
+
+          ?>
+          <div class="weather">
+            <ul class="list_neutral">
+              <li class="date">
+                <?php
+                    echo $timestamp . " ";
+                    echo $hours;
+
+                 ?>
+              </li>
+              <li class="winds">
+                <?php echo $wind_direction ?>
+                <span class="msw-ssa msw-ssa-<?php echo $wind_direction;?>"></span>
+              </li>
+              <?php  ?>
+              <li>
+                <img src="<?php echo $swell_chart; ?>" alt="Swell Chart">
+              </li>
+            </ul>
+          </div>
+        <pre style="text-align: left;">
+          <?php var_dump($data); ?>
+        </pre>
 
       </aside>
     </div>
