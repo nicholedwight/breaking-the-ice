@@ -1,9 +1,9 @@
 <?php
 $json = file_get_contents('http://magicseaweed.com/api/rha0P5xgEI9Nb9s3YL3M22yMa15ZH6t5/forecast/?spot_id=4295&units=eu'); //This calls the API and pulls the data from MagicSeaweed
-$chart_images = array();
+$chart_images = array(); //Setting up the empty array for the chart images
 $data = json_decode($json, true); //This is reformatting the JSON data output to a PHP array for me to use later
 foreach ($data as $chart) {
-  $chart_images[] = $chart['charts']['swell'];
+  $chart_images[] = $chart['charts']['swell']; //Pushing all chart images into an array so i can loop through them in javascript
 }
 ?>
 <!-- outputting the Surf data from the PHP Array pulled from the API  They're in multuple tables because they represent multiple days. This is all live and real data being pulled-->
