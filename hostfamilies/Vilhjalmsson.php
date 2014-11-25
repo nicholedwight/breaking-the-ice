@@ -91,28 +91,78 @@
           <?php
           // foreach ($data as $surf) { //Below I'm defining all the variables needed for outputting the Surf data from the PHP Array pulled from the API
             $wind_direction = round($data[0]["wind"]["direction"]/5) * 5;
+            $wind_speed = $data[0]["wind"]["speed"];
+            $wind_chill = $data[0]["wind"]["chill"];
             $swell_chart = $data[0]["charts"]["swell"];
             $timestamp = date("l, F d", $data[0]["timestamp"]);
-            $hours = date("H A", $surf[0]["timestamp"]);
+            $hour = date("HA", $data[0]["timestamp"]);
 
           ?>
-          <div class="weather">
+          <div class="weather today">
+            <h5><?php echo $timestamp; ?></h5>
             <ul class="list_neutral">
-              <li class="date">
-                <?php
-                    echo $timestamp . " ";
-                    echo $hours;
-
-                 ?>
+              <li class="time">
+                  <?php echo $hour; ?>
               </li>
-              <li class="winds">
-                <?php echo $wind_direction ?>
-                <span class="msw-ssa msw-ssa-<?php echo $wind_direction;?>"></span>
+              <li class="speed">
+                <p>Wind speed:
+                <?php echo $wind_speed . "kph" ;?>
+                </p>
+              </li>
+              <li class="direction">
+                <p>Wind direction:
+                  <span class="msw-ssa msw-ssa-<?php echo $wind_direction;?>"></span></p>
+              </li>
+              <li class="chill">
+                <p>Wind chill:
+                <?php echo $wind_chill . " &#176C" ;?>
+                </p>
               </li>
               <?php  ?>
               <li>
                 <img src="<?php echo $swell_chart; ?>" alt="Swell Chart">
               </li>
+            </ul>
+            <table>
+              <tr>
+                <?php echo date("l, F d", $data[0]["timestamp"]); ?>
+              </tr>
+              <tr>
+                <th>Time</th>
+                <th><?php echo date("HA", $data[2]["timestamp"]); ?></th>
+                <th><?php echo date("HA", $data[4]["timestamp"]); ?></th>
+                <th><?php echo date("HA", $data[6]["timestamp"]); ?></th>
+                <th><?php echo date("HA", $data[7]["timestamp"]); ?></th>
+              </tr>
+              <tr>
+                <th>Wind speed</th>
+                <td><?php echo $data[2]["wind"]["speed"]; ?></td>
+                <td><?php echo $data[4]["wind"]["speed"]; ?></td>
+                <td><?php echo $data[6]["wind"]["speed"]; ?></td>
+                <td><?php echo $data[7]["wind"]["speed"]; ?></td>
+              </tr>
+              <tr>
+                <th>Wind direction</th>
+                <td>
+                  <span class="msw-ssa msw-ssa-<?php echo round($data[2]['wind']['direction']/5) * 5;?>"></span>
+                </td>
+                <td>
+                  <span class="msw-ssa msw-ssa-<?php echo round($data[4]['wind']['direction']/5) * 5;?>"></span>
+                </td>
+                <td>
+                  <span class="msw-ssa msw-ssa-<?php echo round($data[6]['wind']['direction']/5) * 5;?>"></span>
+                </td>
+                <td>
+                  <span class="msw-ssa msw-ssa-<?php echo round($data[7]['wind']['direction']/5) * 5;?>"></span>
+                </td>
+              </tr>
+            </table>
+          </div>
+
+          <div class="weather tomorrow">
+            <h5><?php echo date("l, F d", $data[8]["timestamp"]); ?></h5>
+            <ul class="list_neutral">
+
             </ul>
           </div>
         <pre style="text-align: left;">
