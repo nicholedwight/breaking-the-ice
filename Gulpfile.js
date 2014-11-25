@@ -9,7 +9,7 @@ var changed = require('gulp-changed');
 var paths = {
   styles: 'scss/**/*.scss',
   images: 'img/**/*',
-  scripts: 'js/**/*.js',
+  scripts: 'js/**/*.js*',
   fonts: 'fonts/**/*'
 };
 

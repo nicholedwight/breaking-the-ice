@@ -107,18 +107,12 @@
 <?php include('../inc/footer.php'); ?>
 <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
 <script src="/project1/assets/js/maps.js"></script>
+<script src="/project1/assets/js/chartcycle.js.php"></script>
 
 <script>
-//This function cycles through all the chart images to produce a gif
-function chartsCycle(counter) {
-  var chartImages = <?php echo json_encode($chart_images); ?>;
-  $('#chart').attr('src', chartImages[counter]); //Sets the new source of each chart image within the array
-  counter++;
-  setTimeout(function() {chartsCycle(counter)}, 300); //May be laggy because this assumes it will always load within 300ms, not the best way to do this but AJAX wasn't really an option for this assignment. The timeout calls itself and adds 1 until the last frame of the gif has been produced
-};
+var chartImages = <?php echo json_encode($chart_images); ?>;
 
-$('#chart').click(function(){
-  chartsCycle(1); //Calls the function with a count of 1 since 0 is set in the html above
-});
-
+  $('#chart').click(function(){
+    chartsCycle(1); //Calls the function with a count of 1 since 0 is set in the html above
+  });
 </script>
