@@ -80,9 +80,11 @@
       </article>
 
       <aside class="surf_data">
-        <h3>Surf Forecast</h3>
+        <h3>Surf Forecast for Reykjanesbær</h3>
         <!-- including the surf data file in order to keep this file relatively clean and legible -->
-          <?php include("../inc/baersurfdata.php");
+          <?php
+          $location = '2998'; //Setting the spot_id for the API call in the data file
+          include("../inc/surfdata.php");
           $imgsrc = $data[0]['charts']['swell'];
           ?>
           <img src="<?php echo $imgsrc; ?>" id="chart">
@@ -96,3 +98,12 @@
 <?php include('../inc/footer.php'); ?>
 <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
 <script src="/project1/assets/js/maps.js"></script>
+<script src="/project1/assets/js/chartcycle.js.php"></script>
+
+<script>
+var chartImages = <?php echo json_encode($chart_images); ?>;
+
+  $('#chart').click(function(){
+    chartsCycle(1); //Calls the function with a count of 1 since 0 is set in the html above
+  });
+</script>

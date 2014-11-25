@@ -84,9 +84,12 @@
       </article>
 
       <aside class="surf_data">
-        <h3>Surf Forecast</h3>
+        <h3>Surf Forecast for Reykjavik</h3>
         <!-- including the surf data file in order to keep this file relatively clean and legible -->
-          <?php include("../inc/reyksurfdata.php");
+
+          <?php
+          $location = '4295'; //Setting the spot_id for the API call in the data file
+          include("../inc/surfdata.php");
           $imgsrc = $data[0]['charts']['swell'];
           ?>
           <img src="<?php echo $imgsrc; ?>" id="chart">

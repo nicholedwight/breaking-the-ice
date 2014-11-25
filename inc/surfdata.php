@@ -1,5 +1,5 @@
 <?php
-$json = file_get_contents('http://magicseaweed.com/api/rha0P5xgEI9Nb9s3YL3M22yMa15ZH6t5/forecast/?spot_id=4295&units=eu'); //This calls the API and pulls the data from MagicSeaweed
+$json = file_get_contents("http://magicseaweed.com/api/rha0P5xgEI9Nb9s3YL3M22yMa15ZH6t5/forecast/?spot_id=$location&units=eu"); //This calls the API and pulls the data from MagicSeaweed
 
 //Setting up the empty arrays for echoing out various data in surf forecast table
 $chart_images = array();
