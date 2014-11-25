@@ -110,17 +110,13 @@
 
 <script>
 
-function chartCallback(counter){
-    if (counter < 10) {
-      console.log(counter);
-      counter++;
-      setTimeout(function(){chartCallback(counter)}, 300);
-    }
-  }
-
-
  $('#chart').click(function(){
-  $('#chart').attr('src', "<?php echo $data[1]['charts']['swell']; ?>");
+   var counter = 0;
+   while (counter < 30) {
+    $('#chart').attr('src', "<?php echo $data[1]['charts']['swell']; ?>");
+    console.log("<?php echo counter; ?>");
+    counter++;
+  }
 });
 
 </script>
