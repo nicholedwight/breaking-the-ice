@@ -16,7 +16,7 @@ $data = json_decode($json, true); //This is reformatting the JSON data output to
       <th><?php echo date("HA", $data[7]["timestamp"]); ?></th>
     </tr>
     <tr>
-      <th>Wave height</th>
+      <th>Wave height (m)</th>
       <td><?php echo $data[2]["swell"]["components"]["combined"]["height"]; ?></td>
       <td><?php echo $data[4]["swell"]["components"]["combined"]["height"]; ?></td>
       <td><?php echo $data[6]["swell"]["components"]["combined"]["height"]; ?></td>
@@ -75,7 +75,7 @@ $data = json_decode($json, true); //This is reformatting the JSON data output to
       <th><?php echo date("HA", $data[15]["timestamp"]); ?></th>
     </tr>
     <tr>
-      <th>Wave height</th>
+      <th>Wave height (m)</th>
       <td><?php echo $data[2]["swell"]["components"]["combined"]["height"]; ?></td>
       <td><?php echo $data[4]["swell"]["components"]["combined"]["height"]; ?></td>
       <td><?php echo $data[6]["swell"]["components"]["combined"]["height"]; ?></td>
