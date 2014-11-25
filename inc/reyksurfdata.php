@@ -23,7 +23,7 @@ $data = json_decode($json, true); //This is reformatting the JSON data output to
       <td><?php echo $data[7]["swell"]["components"]["combined"]["height"]; ?></td>
     </tr>
     <tr>
-      <th>Wind speed</th>
+      <th>Wind speed (kph)</th>
       <td class="wind-speed-<?php echo round($data[2]["wind"]["speed"]/5) * 5;?>">
         <?php echo $data[2]["wind"]["speed"]; ?>
       </td>
@@ -82,7 +82,7 @@ $data = json_decode($json, true); //This is reformatting the JSON data output to
       <td><?php echo $data[7]["swell"]["components"]["combined"]["height"]; ?></td>
     </tr>
     <tr>
-      <th>Wind speed</th>
+      <th>Wind speed (kph)</th>
       <td class="wind-speed-<?php echo round($data[10]["wind"]["speed"]/5) * 5;?>">
         <?php echo $data[10]["wind"]["speed"]; ?>
       </td>
