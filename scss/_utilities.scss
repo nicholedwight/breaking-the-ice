@@ -231,13 +231,13 @@ main:after {
 
 table {
   border-collapse: collapse;
-  // background: #E5FFEE;
+  background: #E5FFEE;
 }
 
 .table_header {
   width: 100%;
   text-align: center;
-  color: #FFF;
+  color: #00CD9B;
 }
 
 td, th {
@@ -246,13 +246,8 @@ td, th {
   text-align: center;
 }
 
-th {
-  color: #00CD9B;
-}
-
 td {
   color: #000;
-  background: #E5FFEE;
 
 }
 
