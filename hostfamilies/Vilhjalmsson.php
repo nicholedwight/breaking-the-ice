@@ -93,6 +93,8 @@
           $imgsrc = $data[0]['charts']['swell'];
           ?>
           <img src="<?php echo $imgsrc; ?>" id="chart">
+          <input type="range" value="0" max="40" id="swell_slider">
+
         <pre style="text-align: left;">
         <?php// var_dump($data); ?>
         </pre>
@@ -112,10 +114,13 @@
 <script src="/project1/assets/js/maps.js"></script>
 <script src="/project1/assets/js/chartcycle.js.php"></script>
 
-<script>generateChartSlider(69);</script>
-
 <script>
 var chartImages = <?php echo json_encode($chart_images); ?>;
+
+$('#swell_slider').on('input change', function() {
+  console.log($(this).val());
+  changeChartFrame($('#chart'), $(this).val(), chartImages);
+});
 
   $('#chart').click(function(){
     chartsCycle(1, chartImages); //Calls the function with a count of 1 since 0 is set in the html above
