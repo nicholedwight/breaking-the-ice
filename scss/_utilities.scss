@@ -204,6 +204,12 @@ main:after {
 
 table {
   border-collapse: collapse;
+  margin: 0 auto;
+}
+
+.table_header {
+  width: 100%;
+  text-align: center;
 }
 
 td, th {

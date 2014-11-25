@@ -87,84 +87,11 @@
 
       <aside class="surf_data">
         <h3>Surf and Weather</h3>
-
-          <?php
-          // foreach ($data as $surf) { //Below I'm defining all the variables needed for outputting the Surf data from the PHP Array pulled from the API
-            $wind_direction = round($data[0]["wind"]["direction"]/5) * 5;
-            $wind_speed = $data[0]["wind"]["speed"];
-            $wind_chill = $data[0]["wind"]["chill"];
-            $swell_chart = $data[0]["charts"]["swell"];
-            $timestamp = date("l, F d", $data[0]["timestamp"]);
-            $hour = date("HA", $data[0]["timestamp"]);
-
+        <!-- including the surf data file in order to keep this file relatively clean and legible -->
+          <?php include("../inc/surfdata.php");
+          $imgsrc = $data[0]['charts']['swell'];
           ?>
-          <div class="weather today">
-            <h5><?php echo $timestamp; ?></h5>
-            <ul class="list_neutral">
-              <li class="time">
-                  <?php echo $hour; ?>
-              </li>
-              <li class="speed">
-                <p>Wind speed:
-                <?php echo $wind_speed . "kph" ;?>
-                </p>
-              </li>
-              <li class="direction">
-                <p>Wind direction:
-                  <span class="msw-ssa msw-ssa-<?php echo $wind_direction;?>"></span></p>
-              </li>
-              <li class="chill">
-                <p>Wind chill:
-                <?php echo $wind_chill . " &#176C" ;?>
-                </p>
-              </li>
-              <?php  ?>
-              <li>
-                <img src="<?php echo $swell_chart; ?>" alt="Swell Chart">
-              </li>
-            </ul>
-            <table>
-              <tr>
-                <?php echo date("l, F d", $data[0]["timestamp"]); ?>
-              </tr>
-              <tr>
-                <th>Time</th>
-                <th><?php echo date("HA", $data[2]["timestamp"]); ?></th>
-                <th><?php echo date("HA", $data[4]["timestamp"]); ?></th>
-                <th><?php echo date("HA", $data[6]["timestamp"]); ?></th>
-                <th><?php echo date("HA", $data[7]["timestamp"]); ?></th>
-              </tr>
-              <tr>
-                <th>Wind speed</th>
-                <td><?php echo $data[2]["wind"]["speed"]; ?></td>
-                <td><?php echo $data[4]["wind"]["speed"]; ?></td>
-                <td><?php echo $data[6]["wind"]["speed"]; ?></td>
-                <td><?php echo $data[7]["wind"]["speed"]; ?></td>
-              </tr>
-              <tr>
-                <th>Wind direction</th>
-                <td>
-                  <span class="msw-ssa msw-ssa-<?php echo round($data[2]['wind']['direction']/5) * 5;?>"></span>
-                </td>
-                <td>
-                  <span class="msw-ssa msw-ssa-<?php echo round($data[4]['wind']['direction']/5) * 5;?>"></span>
-                </td>
-                <td>
-                  <span class="msw-ssa msw-ssa-<?php echo round($data[6]['wind']['direction']/5) * 5;?>"></span>
-                </td>
-                <td>
-                  <span class="msw-ssa msw-ssa-<?php echo round($data[7]['wind']['direction']/5) * 5;?>"></span>
-                </td>
-              </tr>
-            </table>
-          </div>
-
-          <div class="weather tomorrow">
-            <h5><?php echo date("l, F d", $data[8]["timestamp"]); ?></h5>
-            <ul class="list_neutral">
-
-            </ul>
-          </div>
+          <img src="<?php echo $imgsrc; ?>" id="chart">
         <pre style="text-align: left;">
           <?php var_dump($data); ?>
         </pre>
@@ -182,3 +109,20 @@
 <?php include('../inc/footer.php'); ?>
 <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
 <script src="/project1/assets/js/maps.js"></script>
+
+<script>
+
+function chartCallback(counter){
+    if (counter < 10) {
+      console.log(counter);
+      counter++;
+      setTimeout(function(){chartCallback(counter)}, 300);
+    }
+  }
+
+
+ $('#chart').click(function(){
+  chartCallback(1);
+});
+
+</script>
