@@ -79,7 +79,12 @@
       </article>
 
       <aside class="surf_data">
-        <h3>Surf and Weather</h3>
+        <h3>Surf Forecast</h3>
+        <!-- including the surf data file in order to keep this file relatively clean and legible -->
+          <?php include("../inc/reyosurfdata.php");
+          $imgsrc = $data[0]['charts']['swell'];
+          ?>
+          <img src="<?php echo $imgsrc; ?>" id="chart">
 
       </aside>
     </div>

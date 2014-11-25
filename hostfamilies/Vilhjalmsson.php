@@ -1,7 +1,5 @@
 <?php $thisPage = "Hosts";
   include('../inc/header.php');
-  $json = file_get_contents('http://magicseaweed.com/api/rha0P5xgEI9Nb9s3YL3M22yMa15ZH6t5/forecast/?spot_id=4295&units=eu'); //This calls the API and pulls the data from MagicSeaweed
-  $data = json_decode($json, true); //This is reformatting the JSON data output to a PHP array for me to use later
 ?>
 
 <a href="/project1/assets/img/galleries/vil1.png" data-lightbox="vilhjalmsson">
@@ -88,7 +86,7 @@
       <aside class="surf_data">
         <h3>Surf Forecast</h3>
         <!-- including the surf data file in order to keep this file relatively clean and legible -->
-          <?php include("../inc/surfdata.php");
+          <?php include("../inc/reyksurfdata.php");
           $imgsrc = $data[0]['charts']['swell'];
           ?>
           <img src="<?php echo $imgsrc; ?>" id="chart">
