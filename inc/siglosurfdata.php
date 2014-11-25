@@ -4,10 +4,8 @@ $data = json_decode($json, true); //This is reformatting the JSON data output to
 ?>
 <!-- outputting the Surf data from the PHP Array pulled from the API  They're in multuple tables because they represent multiple days. This is all live and real data being pulled-->
 <div class="table_wrapper_left">
+  <span class="table_header"><?php echo date("l, F d", $data[0]["timestamp"]); ?></span>
   <table>
-    <tr class="table_header">
-      <?php echo date("l, F d", $data[0]["timestamp"]); ?>
-    </tr>
     <tr>
       <th>Time</th>
       <th><?php echo date("HA", $data[2]["timestamp"]); ?></th>
@@ -63,10 +61,8 @@ $data = json_decode($json, true); //This is reformatting the JSON data output to
 </div>
 
 <div class="table_wrapper_right">
+  <span class="table_header"><?php echo date("l, F d", $data[8]["timestamp"]); ?></span>
   <table>
-    <tr class="table_header">
-      <?php echo date("l, F d", $data[8]["timestamp"]); ?>
-    </tr>
     <tr>
       <th>Time</th>
       <th><?php echo date("HA", $data[10]["timestamp"]); ?></th>

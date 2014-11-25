@@ -203,7 +203,7 @@ main:after {
 }
 
 .table_wrapper_left, .table_wrapper_right {
-  background: #FFF;
+  background: #3b3b3b;
   padding: 15px;
   max-width: 385px;
   margin: 20px auto;
@@ -231,16 +231,17 @@ main:after {
 
 table {
   border-collapse: collapse;
-  background: lavenderblush;
+  background: #E5FFEE;
 }
 
 .table_header {
   width: 100%;
   text-align: center;
+  color: #FFF;
 }
 
 td, th {
-  border: 5px solid ghostwhite;
+  border: 5px solid #3b3b3b;
   padding: 0.3rem;
   text-align: center;
 }
