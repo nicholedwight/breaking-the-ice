@@ -112,10 +112,12 @@
 <script src="/project1/assets/js/maps.js"></script>
 <script src="/project1/assets/js/chartcycle.js.php"></script>
 
+<script>generateChartSlider(69);</script>
+
 <script>
 var chartImages = <?php echo json_encode($chart_images); ?>;
 
   $('#chart').click(function(){
-    chartsCycle(1); //Calls the function with a count of 1 since 0 is set in the html above
+    chartsCycle(1, chartImages); //Calls the function with a count of 1 since 0 is set in the html above
   });
 </script>
