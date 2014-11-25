@@ -94,7 +94,7 @@
           ?>
           <img src="<?php echo $imgsrc; ?>" id="chart">
         <pre style="text-align: left;">
-          <?php var_dump($data); ?>
+        <?php// var_dump($data); ?>
         </pre>
 
       </aside>
