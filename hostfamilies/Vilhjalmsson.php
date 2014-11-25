@@ -86,7 +86,7 @@
       </article>
 
       <aside class="surf_data">
-        <h3>Surf and Weather</h3>
+        <h3>Surf Forecast</h3>
         <!-- including the surf data file in order to keep this file relatively clean and legible -->
           <?php include("../inc/surfdata.php");
           $imgsrc = $data[0]['charts']['swell'];
@@ -122,7 +122,7 @@ function chartCallback(counter){
 
 
  $('#chart').click(function(){
-  chartCallback(1);
+  $('#chart').attr('src', "<?php echo $data[1]['charts']['swell']; ?>");
 });
 
 </script>

@@ -202,9 +202,37 @@ main:after {
     clear: both;
 }
 
+.table_wrapper_left, .table_wrapper_right {
+  background: #FFF;
+  border-radius: 15px;
+  padding: 15px;
+  max-width: 385px;
+  margin: 20px auto;
+}
+
+@media all and (min-width: 1640px) {
+  .table_wrapper_left {
+    float: left;
+    margin-left: 3%;
+  }
+  .table_wrapper_right {
+    float: left;
+    margin-left: 2%;
+  }
+}
+
+@media all and (min-width: 1760px) {
+  .table_wrapper_left {
+    margin-left: 9%;
+  }
+  .table_wrapper_right {
+    margin-left: 2%;
+  }
+}
+
 table {
   border-collapse: collapse;
-  margin: 0 auto;
+  background: lavenderblush;
 }
 
 .table_header {
@@ -213,10 +241,41 @@ table {
 }
 
 td, th {
-  border: 1px solid #999;
-  padding: 0.5rem;
-  text-align: left;
+  border: 5px solid ghostwhite;
+  padding: 0.3rem;
+  text-align: center;
 }
+
+td {
+  color: #000;
+}
+
+#chart {
+  cursor: pointer;
+}
+
+.wind-speed-0,
+.wind-speed-5,
+.wind-speed-10,
+.wind-speed-15,
+.wind-speed-20 { background-color: rgb(153, 255, 0); }
+
+.wind-speed-25 { background-color: rgb(221, 255, 0); }
+
+.wind-speed-30 { background-color: rgb(255, 204, 0); }
+
+.wind-speed-35 { background-color: rgb(255, 153, 0); }
+
+.wind-speed-40,
+.wind-speed-45 { background-color: rgb(255, 34, 0); }
+
+.wind-speed-50,
+.wind-speed-55, { background-color: rgb(255, 0, 119); }
+
+.wind-speed-60,
+.wind-speed-65 { background-color: rgb(255, 0, 238); }
+
+
 
 .msw-ssa,
 .msw-swa /* Wind arrows */
