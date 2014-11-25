@@ -8,10 +8,10 @@ $data = json_decode($json, true); //This is reformatting the JSON data output to
   <table>
     <tr>
       <th>Time</th>
-      <th><?php echo date("HA", $data[2]["timestamp"]); ?></th>
-      <th><?php echo date("HA", $data[4]["timestamp"]); ?></th>
-      <th><?php echo date("HA", $data[6]["timestamp"]); ?></th>
-      <th><?php echo date("HA", $data[7]["timestamp"]); ?></th>
+      <td><?php echo date("HA", $data[2]["timestamp"]); ?></td>
+      <td><?php echo date("HA", $data[4]["timestamp"]); ?></td>
+      <td><?php echo date("HA", $data[6]["timestamp"]); ?></td>
+      <td><?php echo date("HA", $data[7]["timestamp"]); ?></td>
     </tr>
     <tr>
       <th>Wave height (m)</th>
@@ -65,10 +65,10 @@ $data = json_decode($json, true); //This is reformatting the JSON data output to
   <table>
     <tr>
       <th>Time</th>
-      <th><?php echo date("HA", $data[10]["timestamp"]); ?></th>
-      <th><?php echo date("HA", $data[12]["timestamp"]); ?></th>
-      <th><?php echo date("HA", $data[14]["timestamp"]); ?></th>
-      <th><?php echo date("HA", $data[15]["timestamp"]); ?></th>
+      <td><?php echo date("HA", $data[10]["timestamp"]); ?></td>
+      <td><?php echo date("HA", $data[12]["timestamp"]); ?></td>
+      <td><?php echo date("HA", $data[14]["timestamp"]); ?></td>
+      <td><?php echo date("HA", $data[15]["timestamp"]); ?></td>
     </tr>
     <tr>
       <th>Wave height (m)</th>
