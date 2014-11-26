@@ -15,7 +15,7 @@
           <?php include('inc/about-icon.svg'); ?>
           <h2>About</h2>
           <p>We believe in quality and our goal is to make sure that our visitors get the best possible experience.
-Enjoy the warm, friendly atmosphere of the surf culture in our beautiful arctic environment.</p>
+Enjoy the warm, friendly atmosphere of the surf culture in our beautiful arctic environment. Iceland is open to swells from every direction, with numerous set-ups which can produce world class waves, catching these spots can be life-changing.</p>
         </a>
       </div>
       <div class="content_item">
