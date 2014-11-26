@@ -8,5 +8,5 @@ function chartsCycle(counter, chartImages) {
 };
 
 function changeChartFrame(element, frame, chartImages)  {
-  $(element).attr('src', chartImages[frame]);
+  $(element).attr('src', chartImages[frame]); //Sets the image displayed to the image indexed out of the 40 available
 }

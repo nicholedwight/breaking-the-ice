@@ -119,7 +119,7 @@ var chartImages = <?php echo json_encode($chart_images); ?>;
 
 $('#swell_slider').on('input change', function() {
   console.log($(this).val());
-  changeChartFrame($('#chart'), $(this).val(), chartImages);
+  changeChartFrame($('#chart'), $(this).val(), chartImages); //Calls the function to change chart image based on slider position
 });
 
   $('#chart').click(function(){
