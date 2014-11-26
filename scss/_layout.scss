@@ -89,7 +89,7 @@ footer {
 }
 
 .hcard {
-  width: 300px;
+  width: 251px;
   margin: 0 auto;
   text-align: left;
   padding-left: 10px;
@@ -97,6 +97,9 @@ footer {
   margin-bottom: 20px;
   a {
     color: inherit;
+  &:hover {
+    text-decoration: underline;
+  }
   }
 }
 

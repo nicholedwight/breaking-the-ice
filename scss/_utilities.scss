@@ -7,7 +7,7 @@
 
 .content_width {
   width: 90%;
-  margin: 0 auto;
+  margin: 20px auto;
   text-align: center;
   @media all and (min-width: 500px) {
     width: 50%;
@@ -245,7 +245,7 @@ main:after {
   outline: none;
   overflow: hidden;
   @media all and (min-width: 950px) {
-    bottom: -42px;
+    bottom: -45px;
     right: 0;
     left: 0;
   }

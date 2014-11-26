@@ -12,7 +12,10 @@
     <!-- Below is the hCard -->
     <p class="vcard">
       <a class="fn org url" href="<?php echo $base_url; ?>" title="Contact Information for Breaking the Ice">
-        <span class="organization-name">Breaking the Ice</span>
+      <span class="organization-name">Breaking the Ice</span>
+      </a><br>
+      <a href="mailto:nicholedwight@gmail.com">
+        <span class="email">nicholedwight@gmail.com</span>
       </a><br>
       <span class="street-address">Sigtún 38</span>,
       <span class="locality">105 Reykjavík</span>,
