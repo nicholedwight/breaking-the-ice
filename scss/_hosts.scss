@@ -117,6 +117,7 @@
 .surf_data {
   text-align: center;
   padding-top: 20px;
+  position: relative;
   @media all and (min-width: 860px) {
     width: 49%;
   }
@@ -140,4 +141,15 @@
   img:hover {
     border: 5px solid #00CD9B;
   }
+}
+
+#chart {
+  cursor: pointer;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+#swell_slider {
+  margin: 5px auto;
+  width: 50%;
 }

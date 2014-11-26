@@ -51,22 +51,22 @@
         <ul class="list_neutral">
           <li>
             <a href="/project1/assets/img/galleries/vil2.jpg" data-lightbox="vilhjalmsson">
-              <img src="/project1/assets/img/galleries/vil2.jpg">
+              <img src="/project1/assets/img/galleries/vil2_thumb.jpg">
             </a>
           </li>
           <li>
             <a href="/project1/assets/img/galleries/vil3.jpg" data-lightbox="vilhjalmsson">
-              <img src="/project1/assets/img/galleries/vil3.jpg">
+              <img src="/project1/assets/img/galleries/vil3_thumb.jpg">
             </a>
           </li>
           <li>
             <a href="/project1/assets/img/galleries/vil4.jpg" data-lightbox="vilhjalmsson">
-              <img src="/project1/assets/img/galleries/vil4.jpg">
+              <img src="/project1/assets/img/galleries/vil4_thumb.jpg">
             </a>
           </li>
           <li>
             <a href="/project1/assets/img/galleries/vil4.jpg" data-lightbox="vilhjalmsson">
-              <img src="/project1/assets/img/galleries/vil4.jpg">
+              <img src="/project1/assets/img/galleries/vil4_thumb.jpg">
             </a>
           </li>
         </ul>
@@ -94,11 +94,6 @@
           ?>
           <img src="<?php echo $imgsrc; ?>" id="chart">
           <input type="range" value="0" max="40" id="swell_slider">
-
-        <pre style="text-align: left;">
-        <?php// var_dump($data); ?>
-        </pre>
-
       </aside>
     </div>
   </div>
