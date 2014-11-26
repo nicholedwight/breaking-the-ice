@@ -34,7 +34,8 @@
 .about_host {
   margin: 0 auto;
   width: 80%;
-  @media all and (min-width: 940px) {
+  padding: 20px 5px 90px 5px;
+  @media all and (min-width: 950px) {
     float: right;
     width: 79%;
     text-align: left;
@@ -44,9 +45,12 @@
 .name_container {
   margin: 0 auto;
   text-align: center;
-  @media all and (min-width: 940px) {
+  position: relative;
+  padding-bottom: 30px;
+  @media all and (min-width: 950px) {
     float: left;
     margin-left: 5%;
+    padding-bottom: 0;
   }
 }
 

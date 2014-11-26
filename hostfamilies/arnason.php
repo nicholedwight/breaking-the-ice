@@ -13,13 +13,13 @@
         <img src="/project1/assets/img/arn_profile.jpg" alt="Gunnar" class="host_profile_image">
         <h2 class="host_name">Gunnar Arnason</h2>
         <p class="location">Reykjanesbær, Iceland</p>
+        <a href="/project1/contact" class="pulse"><div>Request Booking</div></a>
       </div>
 
       <article class="about_host">
         <h3>About Gunnar</h3>
         <p>Hi im Gunnar!</p>
         <p>I'm a fun guy from the Land of Fire and Ice, Iceland. I am also a professor in Icelandic language and literature - and a professional tourist guide, specialized in geology, history and culture. Beside running the guesthouse and welcoming my guests, I offer private excursion to the ocean for surf trips in a private vehicle for up to 8 passengers.</p>
-      <a href="/project1/contact"><div class="button">Request Booking</div></a>
       </article>
     </div>
 

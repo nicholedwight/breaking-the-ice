@@ -12,6 +12,8 @@
         <img src="/project1/assets/img/vil_profile.jpg" alt="Rut" class="host_profile_image">
         <h2 class="host_name">Rut Vilhjalmsson</h2>
         <p class="location">Reykjavik, Iceland</p>
+
+      <a href="/project1/contact" class="pulse"><div>Request Booking</div></a>
       </div>
 
       <article class="about_host">
@@ -20,10 +22,9 @@
         <p>We love travelling, meeting new people, outdoor activities, surfing, skiing, yoga, and lots of other things.</p>
         <p>For the past 5 years we´ve lived in Dubai, Scotland, and England and travelled alot, and recently moved back home to our gorgeous island.
           We're looking forward to being your host and will do our absolute best to make you feel comfortable and happy :)</p>
-        <a href="/project1/contact"><div class="button">Request Booking</div></a>
       </article>
     </div>
-    <div class="host_details cf">
+    <div class="host_details cf ">
       <div class="review_wrapper">
         <h3>Reviews</h3>
         <div class="review_item blockquote_wrapper blockquote_wrapper">
