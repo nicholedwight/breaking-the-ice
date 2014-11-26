@@ -88,10 +88,7 @@
           $imgsrc = $data[0]['charts']['swell'];
           ?>
           <img src="<?php echo $imgsrc; ?>" id="chart">
-
-      </aside><aside class="surf_data">
-        <h3>Surf and Weather</h3>
-
+          <input type="range" value="0" max="40" id="swell_slider">
       </aside>
     </div>
   </div>
@@ -106,7 +103,12 @@
 <script>
 var chartImages = <?php echo json_encode($chart_images); ?>;
 
+$('#swell_slider').on('input change', function() {
+  console.log($(this).val());
+  changeChartFrame($('#chart'), $(this).val(), chartImages); //Calls the function to change chart image based on slider position
+});
+
   $('#chart').click(function(){
-    chartsCycle(1); //Calls the function with a count of 1 since 0 is set in the html above
+    chartsCycle(1, chartImages); //Calls the function with a count of 1 since 0 is set in the html above
   });
 </script>
