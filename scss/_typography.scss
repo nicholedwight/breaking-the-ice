@@ -49,6 +49,11 @@ footer a:hover, .content_item:hover h2 {
   line-height: 1.3em;
 }
 
+.content_item p {
+  text-align: left;
+  text-indent: 40px;
+}
+
 .current, a.faq_current {
   color: #00CD9B;
 }
