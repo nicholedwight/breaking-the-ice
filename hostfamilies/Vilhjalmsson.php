@@ -13,7 +13,7 @@
         <h2 class="host_name">Rut Vilhjalmsson</h2>
         <p class="location">Reykjavik, Iceland</p>
 
-      <a href="/project1/contact" class="pulse"><div>Request Booking</div></a>
+      <a href="/project1/contact" class="pulse">Request Booking</a>
       </div>
 
       <article class="about_host">
