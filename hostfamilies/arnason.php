@@ -51,7 +51,7 @@
         <ul class="list_neutral">
           <li>
             <a href="/project1/assets/img/galleries/arn2.jpg" data-lightbox="arnason">
-              <img src="/project1/assets/img/galleries/arn2.jpg">
+              <img src="/project1/assets/img/galleries/arn2_thumb.jpg">
             </a>
           </li>
           <li>
@@ -61,7 +61,12 @@
           </li>
           <li>
             <a href="/project1/assets/img/galleries/arn4.jpg" data-lightbox="arnason">
-              <img src="/project1/assets/img/galleries/arn4.jpg">
+              <img src="/project1/assets/img/galleries/arn4_thumb.jpg">
+            </a>
+          </li>
+          <li>
+            <a href="/project1/assets/img/galleries/arn5.jpg" data-lightbox="arnason">
+              <img src="/project1/assets/img/galleries/arn5_thumb.jpg">
             </a>
           </li>
         </ul>

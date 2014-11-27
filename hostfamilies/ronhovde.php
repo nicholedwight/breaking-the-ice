@@ -3,7 +3,7 @@
 
 ?>
 
-<a href="/project1/assets/img/galleries/ron1.png" data-lightbox="ronhovde">
+<a href="/project1/assets/img/galleries/ron1.jpg" data-lightbox="ronhovde">
   <section class="host_hero host_ron"></section>
 </a>
 <main role="main" class="host_profile_main_wrapper">
@@ -50,18 +50,23 @@
         <h3>Gallery</h3>
         <ul class="list_neutral">
           <li>
-            <a href="/project1/assets/img/galleries/ron2.jpg" data-lightbox="ronhovde">
-              <img src="/project1/assets/img/galleries/ron2.jpg">
+            <a href="/project1/assets/img/galleries/ron2.png" data-lightbox="ronhovde">
+              <img src="/project1/assets/img/galleries/ron2_thumb.png">
             </a>
           </li>
           <li>
             <a href="/project1/assets/img/galleries/ron3.jpg" data-lightbox="ronhovde">
-              <img src="/project1/assets/img/galleries/ron3.jpg">
+              <img src="/project1/assets/img/galleries/ron3_thumb.jpg">
             </a>
           </li>
           <li>
             <a href="/project1/assets/img/galleries/ron4.jpg" data-lightbox="ronhovde">
               <img src="/project1/assets/img/galleries/ron4.jpg">
+            </a>
+          </li>
+          <li>
+            <a href="/project1/assets/img/galleries/ron5.jpg" data-lightbox="ronhovde">
+              <img src="/project1/assets/img/galleries/ron5_thumb.jpg">
             </a>
           </li>
         </ul>

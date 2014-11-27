@@ -3,7 +3,7 @@
 
 ?>
 
-<a href="/project1/assets/img/galleries/osk1.png" data-lightbox="oskar">
+<a href="/project1/assets/img/galleries/osk1.jpg" data-lightbox="oskar">
   <section class="host_hero host_osk"></section>
 </a>
 <main role="main" class="host_profile_main_wrapper">
@@ -58,12 +58,17 @@
           </li>
           <li>
             <a href="/project1/assets/img/galleries/osk3.jpg" data-lightbox="oskar">
-              <img src="/project1/assets/img/galleries/osk3.jpg">
+              <img src="/project1/assets/img/galleries/osk3_thumb.jpg">
             </a>
           </li>
           <li>
             <a href="/project1/assets/img/galleries/osk4.jpg" data-lightbox="oskar">
               <img src="/project1/assets/img/galleries/osk4.jpg">
+            </a>
+          </li>
+          <li>
+            <a href="/project1/assets/img/galleries/osk5.jpg" data-lightbox="oskar">
+              <img src="/project1/assets/img/galleries/osk5.jpg">
             </a>
           </li>
         </ul>

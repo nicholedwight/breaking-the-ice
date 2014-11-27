@@ -66,6 +66,11 @@
               <img src="/project1/assets/img/galleries/jeg4_thumb.jpg">
             </a>
           </li>
+          <li>
+            <a href="/project1/assets/img/galleries/jeg5.jpg" data-lightbox="jegtnes">
+              <img src="/project1/assets/img/galleries/jeg5_thumb.jpg">
+            </a>
+          </li>
         </ul>
       </aside>
     </div>
