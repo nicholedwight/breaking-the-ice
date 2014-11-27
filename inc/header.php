@@ -29,8 +29,31 @@
           <li><a href="/project1/index"
             <?php if ($thisPage === "Home") echo "class='current'"; ?>>Home</a>
           </li>
-          <li><a href="/project1/hosts"
+          <li>
+            <a href="/project1/hosts"
             <?php if ($thisPage === "Hosts") echo "class='current'"; ?>>Our Hosts</a>
+            <ul <?php if ($thisPage === "Home") {
+              echo "class='nav_dropdown_transparent'"; }
+              else { echo "class='nav_dropdown'"; } ?>>
+              <li>
+                <a href="/project1/hostfamilies/vilhjalmsson">Rut &#38; Ole</a>
+              </li>
+              <li>
+                <a href="/project1/hostfamilies/jegtnes">Alex</a>
+              </li>
+              <li>
+                <a href="/project1/hostfamilies/ronhovde">Ville</a>
+              </li>
+              <li>
+                <a href="/project1/hostfamilies/oskar">Rolf &#38; Ada</a>
+              </li>
+              <li>
+                <a href="/project1/hostfamilies/arnason">Gunnar</a>
+              </li>
+              <li>
+                <a href="/project1/hostfamilies/eklund">Anders</a>
+              </li>
+            </ul>
           </li>
           <li class="has_dropdown">
             <a href="/project1/info" id="changeableBorder"
