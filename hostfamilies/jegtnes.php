@@ -95,8 +95,6 @@
 
 
 <?php include('../inc/footer.php'); ?>
-<script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
-<script src="/project1/assets/js/maps.js"></script>
 <script src="/project1/assets/js/chartcycle.js.php"></script>
 
 <script>

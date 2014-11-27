@@ -71,10 +71,6 @@
           </a>
         </li>
       </ul>
-    <!--
-    <aside class="map_wrapper">
-      <div id="map-canvas"></div>
-    </aside> -->
   </main>
 
 <?php include('inc/footer.php'); ?>
