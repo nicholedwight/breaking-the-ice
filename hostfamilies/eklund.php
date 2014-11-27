@@ -66,6 +66,11 @@
               <img src="/project1/assets/img/galleries/ekl4.jpg">
             </a>
           </li>
+          <li>
+            <a href="/project1/assets/img/galleries/ekl5.jpg" data-lightbox="eklund">
+              <img src="/project1/assets/img/galleries/ekl5.jpg">
+            </a>
+          </li>
         </ul>
       </aside>
     </div>

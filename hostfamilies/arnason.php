@@ -3,7 +3,7 @@
 
 ?>
 
-<a href="/project1/assets/img/galleries/arn1.png" data-lightbox="arnason">
+<a href="/project1/assets/img/galleries/arn1.jpg" data-lightbox="arnason">
   <section class="host_hero host_arn"></section>
 </a>
 <main role="main" class="host_profile_main_wrapper">
