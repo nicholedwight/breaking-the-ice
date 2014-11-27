@@ -66,8 +66,8 @@
             </a>
           </li>
           <li>
-            <a href="/project1/assets/img/galleries/vil4.jpg" data-lightbox="vilhjalmsson">
-              <img src="/project1/assets/img/galleries/vil4_thumb.jpg">
+            <a href="/project1/assets/img/galleries/boards.png" data-lightbox="vilhjalmsson">
+              <img src="/project1/assets/img/galleries/boards_thumb.png">
             </a>
           </li>
         </ul>
