@@ -18,7 +18,7 @@
 
       <article class="about_host">
         <h3>About Gunnar</h3>
-        <p>Hi im Gunnar!</p>
+        <p>I'm Gunnar!</p>
         <p>I'm a fun guy from the Land of Fire and Ice, Iceland. I am also a professor in Icelandic language and literature - and a professional tourist guide, specialized in geology, history and culture. Beside running the guesthouse and welcoming my guests, I offer private excursion to the ocean for surf trips in a private vehicle for up to 8 passengers.</p>
       </article>
     </div>

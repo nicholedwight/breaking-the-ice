@@ -18,7 +18,7 @@
 
       <article class="about_host">
         <h3>About Rolf</h3>
-        <p>Hi im Rolf, and my wife's Ada!</p>
+        <p>We're Rolf and Ada, a couple in northern Iceland, Siglufjörður!</p>
         <p>We love travelling, meeting new people, outdoor activities, surfing, skiing, yoga, and lots of other things.</p>
         <p>For the past 5 years we´ve lived in Dubai, Scotland, and England and travelled alot, and recently moved back home to our gorgeous island.
           We're looking forward to being your host and will do our absolute best to make you feel comfortable and happy :)</p>
@@ -36,7 +36,7 @@
         </div>
         <div class="review_item blockquote_wrapper">
           <blockquote class="comment_content">
-            <p>He was a very nice and considerate host. He was extremely responsive, and was really understanding when we were accidentally a little late leaving in the morning. The place is very nice, clean, and modern.</p>
+            <p>They were very nice and considerate hosts. They were extremely responsive, and were really understanding when we were accidentally a little late leaving in the morning. The place is very nice, clean, and modern.</p>
           </blockquote>
           <p class="commentor">Bobby - October 2014</p>
         </div>

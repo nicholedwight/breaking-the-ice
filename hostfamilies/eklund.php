@@ -18,10 +18,9 @@
 
       <article class="about_host">
         <h3>About Anders</h3>
-        <p>Hi im Rut, and my husband's Ole!</p>
-        <p>We love travelling, meeting new people, outdoor activities, surfing, skiing, yoga, and lots of other things.</p>
-        <p>For the past 5 years we´ve lived in Dubai, Scotland, and England and travelled alot, and recently moved back home to our gorgeous island.
-          We're looking forward to being your host and will do our absolute best to make you feel comfortable and happy :)</p>
+        <p>Hi I'm Anders</p>
+        <p>I like to surf on the bodacious waves that crash right outside my cabin windows. I like to salsa dance and am a carpenter for my day job. I am one of the band members for Ásgeir at night and have toured with Björk a few times. I also taught myself play the mandolin.</p>
+        <p>If you stay with me we could spend much time in the sauna after going for long days of surfing and other outdoor activities.</p>
       </article>
     </div>
 

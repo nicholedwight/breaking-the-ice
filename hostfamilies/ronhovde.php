@@ -18,7 +18,7 @@
 
       <article class="about_host">
         <h3>About Ville</h3>
-        <p>Hi im Ville</p>
+        <p>Hi I'm Ville</p>
         <p> I am 26 years old and grew up in a town with 800 residents in the north-west of Iceland named Bolungarvík. I love doing outdoor activities and it'd be ideal if you're the same; I love taking my guests out and showing them all Iceland has to offer.</p>
         <p> Surfing is one of my passions, I've travelled all over the world to catch some waves, but my heart will always remain in Iceland.</p>
       </article>
