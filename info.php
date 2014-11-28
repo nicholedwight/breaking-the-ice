@@ -45,7 +45,7 @@
         <div class="info_image_row">
           <img src="/project1/assets/img/sea.jpg" alt="Closeup of some gnarly waves">
           <img src="/project1/assets/img/waves.png" alt="Waves crashing on one another">
-          <img src="/project1/assets/img/snowymountains.jpg" alt="A view of the mountains overlooking a small town">
+          <img src="/project1/assets/img/northernlights.jpg" alt="A view of the mountains overlooking a small town">
         </div>
       </article>
 
