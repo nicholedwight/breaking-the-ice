@@ -91,12 +91,12 @@
           <?php
           $location = '4295'; //Setting the spot_id for the API call in the data file
           include("../inc/surfdata.php");
-          $imgsrc = $data[0]['charts']['swell'];
-          $chartTime = date("l, F d HA", $data[0]["timestamp"]);
+          $firstImgsrc = $data[0]['charts']['swell'];
+          $firstChartTime = date("l, F d HA", $data[0]["timestamp"]);
           ?>
           <h1>Swell Chart</h1>
-          <h2 id="times"><?php echo $chartTime; ?></h2>
-          <img src="<?php echo $imgsrc; ?>" id="chart">
+          <h2><?php echo $firstChartTime; ?></h2>
+          <img src="<?php echo $firstImgsrc; ?>" id="chart">
           <input type="range" value="0" max="40" id="swell_slider">
       </aside>
     </div>
@@ -112,13 +112,13 @@
 <script src="/project1/assets/js/chartcycle.js.php"></script>
 
 <script>
+//The two variables below create a JS variable from the PHP arrays created on surfdata.php
 var chartImages = <?php echo json_encode($chart_images); ?>;
 var chartTimes = <?php echo json_encode($chartTimes); ?>;
 
 $('#swell_slider').on('input change', function() {
-  console.log($(this).val());
   changeChartFrame($('#chart'), $(this).val(), chartImages); //Calls the function to change chart image based on slider position
-  changeTimeFrame($(this).val(), chartTimes);
+  changeTimeFrame($(this).val(), chartTimes); //Calls the time changing function to change the time based on the frame value in the slider
 });
 
   $('#chart').click(function(){
