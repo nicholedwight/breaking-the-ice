@@ -33,7 +33,7 @@
             <a href="/project1/hosts"
             <?php if ($thisPage === "Hosts") echo "class='current'"; ?>>Our Hosts</a>
             <ul <?php if ($thisPage === "Home") {
-              echo "class='nav_dropdown_transparent'"; }
+              echo "class='nav_dropdown_transparent has_text_shadow'"; }
               else { echo "class='nav_dropdown'"; } ?>>
               <li>
                 <a href="/project1/hostfamilies/vilhjalmsson">Rut &#38; Ole</a>
@@ -61,7 +61,7 @@
               Practical Info
             </a>
               <ul <?php if ($thisPage === "Home") {
-                echo "class='nav_dropdown_transparent'"; }
+                echo "class='nav_dropdown_transparent has_text_shadow'"; }
                 else { echo "class='nav_dropdown'"; } ?>>
                 <li>
                   <a href="/project1/info">Our Story</a>

@@ -16,8 +16,8 @@
             <div class="host_card_call-to-action showOnHover">
               <p>See More About Rut &#38; Ole</p>
             </div>
-          <p class="host_card_name">Rut &#38; Ole Vilhjalmsson</p>
-          <p class="host_location">Reykjavik, Iceland</p>
+          <p class="host_card_name has_text_shadow">Rut &#38; Ole Vilhjalmsson</p>
+          <p class="host_location has_text_shadow">Reykjavik, Iceland</p>
           </a>
         </li>
         <li class="host_card quarter_transparent">
@@ -26,8 +26,8 @@
             <div class="host_card_call-to-action showOnHover">
               <p>See More About Alex</p>
             </div>
-          <p class="host_card_name">Alex Jegtnes</p>
-          <p class="host_location">Reyðarfjörður, Iceland</p>
+          <p class="host_card_name has_text_shadow">Alex Jegtnes</p>
+          <p class="host_location has_text_shadow">Reyðarfjörður, Iceland</p>
           </a>
         </li>
         <li class="host_card quarter_transparent">
@@ -36,8 +36,8 @@
             <div class="host_card_call-to-action showOnHover">
               <p>See More About Ville</p>
             </div>
-          <p class="host_card_name">Ville Rønhovde</p>
-          <p class="host_location">Reykjavik, Iceland</p>
+          <p class="host_card_name has_text_shadow">Ville Rønhovde</p>
+          <p class="host_location has_text_shadow">Reykjavik, Iceland</p>
           </a>
         </li>
         <li class="host_card quarter_transparent">
@@ -46,8 +46,8 @@
             <div class="host_card_call-to-action showOnHover">
               <p>See More About Rolf &#38; Ada</p>
             </div>
-          <p class="host_card_name">Rolf &#38; Ada Oskar</p>
-          <p class="host_location">Siglufjörður, Iceland</p>
+          <p class="host_card_name has_text_shadow">Rolf &#38; Ada Oskar</p>
+          <p class="host_location has_text_shadow">Siglufjörður, Iceland</p>
           </a>
         </li>
         <li class="host_card quarter_transparent">
@@ -56,8 +56,8 @@
             <div class="host_card_call-to-action showOnHover">
               <p>See More About Gunnar</p>
             </div>
-          <p class="host_card_name">Gunnar Arnason</p>
-          <p class="host_location">Reykjanesbær, Iceland</p>
+          <p class="host_card_name has_text_shadow">Gunnar Arnason</p>
+          <p class="host_location has_text_shadow">Reykjanesbær, Iceland</p>
           </a>
         </li>
         <li class="host_card quarter_transparent">
@@ -66,8 +66,8 @@
             <div class="host_card_call-to-action showOnHover">
               <p>See More About Anders</p>
             </div>
-          <p class="host_card_name">Anders Christof Eklund</p>
-          <p class="host_location">Reykjanesbær, Iceland</p>
+          <p class="host_card_name has_text_shadow">Anders Christof Eklund</p>
+          <p class="host_location has_text_shadow">Reykjanesbær, Iceland</p>
           </a>
         </li>
       </ul>
