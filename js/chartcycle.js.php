@@ -3,6 +3,7 @@
 function chartsCycle(counter, chartImages) {
 
   $('#chart').attr('src', chartImages[counter]); //Sets the new source of each chart image within the array
+  updateSliderPosition(counter);
   counter++;
   setTimeout(function() {chartsCycle(counter, chartImages)}, 300); //May be laggy because this assumes it will always load within 300ms, not the best way to do this but AJAX wasn't really an option for this assignment. The timeout calls itself and adds 1 until the last frame of the image has been produced
 };
@@ -23,4 +24,8 @@ function changeChartFrame(element, frame, chartImages)  {
 
 function changeTimeFrame(frame, chartTimes) {
   $('.surf_data h2').text(chartTimes[frame]);
+}
+
+function updateSliderPosition(frame) {
+  $('#swell_slider').val(frame);
 }
