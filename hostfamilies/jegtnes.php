@@ -18,7 +18,7 @@
 
       <article class="about_host">
         <h3>About Alex</h3>
-        <p>Hi! I'm Alex. I'm a viking from the deep Arctic fjords of Norway. I live in beautiful Reyðarfjörður, Iceland, where I like making things on the web during the day and explore the coast in my freetime.</p>
+        <p>Hi! I'm Alex. I'm a viking from the deep Arctic fjords of Norway, so I'm used to the cold temperatures. I live in beautiful Reyðarfjörður, Iceland, where I like making things on the web during the day and explore the coast in my freetime.</p>
       </article>
     </div>
 
