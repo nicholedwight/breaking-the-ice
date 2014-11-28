@@ -78,7 +78,7 @@ if (mail($sendto, $emailcontent, $headers)) {
   	<p>&nbsp;</p>
 	<p>Thank You <b><?php echo $name; ?></b> a copy of the email has been sent to the address you gave.</p>
  	<p>We will be in touch as soon as possible.</p>
-   <a href="/project1/index"><div class="button">Return Home</div></a>
+   <a href="/project1/index"><div class="response button">Return Home</div></a>
 
 <?php
 	}
