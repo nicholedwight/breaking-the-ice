@@ -13,7 +13,7 @@
       </a>
     </p>
 
-<p class="copyright">&#169; 2014 Nichole Dwight / Made in Iceland / <a href="/project1/resources.php">Resources</a></p>
+<p class="copyright">2014 Nichole Dwight / Made with Love and Caffeine / <a href="/project1/resources.php">Resources</a></p>
   </div>
 
 

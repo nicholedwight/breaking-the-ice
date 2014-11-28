@@ -8,6 +8,7 @@
   <link href="/project1/assets/css/lib/lightbox.css" rel="stylesheet">
   <link rel="icon" type="image/png" href="/project1/img/favicon.ico">
 </head>
+
 <body>
   <?php if ($thisPage === "Home") { ?>
   <header class="l_index_header" role="banner">
