@@ -84,6 +84,20 @@ footer {
   text-align: center;
 }
 
+.resources_wrapper {
+  min-height: 85%;
+  padding-top: 10%;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  a {
+    color: inherit;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
 .vcard {
   text-align: left;
 }
