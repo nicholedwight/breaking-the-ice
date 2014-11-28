@@ -3,6 +3,7 @@ $json = file_get_contents("http://magicseaweed.com/api/rha0P5xgEI9Nb9s3YL3M22yMa
 
 //Setting up the empty arrays for echoing out various data in surf forecast table
 $chart_images = array();
+$chartTimes = array();
 $hours = array();
 $wave_height = array();
 $wind_speed = array();
@@ -14,6 +15,9 @@ $data = json_decode($json, true); //This is reformatting the JSON data output to
 //Pushing data into the previous arrays to be able to call out in php echoes
 foreach ($data as $chart) {
   $chart_images[] = $chart['charts']['swell'];
+}
+foreach ($data as $time) {
+  $chartTimes[] = date("l, F d HA", $time["timestamp"]);
 }
 foreach ($data as $hour) {
   $hours[] = date("HA", $hour["timestamp"]);

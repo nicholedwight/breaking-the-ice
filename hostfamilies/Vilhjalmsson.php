@@ -92,7 +92,10 @@
           $location = '4295'; //Setting the spot_id for the API call in the data file
           include("../inc/surfdata.php");
           $imgsrc = $data[0]['charts']['swell'];
+          $chartTime = date("l, F d HA", $data[0]["timestamp"]);
           ?>
+          <h1>Swell Chart</h1>
+          <h2 id="times"><?php echo $chartTime; ?></h2>
           <img src="<?php echo $imgsrc; ?>" id="chart">
           <input type="range" value="0" max="40" id="swell_slider">
       </aside>
@@ -110,13 +113,16 @@
 
 <script>
 var chartImages = <?php echo json_encode($chart_images); ?>;
+var chartTimes = <?php echo json_encode($chartTimes); ?>;
 
 $('#swell_slider').on('input change', function() {
   console.log($(this).val());
   changeChartFrame($('#chart'), $(this).val(), chartImages); //Calls the function to change chart image based on slider position
+  changeTimeFrame($(this).val(), chartTimes);
 });
 
   $('#chart').click(function(){
-    chartsCycle(1, chartImages); //Calls the function with a count of 1 since 0 is set in the html above
+    chartsCycle(1, chartImages);
+    chartTimesCycle(1, chartTimes); //Calls the function with a count of 1 since 0 is set in the html above
   });
 </script>
