@@ -19,7 +19,6 @@
 
 .host_card_call-to-action {
   background: rgba(0, 0, 0, 0.75);
-  // display: none;
   border-radius: 100%;
   width: 111px;
   height: 111px;
@@ -62,37 +61,4 @@
       opacity: 1;
     }
   }
-}
-
-// .host_listing > li > a {
-//   text-decoration: none;
-//   color: inherit;
-//   position: relative;
-//   display: block;
-// }
-//
-// .host_listing > li > a:after {
-//   font-family: arial; /*Different font in order to display the icon*/
-//   content: "ᐳ";
-//   position: absolute;
-//   top: 30px; right: 30px;
-// }
-//
-// .listing_row {
-//   border-bottom: 1px solid #5C5B5C;
-//   padding-bottom: 20px;
-//   height: 100px;
-// }
-//
-// .listing_row > a > img {
-//   float: left;
-//   clear: left;
-//   margin-right: 10px;
-// }
-
-@media all and (min-width: 700px) {
-  // .host_listing {
-  //   width: 49%;
-  //   float: right;
-  // }
 }
