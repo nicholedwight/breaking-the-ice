@@ -68,15 +68,15 @@
             <img src="/project1/assets/img/vil_profile.jpg" alt="Rut and Ole">
           </a>
           <a href="hostfamilies/jegtnes" class="has_tooltip">
-            <span class="tooltip">Alex in Reykjanesbær</span>
+            <span class="tooltip">Alex in Reyðarfjörður</span>
             <img src="/project1/assets/img/jegtnes.jpg" alt="Alex">
           </a>
           <a href="hostfamilies/ronhovde" class="has_tooltip">
-            <span class="tooltip">Ville in Reykjanesbær</span>
+            <span class="tooltip">Ville in Reykjavik</span>
             <img src="/project1/assets/img/ron_profile.jpg" alt="Ville">
           </a>
           <a href="hostfamilies/oskar" class="has_tooltip">
-            <span class="tooltip">Rolf and Ada in Reykjanesbær</span>
+            <span class="tooltip">Rolf and Ada in Siglufjörður</span>
             <img src="/project1/assets/img/osk_profile.jpg" alt="Rolf and Ada">
           </a>
           <a href="hostfamilies/arnason" class="has_tooltip">
