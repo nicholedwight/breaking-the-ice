@@ -91,13 +91,16 @@
 }
 
 .about_city {
+  width: 80%;
+  margin: 0 auto;
+  clear: both;
   p {
     text-align: left;
     margin-top: 10px;
   }
 }
 
-.review_wrapper, .about_city {
+.review_wrapper {
   margin: 0 auto;
   @media all and (min-width: 860px) {
     width: 45%;
@@ -110,7 +113,7 @@
   margin: 20px auto;
 }
 
-.surf_data, .listing_gallery {
+.listing_gallery {
   margin: 0 auto;
   @media all and (min-width: 860px) {
     float: right;
@@ -119,12 +122,15 @@
   }
 }
 .surf_data {
+  width: 100%;
+  margin: 0 auto;
   text-align: center;
   padding-top: 20px;
   position: relative;
-  @media all and (min-width: 860px) {
-    width: 49%;
-  }
+}
+
+.swell {
+  clear: both;
 }
 
 .listing_gallery {
@@ -154,7 +160,7 @@
 }
 
 #swell_slider {
-  margin: 5px auto;
-  width: 50%;
+  margin: 0 auto;
+  width: 350px;
   display: block;
 }

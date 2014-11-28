@@ -209,23 +209,41 @@ main:after {
   margin: 20px auto;
 }
 
-@media all and (min-width: 1640px) {
+@media all and (min-width: 900px) {
   .table_wrapper_left {
     float: left;
-    margin-left: 3%;
+    margin-left: 7%;
   }
   .table_wrapper_right {
-    float: left;
-    margin-left: 2%;
+    float: right;
+    margin-right: 7%;
   }
 }
 
-@media all and (min-width: 1760px) {
+@media all and (min-width: 1040px) {
   .table_wrapper_left {
-    margin-left: 9%;
+    margin-left: 10%;
   }
   .table_wrapper_right {
-    margin-left: 2%;
+    margin-right: 10%;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .table_wrapper_left {
+    margin-left: 17%;
+  }
+  .table_wrapper_right {
+    margin-right: 17%;
+  }
+}
+
+@media all and (min-width: 1400px) {
+  .table_wrapper_left {
+    margin-left: 20%;
+  }
+  .table_wrapper_right {
+    margin-right: 20%;
   }
 }
 
@@ -338,7 +356,7 @@ td {
 .wind-speed-40,
 .wind-speed-45,
 .wind-speed-50 { background-color: rgb(255, 34, 0); }
- 
+
 .wind-speed-55,
 .wind-speed-60 { background-color: rgb(255, 0, 119); }
 

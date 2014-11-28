@@ -25,55 +25,53 @@
       </article>
     </div>
 
-    <div class="host_details cf">
-        <div class="review_wrapper">
-          <h3>Reviews</h3>
-          <div class="review_item blockquote_wrapper blockquote_wrapper">
-            <blockquote class="comment_content">
-              <p>Utrolig sentralt, rent, pent og ryddig. Enkelt å finne frem til. 5min å gå fra sentrum. Billig parkering i gata utenfor og alltid ledig plass til bil. Kjempehyggelig vert og enkel å kommunisere med. Anbefales!</p>
-            </blockquote>
-            <p class="commentor">Henrik Stoltz - October 2014</p>
-          </div>
-          <div class="review_item blockquote_wrapper blockquote_wrapper">
-            <blockquote class="comment_content">
-              <p>He was a very nice and considerate host. He was extremely responsive, and was really understanding when we were accidentally a little late leaving in the morning. The place is very nice, clean, and modern.</p>
-            </blockquote>
-            <p class="commentor">Bobby - October 2014</p>
-          </div>
-          <div class="review_item blockquote_wrapper blockquote_wrapper">
-            <blockquote class="comment_content">
-              <p>Feel like home! Lovely house, adequate space, helpful and thoughtful host, great surf scene, ocean-side located, with everything we need. Highly recommended!!!</p>
-            </blockquote>
-            <p class="commentor">Ana Biagi - September 2014</p>
-          </div>
-        </div>
-
-      <aside class="listing_gallery">
-        <h3>Gallery</h3>
-        <ul class="list_neutral">
-          <li>
-            <a href="/project1/assets/img/galleries/jeg2.jpg" data-lightbox="jegtnes">
-              <img src="/project1/assets/img/galleries/jeg2_thumb.jpg">
-            </a>
-          </li>
-          <li>
-            <a href="/project1/assets/img/galleries/jeg3.jpg" data-lightbox="jegtnes">
-              <img src="/project1/assets/img/galleries/jeg3_thumb.jpg">
-            </a>
-          </li>
-          <li>
-            <a href="/project1/assets/img/galleries/jeg4.jpg" data-lightbox="jegtnes">
-              <img src="/project1/assets/img/galleries/jeg4_thumb.jpg">
-            </a>
-          </li>
-          <li>
-            <a href="/project1/assets/img/galleries/jeg5.jpg" data-lightbox="jegtnes">
-              <img src="/project1/assets/img/galleries/jeg5_thumb.jpg">
-            </a>
-          </li>
-        </ul>
-      </aside>
+    <div class="review_wrapper">
+      <h3>Reviews</h3>
+      <div class="review_item blockquote_wrapper blockquote_wrapper">
+        <blockquote class="comment_content">
+          <p>Utrolig sentralt, rent, pent og ryddig. Enkelt å finne frem til. 5min å gå fra sentrum. Billig parkering i gata utenfor og alltid ledig plass til bil. Kjempehyggelig vert og enkel å kommunisere med. Anbefales!</p>
+        </blockquote>
+        <p class="commentor">Henrik Stoltz - October 2014</p>
+      </div>
+      <div class="review_item blockquote_wrapper blockquote_wrapper">
+        <blockquote class="comment_content">
+          <p>He was a very nice and considerate host. He was extremely responsive, and was really understanding when we were accidentally a little late leaving in the morning. The place is very nice, clean, and modern.</p>
+        </blockquote>
+        <p class="commentor">Bobby - October 2014</p>
+      </div>
+      <div class="review_item blockquote_wrapper blockquote_wrapper">
+        <blockquote class="comment_content">
+          <p>Feel like home! Lovely house, adequate space, helpful and thoughtful host, great surf scene, ocean-side located, with everything we need. Highly recommended!!!</p>
+        </blockquote>
+        <p class="commentor">Ana Biagi - September 2014</p>
+      </div>
     </div>
+
+    <aside class="listing_gallery">
+      <h3>Gallery</h3>
+      <ul class="list_neutral">
+        <li>
+          <a href="/project1/assets/img/galleries/jeg2.jpg" data-lightbox="jegtnes">
+            <img src="/project1/assets/img/galleries/jeg2_thumb.jpg">
+          </a>
+        </li>
+        <li>
+          <a href="/project1/assets/img/galleries/jeg3.jpg" data-lightbox="jegtnes">
+            <img src="/project1/assets/img/galleries/jeg3_thumb.jpg">
+          </a>
+        </li>
+        <li>
+          <a href="/project1/assets/img/galleries/jeg4.jpg" data-lightbox="jegtnes">
+            <img src="/project1/assets/img/galleries/jeg4_thumb.jpg">
+          </a>
+        </li>
+        <li>
+          <a href="/project1/assets/img/galleries/jeg5.jpg" data-lightbox="jegtnes">
+            <img src="/project1/assets/img/galleries/jeg5_thumb.jpg">
+          </a>
+        </li>
+      </ul>
+    </aside>
 
     <div class="host_details cf">
       <article class="about_city">
@@ -92,7 +90,7 @@
           $firstImgsrc = $data[0]['charts']['swell'];
           $firstChartTime = date("l, F d HA", $data[0]["timestamp"]);
           ?>
-          <h1>Swell Chart</h1>
+          <h1 class="swell"class="swell">Swell Chart</h1>
           <h2><?php echo $firstChartTime; ?></h2>
           <img src="<?php echo $firstImgsrc; ?>" id="chart">
           <input type="range" value="0" max="40" id="swell_slider">

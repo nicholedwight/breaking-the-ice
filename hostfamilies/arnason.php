@@ -91,7 +91,7 @@
           $firstImgsrc = $data[0]['charts']['swell'];
           $firstChartTime = date("l, F d HA", $data[0]["timestamp"]);
           ?>
-          <h1>Swell Chart</h1>
+          <h1class="swell">Swell Chart</h1>
           <h2><?php echo $firstChartTime; ?></h2>
           <img src="<?php echo $firstImgsrc; ?>" id="chart">
           <input type="range" value="0" max="40" id="swell_slider">
