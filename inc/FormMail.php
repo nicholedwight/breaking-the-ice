@@ -70,7 +70,7 @@ You can add more html code but it should be outside the <php .. ?> tags.
 -->
 <main class="form_response_page" role="main">
   <a id="skip"> </a>
-<div class="form_response_wrapper">
+<div class="form_response_wrapper quarter_transparent">
 <?php
 // Send out the email or output an error message
 if (mail($sendto, $emailcontent, $headers)) {
