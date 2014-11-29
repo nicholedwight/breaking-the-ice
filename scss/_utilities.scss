@@ -347,7 +347,10 @@ main:after {
 
 table {
   border-collapse: collapse;
-  background: #E5FFEE;
+  background: #E5FFEE;max-height: 208px;
+  tr:nth-child(5) {
+    font-size: 14px;
+  }
 }
 
 .table_header {
@@ -362,36 +365,46 @@ td, th {
   text-align: center;
 }
 
+tr {
+}
+
 td {
   color: #000;
-
 }
 
 .wind-speed-0,
 .wind-speed-5,
 .wind-speed-10,
-.wind-speed-15,
-.wind-speed-20 { background-color: rgb(153, 255, 0); }
+.wind-speed-15 { background-color: rgb(153, 255, 0); }
 
+.wind-speed-20,
 .wind-speed-25 { background-color: rgb(221, 255, 0); }
 
-.wind-speed-30 { background-color: rgb(255, 204, 0); }
+.wind-speed-30,
+.wind-speed-35 { background-color: rgb(255, 204, 0); }
 
-.wind-speed-35 { background-color: rgb(255, 153, 0); }
 
 .wind-speed-40,
-.wind-speed-45,
-.wind-speed-50 { background-color: rgb(255, 34, 0); }
-
-.wind-speed-55,
-.wind-speed-60 { background-color: rgb(255, 0, 119); }
+.wind-speed-45 { background-color: rgb(255, 153, 0); }
 
 
-.wind-speed-65,
+.wind-speed-50,
+.wind-speed-55 { background-color: rgb(255, 34, 0); }
+
+
+.wind-speed-60,
+.wind-speed-65 { background-color: rgb(255, 0, 68); }
+
+
+
 .wind-speed-70,
-.wind-speed-75,
+.wind-speed-75 { background-color: rgb(255, 0, 119); }
+
 .wind-speed-80,
-.wind-speed-85 { background-color: rgb(255, 0, 238); }
+.wind-speed-85,
+.wind-speed-90,
+.wind-speed-95,
+.wind-speed-100 { background-color: rgb(255, 0, 238); }
 
 
 
