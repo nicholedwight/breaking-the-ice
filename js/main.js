@@ -9,21 +9,14 @@ function toggleNav() {
     elem.className = /expanded/.test(classes) ? originalNavClasses : originalNavClasses + ' expanded';
 }
 
-function scrollFade() {
+$('.host_dropdown').hover(
+   function(){ $('#changeableBorder1').addClass('current') },
+   function(){ $('#changeableBorder1').removeClass('current') }
 
-var primaryTitle = document.querySelector('primary_title');
-$(window).scroll(function(){
-   if($(window).scrollTop() <10 ){
-         primaryTitle.stop(true,true).fadeIn("slow");
-   } else {
-         primaryTitle.stop(true,true).fadeOut("slow");
-   }
-})
-}
-
-$('.nav_dropdown').hover(
-   function(){ $('#changeableBorder').addClass('current') },
-   function(){ $('#changeableBorder').removeClass('current') }
+)
+$('.info').hover(
+   function(){ $('#changeableBorder2').addClass('current') },
+   function(){ $('#changeableBorder2').removeClass('current') }
 
 )//Solution for adding current class to parent element when hovering on child found from http://css-tricks.com/snippets/jquery/addingremoving-class-on-hover/
 

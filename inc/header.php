@@ -33,11 +33,11 @@
             </a>
           </li>
           <li class="color_transition">
-            <a href="/project1/hosts"
+            <a href="/project1/hosts" id="changeableBorder1"
             <?php if ($thisPage === "Hosts") echo "class='current'";?>>Our Hosts</a>
             <ul <?php if ($thisPage === "Home") {
-              echo "class='nav_dropdown_transparent has_text_shadow'"; }
-              else { echo "class='nav_dropdown'"; } ?>>
+              echo "class='nav_dropdown_transparent host_dropdown has_text_shadow'"; }
+              else { echo "class='nav_dropdown host_dropdown'"; } ?>>
               <li>
                 <a href="/project1/hostfamilies/vilhjalmsson" class="color_transition">Rut &#38; Ole</a>
               </li>
@@ -59,13 +59,13 @@
             </ul>
           </li>
           <li class="has_dropdown color_transition">
-            <a href="/project1/info" id="changeableBorder"
+            <a href="/project1/info" id="changeableBorder2"
               <?php if ($thisPage === "FAQ") echo "class='current'"; ?>>
               Practical Info
             </a>
               <ul <?php if ($thisPage === "Home") {
-                echo "class='nav_dropdown_transparent has_text_shadow'"; }
-                else { echo "class='nav_dropdown'"; } ?>>
+                echo "class='nav_dropdown_transparent info has_text_shadow'"; }
+                else { echo "class='nav_dropdown info'"; } ?>>
                 <li>
                   <a href="/project1/info" class="color_transition">Our Story</a>
                 </li>

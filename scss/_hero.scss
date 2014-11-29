@@ -33,7 +33,6 @@
 
 .primary_title p {
   font-family: 'Abel', 'Georgia', sans-serif;
-  // transform: rotate(-2.5deg);
   text-transform: uppercase;
   letter-spacing: 0.28em;
   max-width: 975px;
@@ -79,8 +78,6 @@
 
 @media all and (min-width: 800px) {
   .primary_hero {
-    // background: url('/project1/assets/img/iceball.jpg'); /*Image created by me*/
-    // background: url('/project1/assets/img/surfgirl.jpg');
     background-size: cover;
     background-position: top center;
   }
