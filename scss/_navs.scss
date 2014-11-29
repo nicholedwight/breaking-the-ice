@@ -121,7 +121,7 @@ nav li a {
     background: rgba(0, 0, 0, 0.75);
   }
 
-  li:hover .nav_dropdown_transparent {
+  li:hover .nav_dropdown_transparent, li:focus .nav_dropdown_transparent {
     background: rgba(0, 0, 0, 0);
   }
 

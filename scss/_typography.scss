@@ -35,12 +35,12 @@ footer a {
   color: $footer-grey;
 }
 
-.homepage_content_item:hover h2 {
+.homepage_content_item:hover h2, .homepage_content_item:focus h2 {
   color: #00CD9B;
   transition: all 0.5s ease-in-out;
 }
 
-.color_transition a:hover, .color_transition a:focus { 
+.color_transition a:hover, .color_transition a:focus {
   color: #00CD9B;
   transition: color 0.75s ease 0s;
 }
