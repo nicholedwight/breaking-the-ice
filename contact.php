@@ -37,8 +37,8 @@
   				<textarea class="half_transparent" name="message" id="message" rows="6" cols="40" placeholder="Questions or Comments:" required></textarea>
   			</li>
         <li>
-          <select name="host">
-            <option value="" selected>Desired Host</option><!--UPDATE to make placeholder -->
+          <select name="host" required>
+            <option value="" style="display:none;" disabled selected>Desired Host</option> <!--The display:none styling prevents this placeholder option from being shown in dropdown -->
             <option value="rutole">Rut &#38; Ole</option>
             <option value="alex">Alex</option>
             <option value="ville">Ville</option>
