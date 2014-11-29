@@ -38,6 +38,29 @@ blockquote:before {
   left: 5px;
   top: 50px;
 }
+
+blockquote:after {
+  /*This is for the CSS folded corners*/
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -40px;
+  border-width: 0 16px 16px 0;
+  border-style: solid;
+  border-color: #E6E6E6 #E6E6E6 #C2C2C2 #C2C2C2;
+  background: #C2C2C2;
+  display: block;
+  width: 0;
+  -webkit-box-shadow: 0 1px 0px rgba(0, 0, 0, 0.3), -1px 1px 1px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3), -1px 1px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 0px rgba(0, 0, 0, 0.3), -1px 1px 1px rgba(0, 0, 0, 0.2)
+}
+
+.comment_content:after {
+  /*Different positioning to the previous folded corner because the reviews on host pages has different padding to the testimonials*/
+  right: 0px;
+}
+
 blockquote p {
   font-style: italic;
 }
