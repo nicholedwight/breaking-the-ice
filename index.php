@@ -10,7 +10,7 @@
     <div class="glass">
     <a id="skip"> </a>
     <div class="index_content">
-      <div class="content_item">
+      <div class="homepage_content_item">
         <a href="/project1/info">
           <?php include('inc/about-icon.svg'); ?>
           <h2>About</h2>
@@ -18,14 +18,14 @@
 Enjoy the warm, friendly atmosphere of the surf culture in our beautiful arctic environment. Iceland is open to swells from every direction, with numerous set-ups which can produce world class waves, catching these spots can be life-changing.</p>
         </a>
       </div>
-      <div class="content_item">
+      <div class="homepage_content_item">
         <a href="/project1/hosts">
           <?php include('inc/hosts-icon.svg'); ?>
           <h2>Hosts</h2>
           <p>Here at Breaking The Ice, we strive to pair you with your best friend when you come to stay in Iceland. We have surfers and adventurers from all different backgrounds, ages, and numbers; so we're positive you'll find someone that can help you have the best holiday!</p>
         </a>
       </div>
-      <div class="content_item">
+      <div class="homepage_content_item">
         <a href="/project1/contact">
           <?php include('inc/contact-icon.svg'); ?>
           <h2>Contact</h2>

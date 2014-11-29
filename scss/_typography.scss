@@ -35,21 +35,26 @@ footer a {
   color: $footer-grey;
 }
 
-footer a:hover, .content_item:hover h2 {
+.homepage_content_item:hover h2 {
   color: #00CD9B;
   transition: all 0.5s ease-in-out;
 }
 
-.content_item a {
+.color_transition a:hover, .color_transition a:focus { 
+  color: #00CD9B;
+  transition: color 0.75s ease 0s;
+}
+
+.homepage_content_item a {
   color: #5C5B5C;
 }
 
-.content_item h2 {
+.homepage_content_item h2 {
   font-size: 2.25em;
   line-height: 1.3em;
 }
 
-.content_item p {
+.homepage_content_item p {
   text-align: left;
   text-indent: 40px;
 }

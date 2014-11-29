@@ -1,6 +1,6 @@
 <footer>
   <div class="footer_wrapper" id="contact">
-    <p>
+    <p class="color_transition">
       <a href="index.html">home</a> /
       <a href="hosts.php">hosts</a> /
       <a href="contact.php">contact</a> /
@@ -13,7 +13,7 @@
       </a>
     </p>
 
-<p class="copyright">2014 Nichole Dwight / Made with Love and Caffeine / <a href="/project1/resources.php">Resources</a></p>
+<p class="copyright color_transition">2014 Nichole Dwight / Made with Love and Caffeine / <a href="/project1/resources.php">Resources</a></p>
   </div>
 
 
