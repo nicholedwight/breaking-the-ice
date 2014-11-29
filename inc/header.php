@@ -34,27 +34,28 @@
           </li>
           <li class="color_transition has_dropdown" aria-haspopup="true" tabindex="0">
             <a href="/project1/hosts" id="changeableBorder1"
-            <?php if ($thisPage === "Hosts") echo "class='current'";?>>Our Hosts</a>
+              <?php if ($thisPage === "Hosts") echo "class='current'";?>>Our Hosts
+            </a>
             <ul aria-hidden="true"
               <?php if ($thisPage === "Home") {
               echo "class='nav_dropdown_transparent host_dropdown has_text_shadow'"; }
               else { echo "class='nav_dropdown host_dropdown'"; } ?>> <!--host_dropdown class is for JS function of adding the current class when hovering over children-->
-              <li tabindex="-1">
+              <li tabindex="0">
                 <a href="/project1/hostfamilies/vilhjalmsson" class="color_transition">Rut &#38; Ole</a>
               </li>
-              <li tabindex="-1">
+              <li tabindex="0">
                 <a href="/project1/hostfamilies/jegtnes" class="color_transition">Alex</a>
               </li>
-              <li tabindex="-1">
+              <li tabindex="0">
                 <a href="/project1/hostfamilies/ronhovde" class="color_transition">Ville</a>
               </li>
-              <li tabindex="-1">
+              <li tabindex="0">
                 <a href="/project1/hostfamilies/oskar" class="color_transition">Rolf &#38; Ada</a>
               </li>
-              <li tabindex="-1">
+              <li tabindex="0">
                 <a href="/project1/hostfamilies/arnason" class="color_transition">Gunnar</a>
               </li>
-              <li tabindex="-1">
+              <li tabindex="0">
                 <a href="/project1/hostfamilies/eklund" class="color_transition">Anders</a>
               </li>
             </ul>
@@ -68,19 +69,19 @@
                 <?php if ($thisPage === "Home") {
                 echo "class='nav_dropdown_transparent info has_text_shadow'"; }
                 else { echo "class='nav_dropdown info'"; } ?>><!--info class is for JS function of adding the current class when hovering over children-->
-                <li tabindex="-1">
+                <li tabindex="0">
                   <a href="/project1/info" class="color_transition">Our Story</a>
                 </li>
-                <li tabindex="-1">
+                <li tabindex="0">
                   <a href="/project1/info#how-to-get-here" class="color_transition">Getting Here</a>
                 </li>
-                <li tabindex="-1">
+                <li tabindex="0">
                   <a href="/project1/info#weather" class="color_transition">Icelandic Weather</a>
                 </li>
-                <li tabindex="-1">
+                <li tabindex="0">
                   <a href="/project1/info#accommodation" class="color_transition">Accommodation</a>
                 </li>
-                <li tabindex="-1">
+                <li tabindex="0">
                   <a href="/project1/info#inspiration" class="color_transition">Inspiration</a>
                 </li>
               </ul>
