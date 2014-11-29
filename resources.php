@@ -74,7 +74,7 @@
 
   <p><a href="https://www.flickr.com/photos/bombtwinz/6474411085/in/set-72157628326779043">osk_profile.jpg</a></p>
 
-  <p><a href="https://plus.google.com/117267217174213629320/photos">ron_profile.jpg</a></p>
+  <p><a href="http://www.fotosidan.se/cldoc/nu-ar-outdoor-photo-contest-avgjord.htm">ron_profile.jpg</a></p>
 
   <p><a href="http://rebloggy.com/post/love-pretty-girl-cool-music-beautiful-perfect-hippie-hipster-vintage-landscape-b/82275721849">sea.jpg</a></p>
 
