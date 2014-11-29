@@ -37,7 +37,7 @@
             <?php if ($thisPage === "Hosts") echo "class='current'";?>>Our Hosts</a>
             <ul <?php if ($thisPage === "Home") {
               echo "class='nav_dropdown_transparent host_dropdown has_text_shadow'"; }
-              else { echo "class='nav_dropdown host_dropdown'"; } ?>>
+              else { echo "class='nav_dropdown host_dropdown'"; } ?>> <!--host_dropdown class is for JS function of adding the current class when hovering over children-->
               <li>
                 <a href="/project1/hostfamilies/vilhjalmsson" class="color_transition">Rut &#38; Ole</a>
               </li>
@@ -65,7 +65,7 @@
             </a>
               <ul <?php if ($thisPage === "Home") {
                 echo "class='nav_dropdown_transparent info has_text_shadow'"; }
-                else { echo "class='nav_dropdown info'"; } ?>>
+                else { echo "class='nav_dropdown info'"; } ?>><!--info class is for JS function of adding the current class when hovering over children-->
                 <li>
                   <a href="/project1/info" class="color_transition">Our Story</a>
                 </li>
