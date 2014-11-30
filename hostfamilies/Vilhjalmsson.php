@@ -3,7 +3,7 @@
 ?>
 
 <a href="/project1/assets/img/galleries/vil1.png" data-lightbox="vilhjalmsson">
-  <section class="host_hero host_vil"></section>
+  <div class="host_hero host_vil"></div>
 </a>
 <main role="main" class="host_profile_main_wrapper">
   <a id="skip"> </a>
@@ -53,22 +53,22 @@
         <ul class="list_neutral">
           <li>
             <a href="/project1/assets/img/galleries/vil2.jpg" data-lightbox="vilhjalmsson">
-              <img src="/project1/assets/img/galleries/vil2_thumb.jpg">
+              <img src="/project1/assets/img/galleries/vil2_thumb.jpg" alt="Interior of bathroom">
             </a>
           </li>
           <li>
             <a href="/project1/assets/img/galleries/vil3.jpg" data-lightbox="vilhjalmsson">
-              <img src="/project1/assets/img/galleries/vil3_thumb.jpg">
+              <img src="/project1/assets/img/galleries/vil3_thumb.jpg" alt="Interior of bathroom">
             </a>
           </li>
           <li>
             <a href="/project1/assets/img/galleries/vil4.jpg" data-lightbox="vilhjalmsson">
-              <img src="/project1/assets/img/galleries/vil4_thumb.jpg">
+              <img src="/project1/assets/img/galleries/vil4_thumb.jpg" alt="Interior of kitchen">
             </a>
           </li>
           <li>
             <a href="/project1/assets/img/galleries/boards.png" data-lightbox="vilhjalmsson">
-              <img src="/project1/assets/img/galleries/boards_thumb.png">
+              <img src="/project1/assets/img/galleries/boards_thumb.png" alt="Surfboards on a stormy day">
             </a>
           </li>
         </ul>

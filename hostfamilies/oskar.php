@@ -4,7 +4,7 @@
 ?>
 
 <a href="/project1/assets/img/galleries/osk1.jpg" data-lightbox="oskar">
-  <section class="host_hero host_osk"></section>
+  <div class="host_hero host_osk"></div>
 </a>
 <main role="main" class="host_profile_main_wrapper">
   <a id="skip"> </a>

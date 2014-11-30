@@ -4,7 +4,7 @@
 ?>
 
 <a href="/project1/assets/img/galleries/ekl1.jpg" data-lightbox="eklund">
-  <section class="host_hero host_ekl"></section>
+  <div class="host_hero host_ekl"></div>
 </a>
 <main role="main" class="host_profile_main_wrapper">
   <a id="skip"> </a>

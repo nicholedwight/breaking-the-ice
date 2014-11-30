@@ -4,7 +4,7 @@
 ?>
 
 <a href="/project1/assets/img/galleries/arn1.jpg" data-lightbox="arnason">
-  <section class="host_hero host_arn"></section>
+  <div class="host_hero host_arn"></div>
 </a>
 <main role="main" class="host_profile_main_wrapper">
   <a id="skip"> </a>

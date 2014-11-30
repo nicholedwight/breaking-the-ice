@@ -32,7 +32,7 @@ foreach ($data as $direction) {
   $wind_direction[] = round($direction['wind']['direction']/5) * 5;
 }
 foreach ($data as $chill) {
-  $wind_chill[] = $chill["wind"]["chill"] . " &#176C";
+  $wind_chill[] = $chill["wind"]["chill"] . " &#176;C";
 }
 
 ?>
