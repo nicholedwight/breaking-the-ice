@@ -3,7 +3,7 @@
 ?> <!-- Including sections of reusable modular code keeps it clean and readable-->
   <section class="primary_hero">
     <div class="primary_title">
-      <h2>Find your escape</h2>
+      <h2 class="has_text_shadow">Find your escape</h2>
     </div>
   </section>
   <main class="main_wrapper cf" role="main">
