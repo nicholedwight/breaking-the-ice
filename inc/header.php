@@ -40,10 +40,10 @@
               <?php if ($thisPage === "Home") {
               echo "class='nav_dropdown_transparent host_dropdown has_text_shadow'"; }
               else { echo "class='nav_dropdown host_dropdown'"; } ?>> <!--host_dropdown class is for JS function of adding the current class when hovering over children-->
-              <li tabindex="0">
+              <li tabindex="1">
                 <a href="/project1/hostfamilies/vilhjalmsson" class="color_transition">Rut &#38; Ole</a>
               </li>
-              <li tabindex="0">
+              <li tabindex="1">
                 <a href="/project1/hostfamilies/jegtnes" class="color_transition">Alex</a>
               </li>
               <li tabindex="0">

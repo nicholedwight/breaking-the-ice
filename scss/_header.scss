@@ -5,7 +5,7 @@
   position: absolute;
 }
 
-.logo:hover .logo_text, .contact_dropdown .icon {
+.logo:hover .logo_text, .logo:focus .logo_text, .contact_dropdown .icon {
   color: #00CD9B;
 }
 
