@@ -19,7 +19,7 @@
 
   <p><a href="https://www.airbnb.co.uk/rooms/451155">arn1.jpg/arn2.jpg/arn4.jpg/arn5.jpg</a></p>
 
-  <p><a href="#">arn3.jpg -****</a></p>
+<p><a href="https://www.flickr.com/photos/kellan/6098488956/in/photolist-bT9qWr-dvs1y1-iWfrim-o5BBQm-oZYR6Y-dFEQJa-neVfDT-cEN2VS-dSusov-oPV3Dw-n6JsXF-f9kj6Y-fXbiQa-mZUwTH-awAJbP-oWW6Cr-dxEqMM-nNFysw-nKvZWu-acUxz1-bqEE7E-bNfT1-5E9mUD-asVVWy-oUL38v-f3ZX68-cuC5k3-iUrzPD-9eyJ3M-58VqFW-4XmVZk-9ZVRy9-ahUmij-jdWE9X-bECNnX-hYfF6i-oQfZbW-rD8fT-m5wE6F-BYMmv-j2Gh4u-jvFLhX-a37Ni3-aWhqf6-ojNn8L-dSumzZ-cTD8TA-9XgZtz-ojGo5-fHAYvN">arn3.jpg</a></p>
 
   <p><a href="https://www.airbnb.co.uk/rooms/588487">ekl1.jpg/ekl2.jpg/ekl4.jpg/ekl5.jpg</a></p>
 
@@ -61,7 +61,7 @@
 
   <p><a href="http://www.yusrablog.com/inspiration/kitchen-decorating-pictures-ideas/">vil4.jpg</a></p>
 
-  <p><a href="#">vil5.png - *****</a></p>
+  <p>vil5.png - *****</p>
 
   <p><a href="http://www.thefourohfive.com/news/article/watch-our-trailer-for-tonlist-the-405-icelandic-music-documentary-141">bg.jpg</a></p>
 
