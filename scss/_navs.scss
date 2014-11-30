@@ -112,19 +112,21 @@ nav li a {
     display: none;
   }
 
-  li:hover .nav_dropdown, li:hover .nav_dropdown_transparent, li:focus .nav_dropdown, li:focus .nav_dropdown_transparent {
+  .nav_dropdown {
+    background: rgba(0, 0, 0, 0.75);
+  }
+
+  .nav_dropdown_transparent {
+    background: rgba(0, 0, 0, 0);
+  }
+
+  li:hover .nav_dropdown, li:hover .nav_dropdown_transparent, .menu-focus {
     display: block;
     position: absolute;
     top: 100%;
     left: -5px;
     text-align: left;
-    background: rgba(0, 0, 0, 0.75);
   }
-
-  li:hover .nav_dropdown_transparent, li:focus .nav_dropdown_transparent {
-    background: rgba(0, 0, 0, 0);
-  }
-
   .has_dropdown {
     position: relative;
   }

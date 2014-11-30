@@ -22,72 +22,98 @@
       </a>
     </div>
     <nav role="navigation" aria-label="Main menu">
-      <a href="#skip" class="offscreen">Skip to Content</a><!-- provides accessibility for screen readers who don't want to go through the nav over and over-->
+      <a href="#skip" class="offscreen">Skip to Content</a><!-- provides accessibility for screen readers/tab-users who don't want to go through the nav over and over-->
       <a class="menu_button" href="#" onclick="toggleNav(); return false;">
         <span>&#9776;</span>
       </a>
       <ul class="navigation" id="navigation_list" role="menubar">
           <li class="color_transition">
             <a href="/project1/index"
-              <?php if ($thisPage === "Home") echo "class='current'"; ?>>Home
+              <?php if ($thisPage === "Home") echo "class='current'"; ?>>
+              Home
             </a>
           </li>
           <li class="color_transition has_dropdown" aria-haspopup="true">
-            <a href="/project1/hosts" id="changeableBorder1" class="menu-focus
-              <?php if ($thisPage === 'Hosts') echo 'current';?>">Our Hosts
+            <a href="/project1/hosts" id="changeableBorder1" class="
+              <?php if ($thisPage === 'Hosts') echo 'current';?>">
+              Our Hosts
             </a>
             <ul aria-hidden="true"
               <?php if ($thisPage === "Home") {
               echo "class='nav_dropdown_transparent host_dropdown has_text_shadow'"; }
               else { echo "class='nav_dropdown host_dropdown'"; } ?>> <!--host_dropdown class is for JS function of adding the current class when hovering over children-->
               <li>
-                <a href="/project1/hostfamilies/vilhjalmsson" class="color_transition">Rut &#38; Ole</a>
+                <a href="/project1/hostfamilies/vilhjalmsson" class="color_transition">
+                  Rut &#38; Ole
+                </a>
               </li>
               <li>
-                <a href="/project1/hostfamilies/jegtnes" class="color_transition">Alex</a>
+                <a href="/project1/hostfamilies/jegtnes" class="color_transition">
+                  Alex
+                </a>
               </li>
               <li>
-                <a href="/project1/hostfamilies/ronhovde" class="color_transition">Ville</a>
+                <a href="/project1/hostfamilies/ronhovde" class="color_transition">
+                  Ville
+                </a>
               </li>
               <li>
-                <a href="/project1/hostfamilies/oskar" class="color_transition">Rolf &#38; Ada</a>
+                <a href="/project1/hostfamilies/oskar" class="color_transition">
+                  Rolf &#38; Ada
+                </a>
               </li>
               <li>
-                <a href="/project1/hostfamilies/arnason" class="color_transition">Gunnar</a>
+                <a href="/project1/hostfamilies/arnason" class="color_transition">
+                  Gunnar
+                </a>
               </li>
               <li>
-                <a href="/project1/hostfamilies/eklund" class="color_transition">Anders</a>
+                <a href="/project1/hostfamilies/eklund" class="color_transition">
+                  Anders
+                </a>
               </li>
             </ul>
           </li>
           <li class="has_dropdown color_transition" aria-haspopup="true">
-            <a href="/project1/info" id="changeableBorder2" class="menu-focus <?php if ($thisPage === 'FAQ') echo 'current'; ?>">
+            <a href="/project1/info" id="changeableBorder2" class=" <?php if ($thisPage === 'FAQ') echo 'current'; ?>">
               Practical Info
             </a>
               <ul aria-hidden="true"
                 <?php if ($thisPage === "Home") {
                 echo "class='nav_dropdown_transparent info has_text_shadow'"; }
-                else { echo "class='nav_dropdown info'"; } ?>><!--info class is for JS function of adding the current class when hovering over children-->
+                else { echo "class='nav_dropdown info'"; } ?>>
+                <!--info class is for JS function of adding the current class when hovering over children-->
                 <li>
-                  <a href="/project1/info" class="color_transition">Our Story</a>
+                  <a href="/project1/info" class="color_transition">
+                    Our Story
+                  </a>
                 </li>
                 <li>
-                  <a href="/project1/info#how-to-get-here" class="color_transition">Getting Here</a>
+                  <a href="/project1/info#how-to-get-here" class="color_transition">
+                    Getting Here
+                  </a>
                 </li>
                 <li>
-                  <a href="/project1/info#weather" class="color_transition">Icelandic Weather</a>
+                  <a href="/project1/info#weather" class="color_transition">
+                    Icelandic Weather
+                  </a>
                 </li>
                 <li>
-                  <a href="/project1/info#accommodation" class="color_transition">Accommodation</a>
+                  <a href="/project1/info#accommodation" class="color_transition">
+                    Accommodation
+                  </a>
                 </li>
                 <li>
-                  <a href="/project1/info#inspiration" class="color_transition">Inspiration</a>
+                  <a href="/project1/info#inspiration" class="color_transition">
+                    Inspiration
+                  </a>
                 </li>
               </ul>
           </li>
           <li class="color_transition">
-            <a href="/project1/contact"
-            <?php if ($thisPage === "Contact") echo "class='current'"; ?>>Contact</a>
+            <a href="/project1/contact" <?php if ($thisPage === "Contact") echo "class='current'"; ?>>
+              Contact
+            </a>
           </li>
       </ul>
     </nav>
