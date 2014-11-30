@@ -13,16 +13,16 @@
       </a>
     </p>
 
-    <p class="copyright color_transition">2014 Nichole Dwight / Made with Love and Caffeine / <a href="/project1/resources.php">Resources</a></p>
+    <p class="copyright color_transition">2014 Nichole Dwight / Made with Love and Caffeine / <a href="<?php echo $base_url; ?>/resources.php">Resources</a></p>
   </div>
 </footer>
 
-<script src="/project1/assets/js/lib/jquery-1.11.0.min.js"></script>
-<script src="/project1/assets/js/lib/jQuery.headroom.min.js"></script>
-<script src="/project1/assets/js/lib/lightbox.min.js"></script>
-<script src="/project1/assets/js/lib/headroom.min.js"></script>
-<script src="/project1/assets/js/chartcycle.js.php"></script>
-<script src="/project1/assets/js/main.js"></script>
+<script src="<?php echo $base_url; ?>/assets/js/lib/jquery-1.11.0.min.js"></script>
+<script src="<?php echo $base_url; ?>/assets/js/lib/jQuery.headroom.min.js"></script>
+<script src="<?php echo $base_url; ?>/assets/js/lib/lightbox.min.js"></script>
+<script src="<?php echo $base_url; ?>/assets/js/lib/headroom.min.js"></script>
+<script src="<?php echo $base_url; ?>/assets/js/chartcycle.js.php"></script>
+<script src="<?php echo $base_url; ?>/assets/js/main.js"></script>
 
 
 <script type="text/javascript">

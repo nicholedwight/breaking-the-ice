@@ -1,20 +1,18 @@
 <?php $thisPage = "Hosts";
   include('../inc/header.php');
-
 ?>
 
-<a href="/project1/assets/img/galleries/ron1.jpg" data-lightbox="ronhovde">
+<a href="<?php echo $base_url; ?>/assets/img/galleries/ron1.jpg" data-lightbox="ronhovde">
   <div class="host_hero host_ron"></div>
 </a>
-<main role="main" class="host_profile_main_wrapper">
-  <a id="skip"> </a>
+<main role="main" class="host_profile_main_wrapper" id="skip" tabindex="0">
   <div class="host_profile">
     <div class="host_details cf">
       <div class="name_container">
-        <img src="/project1/assets/img/ron_profile.jpg" alt="Ville" class="host_profile_image">
+        <img src="<?php echo $base_url; ?>/assets/img/ron_profile.jpg" alt="Ville" class="host_profile_image">
         <h2 class="host_name">Ville Rønhovde</h2>
         <p class="location">Reykjavik, Iceland</p>
-        <a href="/project1/contact" class="pulse"><div>Request Booking</div></a>
+        <a href="<?php echo $base_url; ?>/contact" class="pulse"><div>Request Booking</div></a>
       </div>
 
       <article class="about_host">
@@ -51,23 +49,23 @@
         <h2>Gallery</h2>
         <ul class="list_neutral">
           <li>
-            <a href="/project1/assets/img/galleries/ron2.png" data-lightbox="ronhovde">
-              <img src="/project1/assets/img/galleries/ron2_thumb.png" alt="Interior of kitchen">
+            <a href="<?php echo $base_url; ?>/assets/img/galleries/ron2.png" data-lightbox="ronhovde">
+              <img src="<?php echo $base_url; ?>/assets/img/galleries/ron2_thumb.png" alt="Interior of kitchen">
             </a>
           </li>
           <li>
-            <a href="/project1/assets/img/galleries/ron3.jpg" data-lightbox="ronhovde">
-              <img src="/project1/assets/img/galleries/ron3_thumb.jpg" alt="Interior of living room">
+            <a href="<?php echo $base_url; ?>/assets/img/galleries/ron3.jpg" data-lightbox="ronhovde">
+              <img src="<?php echo $base_url; ?>/assets/img/galleries/ron3_thumb.jpg" alt="Interior of living room">
             </a>
           </li>
           <li>
-            <a href="/project1/assets/img/galleries/ron4.jpg" data-lightbox="ronhovde">
-              <img src="/project1/assets/img/galleries/ron4.jpg" alt="Interior of bedroom">
+            <a href="<?php echo $base_url; ?>/assets/img/galleries/ron4.jpg" data-lightbox="ronhovde">
+              <img src="<?php echo $base_url; ?>/assets/img/galleries/ron4.jpg" alt="Interior of bedroom">
             </a>
           </li>
           <li>
-            <a href="/project1/assets/img/galleries/ron5.jpg" data-lightbox="ronhovde">
-              <img src="/project1/assets/img/galleries/ron5_thumb.jpg" alt="view of the coastal road around Iceland">
+            <a href="<?php echo $base_url; ?>/assets/img/galleries/ron5.jpg" data-lightbox="ronhovde">
+              <img src="<?php echo $base_url; ?>/assets/img/galleries/ron5_thumb.jpg" alt="view of the coastal road around Iceland">
             </a>
           </li>
         </ul>

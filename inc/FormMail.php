@@ -69,7 +69,7 @@ the following is straightforward html code.
 You can add more html code but it should be outside the <php .. ?> tags.
 -->
 <main class="form_response_page" role="main">
-  <a id="skip"> </a>
+  
 <div class="form_response_wrapper quarter_transparent">
 <?php
 // Send out the email or output an error message
@@ -78,7 +78,7 @@ if (mail($sendto, $emailcontent, $headers)) {
   	<p>&nbsp;</p>
 	<p>Thank You <b><?php echo $name; ?></b> a copy of the email has been sent to the address you gave.</p>
  	<p>We will be in touch as soon as possible.</p>
-   <a href="/project1/index"><div class="response button">Return Home</div></a>
+   <a href="<?php echo $base_url; ?>/index"><div class="response button">Return Home</div></a>
 
 <?php
 	}

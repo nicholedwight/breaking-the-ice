@@ -1,20 +1,18 @@
 <?php $thisPage = "Hosts";
   include('../inc/header.php');
-
 ?>
 
-<a href="/project1/assets/img/galleries/arn1.jpg" data-lightbox="arnason">
+<a href="<?php echo $base_url; ?>/assets/img/galleries/arn1.jpg" data-lightbox="arnason">
   <div class="host_hero host_arn"></div>
 </a>
-<main role="main" class="host_profile_main_wrapper">
-  <a id="skip"> </a>
+<main role="main" class="host_profile_main_wrapper" id="skip" tabindex="0">
   <div class="host_profile">
     <div class="host_details cf">
       <div class="name_container">
-        <img src="/project1/assets/img/arn_profile.jpg" alt="Gunnar" class="host_profile_image">
+        <img src="<?php echo $base_url; ?>/assets/img/arn_profile.jpg" alt="Gunnar" class="host_profile_image">
         <h2 class="host_name">Gunnar Arnason</h2>
         <p class="location">Reykjanesbær, Iceland</p>
-        <a href="/project1/contact" class="pulse"><div>Request Booking</div></a>
+        <a href="<?php echo $base_url; ?>/contact" class="pulse"><div>Request Booking</div></a>
       </div>
 
       <article class="about_host">
@@ -51,23 +49,23 @@
         <h2>Gallery</h2>
         <ul class="list_neutral">
           <li>
-            <a href="/project1/assets/img/galleries/arn2.jpg" data-lightbox="arnason">
-              <img src="/project1/assets/img/galleries/arn2_thumb.jpg" alt="Photo of kitchen">
+            <a href="<?php echo $base_url; ?>/assets/img/galleries/arn2.jpg" data-lightbox="arnason">
+              <img src="<?php echo $base_url; ?>/assets/img/galleries/arn2_thumb.jpg" alt="Photo of kitchen">
             </a>
           </li>
           <li>
-            <a href="/project1/assets/img/galleries/arn3.jpg" data-lightbox="arnason">
-              <img src="/project1/assets/img/galleries/arn3.jpg" alt="Went out exploring along the coast in the winter">
+            <a href="<?php echo $base_url; ?>/assets/img/galleries/arn3.jpg" data-lightbox="arnason">
+              <img src="<?php echo $base_url; ?>/assets/img/galleries/arn3.jpg" alt="Went out exploring along the coast in the winter">
             </a>
           </li>
           <li>
-            <a href="/project1/assets/img/galleries/arn4.jpg" data-lightbox="arnason">
-              <img src="/project1/assets/img/galleries/arn4_thumb.jpg" alt="View of office area">
+            <a href="<?php echo $base_url; ?>/assets/img/galleries/arn4.jpg" data-lightbox="arnason">
+              <img src="<?php echo $base_url; ?>/assets/img/galleries/arn4_thumb.jpg" alt="View of office area">
             </a>
           </li>
           <li>
-            <a href="/project1/assets/img/galleries/arn5.jpg" data-lightbox="arnason">
-              <img src="/project1/assets/img/galleries/arn5_thumb.jpg" alt="View of stairs and front door">
+            <a href="<?php echo $base_url; ?>/assets/img/galleries/arn5.jpg" data-lightbox="arnason">
+              <img src="<?php echo $base_url; ?>/assets/img/galleries/arn5_thumb.jpg" alt="View of stairs and front door">
             </a>
           </li>
         </ul>

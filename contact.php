@@ -2,7 +2,7 @@
   include('inc/header.php');
 ?>
 <main class="contact" role="main">
-  <a id="skip"> </a>
+
   <div class="content_width">
     <h1>Contact Us</h1>
     <p>We encourage our guests to get in touch with our hosts in order to secure acommodation and pricing, however, we know this isn't always the easiest! So we will do our best to communicate with our hosts on your behalf if you are unable.</p>
@@ -24,8 +24,9 @@
       <span class="value">+35-123-1234</span></span>
     </p>
   </div>
+
   <div class="contact_wrapper">
-    <form class="contact_form quarter_transparent" action="/project1/inc/FormMail.php" method="POST" name="contactForm"  onSubmit="isInputEmpty();">
+    <form class="contact_form quarter_transparent" action="<?php echo $base_url; ?>/inc/FormMail.php" method="POST" name="contactForm"  onSubmit="isInputEmpty();">
   		<ul class="list_neutral">
   			<li>
   				<input class="half_transparent" type="text" name="name" id="name" placeholder="Name:" required>

@@ -1,20 +1,18 @@
 <?php $thisPage = "Hosts";
   include('../inc/header.php');
-
 ?>
 
-<a href="/project1/assets/img/galleries/ekl1.jpg" data-lightbox="eklund">
+<a href="<?php echo $base_url; ?>/assets/img/galleries/ekl1.jpg" data-lightbox="eklund">
   <div class="host_hero host_ekl"></div>
 </a>
-<main role="main" class="host_profile_main_wrapper">
-  <a id="skip"> </a>
+<main role="main" class="host_profile_main_wrapper" id="skip" tabindex="0">
   <div class="host_profile">
     <div class="host_details cf">
       <div class="name_container">
-        <img src="/project1/assets/img/ekl_profile.jpg" alt="Anders" class="host_profile_image">
+        <img src="<?php echo $base_url; ?>/assets/img/ekl_profile.jpg" alt="Anders" class="host_profile_image">
         <h2 class="host_name">Anders Eklund</h2>
         <p class="location">Reykjanesbær, Iceland</p>
-        <a href="/project1/contact" class="pulse"><div>Request Booking</div></a>
+        <a href="<?php echo $base_url; ?>/contact" class="pulse"><div>Request Booking</div></a>
       </div>
 
       <article class="about_host">
@@ -52,23 +50,23 @@
         <h2>Gallery</h2>
         <ul class="list_neutral">
           <li>
-            <a href="/project1/assets/img/galleries/ekl2.jpg" data-lightbox="eklund">
-              <img src="/project1/assets/img/galleries/ekl2.jpg" alt="Open living area and dining area">
+            <a href="<?php echo $base_url; ?>/assets/img/galleries/ekl2.jpg" data-lightbox="eklund">
+              <img src="<?php echo $base_url; ?>/assets/img/galleries/ekl2.jpg" alt="Open living area and dining area">
             </a>
           </li>
           <li>
-            <a href="/project1/assets/img/galleries/ekl3.jpg" data-lightbox="eklund">
-              <img src="/project1/assets/img/galleries/ekl3.jpg" alt="Cozy stove in the corner of bedroom">
+            <a href="<?php echo $base_url; ?>/assets/img/galleries/ekl3.jpg" data-lightbox="eklund">
+              <img src="<?php echo $base_url; ?>/assets/img/galleries/ekl3.jpg" alt="Cozy stove in the corner of bedroom">
             </a>
           </li>
           <li>
-            <a href="/project1/assets/img/galleries/ekl4.jpg" data-lightbox="eklund">
-              <img src="/project1/assets/img/galleries/ekl4.jpg" alt="Rustic kitchen area">
+            <a href="<?php echo $base_url; ?>/assets/img/galleries/ekl4.jpg" data-lightbox="eklund">
+              <img src="<?php echo $base_url; ?>/assets/img/galleries/ekl4.jpg" alt="Rustic kitchen area">
             </a>
           </li>
           <li>
-            <a href="/project1/assets/img/galleries/ekl5.jpg" data-lightbox="eklund">
-              <img src="/project1/assets/img/galleries/ekl5.jpg" alt="View of bathroom">
+            <a href="<?php echo $base_url; ?>/assets/img/galleries/ekl5.jpg" data-lightbox="eklund">
+              <img src="<?php echo $base_url; ?>/assets/img/galleries/ekl5.jpg" alt="View of bathroom">
             </a>
           </li>
         </ul>

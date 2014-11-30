@@ -1,17 +1,17 @@
 <ul class="faq_nav header">
   <li class="color_transition">
-    <a href="/project1/info#about-us">Our Story</a>
+    <a href="<?php echo $base_url; ?>/info#about-us">Our Story</a>
   </li>
   <li class="color_transition">
-    <a href="/project1/info#how-to-get-here">How to get to Iceland</a>
+    <a href="<?php echo $base_url; ?>/info#how-to-get-here">How to get to Iceland</a>
   </li>
   <li class="color_transition">
-    <a href="/project1/info#weather">Icelandic Weather</a>
+    <a href="<?php echo $base_url; ?>/info#weather">Icelandic Weather</a>
   </li>
   <li class="color_transition">
-    <a href="/project1/info#accommodation">Accommodation</a>
+    <a href="<?php echo $base_url; ?>/info#accommodation">Accommodation</a>
   </li>
   <li class="color_transition">
-    <a href="/project1/info#inspiration">Inspiration</a>
+    <a href="<?php echo $base_url; ?>/info#inspiration">Inspiration</a>
   </li>
 </ul>
