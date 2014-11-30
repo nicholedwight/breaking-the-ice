@@ -2,6 +2,17 @@
   include('inc/header.php');
 ?>
 <div class="resources_wrapper">
+  <h2>Font Sources</h2>
+
+  <p><a href="http://fonts.googleapis.com/css?family=Abel">Abel - Headings</a></p>
+
+  <p><a href="http://www.fontsquirrel.com/fonts/Good-Foot">Goodfoot - Logo Text</a></p>
+
+  <p><a href="http://www.google.com/fonts#UsePlace:use/Collection:Nobile">Nobile - Body Text</p>
+
+  <p><a href="http://www.entypo.com/">Entypo - Icons</a></p>
+
+
   <h2>Image Sources</h2>
 
   <p><a href="http://instagram.com/p/ramwkYxyJe">arn_profile.jpg</a></p>
