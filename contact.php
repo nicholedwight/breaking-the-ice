@@ -25,7 +25,7 @@
     </p>
   </div>
   <div class="contact_wrapper">
-    <form class="contact_form quarter_transparent" action="/project1/inc/FormMail.php" method="POST" name="breaking_the_ice_form">
+    <form class="contact_form quarter_transparent" action="/project1/inc/FormMail.php" method="POST" name="contactForm"  onSubmit="isInputEmpty();">
   		<ul class="list_neutral">
   			<li>
   				<input class="half_transparent" type="text" name="name" id="name" placeholder="Name:" required>
@@ -39,12 +39,12 @@
         <li>
           <select name="host" required>
             <option value="" style="display:none;" disabled selected>Desired Host</option> <!--The display:none styling prevents this placeholder option from being shown in dropdown -->
-            <option value="rutole">Rut &#38; Ole</option>
-            <option value="alex">Alex</option>
-            <option value="ville">Ville</option>
-            <option value="rolfada">Rolf &#38; Ada</option>
-            <option value="gunnar">Gunnar</option>
-            <option value="anders">Anders</option>
+            <option value="1">Rut &#38; Ole</option>
+            <option value="2">Alex</option>
+            <option value="3">Ville</option>
+            <option value="4">Rolf &#38; Ada</option>
+            <option value="5">Gunnar</option>
+            <option value="6">Anders</option>
           </select>
         </li>
         <li>
@@ -63,8 +63,8 @@
 </main>
 
 <script>
-    // Below script found at echoecho.com, used to validate the email input.
-    function emailvalidation(entered, alertbox) {
+  // Below script found at echoecho.com, used to validate the email input.
+  function emailvalidation(entered, alertbox) {
     // E-mail Validation by Henrik Petersen / NetKontoret
     // Explained at www.echoecho.com/jsforms.htm
     // Please do not remove this line and the two lines above.
@@ -77,6 +77,18 @@
       else {return true;}
       }
     }
-  </script>
-  
+
+  function isInputEmpty() {
+    var a=document.forms["contactForm"]["name"].value;
+    var b=document.forms["contactForm"]["message"].value;
+    var c=document.forms["contactForm"]["host"].value;
+    var input = document.getElementsByTagName('input');
+    if (a==null || a=="",b==null || b=="",c==null || c=="") {
+      event.preventDefault();
+      alert("Please complete all fields :)");
+      return false;
+    }
+  }
+</script>
+
 <?php include('inc/footer.php'); ?>
