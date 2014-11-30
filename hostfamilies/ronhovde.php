@@ -18,7 +18,7 @@
       </div>
 
       <article class="about_host">
-        <h3>About Ville</h3>
+        <h1>About Ville</h1>
         <p>Hi I'm Ville</p>
         <p> I am 26 years old and grew up in a town with 800 residents in the north-west of Iceland named Bolungarvík. I love doing outdoor activities and it'd be ideal if you're the same; I love taking my guests out and showing them all Iceland has to offer.</p>
         <p> Surfing is one of my passions, I've travelled all over the world to catch some waves, but my heart will always remain in Iceland.</p>
@@ -26,7 +26,7 @@
     </div>
     <div class="host_details cf">
       <div class="review_wrapper">
-        <h3>Reviews</h3>
+        <h2>Reviews</h2>
         <div class="review_item blockquote_wrapper">
           <blockquote class="comment_content">
             <p>Utrolig sentralt, rent, pent og ryddig. Enkelt å finne frem til. 5min å gå fra sentrum. Billig parkering i gata utenfor og alltid ledig plass til bil. Kjempehyggelig vert og enkel å kommunisere med. Anbefales!</p>
@@ -48,26 +48,26 @@
       </div>
 
       <aside class="listing_gallery">
-        <h3>Gallery</h3>
+        <h2>Gallery</h2>
         <ul class="list_neutral">
           <li>
             <a href="/project1/assets/img/galleries/ron2.png" data-lightbox="ronhovde">
-              <img src="/project1/assets/img/galleries/ron2_thumb.png">
+              <img src="/project1/assets/img/galleries/ron2_thumb.png" alt="Interior of kitchen">
             </a>
           </li>
           <li>
             <a href="/project1/assets/img/galleries/ron3.jpg" data-lightbox="ronhovde">
-              <img src="/project1/assets/img/galleries/ron3_thumb.jpg">
+              <img src="/project1/assets/img/galleries/ron3_thumb.jpg" alt="Interior of living room">
             </a>
           </li>
           <li>
             <a href="/project1/assets/img/galleries/ron4.jpg" data-lightbox="ronhovde">
-              <img src="/project1/assets/img/galleries/ron4.jpg">
+              <img src="/project1/assets/img/galleries/ron4.jpg" alt="Interior of bedroom">
             </a>
           </li>
           <li>
             <a href="/project1/assets/img/galleries/ron5.jpg" data-lightbox="ronhovde">
-              <img src="/project1/assets/img/galleries/ron5_thumb.jpg">
+              <img src="/project1/assets/img/galleries/ron5_thumb.jpg" alt="view of the coastal road around Iceland">
             </a>
           </li>
         </ul>
@@ -76,7 +76,7 @@
 
     <div class="host_details cf">
       <article class="about_city">
-        <h3>About Reykjavik</h3>
+        <h2>About Reykjavik</h2>
         <p>
           The world’s most northerly capital combines colourful buildings, quirky people, a wild nightlife and a capricious soul to devastating effect. Most visitors fall helplessly in love, returning home already saving to come back.</p>
         <p>
@@ -85,7 +85,7 @@
       </article>
 
       <aside class="surf_data">
-        <h3>Surf Forecast for Reykjavik</h3>
+        <h2>Surf Forecast for Reykjavik</h2>
         <!-- including the surf data file in order to keep this file relatively clean and legible -->
           <?php
           $location = '4295';
@@ -97,6 +97,7 @@
           <h2><?php echo $firstChartTime; ?></h2>
           <img src="<?php echo $firstImgsrc; ?>" id="chart" alt="Swell Charts">
           <input type="range" value="0" max="40" id="swell_slider">
+          <!-- If navigating through the page via tabbing, the slider input is usable, but it won't have all the images loaded through from the API, so it may show nothing, but give it some time and it will load them all-->
       </aside>
     </div>
   </div>

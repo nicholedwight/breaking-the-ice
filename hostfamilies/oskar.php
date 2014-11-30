@@ -54,22 +54,22 @@
         <ul class="list_neutral">
           <li>
             <a href="/project1/assets/img/galleries/osk2.jpg" data-lightbox="oskar">
-              <img src="/project1/assets/img/galleries/osk2.jpg">
+              <img src="/project1/assets/img/galleries/osk2.jpg" alt="Interior of bedroom">
             </a>
           </li>
           <li>
             <a href="/project1/assets/img/galleries/osk3.jpg" data-lightbox="oskar">
-              <img src="/project1/assets/img/galleries/osk3_thumb.jpg">
+              <img src="/project1/assets/img/galleries/osk3_thumb.jpg" alt="View of the sofa in the living room">
             </a>
           </li>
           <li>
             <a href="/project1/assets/img/galleries/osk4.jpg" data-lightbox="oskar">
-              <img src="/project1/assets/img/galleries/osk4.jpg">
+              <img src="/project1/assets/img/galleries/osk4.jpg" alt="View of hallway with a view into kitchen">
             </a>
           </li>
           <li>
             <a href="/project1/assets/img/galleries/osk5.jpg" data-lightbox="oskar">
-              <img src="/project1/assets/img/galleries/osk5.jpg">
+              <img src="/project1/assets/img/galleries/osk5.jpg" alt="Interior of bathroom">
             </a>
           </li>
         </ul>
@@ -98,6 +98,7 @@
           <h2><?php echo $firstChartTime; ?></h2>
           <img src="<?php echo $firstImgsrc; ?>" id="chart" alt="Swell Charts">
           <input type="range" value="0" max="40" id="swell_slider">
+          <!-- If navigating through the page via tabbing, the slider input is usable, but it won't have all the images loaded through from the API, so it may show nothing, but give it some time and it will load them all-->
       </aside>
     </div>
   </div>

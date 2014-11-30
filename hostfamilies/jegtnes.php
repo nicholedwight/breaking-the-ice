@@ -18,13 +18,13 @@
       </div>
 
       <article class="about_host">
-        <h3>About Alex</h3>
+        <h1>About Alex</h1>
         <p>Hi! I'm Alex. I'm a viking from the deep Arctic fjords of Norway, so I'm used to the cold temperatures. I live in beautiful Reyðarfjörður, Iceland, where I like making things on the web during the day and explore the coast in my freetime.</p>
       </article>
     </div>
 
     <div class="review_wrapper">
-      <h3>Reviews</h3>
+      <h2>Reviews</h2>
       <div class="review_item blockquote_wrapper blockquote_wrapper">
         <blockquote class="comment_content">
           <p>Utrolig sentralt, rent, pent og ryddig. Enkelt å finne frem til. 5min å gå fra sentrum. Billig parkering i gata utenfor og alltid ledig plass til bil. Kjempehyggelig vert og enkel å kommunisere med. Anbefales!</p>
@@ -46,26 +46,26 @@
     </div>
 
     <aside class="listing_gallery">
-      <h3>Gallery</h3>
+      <h2>Gallery</h2>
       <ul class="list_neutral">
         <li>
           <a href="/project1/assets/img/galleries/jeg2.jpg" data-lightbox="jegtnes">
-            <img src="/project1/assets/img/galleries/jeg2_thumb.jpg">
+            <img src="/project1/assets/img/galleries/jeg2_thumb.jpg" alt="View of living room">
           </a>
         </li>
         <li>
           <a href="/project1/assets/img/galleries/jeg3.jpg" data-lightbox="jegtnes">
-            <img src="/project1/assets/img/galleries/jeg3_thumb.jpg">
+            <img src="/project1/assets/img/galleries/jeg3_thumb.jpg" alt="Interior view of kitchen">
           </a>
         </li>
         <li>
           <a href="/project1/assets/img/galleries/jeg4.jpg" data-lightbox="jegtnes">
-            <img src="/project1/assets/img/galleries/jeg4_thumb.jpg">
+            <img src="/project1/assets/img/galleries/jeg4_thumb.jpg" alt="View of dining area">
           </a>
         </li>
         <li>
           <a href="/project1/assets/img/galleries/jeg5.jpg" data-lightbox="jegtnes">
-            <img src="/project1/assets/img/galleries/jeg5_thumb.jpg">
+            <img src="/project1/assets/img/galleries/jeg5_thumb.jpg" alt="Shot of a geyser we came across whilst hiking">
           </a>
         </li>
       </ul>
@@ -73,14 +73,14 @@
 
     <div class="host_details cf">
       <article class="about_city">
-        <h3>About Reyðarfjörður</h3>
+        <h2>About Reyðarfjörður</h2>
         <p>
           In the Prettiest Fjord pageant, Reyðarfjörður could never quite manage to take home the sash and crown. It’s a relatively new settlement, which only came into existence – as a trading port – in the 20th century. More recently, however, Reyðarfjörður garnered attention when Alcoa installed a giant 2km-long aluminium smelter just beyond the town along the fjord. Conservationists were up in arms, but the infusion of foreign workers has added a small splash of international flavour in Reyðarfjörður and the surrounding towns.
         </p>
       </article>
 
       <aside class="surf_data">
-        <h3>Surf Forecast for Reyðarfjörður</h3>
+        <h2>Surf Forecast for Reyðarfjörður</h2>
         <!-- including the surf data file in order to keep this file relatively clean and legible -->
           <?php
           $location = '4298';
@@ -88,10 +88,11 @@
           $firstImgsrc = $data[0]['charts']['swell'];
           $firstChartTime = date("l, F d HA", $data[0]["timestamp"]);
           ?>
-          <h1   class="swell"  class="swell">Swell Chart</h1>
+          <h1 class="swell">Swell Chart</h1>
           <h2><?php echo $firstChartTime; ?></h2>
           <img src="<?php echo $firstImgsrc; ?>" id="chart" alt="Swell Charts">
           <input type="range" value="0" max="40" id="swell_slider">
+          <!-- If navigating through the page via tabbing, the slider input is usable, but it won't have all the images loaded through from the API, so it may show nothing, but give it some time and it will load them all-->
       </aside>
     </div>
   </div>
