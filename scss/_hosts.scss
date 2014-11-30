@@ -29,6 +29,10 @@
 
 .host_details {
   width: 100%;
+  min-height: 300px;
+  h2 {
+    font-size: 28px;
+  }
 }
 
 .about_host {
@@ -39,6 +43,22 @@
     float: right;
     width: 79%;
     text-align: left;
+  }
+  h1 {
+    font-size: 30px;
+    padding-bottom: 15px;
+    margin-top: 20px;
+  }
+  p {
+    padding: 0 25px 0 0;
+    max-width: 900px;
+    margin-left: 20px;
+  }
+  .button {
+    margin: 0 auto;
+    @media all and (min-width: 860px) {
+      margin: 20px;
+    }
   }
 }
 
@@ -71,23 +91,6 @@
   text-align: center;
   color: #999;
   margin: 0 auto;
-}
-
-.about_host {
-  h3 {
-    padding-left: 20px;
-  }
-  p {
-    padding: 0 25px 0 0;
-    max-width: 900px;
-    margin-left: 20px;
-  }
-  .button {
-    margin: 0 auto;
-    @media all and (min-width: 860px) {
-      margin: 20px;
-    }
-  }
 }
 
 .about_city {

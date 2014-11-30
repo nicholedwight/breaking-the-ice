@@ -18,7 +18,7 @@
       </div>
 
       <article class="about_host">
-        <h3>About Rut</h3>
+        <h1>About Rut</h1>
         <p>Hi I'm Rut, and my husband's Ole!</p>
         <p>We love travelling, meeting new people, outdoor activities, surfing, skiing, yoga, and lots of other things.</p>
         <p>For the past 5 years we´ve lived in Dubai, Scotland, and England and travelled alot, and recently moved back home to our gorgeous island.
@@ -27,7 +27,7 @@
     </div>
     <div class="host_details cf ">
       <div class="review_wrapper">
-        <h3>Reviews</h3>
+        <h2>Reviews</h2>
         <div class="review_item blockquote_wrapper blockquote_wrapper">
           <blockquote class="comment_content">
             <p>Utrolig sentralt, rent, pent og ryddig. Enkelt å finne frem til. 5min å gå fra sentrum. Billig parkering i gata utenfor og alltid ledig plass til bil. Kjempehyggelig vert og enkel å kommunisere med. Anbefales!</p>
@@ -49,7 +49,7 @@
       </div>
 
       <aside class="listing_gallery">
-        <h3>Gallery</h3>
+        <h2>Gallery</h2>
         <ul class="list_neutral">
           <li>
             <a href="/project1/assets/img/galleries/vil2.jpg" data-lightbox="vilhjalmsson">
@@ -77,7 +77,7 @@
 
     <div class="host_details cf">
       <article class="about_city">
-        <h3>About Reykjavik</h3>
+        <h2>About Reykjavik</h2>
         <p>
           The world’s most northerly capital combines colourful buildings, quirky people, a wild nightlife and a capricious soul to devastating effect. Most visitors fall helplessly in love, returning home already saving to come back.</p>
         <p>
@@ -86,7 +86,7 @@
       </article>
 
       <aside class="surf_data">
-        <h3>Surf Forecast for Reykjavik</h3>
+        <h2>Surf Forecast for Reykjavik</h2>
         <!-- including the surf data file in order to keep this file relatively clean and legible -->
 
           <?php
