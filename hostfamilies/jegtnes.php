@@ -7,6 +7,7 @@
   <section class="host_hero host_jeg"></section>
 </a>
 <main role="main" class="host_profile_main_wrapper">
+  <a id="skip"> </a>
   <div class="host_profile">
     <div class="host_details cf">
       <div class="name_container">
