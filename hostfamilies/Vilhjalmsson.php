@@ -99,6 +99,7 @@
           <h2><?php echo $firstChartTime; ?></h2>
           <img src="<?php echo $firstImgsrc; ?>" id="chart">
           <input type="range" value="0" max="40" id="swell_slider">
+          <!-- If navigating through the page via tabbing, the slider input is usable, but it won't have all the images loaded through from the API, so it may show nothing, but give it some time and it will load them all-->
       </aside>
     </div>
   </div>
