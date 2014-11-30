@@ -5,7 +5,7 @@
   <?php include('inc/faq_nav.php'); ?>
     <div class="inner_info_wrapper">
       <a id="skip"> </a>
-      <h2>Practical Info</h2>
+      <h1>Practical Info</h1>
       <article id="about-us">
         <h3>Our Story</h3>
         <p>At Breaking the Ice, we provide a unique service; we try to match you with one of our fabulous and adventure-seeking hosts. We feel that this is one of the best ways to experience life in Iceland, with the locals! They all have been thoroughly reviewed and are up to our standards of awesome. They'll be able to show you the best surf spots, hiking trails, and all hidden gems of Iceland.</p>
