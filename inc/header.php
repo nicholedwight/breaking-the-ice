@@ -10,19 +10,19 @@
 </head>
 
 <body class="nojs">
+  <a href="#skip" class="skiplink focusable visuallyhidden">Skip to Content</a><!-- provides accessibility for screen readers/tab-users who don't want to go through the nav over and over-->
   <?php if ($thisPage === "Home") { ?>
   <header class="l_index_header" role="banner">
   <?php } else {?>
   <header class="l_secondary_header" role="banner">
   <?php } ?>
     <div class="logo">
-      <a href="/project1/index">
+      <a href="/project1/index" class="to_home">
         <p class="logo_text">breaking the ice</p>
         <?php include("logo.svg"); ?>
       </a>
     </div>
     <nav role="navigation" aria-label="Main menu">
-      <a href="#skip" class="offscreen">Skip to Content</a><!-- provides accessibility for screen readers/tab-users who don't want to go through the nav over and over-->
       <a class="menu_button" href="#" onclick="toggleNav(); return false;">
         <span>&#9776;</span>
       </a>
