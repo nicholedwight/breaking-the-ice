@@ -1,6 +1,4 @@
-<?php $thisPage = "Hosts";
-  include('inc/header.php');
-?>
+<?php include('inc/header.php'); ?>
 <div class="resources_wrapper">
   <h2>Font Sources</h2>
 
