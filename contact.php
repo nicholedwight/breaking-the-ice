@@ -1,7 +1,7 @@
 <?php $thisPage = "Contact";
   include('inc/header.php');
 ?>
-<main class="contact" role="main">
+<main class="contact" role="main" id="skip" tabindex="0">
 
   <div class="content_width">
     <h1>Contact Us</h1>

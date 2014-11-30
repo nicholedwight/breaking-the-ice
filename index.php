@@ -6,7 +6,7 @@
       <h2 class="has_text_shadow">Find your escape</h2>
     </div>
   </section>
-  <main class="main_wrapper cf" role="main">
+  <main class="main_wrapper cf" role="main" id="skip" tabindex="0">
     <div class="glass">
 
     <div class="index_content">

@@ -1,10 +1,10 @@
 <?php $thisPage = "FAQ";
   include('inc/header.php');
 ?>
-  <main class="info_wrapper" role="main">
+  <main class="info_wrapper" role="main" id="skip" tabindex="0">
   <?php include('inc/faq_nav.php'); ?>
     <div class="inner_info_wrapper">
-      
+
       <h1>Practical Info</h1>
       <article id="about-us">
         <h3>Our Story</h3>
