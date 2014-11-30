@@ -25,9 +25,5 @@
 <script src="/project1/assets/js/lib/lightbox.min.js"></script>
 <script src="/project1/assets/js/lib/headroom.min.js"></script>
 <script src="/project1/assets/js/main.js"></script>
-<noscript>
-  <link rel="stylesheet" type="text/css" href="/assets/css/nojs.css">
-  <!--css styles for when javascript is disabled-->
-</noscript>
 </body>
 </html>

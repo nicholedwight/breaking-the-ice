@@ -9,7 +9,7 @@
   <link rel="icon" type="image/png" href="/project1/img/favicon.ico">
 </head>
 
-<body>
+<body class="nojs">
   <?php if ($thisPage === "Home") { ?>
   <header class="l_index_header" role="banner">
   <?php } else {?>

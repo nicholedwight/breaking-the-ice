@@ -146,3 +146,11 @@ nav li a {
     width: 47%;
   }
 }
+
+.nojs .navigation {
+  display: block;
+}
+
+.nojs .nav_dropdown {
+  display: none;
+}

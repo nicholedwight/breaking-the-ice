@@ -47,3 +47,5 @@ if($('.header').length) {
 
   headroom2.init();
 }
+
+$('body').removeClass('nojs').addClass('js');
