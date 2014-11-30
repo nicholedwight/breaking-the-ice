@@ -61,7 +61,6 @@
     </aside>
   </div>
 </main>
-<?php include('inc/footer.php'); ?>
 
 <script>
     // Below script found at echoecho.com, used to validate the email input.
@@ -79,3 +78,5 @@
       }
     }
   </script>
+  
+<?php include('inc/footer.php'); ?>

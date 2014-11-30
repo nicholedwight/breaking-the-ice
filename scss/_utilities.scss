@@ -195,6 +195,10 @@ blockquote p {
   max-width: 800px;
   margin: 0 auto;
   text-align: center;
+  iframe {
+    width: 90%;
+    border: none;
+  }
 }
 
 .twitter_feed {

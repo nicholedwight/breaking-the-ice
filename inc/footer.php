@@ -21,7 +21,6 @@
 
 <script src="/project1/assets/js/lib/jquery-1.11.0.min.js"></script>
 <script src="/project1/assets/js/lib/jQuery.headroom.min.js"></script>
-<script src="/project1/assets/js/lib/instafeed.min.js"></script>
 <script src="/project1/assets/js/lib/lightbox.min.js"></script>
 <script src="/project1/assets/js/lib/headroom.min.js"></script>
 <script src="/project1/assets/js/main.js"></script>
