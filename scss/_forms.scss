@@ -42,7 +42,8 @@
   input:focus::-webkit-input-placeholder,
   textarea:focus::-webkit-input-placeholder{
     text-indent: 75%;
-  }/*This is just a progressive enhancement addition, it's cute and quirky but Firefox doesn't allow the placeholder to be styled in this manner, I could change the colour and such, but not the positioning/padding/text-indent of it, so this will only work in Chrome and Safari*/
+    /*This is just a progressive enhancement addition, it's cute and quirky but Firefox doesn't allow the placeholder to be styled in this manner, I could change the colour and such, but not the positioning/padding/text-indent of it, so this will only work in Chrome and Safari*/
+  }
 
   input:focus, textarea:focus, select:focus {
     border: 2px solid #00CD9B;
