@@ -1,10 +1,10 @@
 <footer>
   <div class="footer_wrapper" id="contact">
     <p class="color_transition">
-      <a href="index.html">home</a> /
-      <a href="hosts.php">hosts</a> /
-      <a href="contact.php">contact</a> /
-      <a href="info.php">practical info</a> /
+      <a href="<?php echo $base_url; ?>/index">home</a> /
+      <a href="<?php echo $base_url; ?>/hosts">hosts</a> /
+      <a href="<?php echo $base_url; ?>/contact">contact</a> /
+      <a href="<?php echo $base_url; ?>/info">practical info</a> /
       <a href="mailto:nicholedwight@gmail.com">
         <i class="icon icon_mail"></i>
       </a> /
