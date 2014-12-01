@@ -29,13 +29,13 @@
     <form class="contact_form quarter_transparent" action="<?php echo $base_url; ?>/inc/FormMail.php" method="POST" name="contactForm"  onSubmit="isInputEmpty();">
   		<ul class="list_neutral">
   			<li>
-  				<input class="half_transparent" type="text" name="name" id="name" placeholder="Name:" required>
+  				<input class="half_transparent testing" type="text" name="name" id="name" placeholder="Name:" required>
   			</li>
   			<li>
   				<input class="half_transparent" type="email" name="email" id="email" onChange="emailvalidation(this,'The email given is not valid');" placeholder="Email:" required>
   			</li>
   			<li>
-  				<textarea class="half_transparent" name="message" id="message" rows="6" cols="40" placeholder="Questions or Comments:" required></textarea>
+  				<textarea class="half_transparent" name="message" id="message" rows="6" cols="40" placeholder="Message:" required></textarea>
   			</li>
         <li>
           <select name="host" required>

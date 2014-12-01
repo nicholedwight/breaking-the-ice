@@ -33,6 +33,17 @@
     margin-bottom: 40px;
     outline: none; /*Removing this is normally bad for accessibility, unless you set another way of pointing out which input is in focus, which I do have */
   }
+
+  [placeholder]::-webkit-input-placeholder {
+    -webkit-transition: text-indent 0.5s 0.1s ease;
+    transition: text-indent 0.5s 0.1s ease;
+  }
+
+  input:focus::-webkit-input-placeholder,
+  textarea:focus::-webkit-input-placeholder{
+    text-indent: 75%;
+  }/*This is just a progressive enhancement addition, it's cute and quirky but Firefox doesn't allow the placeholder to be styled in this manner, I could change the colour and such, but not the positioning/padding/text-indent of it, so this will only work in Chrome and Safari*/
+
   input:focus, textarea:focus, select:focus {
     border: 2px solid #00CD9B;
   }
