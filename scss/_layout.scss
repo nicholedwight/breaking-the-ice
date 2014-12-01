@@ -56,6 +56,8 @@ footer {
   padding-top: 20px;
   height: auto;
   margin-top: 258px;
+  position: relative;
+  display: block;
   @include column(12);
 }
 

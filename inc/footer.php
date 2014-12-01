@@ -1,13 +1,13 @@
 <footer>
   <div class="footer_wrapper" id="contact">
-    <p class="color_transition">
-      <a href="<?php echo $base_url; ?>/index">home</a> /
-      <a href="<?php echo $base_url; ?>/hosts">hosts</a> /
-      <a href="<?php echo $base_url; ?>/contact">contact</a> /
-      <a href="<?php echo $base_url; ?>/info">practical info</a> /
+    <p class="color_transition cl-effect-14">
+      <a href="<?php echo $base_url; ?>/index">home</a> |
+      <a href="<?php echo $base_url; ?>/hosts">hosts</a> |
+      <a href="<?php echo $base_url; ?>/contact">contact</a> |
+      <a href="<?php echo $base_url; ?>/info">practical info</a> |
       <a href="mailto:nicholedwight@gmail.com">
         <i class="icon icon_mail"></i>
-      </a> /
+      </a> |
       <a href="https://twitter.com/breakingiceland" target="_blank">
         <i class="icon icon_twitter"></i>
       </a>
