@@ -4,13 +4,7 @@
       <a href="<?php echo $base_url; ?>/index">home</a> |
       <a href="<?php echo $base_url; ?>/hosts">hosts</a> |
       <a href="<?php echo $base_url; ?>/contact">contact</a> |
-      <a href="<?php echo $base_url; ?>/info">practical info</a> |
-      <a href="mailto:nicholedwight@gmail.com">
-        <i class="icon icon_mail"></i>
-      </a> |
-      <a href="https://twitter.com/breakingiceland" target="_blank">
-        <i class="icon icon_twitter"></i>
-      </a>
+      <a href="<?php echo $base_url; ?>/info">practical info</a>
     </p>
 
     <p class="copyright color_transition">2014 Nichole Dwight / Made with Love and Caffeine / <a href="<?php echo $base_url; ?>/resources.php">Resources</a></p>
